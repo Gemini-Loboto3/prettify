@@ -10,10 +10,12 @@ item_bin:
 org $228000
 // wait until DMA can send stuff to vram
 St_ex_wait_NMI:
+	// wait for VRAM being accessible
 -
 	lda $004212
 	and.b #$80
 	beq -
+	// read v-count
 	lda $002137	// enable latch
 	lda $00213d
 	xba
@@ -21,11 +23,17 @@ St_ex_wait_NMI:
 	and.b #1
 	xba
 	rep #$20
+	// see if we're in safe range for DMA transfers
 	cmp #256
 	bcc +
 	sep #$20
+	// if we're beyond safe ranges, wait until next frame
 -
 	lda $004210
+	and.b #$80
+	beq -
+-
+	lda $004212
 	and.b #$80
 	beq -
 +
