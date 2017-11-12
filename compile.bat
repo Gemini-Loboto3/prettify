@@ -1,0 +1,1 @@
+xkas -o "Final Fantasy IV (J).smc" main.s
