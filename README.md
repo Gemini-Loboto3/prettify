@@ -17,8 +17,8 @@
 </ul>
 </li>
 <li><strike>Equip</strike></li>
-<li><strike">Status</strike></li>
-<li><strike">Configuration</strike></li>
+<li><strike>Status</strike></li>
+<li><strike>Configuration</strike></li>
 <li><strike>Save / Load</strike></li>
 </ul>
 </li>
