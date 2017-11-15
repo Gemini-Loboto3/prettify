@@ -446,7 +446,68 @@ St_desc_ck_update:
 	plp
 	rtl
 
-data_desc:
-	incbin test.dat
+tbl_str_jobs:
+	db $90, $91, $92, $93, $94, $95, $ff, $ff	// Dark Knight
+	db $96, $97, $98, $99, $9A, $9B, $ff, $ff	// Dragon Knight
+	db $9C, $9D, $9E, $9F, $A0, $A1, $ff, $ff	// Summoner
+	db $A2, $A3, $A4, $ff, $ff, $ff, $ff, $ff	// Sage
+	db $A5, $A6, $A7, $ff, $ff, $ff, $ff, $ff	// Bard
+	db $A8, $A9, $AA, $AB, $AC, $AD, $ff, $ff	// White Mage
+	db $AE, $AF, $B0, $B1, $ff, $ff, $ff, $ff	// Monk
+	db $B2, $B3, $B4, $AB, $AC, $AD, $ff, $ff	// Black Mage
+	db $98, $99, $9A, $AB, $AC, $AD, $ff, $ff	// White Mage
+	db $B5, $B6, $B7, $B8, $ff, $ff, $ff, $ff	// Paladin
+	db $B9, $BA, $BB, $BC, $BD, $ff, $ff, $ff	// Engineer
+	db $9C, $9D, $9E, $9F, $A0, $A1, $ff, $ff	// Summoner
+	db $BE, $BF, $C0, $ff, $ff, $ff, $ff, $ff	// Ninja
+	db $AB, $AC, $AD, $AE, $AF, $ff, $ff, $ff	// Lunarian
+	db $AB, $AC, $AD, $AE, $AF, $ff, $ff, $ff	// Lunarian (for Golbeza)
+	db $ff, $ff, $ff, $ff, $ff, $ff, $ff, $ff	// empty (for Anna)
+	
+// A.8 name slot
+// internals
+// $43, $45 temp values
+// $11d current x value
+Generate_name:
+	stz $11d
+	rep #$20	// A.16
+	lda.b #16	// loop for all 16 planes
+	sta $43
+.line:
+	// load one plane
+	lda font_name,x
+	and #$00ff
+	xba
+	clc
+	jmp (.jtbl,x)
+	// create shifted plane
+.asl7:
+	ror
+.asl6:
+	ror
+.asl5:
+	ror
+.asl4:
+	ror
+.asl3:
+	ror
+.asl2:
+	ror
+.asl1:
+	ror
+.asl0:
+	sta $45		// store temp result
+	sta {name_buffer}, x		// current tile
+	xba
+	sta {name_buffer}+16,x		// next tile (just write, who cares)
+	dec $43
+	bne .line
+.jtbl:
+	dw .asl0, .asl1, .asl2, .asl3, .asl4, .asl5, .asl6, .asl7
+	
+font_name:
+
+//data_desc:
+//	incbin test.dat
 //org $238000
 //	incbin "test.sfc"

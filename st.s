@@ -1,6 +1,19 @@
 //////////////////////////////////
 // JOBS							//
 //////////////////////////////////
+org $18fd3
+	asl			// job id * 8 (makes code easier)
+	asl
+	asl
+	sta $45
+	stz $46
+	ldx $45
+	lda.b #7	// change job size to 7, was 6
+	sta $45
+	nop
+	nop
+	nop
+	lda tbl_str_jobs,x	// relocate job strings
 
 //////////////////////////////////
 //								//

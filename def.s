@@ -10,6 +10,7 @@ define dma_srch			$121
 define dma_size			$122		// 2 bytes
 
 define list_inv_last	$702100		// stores previous index selection in inventory
+define name_buffer		$702100
 
 define backup_vram		$704000		// buffer to store vram backup (16KB, takes all remaining sram)
 

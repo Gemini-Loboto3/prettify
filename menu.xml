@@ -103,13 +103,13 @@
     <line p="0x206">HP</line>
     <line p="0x286">MP</line>
     <line p="0x344">Ability</line>
-    <line p="0x3C6">Strenght</line>
+    <line p="0x3C6">Strength</line>
     <line p="0x446">Speed</line>
     <line p="0x4C6">Stamina</line>
     <line p="0x546">Intellect</line>
     <line p="0x5C6">Spirit</line>
     <line p="0x35A">Attack</line>
-    <line p="0x3DA">Precision</line>
+    <line p="0x3DA">Accuracy</line>
     <line p="0x45A">Defense</line>
     <line p="0x4DA">Evasion</line>
     <line p="0x55A">Magic defense</line>
@@ -365,11 +365,11 @@
   </Entry>
   <Entry type="mes" ptr ="0x1E2E1" size="8">
     <where>main</where>
-    <line>Right-handed</line>
+    <line>Left-handed</line>
   </Entry>
   <Entry type="mes" ptr ="0x1E2E9" size="8">
     <where>main</where>
-    <line>Left-handed</line>
+    <line>Right-handed</line>
   </Entry>
   <Entry type="mes" ptr ="0x1E2F1" size="8">
     <where>main</where>

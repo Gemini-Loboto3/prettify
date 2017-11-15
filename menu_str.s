@@ -128,7 +128,7 @@ org $01de11
 	// Ability
 	db $78, $79, $7a, $01
 	dw $03c6
-	// Strenght
+	// Strength
 	db $0b, $7b, $33, $7c, $7d, $01
 	dw $0446
 	// Speed
@@ -146,7 +146,7 @@ org $01de11
 	// Attack
 	db $8b, $8c, $8d, $8e, $01
 	dw $03da
-	// Precision
+	// Accuracy
 	db $8f, $90, $91, $92, $93, $01
 	dw $045a
 	// Defense
@@ -467,11 +467,11 @@ org $01e2d9
 	// 
 	db $52, $00
 org $01e2e1
-	// Right-handed
-	db $d6, $d7, $d8, $d9, $6b, $da, $d5, $00
-org $01e2e9
 	// Left-handed
-	db $6e, $db, $dc, $dd, $cf, $de, $df, $00
+	db $6e, $d6, $d7, $d8, $cf, $d9, $da, $00
+org $01e2e9
+	// Right-handed
+	db $db, $dc, $dd, $de, $6b, $df, $d5, $00
 org $01e2f1
 	// Ambidexter
 	db $e0, $e1, $e2, $e3, $85, $e4, $00
