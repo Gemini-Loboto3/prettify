@@ -1,6 +1,6 @@
-<p><strong>Final Fantasy 4 SNES prettifier</strong></p>
+<h1><strong>Final Fantasy 4 SNES prettifier</strong></h1>
 <p>A simple project to improve aestetics on font rendering for FF4.</p>
-<p><strong>Todo list</strong></p>
+<h2><strong>Todo list</strong></h2>
 <ul>
 <li>Main screen<br />
 <ul>
@@ -16,10 +16,10 @@
 <li>Fix magic name appearing when using a spell</li>
 </ul>
 </li>
-<li><span style="text-decoration: line-through;">Equip</span></li>
-<li><span style="text-decoration: line-through;">Status</span></li>
-<li><span style="text-decoration: line-through;">Configuration</span></li>
-<li><span style="text-decoration: line-through;">Save / Load</span></li>
+<li><strike>Equip</strike></li>
+<li><strike">Status</strike></li>
+<li><strike">Configuration</strike></li>
+<li><strike>Save / Load</strike></li>
 </ul>
 </li>
 <li>Shop screen
