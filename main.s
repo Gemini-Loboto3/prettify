@@ -1,7 +1,24 @@
 arch snes.cpu; lorom
+incsrc def.s
+incsrc menu_str.s
+
+// backup vram to sram
+org $14FF85
+	ldx.w #$4000
+org $14FF8B
+	lda.b #$70
+org $14FF90
+	ldx.w #$4000
+// restore vram from sram
+org $14FFE0
+	ldx.w #$4000
+org $14FFE6
+	lda.b #$70
+org $14FFEB
+	ldx.w #$4000
 
 org $FFD8
-	db 4	// change sram size
+	db 5	// change sram size (32KB)
 
 org $18CC9
 	ldx.w #(font_bin & 0xffff)
@@ -10,15 +27,10 @@ org $18CCE
 org $18CD2
 	ldx.w #(4096)
 
-incsrc def.s
 incsrc ex.s
 
-tmap_equip_start:
-	dw $278, $280
-	dw $288, $290
-	dw $000, $298	// entry 4 is never used
-
 incsrc item.s
+incsrc st.s
 //incsrc dma.s
 
 org $3fffff

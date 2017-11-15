@@ -1,6 +1,19 @@
 org $208000
 font_bin:
 	incbin "font.bin"
+St_set_main:
+	incbin "st_main.sfc"
+St_set_shop:
+	incbin "st_shop.sfc"
+St_set_chocobo:
+	incbin "st_fatc.sfc"
+St_set_battle:
+	incbin "st_bttl.sfc"
+St_set_name:
+	incbin "st_name.sfc"
+St_set_config:
+	incbin "st_optn.sfc"
+// 4096 bytes empty
 
 // this uses one full bank
 org $218000
@@ -8,6 +21,98 @@ item_bin:
 	incbin "item.sfc"
 
 org $228000
+St_vwf_equip_map:
+	php			// preserve state
+	phx
+	rep #$20	// a.16
+	tya			// load equip slot index
+	sec
+	sbc #$0030	// -0x30
+	asl			// *2
+	tax
+	lda tmap_equip_start,x
+	sta $45
+	plx
+	plp
+	rtl
+	
+tmap_equip_start:
+	dw $278, $280
+	dw $288, $290
+	dw $000, $298	// entry 4 is never used
+
+St_vwf_shop_tmap:
+	pha
+	php			// preserve state
+	rep #$20	// a.16
+	txa			// item indexing
+	asl			// *8 + 0x100
+	asl
+	clc
+	adc #$100
+	sta $45
+	plp
+	pla
+	rtl
+
+St_vwf_item_tmap:
+	php			// preserve state
+	rep #$20	// a.16
+	lda $5D		// item indexing
+	and #$00FF	// clear higher bits
+	asl			// *8 + 0x100
+	asl
+	asl
+	clc
+	adc #$100
+	sta $45
+	plp
+	rtl
+
+_St_init_main:
+	ldx #(St_set_main & 0xffff)
+	ldy #(St_set_main >> 16)
+	jsr St_DMA_trans_set
+	rtl
+	
+_St_init_shop:
+	ldx #(St_set_shop & 0xffff)
+	ldy #(St_set_shop >> 16)
+	jsr St_DMA_trans_set
+	rtl
+	
+_St_init_name:
+	ldx #(St_set_name & 0xffff)
+	ldy #(St_set_name >> 16)
+	jsr St_DMA_trans_set
+	rtl
+	
+_St_init_choco:
+	ldx #(St_set_main & 0xffff)
+	ldy #(St_set_main >> 16)
+	jsr St_DMA_trans_set
+	rtl
+
+_St_init_config:
+	ldx #(St_set_config & 0xffff)
+	ldy #(St_set_config >> 16)
+	jsr St_DMA_trans_set
+	rtl
+
+St_DMA_trans_set:
+// X.16 set location
+// Y.16 set bank
+	rep #$20
+	lda #$3800		// last 256 tiles of vram
+	sta {dma_dst}
+	stx {dma_srcl}
+	sty {dma_srch}
+	lda #4096
+	sta {dma_size}
+	sep #$20
+	jsr St_DMA0_trans_x
+	rts
+
 // wait until DMA can send stuff to vram
 St_ex_wait_NMI:
 	// wait for VRAM being accessible
@@ -299,3 +404,49 @@ St_write_item_tmap:
 	bne -
 	plp			// --
 	rts
+	
+St_tmap_desc:
+	php
+	//
+	sep #$20	// a.8	
+
+	//lda #(data_desc),x	// tile count
+	rep #$20	// a.16
+	and #$00ff	// clear upper bits
+	sta $43
+	//lda #(data_desc+1),x	// location	
+	//lda #(data_desc+3),xba	// bank
+	and #$00ff
+	//
+	plp
+	rts
+	
+st_desc_ck_init:
+	lda.b #0
+	sta {list_inv_last}
+	rtl
+
+St_desc_ck_update:
+	php
+	sep #$20
+	lda $1b23
+	clc
+	adc $1b1a
+	asl
+	adc $1b22
+	sta $43		// store obtained value to temp
+	lda {list_inv_last}
+	cmp $43
+	beq +		// same value, no need to dma tiles
+	jsl St_DMA_reg_item_init
+	jsl St_DMA_trans_item
+	lda $43
+	sta {list_inv_last}	// update old value
++	
+	plp
+	rtl
+
+data_desc:
+	incbin test.dat
+//org $238000
+//	incbin "test.sfc"

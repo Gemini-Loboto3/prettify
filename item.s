@@ -1,3 +1,13 @@
+// definitions of some functions
+org $18C7D
+St_init:
+org $1D1A1
+St_config:
+
+//////////////////////////////////
+// MAGIC AND SKILLS				//
+//////////////////////////////////
+
 //////////////////////////////////
 // EQUIPMENT					//
 //////////////////////////////////
@@ -30,54 +40,42 @@ org $1C580
 	jsr St_shop_inject
 
 org $1FF35
+St_shop_hook:
+	jsl St_DMA_reg_item_init
+	jsr $1C4A0	// St_shop_write_list
+	phy		// fixes shit with cursor
+	jsl St_DMA_trans_item
+	ply		// fixes shit with cursor
+	rts
+
+St_init_main:
+	jsl _St_init_main
+__init_main:
+	jsr St_init
+	rts
+
+St_init_shop:
+	jsl _St_init_shop
+	bra __init_main
+
+St_init_name:
+	jsl _St_init_name
+	jsr St_init
+	rts
+	
+St_init_config:
+	jsl _St_init_config
+	jsr St_config
+St_exit_config:
+	jsl _St_init_main
+	jsr $19430
+	rts
+
 St_shop_inject:
 	phy
 	phy
-	jsr St_vwf_shop_tmap
+	jsl St_vwf_shop_tmap
 	jmp St_item_tmap_write1
-
-St_vwf_shop_tmap:
-	pha
-	php			// preserve state
-	rep #$20	// a.16
-	txa			// item indexing
-	asl			// *8 + 0x100
-	asl
-	clc
-	adc #$100
-	sta $45
-	plp
-	pla
-	rts
-
-St_vwf_item_tmap:
-	php			// preserve state
-	rep #$20	// a.16
-	lda $5D		// item indexing
-	and #$00FF	// clear higher bits
-	asl			// *8 + 0x100
-	asl
-	asl
-	clc
-	adc #$100
-	sta $45
-	plp
-	rts
-
-St_vwf_equip_map:
-	php			// preserve state
-	phx
-	rep #$20	// a.16
-	tya			// load equip slot index
-	sec
-	sbc #$0030	// -0x30
-	asl			// *2
-	tax
-	lda tmap_equip_start,x
-	sta $45
-	plx
-	plp
-	rts
 
 jml_St_DMA0_trans:
 	jsr $18078	// St_DMA0_trans
@@ -121,7 +119,7 @@ org $19013
 St_equip_tmap_write:
 	PHY
 	PHX					// push tilemap index
-	jsr St_vwf_equip_map	//*** extra
+	jsl St_vwf_equip_map	//*** extra
 	LDA ($60),y			// pull item id from inventory list
 // secondary entry point
 St_item_tmap_write1:
@@ -153,17 +151,9 @@ St_item_tmap_write1:
 	PLY
 	RTS
 
-St_shop_hook:
-	jsl St_DMA_reg_item_init
-	jsr $1C4A0	// St_shop_write_list
-	phy		// fixes shit with cursor
-	jsl St_DMA_trans_item
-	ply		// fixes shit with cursor
-	rts
-
 St_item_inject:
 	pha
-	jsr St_vwf_item_tmap	//*** extra piece
+	jsl St_vwf_item_tmap	//*** extra piece
 	pla
 	bra St_item_tmap_write1
 

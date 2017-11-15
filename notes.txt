@@ -18,23 +18,25 @@ Field VRAM
 0x8000/4000 character graphics (0x4000, 16K)
 0xC000/6000 empty?
 
-font		0x0AF000->0x2118 Bytes:1000 (inc) V:063 VRAM: 2000 (1,0) word
-tmap bg3	0x000676->0x2118 Bytes:1000 (fixed) V:088 VRAM: 2800 (1,0) word
-tileset		0x000606->0x2119 Bytes:1800 (fixed) V:113 VRAM: 0000 (1,0) word
-tmap bg2	0x000ADB->0x2118 Bytes:40 (inc) V:055 VRAM: 3000 (1,0) word
-
 Menu VRAM
-0x0000 unused (0x4000, 16K)
-0x4000 font (0x1000, 4K)
-0x5000 leftover of previous screens, writing here screws other screens (0x3000)
-0x8000 midget and frog sprites (0x400)
-0x8400 portrait graphics (0xC00)
-0x9000 battle sprites for party rearrangement (0x1E00)
+0x0000/0000 unused (0x4000, 16K)
+0x4000/2000 font (0x1000, 4K)
+0x5000/2800 leftover of previous screens, writing here screws other screens (0x3000)
+0x8000/4000 midget and frog sprites (0x400)
+0x8400/4200 portrait graphics (0xC00)
+0x9000/4800 battle sprites for party rearrangement (0x1E00)
 0xAE00 unused (0x1200)
-0xC000 (ram: 0x1A600) tilemap bg1 (0x1000, 4K)
-0xD000 (ram: 0x1B600) tilemap bg2 (0x1000, 4K)
-0xE000 (ram: 0x1C600) tilemap bg3 (0x1000, 4K)
-0xF000 (ram: 0x1D600) tilemap bg4 (0x1000, 4K)
+0xC000/6000 (ram: 0x1A600) tilemap bg1 (0x1000, 4K)
+0xD000/6800 (ram: 0x1B600) tilemap bg2 (0x1000, 4K)
+0xE000/7000 (ram: 0x1C600) tilemap bg3 (0x1000, 4K)
+0xF000/7800 (ram: 0x1D600) tilemap bg4 (0x1000, 4K)
+
+Map VRAM
+0x0000/0000 tilemap and tileset (0x8000, 32K)
+0x8000/4000 character graphics (0x4000, 16K)
+0xC000/6000 unused?
+
+notes about mode 7: first byte = tile number, second byte = graphics data
 
 Battle VRAM
 0x0000/0000 player graphics, genju graphics when summoning
@@ -46,10 +48,3 @@ Battle VRAM
 0xB000/5800 tilemap bg2 (move to 5000)
 0xC000/6000 tilemap bg1 (move to 5800)
 0xE000/7000 tilemap bg3 (move to 6800)
-
-Map VRAM
-0x0000 tilemap and tileset (0x8000, 32K)
-0x8000 character graphics (0x4000, 16K)
-0xC000
-
-notes about mode 7: first byte = tile number, second byte = graphics data

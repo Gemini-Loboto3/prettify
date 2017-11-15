@@ -1,0 +1,407 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Text>
+  <Entry type="win" ptr="0x1DB6D" size="58">
+    <where>main</where>
+    <win p="0x2C" w="7" h="17"/>
+    <line p="0x70">Item</line>
+    <line p="0xf0">Magic</line>
+    <line p="0x170">Equip</line>
+    <line p="0x1f0">Status</line>
+    <line p="0x270">Order</line>
+    <line p="0x2f0">Row</line>
+    <line p="0x370">Option</line>
+    <line p="0x3f0">Save</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1DBA7" size="4">
+    <where>main</where>
+    <!-- <where>load</where> -->
+    <line>Save</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DBAB" size="7">
+    <where>main</where>
+    <line p="0xF0">Magic</line>
+  </Entry>
+  <Entry type="mes" ptr="0x1DBB2" size="8">
+    <where>main</where>
+    <line>Unconscious</line>
+  </Entry>
+  <!-- kana and romaji tables, no need to change them -->
+  <Entry type="mex" ptr="0x1DCAE" size="26">
+    <where>name</where>
+    <!-- used to include hiragana and katakana -->
+    <!-- discarded because it goes unused here -->
+    <line p="0x246">ABC</line>
+    <line p="0x5C6">End</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DCDE" size="16">
+    <where>main</where>
+    <line p="0x2D2">This isn't necessary.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DCDE" size="14">
+    <where>main</where>
+    <line p="0x2D2">Nothing happened.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DD00" size="7">
+    <where>main</where>
+    <line p="0x46">Item</line>
+  </Entry>
+  <!-- there is some data at 0x1DD09 about hp restore, seems unused -->
+  <Entry type="mex" ptr="0x1DD14" size="12">
+    <where>main</where>
+    <line p="0x54">Use on whom?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DD20" size="13">
+    <where>main</where>
+    <line p="0x54">Cannot use here.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DD2D" size="11">
+    <where>main</where>
+    <line p="0x54">Nothing here.</line>
+  </Entry>
+  <Entry type="win" ptr="0x1DD40" size="17">
+    <where>main</where>
+    <win p="0x210" w="10" h="3"/>
+    <line p="0x252">Cannot use magic.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DD79" size="9">
+    <where>main</where>
+    <line p="0x106">MP needed</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DD82" size="9">
+    <where>main</where>
+    <line p="0x106">On whom?  </line>
+  </Entry>
+  <Entry type="win" ptr="0x1DDA9" size="36">
+    <where>main</where>
+    <win p="0x2" w="27" h="11"/>
+    <line p="0x5C">R.Hand</line>
+    <line p="0xDC">L.Hand</line>
+    <line p="0x15C">Head</line>
+    <line p="0x1DC">Body</line>
+    <line p="0x25C">Arms</line>
+  </Entry>
+  <!--
+  <Entry type="mes" ptr="0x1DDCD" size="">
+    <where></where>
+    <line>Inventory full.</line>
+  </Entry>
+  -->
+  <Entry type="win" ptr="0x1DDD9" size="40">
+    <where>main</where>
+    <win p="0x392" w="11" h="6"/>
+    <line p="0x3D4">Can only equip</line>
+    <line p="0x458">with both hands.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DE09" size="8">
+    <where>main</where>
+    <line p="0x1F0">Status</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DE11" size="135">
+    <where>main</where>
+    <line p="0x114">Level</line>
+    <line p="0x1A2">Experience</line>
+    <line p="0x206">HP</line>
+    <line p="0x286">MP</line>
+    <line p="0x344">Ability</line>
+    <line p="0x3C6">Strenght</line>
+    <line p="0x446">Speed</line>
+    <line p="0x4C6">Stamina</line>
+    <line p="0x546">Intellect</line>
+    <line p="0x5C6">Spirit</line>
+    <line p="0x35A">Attack</line>
+    <line p="0x3DA">Precision</line>
+    <line p="0x45A">Defense</line>
+    <line p="0x4DA">Evasion</line>
+    <line p="0x55A">Magic defense</line>
+    <line p="0x5DA">Magic evasion</line>
+    <line p="0x36E">x</line>
+    <line p="0x46E">x</line>
+    <line p="0x56E">x</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DE98" size="14">
+    <where>main</where>
+    <line p="0x262">To next level</line>
+  </Entry>
+  <Entry type="mes" ptr="0x1DEBE" size="5">
+    <where>shop</where>
+    <line>Weapon</line>
+  </Entry>
+  <Entry type="mes" ptr="0x1DEC3" size="5">
+    <where>shop</where>
+    <line>Armor</line>
+  </Entry>
+  <Entry type="mes" ptr="0x1DEC8" size="5">
+    <where>shop</where>
+    <line>Items</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DECD" size="36">
+    <where>shop</where>
+    <line p="0x54">Welcome! How can I help?</line>
+    <line p="0x148">Buy        Sell        Cancel</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DEF1" size="14">
+    <where>shop</where>
+    <line p="0x54">What would you like?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DEFF" size="11">
+    <where>shop</where>
+    <line p="0x146">How many?    1</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DF0A" size="5">
+    <where>main</where>
+    <!-- <where>load</where> -->
+    <where>shop</where>
+    <line p="0x176">Gil</line>
+  </Entry>
+  <Entry type="win" ptr="0x1DF0F" size="44">
+    <where>shop</where>
+    <win p="0x282" w="20" h="4"/>
+    <line p="0x2C4">Your don't have any more</line>
+    <line p="0x344">room for buying anything.</line>
+  </Entry>
+  <Entry type="win" ptr="0x1DF3B" size="38">
+    <where>shop</where>
+    <win p="0x28A" w="16" h="4"/>
+    <line p="0x2CC">You don't have enough money.</line>
+  </Entry>
+  <Entry type="win" ptr="0x1DF61" size="18">
+    <where>shop</where>
+    <win p="0x28A" w="11" h="2"/>
+    <line p="0x2CC">Thanks!</line>
+  </Entry>
+  <Entry type="win" ptr="0x1DF73" size="52">
+    <!-- appears when you're about to sell an item -->
+    <where>shop</where>
+    <win p="0x292" w="11" h="13"/>
+    <line p="0x35A"> of this makes</line>
+    <line p="0x3E4"> Gil.</line>
+    <line p="0x454">Is this deal okay for</line>
+    <line p="0x4D4">you?</line>
+    <line p="0x558">Yes      No</line>
+  </Entry>
+  <Entry type="mex" ptr ="0x1DFA7" size="19">
+    <!-- 大抵の物がお引取りますが -->
+    <!-- message that was unused because they forgot to add a proper tile index -->
+    <where>shop</where>
+    <line p="0x54">What are you selling?   </line>
+  </Entry>
+  <!-- unused EXPEND string at 0x1DFBA -->
+  <Entry type="mex" ptr="0x1DFC9" size="9">
+    <where>main</where>
+    <!-- <where>load</where> -->
+    <line p="0x46">New Game</line>
+  </Entry>
+  <!-- leftover "battle speed" string at 0x1DFBA -->
+  <Entry type="mex" ptr="0x1DFE8" size="18">
+    <where>main</where>
+    <!-- <where>load</where> -->
+    <line p="0x6E">Load this</line>
+    <line p="0xEE">data?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1DFFA" size="11">
+    <where>main</where>
+    <line p="0x172">Yes</line>
+    <line p="0x1F2">No</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E005" size="7">
+    <where>main</where>
+    <line p="0x46E">Time</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E00C" size="8">
+    <where>main</where>
+    <line p="0x90">Empty</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E014" size="6">
+    <!-- exclusive for save menu -->
+    <where>main</where>
+    <line p="0x46">Save</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E01A" size="17">
+    <where>main</where>
+    <line p="0x46">Save aborted.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E02B" size="10">
+    <where>main</where>
+    <line p="0x2EE">Game saved.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E035" size="19">
+    <where>main</where>
+    <line p="0x6E">Overwrite</line>
+    <line p="0xEE">this data?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E048" size="8">
+    <where>main</where>
+    <line p="0x2f2">Cancel</line>
+  </Entry>
+  <Entry type="win" ptr="0x1E054" size="30">
+    <where>name</where>
+    <win p="0x142" w="13" h="1"/>
+    <line p="0x4E">Wanna change your name?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E072" size="23">
+    <where>name</where>
+    <line p="0x4E">Who needs a new name?</line>
+  </Entry>
+  <!-- seems to be unused -->
+  <Entry type="mex" ptr="0x1E089" size="19">
+    <where>name</where>
+    <line p="0x4E">Enter a name.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E09C" size="16">
+    <where>name</where>
+    <line p="0x4E">Godspeed.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E0AC" size="">
+    <where>name</where>
+    <line>Change      Leave</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E0B7" size="">
+    <where>name</where>
+    <line p="0x4E">Is this okay?</line>
+  </Entry>
+  <Entry type="win" ptr="0x1E0DC" size="">
+    <where>fat</where>
+    <win p="0x184" w="12" h="2"/>
+    <line p="0x8E">Fat Chocobo</line>
+    <line p="0x1C8">Deposit   Withdrawl</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E0F6" size="">
+    <where>fat</where>
+    <line p="0x9A">Yo! What can I do for ya?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E107" size="">
+    <where>fat</where>
+    <line p="0x9A">That's no place for a whistle.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E118" size="">
+    <where>fat</where>
+    <line p="0x9A">What do you have for me?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E129" size="">
+    <where>fat</where>
+    <line p="0x9A">What do you need?</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E13A" size="">
+    <where>fat</where>
+    <line p="0x9A">I'm stuffed.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E14B" size="">
+    <where>fat</where>
+    <line p="0x9A">Sort your stuff!</line>
+  </Entry>
+  <Entry type="win" ptr="0x1E15C" size="11">
+    <where>config</where>
+    <win p="0x54" w="7" h="2"/>
+    <line p="0x98">Options</line>
+  </Entry>
+  <Entry type="win" ptr="0x1E168" size="142">
+    <where>config</where>
+    <win p="0x104" w="24" h="20"/>
+    <line p="0x14A">Btl. mode</line>
+    <line p="0x15E">Wait</line>
+    <line p="0x16C">Active</line>
+    <line p="0x1CA">Btl. speed</line>
+    <line p="0x24A">Btl. message</line>
+    <line p="0x4CA">Window color</line>
+    <line p="0x35E">Default</line>
+    <line p="0x36C">Custom</line>
+    <line p="0x44A">Cursor position</line>
+    <line p="0x45E">Default</line>
+    <line p="0x46C">Keep</line>
+    <line p="0x2CA">Sound</line>
+    <line p="0x2DE">Stereo</line>
+    <line p="0x2EC">Mono</line>
+    <line p="0x21E">Fast</line>
+    <line p="0x22E">Slow</line>
+    <line p="0x3DE">Single</line>
+    <line p="0x3EC">Multi</line>
+    <line p="0x34A">Control</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E1F8" size="8">
+    <where>config</where>
+    <line>Control</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E204" size="56">
+    <where>config</where>
+    <line p="0x96">Customize</line>
+    <line p="0x206">Confirm</line>
+    <line p="0x286">Cancel</line>
+    <line p="0x306">Menu</line>
+    <line p="0x386">L button</line>
+    <line p="0x406">START</line>
+    <line p="0x486">Quit</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E238" size="20">
+    <where>config</where>
+    <line>Unused    Confirm  Cancel    Menu</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E24C" size="19">
+    <where>config</where>
+    <line>A      B       X      Y      SELECT</line>
+  </Entry>
+  <!-- needs stuff from 1E263 -->
+  <Entry type="mex" ptr="0x1E28A" size="">
+    <where>battle</where>
+    <line p="0x96">Take all</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E28A" size="">
+    <where>battle</where>
+    <line p="0x96">Exchange</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E28A" size="">
+    <where>main</where>
+    <line p="0x258">learned</line>
+    <!-- there is a second line that goes unused-->
+  </Entry>
+  <Entry type="mes" ptr ="0x1E2CD" size="12">
+    <where>config</where>
+    <line>1    2    3    4   5    6</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E2D9" size="8">
+    <where>main</where>
+    <!-- the original line here was ぶきよう-->
+    <!-- it's either "for weapons" or "clumsy" (no handedness) -->
+    <line></line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E2E1" size="8">
+    <where>main</where>
+    <line>Right-handed</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E2E9" size="8">
+    <where>main</where>
+    <line>Left-handed</line>
+  </Entry>
+  <Entry type="mes" ptr ="0x1E2F1" size="8">
+    <where>main</where>
+    <line>Ambidexter</line>
+  </Entry>
+  <!-- MORE STUFF FROM ELSEWHERE BECAUSE ONE BLOCK WASN'T ENOUGH, ARGH -->
+  <Entry type="mex" ptr="0x1B214" size="8">
+    <where>main</where>
+    <line p="0xF0">Wh. magic</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1B21C" size="8">
+    <where>main</where>
+    <line p="0x170">Bl. magic</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1B224" size="8">
+    <where>main</where>    
+    <line p="0x1F0">Summon</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1B22C" size="8">
+    <where>main</where>
+    <line p="0x170">Ninjutsu</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1B234" size="8">
+    <where>main</where>
+    <line p="0xF0">             </line>
+  </Entry>
+  <Entry type="mex" ptr="0x1B23C" size="8">
+    <where>main</where>
+    <line p="0x170">             </line>
+  </Entry>
+  <Entry type="mex" ptr="0x1B244" size="8">
+    <where>main</where>
+    <line p="0x1F0">             </line>
+  </Entry>
+</Text>

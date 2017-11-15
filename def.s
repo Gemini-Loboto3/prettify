@@ -9,8 +9,9 @@ define dma_srcl			$11f		// 2+1 bytes
 define dma_srch			$121
 define dma_size			$122		// 2 bytes
 
-define list_dma_left	$702ffe		// tiles left to transfer
-define list_canvas		$710000		// canvas area for dma transfers
+define list_inv_last	$702100		// stores previous index selection in inventory
+
+define backup_vram		$704000		// buffer to store vram backup (16KB, takes all remaining sram)
 
 define tm_base_item		$100		// list
 define tm_base_magic	$100		// list
