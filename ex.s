@@ -21,6 +21,40 @@ item_bin:
 	incbin "item.sfc"
 
 org $228000
+_St_init_config:
+	lda.b #$03
+	jsl Generate_name
+	ldx.w #($2100-32)
+	ldy.w #$70
+	//ldx #(St_set_config & 0xffff)
+	//ldy #(St_set_config >> 16)
+	jsr St_DMA_trans_set
+	rtl
+
+_St_init_shop:
+	ldx #(St_set_shop & 0xffff)
+	ldy #(St_set_shop >> 16)
+	jsr St_DMA_trans_set
+	rtl
+	
+_St_init_name:
+	ldx #(St_set_name & 0xffff)
+	ldy #(St_set_name >> 16)
+	jsr St_DMA_trans_set
+	rtl
+	
+_St_init_choco:
+	ldx #(St_set_main & 0xffff)
+	ldy #(St_set_main >> 16)
+	jsr St_DMA_trans_set
+	rtl
+
+_St_init_main:
+	ldx #(St_set_main & 0xffff)
+	ldy #(St_set_main >> 16)
+	jsr St_DMA_trans_set
+	rtl
+
 St_vwf_equip_map:
 	php			// preserve state
 	phx
@@ -67,36 +101,6 @@ St_vwf_item_tmap:
 	adc #$100
 	sta $45
 	plp
-	rtl
-
-_St_init_main:
-	ldx #(St_set_main & 0xffff)
-	ldy #(St_set_main >> 16)
-	jsr St_DMA_trans_set
-	rtl
-	
-_St_init_shop:
-	ldx #(St_set_shop & 0xffff)
-	ldy #(St_set_shop >> 16)
-	jsr St_DMA_trans_set
-	rtl
-	
-_St_init_name:
-	ldx #(St_set_name & 0xffff)
-	ldy #(St_set_name >> 16)
-	jsr St_DMA_trans_set
-	rtl
-	
-_St_init_choco:
-	ldx #(St_set_main & 0xffff)
-	ldy #(St_set_main >> 16)
-	jsr St_DMA_trans_set
-	rtl
-
-_St_init_config:
-	ldx #(St_set_config & 0xffff)
-	ldy #(St_set_config >> 16)
-	jsr St_DMA_trans_set
 	rtl
 
 St_DMA_trans_set:
@@ -464,48 +468,125 @@ tbl_str_jobs:
 	db $AB, $AC, $AD, $AE, $AF, $ff, $ff, $ff	// Lunarian (for Golbeza)
 	db $ff, $ff, $ff, $ff, $ff, $ff, $ff, $ff	// empty (for Anna)
 	
-// A.8 name slot
+// A.8 name ID (requires conversion)
 // internals
-// $43, $45 temp values
-// $11d current x value
+// $43, $45 temp counters
+// $11d current draw x value
+// $11f jumptable index (x*2)
+// $121 string seek
 Generate_name:
-	stz $11d
-	rep #$20	// A.16
-	lda.b #16	// loop for all 16 planes
+	php
+	rep #$20		// A.16
+	and #$003f
+	dec				// 1 is actually the first index, so drop that
+	tax
+	sep #$20
+	lda $18457, x	// load from id to string lookup
+	asl				// id * 6
+	sta $45
+	asl
+	adc $45
+	rep #$20
+	and #$00ff
+	sta $121		// store string seek
+	
+	stz $11d		// reset draw x
+	stz $11e
+	lda.w #(8*16/2)	// size of buffer
 	sta $43
+	lda.w #0		// clear value
+	ldx.w #0
+	// clear buffer
+-
+	sta {name_buffer},x
+	inx
+	inx
+	dec $43
+	bne -
+
+	lda.w #8		// i, max size of a string
+	sta $45			// --
+	stz $125
+	stz $126
+.string:
+	// compute value for correct shifting
+	lda $11d		// load draw x
+	and.w #$7		// x % 8
+	asl				// make index for jump table
+	sta $11f		// store as index
+	lda.w #16		// j, loop for all 16 planes
+	sta $43			// --
+	// calculate where to load stuff from font
+	ldx $121		// *string
+	lda $1500,x		// --
+	and #$00ff
+	cmp #$00ff
+	beq .end
+	inc $121		// string++
+	sec
+	sbc.w #$40
+	// character to font position (*16)
+	asl
+	asl
+	asl
+	asl
+	tax
 .line:
 	// load one plane
 	lda font_name,x
+	inx
+	txy				// preserve font seek
 	and #$00ff
-	xba
-	clc
+	xba				// put pixels into upper bits
+	ldx $11f		// load jump index
 	jmp (.jtbl,x)
 	// create shifted plane
-.asl7:
-	ror
-.asl6:
-	ror
-.asl5:
-	ror
-.asl4:
-	ror
-.asl3:
-	ror
-.asl2:
-	ror
-.asl1:
-	ror
-.asl0:
-	sta $45		// store temp result
-	sta {name_buffer}, x		// current tile
-	xba
-	sta {name_buffer}+16,x		// next tile (just write, who cares)
-	dec $43
+.shf7:
+	lsr
+.shf6:
+	lsr
+.shf5:
+	lsr
+.shf4:
+	lsr
+.shf3:
+	lsr
+.shf2:
+	lsr
+.shf1:
+	lsr
+.shf0:
+	xba					// switch to first plane
+	sta $123			// store temp result
+	ldx $125			// reload buffer seek
+	sep #$20
+	lda {name_buffer},x	// load current tile
+	ora $123			// OR the result
+	sta {name_buffer},x	// update current tile
+	xba					// switch to second plane
+	sta {name_buffer}+16,x	// next tile (just write, who cares)
+	rep #$20
+	inx					// buffer++
+	stx $125			// update buffer seek
+	tyx					// restore font seek
+	dec $43				// j++
 	bne .line
+	// x += w
+	lda $11d			// x += w
+	clc
+	adc.w #6			// placeholder, replace with width table later
+	sta $11d
+	
+	dec $45			// i++
+	bne .string
+.end:
+	plp
+	rtl
 .jtbl:
-	dw .asl0, .asl1, .asl2, .asl3, .asl4, .asl5, .asl6, .asl7
+	dw .shf0, .shf1, .shf2, .shf3, .shf4, .shf5, .shf6, .shf7
 	
 font_name:
+	incbin font_names.bin
 
 //data_desc:
 //	incbin test.dat
