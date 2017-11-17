@@ -45,7 +45,7 @@ _St_init_shop:
 	rtl
 	
 _St_init_name:
-	jsr St_trans_names
+	//jsr St_trans_names
 	ldx #(St_set_name & 0xffff)
 	ldy #(St_set_name >> 16)
 	jsr St_DMA_trans_set
@@ -722,6 +722,24 @@ font_namew:
 	db 5,5,6,5,5,5
 font_name:
 	incbin font_names.bin
+	
+//////////////////////////////////////
+// DIRTY FIXES						//
+//////////////////////////////////////
+St_fix_win_resize:		// comes from $18687
+-
+	sta $0000,x
+	xba
+	lda $0001,x
+	and.b #$fc
+	sta $0001,x
+	xba
+	inx
+	inx
+	dec $1D
+	bne -
+	rtl
+
 
 //data_desc:
 //	incbin test.dat

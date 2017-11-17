@@ -91,3 +91,14 @@ org $197D3
 org $1CC21
 	jsr St_init_load	// when leaving save
 
+// fix broken transitions
+org $18689	// top
+	jsl St_fix_win_resize
+	lda.b #$f9
+	sta $0000,x
+	rts
+org $186AC	// bottom
+	jsl St_fix_win_resize
+	lda.b #$fe
+	sta $0000,x
+	rts
