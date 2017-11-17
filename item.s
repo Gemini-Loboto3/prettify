@@ -3,6 +3,8 @@ org $18C7D
 St_init:
 org $1D1A1
 St_config:
+org $197D3
+St_save_loop:
 
 //////////////////////////////////
 // MAGIC AND SKILLS				//
@@ -58,6 +60,12 @@ St_init_shop:
 	jsl _St_init_shop
 	bra __init_main
 
+St_init_load:
+	jsr $1947e			// wait for fade
+__init_load:
+	jsl _St_init_load
+	rts
+	
 St_init_name:
 	jsl _St_init_name
 	jsr St_init

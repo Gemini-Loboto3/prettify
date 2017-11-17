@@ -86,4 +86,8 @@ org $19606	// boot
 	jsr St_init_main
 org $1BA2E
 	jsr St_init_name
+org $197D3
+	jsr St_init_load	// when entering load / save screen
+org $1CC21
+	jsr St_init_load	// when leaving save
 

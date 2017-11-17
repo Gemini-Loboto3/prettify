@@ -137,7 +137,7 @@
   <Entry type="mex" ptr="0x1DECD" size="36">
     <where>shop</where>
     <line p="0x54">Welcome! How can I help?</line>
-    <line p="0x148">Buy        Sell        Cancel</line>
+    <line p="0x148">Buy        Sell        Quit</line>
   </Entry>
   <Entry type="mex" ptr="0x1DEF1" size="14">
     <where>shop</where>
@@ -319,7 +319,7 @@
   </Entry>
   <Entry type="mes" ptr ="0x1E1F8" size="8">
     <where>config</where>
-    <line>Control</line>
+    <line>Controller</line>
   </Entry>
   <Entry type="mex" ptr="0x1E204" size="56">
     <where>config</where>
@@ -340,6 +340,11 @@
     <line>A      B       X      Y      SELECT</line>
   </Entry>
   <!-- needs stuff from 1E263 -->
+  <Entry type="win" ptr="0x1E263" size="14">
+    <where>config</where>
+    <win p="0x1CA" w="20" h="11"/>
+    <line p="0x96">Pad selector</line>
+  </Entry>
   <Entry type="mex" ptr="0x1E28A" size="">
     <where>battle</where>
     <line p="0x96">Take all</line>
