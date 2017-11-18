@@ -62,6 +62,10 @@ org $1D220
 	lda.b #3	// was 0
 org $1D22D
 	lda.b #3	// was 0
+	
+// make 'Controller' appear 2 tiles further than player names
+org $1D681
+	jsr $187B9
 
 // fix magic highlighter for left panel
 org $1B3EC

@@ -722,6 +722,54 @@ font_namew:
 	db 5,5,6,5,5,5
 font_name:
 	incbin font_names.bin
+
+// paramters:
+// A.8 ID to decode into name
+// X.16 slot
+// Y.16 where to write
+define tax8_16	"sta $43; ldx $43"
+St_pl_tmap_write:
+	and.b #$3f		// check if it's a valid value
+	beq +			// 0 = empty slot, do not print
+	stx $45			// preserve slot number
+	dec
+	{tax8_16}
+	lda $18457,x	// from ID to real ID
+	asl				// name index*6
+	sta $43
+	asl
+	adc $43
+	{tax8_16}
+	rep #$20
+	tya
+	clc
+	adc $29
+	tay
+
+	lda.w #6		// max tiles to write
+	sta $43
+	lda $45			// reload slot index
+	asl
+	tax
+	lda .pl_tmap_tbl,x
+	sep #$20		// A.8
+	sta $45
+-
+	lda $45
+	sta 0,y
+	inc $45			// tile index++
+	lda 1,y
+	eor.b #2		// make it access upper tiles
+	sta 1,y
+	iny
+	iny
+	dec $43
+	bne -
++
+	rtl
+	
+.pl_tmap_tbl:
+	db $E0, $E6, $EC, $F2, $F8
 	
 //////////////////////////////////////
 // DIRTY FIXES						//
