@@ -28,12 +28,16 @@
 <li>Fix item name when trying to sell something</li>
 </ul>
 </li>
-<li>Fat Chocobo screen</li>
+<li>Fat Chocobo screen
+  <ul>
+    <li>Add intializer for messages</li>
+    <li>Rewrite how the big item list works</li>
+  </ul>
+</li>
 <li>Namingway screen
 <ul>
-<li>Add code to generate names with a proportional font</li>
+<li>Connect code generating names with a proportional font</li>
 <li>Drop hiragana and katakana functionality</li>
 </ul>
 </li>
 </ul>
-<p>&nbsp;</p>
