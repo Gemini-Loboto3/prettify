@@ -192,8 +192,8 @@ org $01decd
 org $01def1
 	dw $0054
 	// What would you like?
-	db $22, $23, $24, $25, $26, $27, $28, $29, $2a, $2b, $2c, $00
-org $01deff
+	db $22, $23, $24, $25, $26, $27, $28, $29, $2a, $2b, $2c, $01
+St_mes_howmany:
 	dw $0146
 	// How many?    1
 	db $2d, $2e, $2f, $30, $31, $32, $1b, $33, $00
@@ -454,15 +454,33 @@ org $01e263
 	dw $0096
 	// Pad selector
 	db $7a, $7b, $7c, $7d, $7e, $7f, $1f, $00
-org $01e28a
-	dw $0096
-	// Take all
-	db $02, $03, $04, $05, $00
-org $01e28a
-	dw $0096
+org $01e279
+	dw $0002
+	db $06, $02
+	dw $0044
+	//  Treasure
+	db $02, $03, $04, $05, $06, $07, $01
+	dw $0072
+	// Exit
+	db $08, $09, $01
+St_mes_getall:
+	dw $0056
+	// Take all  
+	db $0a, $0b, $0c, $0d, $0e, $00
+org $01e295
+	dw $0056
 	// Exchange
-	db $06, $07, $08, $09, $0a, $00
-org $01e28a
+	db $08, $0f, $10, $11, $12, $00
+org $01e2a0
+	dw $f00d
+	db $ad, $ba
+	dw $0046
+	// You have left some
+	db $13, $14, $15, $16, $17, $18, $19, $1a, $1b, $1c, $1d, $01
+	dw $0072
+	// important item.
+	db $1e, $1f, $20, $21, $22, $23, $24, $25, $00
+org $01e2bd
 	dw $0258
 	// learned
 	db $d2, $d3, $d4, $d5, $00

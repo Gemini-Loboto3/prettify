@@ -94,7 +94,15 @@ org $197D3
 	jsr St_init_load	// when entering load / save screen
 org $1CC21
 	jsr St_init_load	// when leaving save
+org $1D797
+	jsr St_init_treasure
 
+// fix a few string pointers
+org $1D83D
+	ldy.w #(St_mes_getall)
+org $1C7E4
+	ldy.w #(St_mes_howmany)
+	
 // fix broken transitions
 org $18689	// top
 	jsl St_fix_win_resize
@@ -106,3 +114,67 @@ org $186AC	// bottom
 	lda.b #$fe
 	sta $0000,x
 	rts
+	
+// dig some room from original St_pl_tmap_write
+org $183AB
+	rts
+	
+St_pl_tmap_panel:
+	jsl _St_pl_tmap_panel
+	rts
+	
+St_pl_tmap_panel_fix0:
+	lda $45
+	ora.b #2
+	sta $45
+	lda.b #6
+	jsr $18C47
+	rts
+	
+St_pl_tmap_panel_fix1:
+	lda $45
+	and.b #$fc
+	sta $45
+	lda.b #14
+	jsr $18C47
+	rts
+
+St_pl_tmap_status:
+	jsl _St_pl_tmap_status
+	rts
+
+St_pl_tmap_controller:
+	jsl _St_pl_tmap_controller
+	rts
+	
+// hack new code into player writers
+org $189AA	// panel
+	jsr St_pl_tmap_panel
+org $1A4AD	// panel short
+	jsr St_pl_tmap_panel
+org $1A4C5	// fix panel short, part 1
+	jsr St_pl_tmap_panel_fix0
+org $1A4C8	// fix panel short, part 2
+	jsr St_pl_tmap_panel_fix1
+org $1A8EF	// x learned y
+org $1A9BA	// status
+	jsr St_pl_tmap_status
+org $1BB40	// namingway
+	jsr St_pl_tmap_status
+org $1BD57	// equip
+	jsr St_pl_tmap_status
+org $1D679	// pad selector
+	jsr St_pl_tmap_controller
+	
+// hack save routine to backup expanded names
+org $19794
+	jsr hook_Load_names
+org $1CBFB
+	jsr hook_Save_names
+	
+//////////////////////////
+// TEST					//
+//////////////////////////
+org $18000
+	jsr $1802C	// status
+	//jsr $1D792	// treasure

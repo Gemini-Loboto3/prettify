@@ -139,13 +139,10 @@
     <line p="0x54">Welcome! How can I help?</line>
     <line p="0x148">Buy        Sell        Quit</line>
   </Entry>
-  <Entry type="mex" ptr="0x1DEF1" size="14">
+  <Entry type="mex" ptr="0x1DEF1" size="25">
     <where>shop</where>
     <line p="0x54">What would you like?</line>
-  </Entry>
-  <Entry type="mex" ptr="0x1DEFF" size="11">
-    <where>shop</where>
-    <line p="0x146">How many?    1</line>
+    <line p="0x146" name="St_mes_howmany">How many?    1</line>
   </Entry>
   <Entry type="mex" ptr="0x1DF0A" size="5">
     <where>main</where>
@@ -345,15 +342,23 @@
     <win p="0x1CA" w="20" h="11"/>
     <line p="0x96">Pad selector</line>
   </Entry>
-  <Entry type="mex" ptr="0x1E28A" size="">
+  <Entry type="win" ptr="0x1E279" size="28">
     <where>battle</where>
-    <line p="0x96">Take all</line>
+    <win p="0x2" w="6" h="2"/>
+    <line p="0x44"> Treasure</line>
+    <line p="0x72">Exit</line>
+    <line p="0x56" name="St_mes_getall">Take all  </line>
   </Entry>
-  <Entry type="mex" ptr="0x1E28A" size="">
+  <Entry type="mex" ptr="0x1E295" size="11">
     <where>battle</where>
-    <line p="0x96">Exchange</line>
+    <line p="0x56">Exchange</line>
   </Entry>
-  <Entry type="mex" ptr="0x1E28A" size="">
+  <Entry type="win" ptr="0x1E2A0" size="29">
+    <where>battle</where>
+    <line p="0x46">You have left some</line>
+    <line p="0x72">important item.</line>
+  </Entry>
+  <Entry type="mex" ptr="0x1E2BD" size="">
     <where>main</where>
     <line p="0x258">learned</line>
     <!-- there is a second line that goes unused-->

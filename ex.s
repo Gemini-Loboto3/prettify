@@ -56,6 +56,12 @@ _St_init_choco:
 	ldy #(St_set_main >> 16)
 	jsr St_DMA_trans_set
 	rtl
+	
+_St_init_treasure:
+	ldx #(St_set_battle & 0xffff)
+	ldy #(St_set_battle >> 16)
+	jsr St_DMA_trans_set
+	rtl
 
 St_vwf_equip_map:
 	php			// preserve state
@@ -461,7 +467,7 @@ tbl_str_jobs:
 	db $A8, $A9, $AA, $AB, $AC, $AD, $ff, $ff	// White Mage
 	db $AE, $AF, $B0, $B1, $ff, $ff, $ff, $ff	// Monk
 	db $B2, $B3, $B4, $AB, $AC, $AD, $ff, $ff	// Black Mage
-	db $98, $99, $9A, $AB, $AC, $AD, $ff, $ff	// White Mage
+	db $A8, $A9, $AA, $AB, $AC, $AD, $ff, $ff	// White Mage
 	db $B5, $B6, $B7, $B8, $ff, $ff, $ff, $ff	// Paladin
 	db $B9, $BA, $BB, $BC, $BD, $ff, $ff, $ff	// Engineer
 	db $9C, $9D, $9E, $9F, $A0, $A1, $ff, $ff	// Summoner
@@ -469,6 +475,10 @@ tbl_str_jobs:
 	db $7B, $7C, $7D, $7E, $7F, $ff, $ff, $ff	// Lunarian
 	db $7B, $7C, $7D, $7E, $7F, $ff, $ff, $ff	// Lunarian (for Golbeza)
 	db $ff, $ff, $ff, $ff, $ff, $ff, $ff, $ff	// empty (for Anna)
+
+//////////////////////////////
+// PLAYER NAMES				//
+//////////////////////////////
 
 // Generates all tile data for player names
 // and transfers them to vram
@@ -566,10 +576,9 @@ Generate_name:
 	tax
 	sep #$20
 	lda $18457, x	// load from id to string lookup
-	asl				// id * 6
-	sta $45
+	asl				// id * 8
 	asl
-	adc $45
+	asl
 	rep #$20
 	and #$00ff
 	sta {str_i}		// store string seek
@@ -606,13 +615,13 @@ Generate_name:
 	sta $43			// --
 	// calculate where to load stuff from font
 	ldx {str_i}		// *string
-	lda $1500,x		// --
+	lda {ex_name_data},x	// --
 	and #$00ff
 	cmp #$00ff
 	beq .end
 	//inc $121		// string++
 	sec
-	sbc.w #$40
+	sbc.w #$0f
 	// character to font position (*16)
 	asl
 	asl
@@ -625,7 +634,7 @@ Generate_name:
 	inx
 	txy				// preserve font seek
 	and #$00ff
-	beq .empty
+	beq .empty		// skip completely empty lines
 	xba				// put pixels into upper bits
 	ldx {jtbl_x}	// load jump index
 	jmp (.jtbl,x)
@@ -677,10 +686,10 @@ Generate_name:
 	// load width
 	ldx {str_i}		// *string++
 	inc {str_i}		// --
-	lda $1500,x		// create index for width value
+	lda {ex_name_data},x	// create index for width value
 	and.w #$00ff
 	sec
-	sbc.w #$40
+	sbc.w #$0f
 	tax
 	lda font_namew,x	// get w
 	and.w #$00ff
@@ -712,16 +721,230 @@ Generate_name:
 	dw .shf0, .shf1, .shf2, .shf3, .shf4, .shf5, .shf6, .shf7
 	
 font_namew:
-	//     A B C D E F G H I J K L M N
-	db 0,0,5,5,5,5,5,5,5,5,4,5,5,5,6,5
-	// O P Q R S T U V W X Y Z a b c d
-	db 5,5,5,5,5,5,5,5,6,5,6,5,5,5,5,5
-	// e f g h i j k l m n o p q r s t
-	db 5,5,5,5,2,3,5,2,6,5,5,5,5,5,5,4
-	// u v w x y z
-	db 5,5,6,5,5,5
+	// U gagigugegozazizuzezodadidudedo
+	db 8,8,8,8,8,8,8,7,8,8,8,8,8,8,8,8
+	// babibubebopapipupepoGAGIGUGEGOZA
+	db 8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
+	// ZIZUZEZODADIDUDEDOBABIBUBEBOPAPI
+	db 8,8,8,8,8,8,8,8,7,8,7,8,8,8,8,7
+	// PUPEPOA B C D E F G H I J K L M
+	db 8,8,8,5,5,5,5,5,5,5,5,4,5,5,5,6
+	// N O P Q R S T U V W X Y Z a b c
+	db 5,5,5,5,5,5,5,5,5,6,5,6,5,5,5,5
+	// d e f g h i j k l m n o p q r s
+	db 5,5,5,5,5,2,3,5,2,6,5,5,5,5,5,5
+	// t u v w x y z & # + { } woduxaxu
+	db 4,5,5,6,5,5,5,5,6,6,5,5,7,7,7,7
+	// xo0 1 2 3 4 5 6 7 8 9 a i u e o
+	db 7,5,4,5,5,5,5,5,5,5,5,8,8,7,8,8
+	// kakikukekosasisusesotatitutetona
+	db 8,8,6,8,8,8,7,8,8,7,8,8,8,8,7,8
+	// ninunenohahihuhehomamimumemoyayu
+	db 8,8,8,8,8,8,8,8,8,7,8,8,8,8,8,8
+	// yorarirurerowan XAXI[ XEXOXDXAXU
+	db 8,7,6,8,8,8,8,8,6,6,4,6,6,6,6,6
+	// XO, . - @ ! ? % / : ] A I U E O
+	db 6,3,2,6,5,2,5,5,4,2,4,8,8,8,8,8
+	// KAKIKUKEKOSASISUSESOTATITUTETONA
+	db 7,8,8,8,7,8,8,7,8,8,8,8,7,8,6,8
+	// NINUNENOHAHIHUHEHOMAMIMUMEMOYAYU
+	db 8,8,8,7,8,8,8,8,8,8,8,8,8,8,8,8
+	// YORARIRUREROWAN
+	db 7,8,6,8,7,7,7,7
+	
+	////     A B C D E F G H I J K L M N
+	//db 0,0,5,5,5,5,5,5,5,5,4,5,5,5,6,5
+	//// O P Q R S T U V W X Y Z a b c d
+	//db 5,5,5,5,5,5,5,5,6,5,6,5,5,5,5,5
+	//// e f g h i j k l m n o p q r s t
+	////db 5,5,5,5,2,3,5,2,6,5,5,5,5,5,5,4
+	//// u v w x y z
+	//db 5,5,6,5,5,5
 font_name:
 	incbin font_names.bin
+
+// Tries to expand names upon boot
+Boot_names:
+	jsr St_ck_expand_names
+	jsl $1800C	// Status3_load
+	rtl
+
+//
+St_ck_expand_names:
+	php
+	rep #$20
+	// change dpage
+	tdc
+	pha			// store it
+	lda.w #0
+	tcd
+	lda {ex_name_ok}
+	cmp.w #(('K'<<8) | 'O')	// check if sram contains 'OK'
+	beq +
+	jsr St_expand_names
+	lda.w #(('K'<<8) | 'O')
+	sta {ex_name_ok}
++
+	// restore dpage
+	pld
+	plp
+	rts
+
+// 
+St_expand_names:
+define name_src 	$001d
+define name_srcb	$001f
+define name_dst 	$0020
+define name_dstb	$0022
+	php
+	sep #$20
+	ldx.w #0		// slot id
+	lda.b #4		// number of slots to convert
+	sta $45
+.slot:
+	// setup pointers for a slot
+	jsr _Get_src_ptr
+	jsr _Set_src
+	jsr _Get_dst_ptr
+	jsr _Set_dst
+	inx
+	lda.b #14		// count of names
+	sta $47
+.name:
+		lda.b #6	// size of original names
+		sta $43
+.char:
+			jsr _Read_src
+			jsr _Write_dst
+			dec $43
+			bne .char
+			// write padding
+			lda.b #$ff
+			jsr _Write_dst
+			jsr _Write_dst
+			dec $47
+			bne .name
+		dec $45
+		bne .slot
+	
+
+
+	plp
+	rts
+
+// X.16 slot
+_Get_src_ptr:
+	rep #$20
+	phx
+	txa
+	xba				// x * 2048 + 0x500
+	asl
+	asl
+	asl
+	adc.w #$500		// add save base
+	tay
+	sep #$20
+	lda.b #({ex_name_save} >> 16)
+	plx
+	rts
+	
+// X.16 slot
+_Get_dst_ptr:
+	rep #$20
+	phx
+	txa				// x*128 + base
+	xba
+	lsr
+	adc.w #({ex_name_save} & 0xffff)
+	tay
+	sep #$20
+	lda.b #({ex_name_save} >> 16)
+	plx
+	rts
+
+// Y.16 location
+// A.8 bank
+_Set_src:
+	sty {name_src}
+	sta {name_srcb}
+	rts
+
+// Y.16 location
+// A.8 bank
+_Set_dst:
+	sty {name_dst}
+	sta {name_dstb}
+	rts
+	
+// returns
+// A.8 read byte
+_Read_src:
+	lda [{name_src} + 0x7e0000]
+	pha
+	rep #$20
+	lda {name_src}	// seek forward
+	inc
+	sta {name_src}
+	sep #$20
+	pla
+	rts
+
+// parameters
+// A.8 byte to write
+_Write_dst:
+	pha
+	sta [{name_dst} + 0x7e0000]
+	rep #$20
+	lda {name_dst}	// seek forward
+	inc
+	sta {name_dst}
+	sep #$20
+	pla
+	rts
+	
+Load_names:
+	mvn $70, $0			// original code
+	jsr _Load_names
+	rtl
+	
+_Load_names:
+	php
+	rep #$20			// A.16
+	lda $1A3C			// get slot to be loaded (0 = none, 1 = first slot)
+	dec
+	and.w #$00ff		// slot id * 128
+	xba
+	lsr
+	clc
+	adc.w #({ex_name_save} & 0xffff)
+	tax									// src pointer
+	ldy.w #({ex_name_data} & 0xffff)	// dst pointer
+	lda #127			// size -1
+	mvn {ex_name_save} >> 16, {ex_name_data} >> 16	// destination, source
+	plp
+	rts
+
+Save_names:
+	mvn $7e, $70		// original code
+	jsr _Save_names
+	rtl
+
+_Save_names:
+	php
+	lda $1A3C			// get slot to be saved (0 = none, 1 = first slot)
+	dec
+	rep #$20			// A.16
+	and.w #$00ff		// slot id * 128
+	xba
+	lsr
+	clc
+	adc.w #({ex_name_save} & 0xffff)
+	tay								// dst pointer
+	ldx #({ex_name_data} & 0xffff)	// src pointer
+	lda #127			// size -1
+	mvn {ex_name_data} >> 16, {ex_name_save} >> 16	// destination, source
+	plp
+	rts
 
 // paramters:
 // A.8 ID to decode into name
@@ -734,12 +957,6 @@ St_pl_tmap_write:
 	stx $45			// preserve slot number
 	dec
 	{tax8_16}
-	lda $18457,x	// from ID to real ID
-	asl				// name index*6
-	sta $43
-	asl
-	adc $43
-	{tax8_16}
 	rep #$20
 	tya
 	clc
@@ -748,28 +965,91 @@ St_pl_tmap_write:
 
 	lda.w #6		// max tiles to write
 	sta $43
-	lda $45			// reload slot index
-	asl
-	tax
+	ldx $45			// reload slot index
 	lda .pl_tmap_tbl,x
 	sep #$20		// A.8
 	sta $45
 -
 	lda $45
-	sta 0,y
+	sta 64,y
 	inc $45			// tile index++
-	lda 1,y
-	eor.b #2		// make it access upper tiles
-	sta 1,y
+	lda 65,y
+	ora.b #2		// make it access upper tiles
+	sta 65,y
 	iny
 	iny
 	dec $43
 	bne -
 +
-	rtl
+	rts
 	
 .pl_tmap_tbl:
 	db $E0, $E6, $EC, $F2, $F8
+
+// parameters
+// A.16 seek
+// returns X for St_pl_tmap_write
+St_pl_from_seek:
+	lsr			// (a >> 6) & 7
+	lsr
+	lsr
+	lsr
+	lsr
+	lsr
+	and.w #7
+	tax
+	rts
+
+// for main panel and item panel
+_St_pl_tmap_panel:
+	php
+	pha
+	phy
+	// convert seek to slot
+	rep #$20
+	lda $48		// load seek
+	jsr St_pl_from_seek
+	// original code
+	sep #$20
+	ply
+	pla
+	jsr St_pl_tmap_write
+	plp
+	rtl
+	
+// for status, equip, and partially namingway
+_St_pl_tmap_status:
+	php
+	pha
+	phy
+	// convert seek to slot
+	rep #$20
+	lda $60		// load seek
+	jsr St_pl_from_seek
+	// original code
+	sep #$20
+	ply
+	pla
+	jsr St_pl_tmap_write
+	plp
+	rtl
+	
+// for pad selector
+_St_pl_tmap_controller:
+	php
+	pha
+	phy
+	// convert seek to slot
+	rep #$20
+	txa		// load seek
+	jsr St_pl_from_seek
+	// original code
+	sep #$20
+	ply
+	pla
+	jsr St_pl_tmap_write
+	plp
+	rtl
 	
 //////////////////////////////////////
 // DIRTY FIXES						//

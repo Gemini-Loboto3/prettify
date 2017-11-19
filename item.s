@@ -78,6 +78,11 @@ St_exit_config:
 	jsl _St_init_main
 	jsr $19430
 	rts
+	
+St_init_treasure:
+	jsl _St_init_treasure
+	jsr St_init
+	rts
 
 St_shop_inject:
 	phy
@@ -114,6 +119,16 @@ hook_St_draw_equip1:
 	jsl St_DMA_trans_item
 	lda $1BAD
 	rts
+
+hook_Load_names:
+	jsl Load_names
+	rts
+
+hook_Save_names:
+	jsl Save_names
+	rts
+	
+warnpc $28000
 
 // originally built tile map for an equipment
 // revised to work similarly but with no string copying and

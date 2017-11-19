@@ -2,6 +2,9 @@ arch snes.cpu; lorom
 incsrc def.s
 incsrc menu_str.s
 
+org $008040
+	jsl Boot_names
+
 // backup vram to sram
 org $14FF85
 	ldx.w #$4000
@@ -31,7 +34,6 @@ incsrc ex.s
 
 incsrc item.s
 incsrc st.s
-//incsrc dma.s
 
 org $3fffff
 	db 0
