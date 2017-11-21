@@ -21,6 +21,36 @@ item_bin:
 	incbin "item.sfc"
 
 org $228000
+_St_name_draw:
+	ldx.w #0		// always use first slot
+	ldy.w #$1B0A	// 7E1B0A, current name buffer
+	lda.b #$7e
+	jsr Generate_name
+
+_St_trans_namex:
+	ldx.w #$e610
+	stx {dma_srcl}
+	lda.b #$7e
+	sta {dma_srch}
+	ldx.w #$3700
+	stx {dma_dst}
+	ldx.w #(6*16)
+	stx {dma_size}
+	jsr St_DMA0_trans_x
+	rtl
+
+_St_init_name:
+	phb			// fix bank issues
+	lda #$7e
+	pha
+	plb
+	jsr St_trans_names
+	ldx #(St_set_name & 0xffff)
+	ldy #(St_set_name >> 16)
+	jsr St_DMA_trans_set
+	plb			// restore bank
+	rtl
+
 _St_init_main:
 	jsr St_trans_names
 	ldx #(St_set_main & 0xffff)
@@ -41,13 +71,6 @@ _St_init_config:
 _St_init_shop:
 	ldx #(St_set_shop & 0xffff)
 	ldy #(St_set_shop >> 16)
-	jsr St_DMA_trans_set
-	rtl
-	
-_St_init_name:
-	//jsr St_trans_names
-	ldx #(St_set_name & 0xffff)
-	ldy #(St_set_name >> 16)
 	jsr St_DMA_trans_set
 	rtl
 	
@@ -520,73 +543,93 @@ St_trans_names:
 
 // Generate all player name tiles
 Generate_names:
+define .temp0	$143
+define .temp1	$145
 	php
 	ldx.w #5
-	stx $11d
-	ldx.w #0
+	stx {.temp0}
+	stz {.temp1}
+	stz {.temp1}+1
 -
 	rep #$20
-	phx
-	// seek on player * 64
+	ldx {.temp1}
+	// seek on player structure (* 64)
 	txa
 	xba
 	lsr
 	lsr
-	tay	// player slot index generated
+	tay				// player slot index generated
+	lda $1000,y		// load player ID
+	and.w #$003F
+	beq +			// empty slot, skip
+	dec
+	tax
+	lda $18457,x	// load from id to string lookup
+	and.w #$00ff	// remove junk
+	asl				// id * 8
+	asl
+	asl
+	clc
+	adc #({ex_name_data} & 0xffff) 
+	pha				// string pointer
+	sep #$20		// A.8
+	lda.b #({ex_name_data} >> 16)	// string bank
+	pha
 	// seek on name buffer
-	txa
+	rep #$20
+	lda {.temp1}
 	xba	// * 128 (= *256 / 2)
 	lsr
 	tax
 	sep #$20
-	lda $1000,y
+	pla
+	ply
 	jsr Generate_name
-	plx
-	// i++
-	inx
-	dec $11d
++
+	inc {.temp1}	// slot++
+	dec {.temp0}	// i++
 	bne -
 	plp
 	rts
 
 // Generate tiles for a player name
 // parameters
-// A.8 name ID (requires conversion)
 // X.16 slot indexing
-// internals
-// $43, $45 temp counters
-define draw_x	$e600	// current draw x value
-define draw_xh	$e601
-define jtbl_x	$e602	// jumptable index (x*2)
-define str_i	$e604	// string seek
-define buf_tmp	$e606	// plane temp buffer
-define bmp_i	$e608	// canvas seek
-define slot		$e60A	// base index for buffer writes
+// Y.16 string pointer
+// A.8  string bank
+define temp_0	$e600
+define temp_1	$e602
+define temp_2	$e604
+define draw_x	$e606	// current draw x value
+define draw_xh	$e607
+define jtbl_x	$e608	// jumptable index (x*2)
+define bmp_i	$e60A	// canvas seek
+define slot		$e60C	// base index for buffer writes
 define name_buf	$e610	// name buffer
 define name_bun	$e620	// name buffer next tile
+define str_i	$1d		// 24 bit string seek
+define str_im	$1e
+define str_ih	$1f
+
 Generate_name:
 	php
-	stx {slot}		// preserve buffer index
-	rep #$20		// A.16
-	and #$003f
-	bne +
-	jmp .exit
-+
-	dec				// 1 is actually the first index, so drop that
-	tax
-	sep #$20
-	lda $18457, x	// load from id to string lookup
-	asl				// id * 8
-	asl
-	asl
-	rep #$20
-	and #$00ff
-	sta {str_i}		// store string seek
-	
-	stz {draw_x}	// reset draw x
-	stz {draw_xh}
-	ldy.w #(8*16/2)	// size of buffer
-	lda.w #0		// clear value
+	phd
+	pha
+	// change direct page
+	rep #$20			// A.16
+	tdc					// get current dpage
+	lda.w #$0100		// replace it
+	tcd
+	sep #$20			// A.8
+	//
+	pla
+	// store 24 bit pointer to string
+	sty {str_i}			// pointer
+	sta {str_ih}		// bank
+	stx {slot}			// preserve buffer index
+	rep #$20			// A.16
+	ldy.w #(8*16/2)		// size of buffer
+	lda.w #0			// clear value
 	ldx {slot}
 	// clear buffer
 -
@@ -595,31 +638,33 @@ Generate_name:
 	inx
 	dey
 	bne -
+	
+	// reset draw x
+	stz {draw_x}
+	stz {draw_xh}
 
-	lda.w #8		// i, max size of a string
-	sta $45			// --
+	lda.w #8			// i, max size of a string
+	sta {temp_1}		// --
 .string:
 	// compute buffer seek (=(x >> 3) * 16)
-	lda {draw_x}	// load draw x
+	lda {draw_x}		// load draw x
 	and.w #$fff8
 	asl
 	clc
-	adc {slot}		// add slot seek
-	sta {bmp_i}		// store buffer seek
+	adc {slot}			// add slot seek
+	sta {bmp_i}			// store buffer seek
 	// compute value for correct shifting
-	lda {draw_x}	// load draw x
-	and.w #$7		// x % 8
-	asl				// make index for jump table
-	sta {jtbl_x}	// store as index
-	lda.w #16		// j, loop for all 16 planes
-	sta $43			// --
+	lda {draw_x}		// load draw x
+	and.w #$7			// x % 8
+	asl					// make index for jump table
+	sta {jtbl_x}		// store as index
+	lda.w #16			// j, loop for all 16 planes
+	sta {temp_0}		// --
 	// calculate where to load stuff from font
-	ldx {str_i}		// *string
-	lda {ex_name_data},x	// --
-	and #$00ff
-	cmp #$00ff
+	lda [{str_i}]		// *string
+	and.w #$00ff
+	cmp.w #$ff
 	beq .end
-	//inc $121		// string++
 	sec
 	sbc.w #$0f
 	// character to font position (*16)
@@ -632,11 +677,11 @@ Generate_name:
 	// load one plane
 	lda font_name,x
 	inx
-	txy				// preserve font seek
+	txy					// preserve font seek
 	and #$00ff
-	beq .empty		// skip completely empty lines
-	xba				// put pixels into upper bits
-	ldx {jtbl_x}	// load jump index
+	beq .empty			// skip completely empty lines
+	xba					// put pixels into upper bits
+	ldx {jtbl_x}		// load jump index
 	jmp (.jtbl,x)
 	// create shifted plane
 .shf7:
@@ -656,13 +701,13 @@ Generate_name:
 .shf0:
 	sep #$20			// A.8
 	xba					// switch to first plane
-	sta {buf_tmp}		// store temp result
+	sta {temp_2}		// store temp result
 	ldx {bmp_i}			// reload buffer seek
 	// vwf for first tile
 	cmp.b #0
 	beq +
 	lda {name_buf},x	// load current
-	ora {buf_tmp}		// OR the result
+	ora {temp_2}		// OR the result
 	sta {name_buf},x	// update current
 +
 	// store for next tile
@@ -680,13 +725,11 @@ Generate_name:
 	stx {bmp_i}			// update buffer seek
 	tyx					// restore font seek
 	// j++
-	dec $43
+	dec {temp_0}
 	bne .line
 	
 	// load width
-	ldx {str_i}		// *string++
-	inc {str_i}		// --
-	lda {ex_name_data},x	// create index for width value
+	lda [{str_i}]		// *string
 	and.w #$00ff
 	sec
 	sbc.w #$0f
@@ -698,7 +741,8 @@ Generate_name:
 	adc {draw_x}
 	sta {draw_x}
 	// i++
-	dec $45
+	inc {str_i}			// string++
+	dec {temp_1}
 	beq .end
 	jmp .string
 .end:
@@ -715,6 +759,7 @@ Generate_name:
 	bne -
 	// leave
 .exit:
+	pld
 	plp
 	rts
 .jtbl:
@@ -730,7 +775,7 @@ font_namew:
 	// PUPEPOA B C D E F G H I J K L M
 	db 8,8,8,5,5,5,5,5,5,5,5,4,5,5,5,6
 	// N O P Q R S T U V W X Y Z a b c
-	db 5,5,5,5,5,5,5,5,5,6,5,6,5,5,5,5
+	db 5,5,5,5,5,5,6,5,5,6,5,6,5,5,5,5
 	// d e f g h i j k l m n o p q r s
 	db 5,5,5,5,5,2,3,5,2,6,5,5,5,5,5,5
 	// t u v w x y z & # + { } woduxaxu
@@ -751,17 +796,26 @@ font_namew:
 	db 8,8,8,7,8,8,8,8,8,8,8,8,8,8,8,8
 	// YORARIRUREROWAN
 	db 7,8,6,8,7,7,7,7
-	
-	////     A B C D E F G H I J K L M N
-	//db 0,0,5,5,5,5,5,5,5,5,4,5,5,5,6,5
-	//// O P Q R S T U V W X Y Z a b c d
-	//db 5,5,5,5,5,5,5,5,6,5,6,5,5,5,5,5
-	//// e f g h i j k l m n o p q r s t
-	////db 5,5,5,5,2,3,5,2,6,5,5,5,5,5,5,4
-	//// u v w x y z
-	//db 5,5,6,5,5,5
+
 font_name:
 	incbin font_names.bin
+
+table "table.tbl"
+pl_name_tables:
+	db "Cecil   "
+	db "Cain    "
+	db "Rydia   "
+	db "Tella   "
+	db "Gilbert "
+	db "Rosa    "
+	db "Yang    "
+	db "Palom   "
+	db "Porom   "
+	db "Cid     "
+	db "Edge    "
+	db "Fusuya  "
+	db "Golbeza "
+	db "Anna    "
 
 // Tries to expand names upon boot
 Boot_names:

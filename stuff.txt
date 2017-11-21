@@ -1,0 +1,4 @@
+DBBA hiragana
+DC0A katakana
+DC5A abc
+DCC8 0 50 A0 pointers to alphabets

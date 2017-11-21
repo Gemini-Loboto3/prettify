@@ -146,6 +146,11 @@ St_pl_tmap_status:
 St_pl_tmap_controller:
 	jsl _St_pl_tmap_controller
 	rts
+
+St_pl_name_draw:
+	jsr $1824C
+	jsl _St_trans_namex
+	rts
 	
 // hack new code into player writers
 org $189AA	// panel
@@ -171,6 +176,103 @@ org $19794
 	jsr hook_Load_names
 org $1CBFB
 	jsr hook_Save_names
+	
+//////////////////////////
+// NAMINGWAY			//
+//////////////////////////
+org $1BBB6	// copy name to buffer
+	lda $43
+	asl
+	asl
+	asl
+	nop
+	nop
+	nop
+	adc.w #({ex_name_data} & 0xffff)
+	tax
+	lda.w #8-1	// expanded size, was 5
+org $1BBCA
+	mvn ({ex_name_data} >> 16), $7e	// source, destination
+org $1BBD6	// copy name from buffer
+	lda.w #8-1	// expanded size, was 5
+	mvn $7e, ({ex_name_data} >> 16)	// source, destination
+
+// St_tmap_pl_namingway
+org $19E98
+	rep #$20
+	lda.w #6	// size in tiles
+	sta $43
+	lda.w #$22e0
+-
+	sta $c640,y
+	iny
+	iny
+	inc
+	dec $43
+	bne -
+	ply
+	plx
+	sep #$20
+	jsl _St_name_draw
+	rts
+warnpc $19EB6
+	
+org $19BD7
+	ldy.w #8	// size to copy into 'restore' buffer
+	lda $0000,x
+	sta $0008,x	// new buffer for restoration
+org $19BFA
+	lda.b #1	// initial cursor position (End)
+org $19C99
+	cmp.b #0	// old ABC value
+org $19D14
+	cmp.b #8	// max input size, was 6
+org $19DF8
+	ldy.w #8	// copy-back size, was 6
+	lda $0008,x
+	sta $0000,x
+org $19C87
+	jsr St_pl_name_draw
+org $19D7B
+	cmp.b #1	// End value
+org $19DB5
+	lda.b #1	// max of ABC / End selector
+org $19D6C
+	jsr St_pl_name_draw
+org $19DD7
+	cmp.b #1	// End value
+	
+org $19E16
+	ldx.w #0	// drop katakana
+org $19E1B
+	ldx.w #0	// drop ABC
+
+org $19F08
+	cmp.b #2	// max choices of panel
+	
+org $19F21
+	cpx.w #8	// old size of reset
+	
+org $19B30
+	lda.w #(14 * 8 - 1)
+	ldx.w #(pl_name_tables & 0xffff)	// source pointer
+	ldy.w #({ex_name_data} & 0xffff)	// dest pointer
+	mvn pl_name_tables >> 16, {ex_name_data} >> 16	// source, destination
+	
+org $1DBBA
+St_mes_abc:
+	db "ABCDEabcde"
+	db "FGHIJfghij"
+	db "KLMNOklmno"
+	db "PQRSTpqrst"
+	db "UVWXYuvwxy"
+	db "Z0123z!?%/"
+	db "45678:^^^^"
+	db "9^^^^^^^^^"
+org $1DCAA
+	db 77, 189
+org $1DCC8
+	dw 0, 0, 0	// drop hiragana and katakana pointers
 	
 //////////////////////////
 // TEST					//

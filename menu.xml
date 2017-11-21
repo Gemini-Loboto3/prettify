@@ -137,7 +137,7 @@
   <Entry type="mex" ptr="0x1DECD" size="36">
     <where>shop</where>
     <line p="0x54">Welcome! How can I help?</line>
-    <line p="0x148">Buy        Sell        Quit</line>
+    <line p="0x148">Buy         Sell        Exit</line>
   </Entry>
   <Entry type="mex" ptr="0x1DEF1" size="25">
     <where>shop</where>

@@ -34,6 +34,7 @@ incsrc ex.s
 
 incsrc item.s
 incsrc st.s
+incsrc field.s
 
 org $3fffff
 	db 0

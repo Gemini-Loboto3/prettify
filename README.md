@@ -18,7 +18,12 @@
 </li>
 <li><strike>Equip</strike></li>
 <li><strike>Status</strike></li>
-<li><strike>Configuration</strike></li>
+<li>
+Configuration
+<ul>
+<li>Fix no wait for fade to black to swap tile sets</li>
+</ul>
+</li>
 <li><strike>Save / Load</strike></li>
 </ul>
 </li>
@@ -36,8 +41,9 @@
 </li>
 <li>Namingway screen
 <ul>
-<li>Connect code generating names with a proportional font</li>
-<li>Drop hiragana and katakana functionality</li>
+<li><strike>Connect code generating names with a proportional font</strike></li>
+<li><strike>Drop hiragana and katakana functionality</strike></li>
+<li>Fix a glitch that makes old tiles reappear when selecting a player to rename</li>
 </ul>
 </li>
 </ul>
