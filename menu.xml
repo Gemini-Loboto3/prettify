@@ -98,10 +98,10 @@
   </Entry>
   <Entry type="mex" ptr="0x1DE11" size="135">
     <where>main</where>
-    <line p="0x114">Level</line>
+    <line p="0x114" name="St_mes_level">Level</line>
     <line p="0x1A2">Experience</line>
-    <line p="0x206">HP</line>
-    <line p="0x286">MP</line>
+    <line p="0x206" name="St_mes_hp">HP</line>
+    <line p="0x286" name="St_mes_mp">MP</line>
     <line p="0x344">Ability</line>
     <line p="0x3C6">Strength</line>
     <line p="0x446">Speed</line>

@@ -112,15 +112,18 @@ org $01de09
 	// Status
 	db $0b, $0c, $0d, $0e, $00
 org $01de11
+St_mes_level:
 	dw $0114
 	// Level
 	db $6e, $6f, $70, $01
 	dw $01a2
 	// Experience
 	db $71, $72, $11, $73, $74, $75, $01
+St_mes_hp:
 	dw $0206
 	// HP
 	db $76, $3d, $01
+St_mes_mp:
 	dw $0286
 	// MP
 	db $49, $77, $01

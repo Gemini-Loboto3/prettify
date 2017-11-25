@@ -76,6 +76,37 @@ org $1B416
 // fix highlighter with 'Save' in main menu
 org $18939
 	lda #$27	// was 24
+	
+// fix level / hp / mp in main panels
+org $189C3
+	lda.b #$f0	// level
+	sta $0000,x
+	inc
+	sta $0002,x
+	inc
+	sta $0004,x
+	inc			// hp
+	sta $0040,x
+	inc
+	sta $0042,x
+	inc			// mp
+	sta $0080,x
+	inc
+	sta $0082,x
+	jmp $189EA
+warnpc $189EA
+// fix hp / mp in item use panel
+org $1A4FA
+	lda.b #$f3		// hp
+	sta $0000,y
+	inc
+	sta $0002,y
+	inc				// mp
+	sta $0040,y
+	inc
+	sta $0042,y
+	nop
+warnpc $1A50D
 
 // fix entry points
 org $18048

@@ -31,6 +31,7 @@ org $18CD2
 	ldx.w #(4096)
 
 incsrc ex.s
+incsrc dlg.s
 
 incsrc item.s
 incsrc st.s

@@ -13,6 +13,7 @@ define list_inv_last	$702100		// stores previous index selection in inventory
 
 define backup_vram		$704000		// buffer to store vram backup (16KB, takes all remaining sram)
 
+define ex_name_temp		$703d00		// backup buffer for preserving names in save screen
 define ex_name_ok		$703d70		// when a slot contains 'OK' we don't need to expand names
 define ex_name_data		$703d80		// 112 bytes, 14 names *8 bytes
 define ex_name_save		$703e00		// where expanded names are saved, 112 bytes per slot

@@ -29,7 +29,7 @@ Configuration
 </li>
 <li>Shop screen
 <ul>
-<li>Fix "How many?" not appearing when buying</li>
+<li><strike>Fix "How many?" not appearing when buying</strike></li>
 <li>Fix item name when trying to sell something</li>
 </ul>
 </li>

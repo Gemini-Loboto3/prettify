@@ -955,12 +955,12 @@ _Write_dst:
 	sep #$20
 	pla
 	rts
-	
+
 Load_names:
 	mvn $70, $0			// original code
 	jsr _Load_names
 	rtl
-	
+
 _Load_names:
 	php
 	rep #$20			// A.16
@@ -998,6 +998,20 @@ _Save_names:
 	lda #127			// size -1
 	mvn {ex_name_data} >> 16, {ex_name_save} >> 16	// destination, source
 	plp
+	rts
+	
+Backup_names:
+	lda #112-1			// size of backup names
+	ldx #({ex_name_data} & 0xffff)	// src pointer
+	ldy	#({ex_name_temp} & 0xffff)	// dst pointer
+	mvn {ex_name_temp} >> 16, {ex_name_data} >> 16	// destination, source
+	rts
+
+Restore_names:
+	lda #112-1			// size of backup names
+	ldx	#({ex_name_temp} & 0xffff)	// src pointer
+	ldy #({ex_name_data} & 0xffff)	// dst pointer
+	mvn {ex_name_data} >> 16, {ex_name_temp} >> 16	// destination, source
 	rts
 
 // paramters:

@@ -1,4 +1,4 @@
-org $00B533	// hack new names
+org $00B533	// hack expanded names
 	asl
 	asl
 	asl
@@ -24,3 +24,4 @@ org $00B533	// hack new names
 warnpc $00B565
 org $00B565
 .endname:
+
