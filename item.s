@@ -21,6 +21,32 @@ org $1BDBB
 //////////////////////////////////
 // ITEMS						//
 //////////////////////////////////
+
+// hack item descriptions for everything
+org $1A7E2
+	sta $e600
+	ldx.w #$54
+	jsl St_desc_tmap_write
+	rts
+// couple useful hooks
+St_desc_trans0:
+	jsr $18078	// St_DMA0_trans
+	lda.b #$ff
+	sta {list_inv_last}
+	jsl St_desc_ck_update
+	rts
+St_desc_trans1:
+	jsr $19423	// St_set_DMA_vbg2
+	jsl St_desc_ck_update
+	rts
+
+org $19FE6
+	jsr St_desc_trans0
+org $1A049
+	jsr St_desc_trans1
+org $1A09F
+	jsr St_desc_trans1
+
 // inventory
 org $1A181
 	jsr hook_St_draw_items0	// hook

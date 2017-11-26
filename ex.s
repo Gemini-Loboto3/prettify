@@ -19,6 +19,10 @@ St_set_config:
 org $218000
 item_bin:
 	incbin "item.sfc"
+	
+org $238000
+item_desc_gfx:
+incbin "item_desc.sfc"
 
 org $228000
 _St_name_draw:
@@ -102,9 +106,9 @@ St_vwf_equip_map:
 	rtl
 	
 tmap_equip_start:
-	dw $278, $280
-	dw $288, $290
-	dw $000, $298	// entry 4 is never used
+	dw $280, $288
+	dw $290, $298
+	dw $000, $2A0	// entry 4 is never used
 
 St_vwf_shop_tmap:
 	pha
@@ -439,27 +443,92 @@ St_write_item_tmap:
 	bne -
 	plp			// --
 	rts
-	
-St_tmap_desc:
-	php
-	//
-	sep #$20	// a.8	
 
-	//lda #(data_desc),x	// tile count
-	rep #$20	// a.16
-	and #$00ff	// clear upper bits
-	sta $43
-	//lda #(data_desc+1),x	// location	
-	//lda #(data_desc+3),xba	// bank
-	and #$00ff
-	//
-	plp
-	rts
-	
-st_desc_ck_init:
+St_desc_ck_init:
 	lda.b #0
 	sta {list_inv_last}
 	rtl
+
+// parameters:
+// A.8 item id
+// X.16 where to write
+St_desc_tmap_write:
+	phd
+	rep #$20
+	and.w #$00ff
+	asl				// pointer from where to read description data
+	asl
+	asl
+	tay				// keep pointer into Y.16
+	stx $11d		// preserve tile seek
+	lda.w #$100		// dpage = $100
+	pha				// --
+	pld				// --
+	lda #$2280		// $278, base tile for descriptions
+	sta $11f		// store
+	lda.w #2		// loop twice max
+	sta $45
+.string:
+	tyx
+	sep #$20
+	lda item_desc_data,x	// set line size
+	beq .end		// if zero, quit writing
+	txy
+	sta $43
+	stz $44
+	rep #$20
+	lda $11d		// load vram seek
+	adc $29			// base
+	tax
+	lda $11f		// load tile counter
+.line:
+	sta $7e0040,x
+	inc				// tile_cnt++
+	inx				// vram_ptr++
+	inx
+	dec $43
+	bne .line
+	sta $11f		// preserve tile counter
+	lda $11d		// tile seek += 32
+	clc
+	adc.w #64
+	sta $11d
+	iny				// next line data
+	dec $45
+	bne .string
+.end:
+	sep #$20
+	pld
+	rtl
+
+St_desc_trans:
+	php
+	rep #$20
+	lda $e600					// reload item id
+	and.w #$00ff
+	beq +						// item 0 transfers nothing
+	asl
+	asl
+	asl
+	tax
+	lda.w #$3400				// vram destination
+	sta {dma_dst}
+	lda item_desc_data+4,x		// pointer
+	sta {dma_srcl}
+	lda item_desc_data+6,x		// bank
+	sta {dma_srch}
+	lda item_desc_data+2,x		// size
+	//lda.w #256
+	sta {dma_size}
+	sep #$20
+	jsr St_ex_wait_NMI
+	jsr St_DMA0_trans_x			// transfer tiles!
++
+	plp
+	rts
+
+item_desc_data:
+	incbin "item_desc.dat"
 
 St_desc_ck_update:
 	php
@@ -469,12 +538,11 @@ St_desc_ck_update:
 	adc $1b1a
 	asl
 	adc $1b22
-	sta $43		// store obtained value to temp
+	sta $43				// store obtained value to temp
 	lda {list_inv_last}
 	cmp $43
-	beq +		// same value, no need to dma tiles
-	jsl St_DMA_reg_item_init
-	jsl St_DMA_trans_item
+	beq +				// same value, no need to dma tiles
+	jsr St_desc_trans
 	lda $43
 	sta {list_inv_last}	// update old value
 +	
