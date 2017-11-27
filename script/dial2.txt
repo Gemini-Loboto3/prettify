@@ -479,15 +479,16 @@ You must be <Cecil>. Please take good care of her.<End>
 <End of Block>
 
 <Text entry 119>
-To cure desert fever, you need a rare jewel called the Sand Ruby. It can only be found in a cave where the ferocious antlions dwell.<End>
+To cure desert fever, you need a rare jewel called the Sand Pearl. It can only be found in a cave where the ferocious antlions dwell.<End>
 <End of Block>
 
 <Text entry 120>
-Cure for Desert Fever: Sand Ruby<End>
+Cure for Desert Fever: Sand Pearl<End>
 <End of Block>
 
 <Text entry 121>
-<Rosa>: ...<Music 19> ... <Cecil>... ...<End>
+<Rosa>: ...<Music 19><New>
+... <Cecil>... ...<End>
 <End of Block>
 
 <Text entry 122>
@@ -953,7 +954,7 @@ You leave early tomorrow. Please get some rest.<End>
 <End of Block>
 
 <Text entry 236>
-The king forbids you from entering the castle until you have delivered the Bomb Ring to Mist Village.<End>
+The king forbids you from entering the castle until you have delivered the Carnelian Signet to Mist Village.<End>
 <End of Block>
 
 <Text entry 237>
@@ -1259,7 +1260,7 @@ King: Behold! I am the Devil of Water, Cagnazzo!<End>
 <End of Block>
 
 <Text entry 308>
-Received BombRing<End>
+Received Carnelian Signet<End>
 <End of Block>
 
 <Text entry 309, pointer>
@@ -1443,7 +1444,7 @@ The healing pots... upstairs... I must...<End>
 <End of Block>
 
 <Text entry 354>
-<Gilbart>: You can find the Sand Ruby in the Antlion Cave, which lies to the east. The ruby forms from the fluid that the antlion secretes when it lays eggs. We must cross the shallows with our hovercraft to reach the cave. After we acquire the Sand Ruby, we can cross the shallows to reach Kaipo.<End>
+<Gilbart>: You can find the Sand Pearl in the Antlion Cave, which lies to the east. The ruby forms from the fluid that the antlion secretes when it lays eggs. We must cross the shallows with our hovercraft to reach the cave. After we acquire the Sand Pearl, we can cross the shallows to reach Kaipo.<End>
 <End of Block>
 
 <Text entry 355>
@@ -1492,7 +1493,7 @@ I had planned to head across Mt. Hobs to Fabul, but the trail was blocked by thi
 <Text entry 365>
 <Cecil>: That's enough! You're now the rightful ruler of Damcyan, so start acting like it! You owe it to your people, and most of all, you owe it to <Anna>. King of Damcyan, my name is <Cecil>, and I need your help.<New>
 <Gilbart>: Huh?<New>
-<Cecil>: My friend is suffering from desert fever in Kaipo. I need to get the Sand Ruby to save her. Can you help me?<New>
+<Cecil>: My friend is suffering from desert fever in Kaipo. I need to get the Sand Pearl to save her. Can you help me?<New>
 <Gilbart>: ...What is her name?<New>
 <Cecil>: <Rosa>.<End>
 <End of Block>
@@ -1650,7 +1651,7 @@ Let's sleep in the king's bed!<End>
 <End of Block>
 
 <Text entry 404>
-Received Death<End>
+Received Deathbringer<End>
 <End of Block>
 
 <Text entry 405, pointer>
@@ -1704,7 +1705,7 @@ Here, take this, and smack that no-good in the head, will ya?<End>
 <End of Block>
 
 <Text entry 416>
-Received Pan<End>
+Received Frying Pan<End>
 <End of Block>
 
 <Text entry 417>
@@ -2006,7 +2007,7 @@ Basic spells like Fire and Ice aren't powerful enough against many monsters. I s
 <End of Block>
 
 <Text entry 491>
-So, Meteo exists after all!<End>
+So, Meteor exists after all!<End>
 <End of Block>
 
 <Text entry 492>
@@ -2203,7 +2204,7 @@ The trail is blocked by ice.<End>
 <End of Block>
 
 <Text entry 537>
-<Rydia> learned Fire1<Delay 40><End>
+<Rydia> learned Fire<Delay 40><End>
 <End of Block>
 
 <Text entry 538>
@@ -2372,7 +2373,7 @@ The spell has no effect, as the twins have become stone of their own will.<End>
 <End of Block>
 
 <Text entry 573>
-The king is most displeased. He shan't see you until you deliver the Bomb Ring to Mist Village.<End>
+The king is most displeased. He shan't see you until you deliver the Carnelian Signet to Mist Village.<End>
 <End of Block>
 
 <Text entry 574>
@@ -2522,11 +2523,13 @@ Beat it! Bring a tail back if you want my attention.<End>
 <End of Block>
 
 <Text entry 609>
-Th-This is the Rat Tail! Let's trade, alright? Received Adamant<Music 41><Delay 40><End>
+Th-This is the Mouse Tail! Let's trade, alright?<New>
+Received Adamantite<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 610>
-The legendary Pink Tail! Take this in return. Received Adamant<Music 41><Delay 40><End>
+The legendary Pink Tail! Take this in return.<New>
+Received Adamantite<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 611, pointer>
@@ -3193,7 +3196,8 @@ Hey, give me some time!<End>
 <End of Block>
 
 <Text entry 772>
-It's ready! The holy sword Excalibur! Received Excalbur<Music 41><Delay 40><End>
+It's ready! The holy sword Excalibur!<New>
+Received Excalibur<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 773>
@@ -3722,7 +3726,9 @@ Keep working.<End>
 <End of Block>
 
 <Text entry 900>
-Cute girls! Hey, I'll help you guys. T. Tokita joined the party <Music 41> <Delay 40> Please take me with you! <Music 2><End>
+Cute girls! Hey, I'll help you guys.<New>
+T. Tokita joined the party<Music 41><Delay 40><New>
+Please take me with you!<Music 2><End>
 <End of Block>
 
 <Text entry 901>
@@ -4035,7 +4041,7 @@ Asura: You have proven your worth. <Rydia>, summon me at will.<End>
 <End of Block>
 
 <Text entry 977>
-Indeed, your spirit is righteous. I, Leviatan, king of summons, shall serve you.<End>
+Indeed, your spirit is righteous. I, Leviathan, king of summons, shall serve you.<End>
 <End of Block>
 
 <Text entry 978>
@@ -4167,7 +4173,8 @@ Sylph: No! We'll fight for you instead.<End>
 <Text entry 1007>
 <Yang>: ?<New>
 Sylph: She's a summoner, right? Please call upon us anytime.<New>
-<Rydia>: Thank you. <Rydia> learned Sylph<Music 41><Delay 40><End>
+<Rydia>: Thank you.<New>
+<Rydia> learned Sylph<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 1008>
@@ -4479,7 +4486,7 @@ T<End>
 <End of Block>
 
 <Text entry 1085, pointer>
-Received HolyLnce<Music 41><Delay 40><End>
+Received Holy Lance<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 1086, pointer>

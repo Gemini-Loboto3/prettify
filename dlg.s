@@ -1,4 +1,4 @@
-define dlg_read_ptr	$3D
+define dlg_read_ptr	$72
 
 Fld_ptr_bank1_0:
 	sta $43			// index * 3
@@ -44,7 +44,7 @@ Fld_ptr_bank3:
 //org $00B45B
 Fld_tmap_dialog:
 // macros
-define .write_ptr	$E9
+define .write_ptr	$74
 define .buffer		$774
 // code
 .loop:

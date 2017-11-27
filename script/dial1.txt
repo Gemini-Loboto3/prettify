@@ -225,7 +225,7 @@ King: Silence! Dissension only leads to treason, and that, I will not tolerate. 
 <End of Block>
 
 <Text entry 51>
-King: Now, I charge you with another duty. Slay the phantom beast that infests the Mist Valley, and deliver this Bomb Ring to the village Mist. You leave tomorrow, at first light.<End>
+King: Now, I charge you with another duty. Slay the phantom beast that infests the Mist Valley, and deliver this Carnelian Signet to the village Mist. You leave tomorrow, at first light.<End>
 <End of Block>
 
 <Text entry 52>
@@ -337,18 +337,19 @@ Guard: Yes, sir!<End>
 <End of Block>
 
 <Text entry 74>
-<Yang>: <Cecil>! What just happened? After Leviatan attacked us...I cannot remember anything.<New>
+<Yang>: <Cecil>! What just happened? After Leviathan attacked us...I cannot remember anything.<New>
 <Tella>: Obviously, you suffered a slight case of amnesia and were being used by Baron.<End>
 <End of Block>
 
 <Text entry 75>
-<Yang>: <Rydia> was swallowed by Leviatan. I don't know what happened to <Gilbart>.<New>
+<Yang>: <Rydia> was swallowed by Leviathan. I don't know what happened to <Gilbart>.<New>
 <Cecil>: I see.<End>
 <End of Block>
 
 <Text entry 76>
 <Yang>: Where are we?<New>
-<Cecil>: Baron. Let's get a room to discuss everything. High Monk <Yang> joined the party <Music 41><Delay 40><End>
+<Cecil>: Baron. Let's get a room to discuss everything.<New>
+High Monk <Yang> joined the party <Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 77>
@@ -365,7 +366,8 @@ Guard: Yes, sir!<End>
 <End of Block>
 
 <Text entry 79>
-<Cecil>: This is the Baron Key! Of course! They must've given it to you when they gave you command of those guards. With this key, I believe we'll be able to find <Cid>. Received BaronKey<Music 41><Delay 40><End>
+<Cecil>: This is the Baron Key! Of course! They must've given it to you when they gave you command of those guards. With this key, I believe we'll be able to find <Cid>.<New>
+Received BaronKey<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 80>
@@ -492,11 +494,12 @@ Girl: You promise?<New>
 
 <Text entry 102>
 Girl: ...I'm <Rydia>.<New>
-<Cecil>: <Rydia>... Summoner <Rydia> joined the party<End>
+<Cecil>: <Rydia>...<New>
+Summoner <Rydia> joined the party<End>
 <End of Block>
 
 <Text entry 103>
-Exposed <Rosa> to Sand Ruby light<End>
+Exposed <Rosa> to Sand Pearl light<End>
 <End of Block>
 
 <Text entry 104>
@@ -506,14 +509,15 @@ Exposed <Rosa> to Sand Ruby light<End>
 <Text entry 105>
 <Rosa>: <Cecil>. You're alive!<New>
 <Cecil>: How do you feel?<New>
-<Rosa>: I'm fine. I thought<Music 19> I had lost you. Weren't you in Mist when the earthquake struck?<New>
+<Rosa>: I'm fine. I thought...<Music 19><New>
+I had lost you. Weren't you in Mist when the earthquake struck?<New>
 <Cecil>: Yeah. I'm sorry I worried you... <Rosa>, who is <Golbeza>?<New>
 <Rosa>: He's the new captain of the Red Wings, appointed by the king himself. The king has not been himself lately. I believe <Golbeza> is manipulating him to collect the Crystals for himself. With Mysidia's Water Crystal in hand, he'll surely go after the other three-- the Fire Crystal of Damcyan, the Wind Crystal of Fabul, and the Earth Crystal of Troia.<End>
 <End of Block>
 
 <Text entry 106>
 <Gilbart>: The Fire Crystal has already fallen into his hands.<New>
-<Cecil>: <Gilbart> is the prince of Damcyan. And <Rydia> is a summoner of Mist. I couldn't have gotten the Sand Ruby to cure your fever without their help.<New>
+<Cecil>: <Gilbart> is the prince of Damcyan. And <Rydia> is a summoner of Mist. I couldn't have gotten the Sand Pearl to cure your fever without their help.<New>
 <Rydia>: Hi.<New>
 <Rosa>: Hello, <Rydia>. Thank you both so much. <Cecil>, after Damcyan, their next target must be Fabul. We must--ugh!<End>
 <End of Block>
@@ -565,7 +569,7 @@ Exposed <Rosa> to Sand Ruby light<End>
 <Text entry 116>
 <Tella>: What business have you in Damcyan?<New>
 <Cecil>: A friend of mine suffers from desert fever.<New>
-<Tella>: You need the Sand Ruby. Acquiring it won't be easy.<New>
+<Tella>: You need the Sand Pearl. Acquiring it won't be easy.<New>
 <Cecil>: Tell me more about this monster we must face.<New>
 <Tella>: A vicious creature with eight huge tentacles. We must kill it quickly and reach Damcyan before it's too late.<New>
 <Cecil>: Too late for what?<New>
@@ -901,8 +905,8 @@ Scarmiglione: I shall return with his head shortly.<End>
 <End of Block>
 
 <Text entry 186>
-<Tella>: What brings you here? Wait, you seek Meteo as well?<New>
-<Porom>: Meteo!?<New>
+<Tella>: What brings you here? Wait, you seek Meteor as well?<New>
+<Porom>: Meteor!?<New>
 <Palom>: Hey! You're <Tella>, right!?<End>
 <End of Block>
 
@@ -926,7 +930,7 @@ Scarmiglione: I shall return with his head shortly.<End>
 
 <Text entry 191>
 <Tella>: What noisy brats... <Cecil>, where are <Rydia> and <Gilbart>?<New>
-<Cecil>: We were attacked by Leviatan on our way to Baron, and...<New>
+<Cecil>: We were attacked by Leviathan on our way to Baron, and...<New>
 <Tella>: What!? Are they dead?<New>
 <Cecil>: ...I'm afraid so. And <Rosa> was captured by <Golbeza>.<End>
 <End of Block>
@@ -941,7 +945,7 @@ Scarmiglione: I shall return with his head shortly.<End>
 <End of Block>
 
 <Text entry 194>
-<Tella>: Against the likes of <Golbeza>, my spells still lack power. So I've traveled here to seek the legendary spell, Meteo. I sense a strong aura on this mountain. I believe it holds some secret.<New>
+<Tella>: Against the likes of <Golbeza>, my spells still lack power. So I've traveled here to seek the legendary spell, Meteor. I sense a strong aura on this mountain. I believe it holds some secret.<New>
 <Porom>: But that spell is much too dangerous! It requires tremendous vitality, and for a man of your age... Forgive me.<New>
 <Tella>: I admit, I am old. But I will make <Golbeza> pay, even if it costs my life!<End>
 <End of Block>
@@ -1138,7 +1142,8 @@ melody back when I traveled as a minstrel. I learned it was a song to remonstrat
 <Tella>: Wretch! Show yourself!<New>
 <Golbeza>: <Rosa> stands beside me at the top of this tower. Bring the Crystal here, and we will make the trade.<New>
 <Cecil>: She had better be safe.<New>
-<Golbeza>: You had best hurry... <Music 25> ...before she ends up dead.<End>
+<Golbeza>: You had best hurry...<Music 25>
+<New>...before she ends up dead.<End>
 <End of Block>
 
 <Text entry 233>
@@ -1178,7 +1183,7 @@ Handed over the Earth Crystal<New>
 <End of Block>
 
 <Text entry 239>
-<Golbeza>: Ugh... How could he know Meteo...?<New>
+<Golbeza>: Ugh... How could he know Meteor...?<New>
 <Cecil>: <Tella>!<End>
 <End of Block>
 
@@ -1188,7 +1193,7 @@ Handed over the Earth Crystal<New>
 
 <Text entry 241>
 <Cain>: ...<New>
-<Golbeza>: The Meteo broke my spell over him. So be it; he no longer serves any purpose. Mark me, <Cecil>. Someday I will destroy you.<End>
+<Golbeza>: The Meteor broke my spell over him. So be it; he no longer serves any purpose. Mark me, <Cecil>. Someday I will destroy you.<End>
 <End of Block>
 
 <Text entry 242>
@@ -1211,7 +1216,7 @@ Handed over the Earth Crystal<New>
 <Text entry 245>
 <Yang>: <Cecil>.<New>
 <Cid>: Y'alright there?<New>
-<Cecil>: Yeah... Meteo must have weakened him. <Tella>!<End>
+<Cecil>: Yeah... Meteor must have weakened him. <Tella>!<End>
 <End of Block>
 
 <Text entry 246>
@@ -1251,7 +1256,7 @@ Handed over the Earth Crystal<New>
 
 <Text entry 253>
 <Rosa>: <Cain>!?<New>
-<Cecil>: He's okay now. <Tella>'s Meteo broke <Golbeza>'s spell.<New>
+<Cecil>: He's okay now. <Tella>'s Meteor broke <Golbeza>'s spell.<New>
 <Cain>: But I was still aware. Yet... <Rosa>...I wanted to keep you close at any cost!<End>
 <End of Block>
 
@@ -1291,7 +1296,7 @@ It seems Master <Golbeza> has underestimated you.<New>
 <Text entry 261>
 Barbariccia: You disappoint me, <Cain>. Submitting to a weak imbecile, despite all your powers.<New>
 <Cain>: I've simply come to my senses. I've grown sick of siding with freaks like you!<New>
-Barbariccia: You snotty little wretch. I'll enjoy killing you all. With the old man and his Meteo gone, you have no chance.<New>
+Barbariccia: You snotty little wretch. I'll enjoy killing you all. With the old man and his Meteor gone, you have no chance.<New>
 <Cain>: You forget. Fighting in the air is my specialty, too.<End>
 <End of Block>
 
@@ -1338,7 +1343,7 @@ Barbariccia: It's not over... The last Devil of Elements still remains! Regardle
 <End of Block>
 
 <Text entry 268>
-Received Magma<New>
+Received Magma Stone<New>
 <Cain>: You're supposed to use it somewhere to open the path to the underworld.<New>
 <Yang>: Where, exactly?<New>
 <Cain>: I wish I knew.<End>
@@ -1410,14 +1415,15 @@ Guess who? Calbrinas! We're cute! And we're scary! Love to kill! Let's take thei
 <Text entry 281>
 <Rosa>: <Rydia>...!<New>
 <Cecil>: What happened to you?<New>
-<Rydia>: Leviatan took me to the Land of Summons. A world where all the summoned monsters live. We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner. Time flows differently there, so maybe I've aged faster.<New>
+<Rydia>: Leviathan took me to the Land of Summons. A world where all the summoned monsters live. We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner. Time flows differently there, so maybe I've aged faster.<New>
 <Rosa>: That explains why you look all grown up.<New>
 <Cain>: <Cecil>, who is she?<New>
 <Cecil>: The girl we found in Mist.<New>
 <Yang>: Fortune favors us indeed.<New>
 <Cecil>: <Rydia>, we owe you our lives. Thank you.<New>
 <Rydia>: You don't have to thank me. The queen of the Land of Summons<New>
-told me: A great force is secretly at work. We must confront it together. Summoner <Rydia> joined the party <Music 41><Delay 40><End>
+told me: A great force is secretly at work. We must confront it together.<New>
+Summoner <Rydia> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 282>
@@ -1434,7 +1440,8 @@ Have the clerics granted you permission to enter?<End>
 
 <Text entry 285>
 <Edge>: Alright, let's bust in there!<New>
-<Rydia>: Gee, I don't know about him... Ninja <Edge> joined the party<Music 41><Delay 40><End>
+<Rydia>: Gee, I don't know about him...<New>
+Ninja <Edge> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 286>
@@ -1559,7 +1566,8 @@ Queen: TO HELL!<Music 31><New>
 
 <Text entry 308>
 Sylph: You are indeed brave and compassionate like our friend <Yang>. Please summon us during your trials. We wish to fight with you.<New>
-<Rydia>: Thank you! <Rydia> learned Sylph<Music 41><Delay 40><End>
+<Rydia>: Thank you!<New>
+<Rydia> learned Sylph<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 309>
@@ -1576,7 +1584,9 @@ Rubicante: Lugae... How dare he...?<End>
 Rubicante: It was Lugae who turned your parents into monsters. I am sorry for your loss. Know that my only wish is to fight fair.<New>
 <Edge>: To hell with your self-righteous crap!<New>
 Rubicante: I admire your spirit. But anger never bears true strength, and it blinds you.<New>
-<Edge>: Shut up! I'll show you the power<Music 11> of anger! Anger evoked <Edge>'s dormant powers <Edge> learned Flood and Blitz<New>
+<Edge>: Shut up! I'll show you the power of anger!<Music 11><New>
+Anger evoked <Edge>'s dormant powers<New>
+<Edge> learned Flood and Blitz<New>
 Rubicante: Well, this is interesting. Still, nothing can penetrate my Cloak of Flame, not even ice.<End>
 <End of Block>
 
@@ -1710,7 +1720,7 @@ Elder: This battle is not yours alone! Everyone must fight for the sake of survi
 <End of Block>
 
 <Text entry 336>
-<Rydia>: I passed here when I left the Land of Summons. Maybe we should go ask Leviatan for help.<End>
+<Rydia>: I passed here when I left the Land of Summons. Maybe we should go ask Leviathan for help.<End>
 <End of Block>
 
 <Text entry 337>
@@ -1734,7 +1744,8 @@ You are the first to defeat Asura. But you cannot overcome evil with strength al
 <End of Block>
 
 <Text entry 341>
-<Cecil>: Ugh. The Dark Crystal was seized<Music 31><Delay 29><End>
+<Cecil>: Ugh.<New>
+The Dark Crystal was seized<Music 31><Delay 29><End>
 <End of Block>
 
 <Text entry 342>
@@ -1759,7 +1770,8 @@ Elder: Ohh... Look! Our prayers... They were answered!<End>
 <End of Block>
 
 <Text entry 346>
-Elder: There is no doubt. The glorious ship... The Lunar Whale!<Music 14><End>
+Elder: There is no doubt. The glorious ship...<New>
+The Lunar Whale!<Music 14><End>
 <End of Block>
 
 <Text entry 347>
@@ -1853,12 +1865,12 @@ Giott: <Golbeza> is persistent. Trying to open the Sealed Cave. A matter of time
 <End of Block>
 
 <Text entry 364>
-<Palom>: And guess what? The old man learned Meteo.<New>
-Elder: What!? Meteo, the legendary spell, unsealed? What is happening to this world...?<New>
+<Palom>: And guess what? The old man learned Meteor.<New>
+Elder: What!? Meteor, the legendary spell, unsealed? What is happening to this world...?<New>
 <Tella>: I couldn't care less as long as I avenge <Anna>!<New>
 Elder: Your daughter <Anna>?<New>
-<Tella>: <Golbeza> took her life. I swear I'll crush him with my Meteo!<New>
-Elder: <Tella>, you should not fight with hatred. Besides, you are in no condition to use Meteo.<New>
+<Tella>: <Golbeza> took her life. I swear I'll crush him with my Meteor!<New>
+Elder: <Tella>, you should not fight with hatred. Besides, you are in no condition to use Meteor.<New>
 <Tella>: If I die, so be it! I will kill <Golbeza> at any cost!<New>
 Elder: ...Still stubborn as a mule, I see.<New>
 <Tella>: And you still have a big mouth!<New>
@@ -1986,7 +1998,7 @@ Baigan: <Golbeza>'s wishes are Baron's wishes. He granted a wonderful power to m
 <End of Block>
 
 <Text entry 384>
-You have won Leviatan over. That still proves nothing. I, Bahamut, god of summons, shall decree the final judgment!<End>
+You have won Leviathan over. That still proves nothing. I, Bahamut, god of summons, shall decree the final judgment!<End>
 <End of Block>
 
 <Text entry 385>
@@ -2002,7 +2014,8 @@ Baigan: Never! As captain of the Royal Guard, my loyalty lies with Baron.<New>
 <Cecil>: Where is <Cid>? I heard he was confined somewhere in the castle.<New>
 Baigan: I, too, have attempted to find him, but my men and I were ambushed. Now, I remain the sole survivor.<New>
 <Cecil>: Then let us find him together.<New>
-Baigan: It would be an honor to join you. Captain Baigan of the Royal Guard joined the party <Music 41><Delay 40><End>
+Baigan: It would be an honor to join you.<New>
+Captain Baigan of the Royal Guard joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 387>
@@ -2028,7 +2041,7 @@ Elder: The entrance to the Devil's Road lies on the east side of town. <Palom>, 
 
 <Text entry 392>
 <Rydia>: AAAH!<New>
-<Gilbart>: It's okay. Antlions are quite tame. They don't attack people. Here, I'll demonstrate by getting the Sand Ruby.<End>
+<Gilbart>: It's okay. Antlions are quite tame. They don't attack people. Here, I'll demonstrate by getting the Sand Pearl.<End>
 <End of Block>
 
 <Text entry 393>
@@ -2037,7 +2050,7 @@ Elder: The entrance to the Devil's Road lies on the east side of town. <Palom>, 
 <End of Block>
 
 <Text entry 394>
-Received SandRuby<Music 41><Delay 40><End>
+Received Sand Pearl<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 395>
@@ -2059,14 +2072,16 @@ Crew: So many monsters these days... Where the heck are they coming from?<New>
 
 <Text entry 398>
 KNIGHTS OF BARON.<New>
-<Cain>: Who are you!?<Music 45> LEAVE NOW, AND NO HARM WILL BEFALL YOU.<New>
+<Cain>: Who are you!?<Music 45><New>
+LEAVE NOW, AND NO HARM WILL BEFALL YOU.<New>
 <Cain>: Confident bastard, aren't you? YOU REFUSE?<End>
 <End of Block>
 
 <Text entry 399>
 <Gilbart>: <Cecil>...<Rosa> only wishes to be with you.<New>
 <Cecil>: ...Alright. We'll go together. Make sure you get a lot of rest tonight.<New>
-<Rosa>: <Cecil>... Thank you. White Mage <Rosa> joined the party<End>
+<Rosa>: <Cecil>... Thank you.<New>
+White Mage <Rosa> joined the party<End>
 <End of Block>
 
 <Text entry 400>
@@ -2155,7 +2170,7 @@ Sailor: Is that really...<End>
 <End of Block>
 
 <Text entry 419>
-Cap'n: Leviatan!<End>
+Cap'n: Leviathan!<End>
 <End of Block>
 
 <Text entry 420>
@@ -2212,7 +2227,8 @@ Hey! Watch this!<End>
 <End of Block>
 
 <Text entry 432>
-<Tella>: So, you've come here to become a paladin? Then, this mountain must hold some secret, just as I suspected. I shall accompany you. Sage <Tella> joined the party<Music 41><Delay 40><End>
+<Tella>: So, you've come here to become a paladin? Then, this mountain must hold some secret, just as I suspected. I shall accompany you.<New>
+Sage <Tella> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 433>
@@ -2234,7 +2250,8 @@ My son...<New>
 <End of Block>
 
 <Text entry 437>
-<Tella>: !? Me... Meteo? That light! Somehow it broke the seal upon Meteo! <Tella> learned Meteo<Music 41><Delay 40><End>
+<Tella>: !? Me... Meteor? That light! Somehow it broke the seal upon Meteor!<New>
+<Tella> learned Meteor<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 438>
@@ -2259,7 +2276,7 @@ Crew: It isn't right. The Red Wings are supposed to protect people. We should ne
 <End of Block>
 
 <Text entry 443>
-Received Earth<Music 41><Delay 40><End>
+Received Earth Crystal<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 444>
@@ -2279,7 +2296,7 @@ a trade: Troia's Crystal for <Rosa>'s return. But the Crystal lies in the hands 
 <End of Block>
 
 <Text entry 447>
-Received TwinHarp<End>
+Received Whisperweed<End>
 <End of Block>
 
 <Text entry 448>
@@ -2422,7 +2439,7 @@ Giott: We can help fix.<New>
 <End of Block>
 
 <Text entry 468>
-Received Dark<Music 41><Delay 36><End>
+Received Dark Crystal<Music 41><Delay 36><End>
 <End of Block>
 
 <Text entry 469>
@@ -2516,11 +2533,11 @@ Elder: Forgive me. I assigned them to spy on you. As it turned out, there was no
 <End of Block>
 
 <Text entry 485>
-<Rydia> learned Asura <Music 41><Delay 40><End>
+<Rydia> learned Asura<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 486>
-<Rydia> learned Leviatan <Music 41><Delay 40><End>
+<Rydia> learned Leviathan<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 487>
@@ -2544,7 +2561,8 @@ Elder: Unbelievable! You've succeeded!<End>
 <Text entry 491>
 <Gilbart>: Let's get going.<New>
 <Cecil>: Thank you.<New>
-<Gilbart>: Oh, and please don't call me a "king." Prince <Gilbart> joined the party<Music 41><Delay 40><End>
+<Gilbart>: Oh, and please don't call me a "king."<New>
+Prince <Gilbart> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 492>
@@ -2606,7 +2624,7 @@ Gramps: Your Highness!<Delay 16><End>
 <End of Block>
 
 <Text entry 505>
-Received Necklace<End>
+Received Luca's Necklace<End>
 <End of Block>
 
 <Text entry 506>

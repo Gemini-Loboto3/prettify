@@ -297,7 +297,7 @@ Elder: Knight of Baron... What do you want this time?<New>
 Elder: Apologies will not bring the dead back to life.<New>
 <Cecil>: ...<New>
 Elder: So...you have mourned and suffered as we have... You are not the mindless killer you once were. What brings you here?<New>
-<Cecil>: A sorcerer named <Golbeza> now commands Baron's forces, and took my friend captive. While en route to Baron to rescue her, my companions and I were attacked by Leviatan. I was shipwrecked here, and I don't know what's become of the others.<New>
+<Cecil>: A sorcerer named <Golbeza> now commands Baron's forces, and took my friend captive. While en route to Baron to rescue her, my companions and I were attacked by Leviathan. I was shipwrecked here, and I don't know what's become of the others.<New>
 Elder: I sense your trials are just beginning. But while you depend upon the dark sword, you cannot overcome true evil. Moreover, you might be consumed by its darkness someday. If you wish to fight evil with righteousness, go to Mt. Ordeals, which lies to the east of Mysidia.<New>
 <Cecil>: But my comrades...<New>
 Elder: There is a time for everything. First, you must climb Mt. Ordeals and renounce this evil sword for a holy sword. Only then can you receive light and become a holy knight-- a paladin. Many have ventured to Ordeals to become a paladin, but none have ever returned. Will you risk your life as well and go to Ordeals?<New>
@@ -348,7 +348,8 @@ Apprentices: Aye, aye!<End>
 <End of Block>
 
 <Text entry 65>
-<Fusuya>: I can neutralize the barrier. Come, we have little time. Lunarian <Fusuya> joined the party<Music 41><Delay 40><End>
+<Fusuya>: I can neutralize the barrier. Come, we have little time.<New>
+Lunarian <Fusuya> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 66>
@@ -416,7 +417,8 @@ Wait!<End>
 <End of Block>
 
 <Text entry 79>
-<Cecil>: ... Goodbye. ...Brother.<End>
+<Cecil>: ... Goodbye.<New>
+...Brother.<End>
 <End of Block>
 
 <Text entry 80>
@@ -470,8 +472,9 @@ Gramps: Please stop with those lazy answers!<Delay 32><End>
 <End of Block>
 
 <Text entry 91>
-Leviatan: She has boundless potential.<New>
-Asura: Yes. I never imagined she would return.<Delay 48> <Rydia>!<Delay 16><End>
+Leviathan: She has boundless potential.<New>
+Asura: Yes. I never imagined she would return.<Delay 48><New>
+<Rydia>!<Delay 16><End>
 <End of Block>
 
 <Text entry 92>
@@ -488,7 +491,7 @@ Summon Kid: I was wondering: why do I have fangs? I don't want fangs. I wish I w
 
 <Text entry 95>
 Asura: She brings new life to our land.<New>
-Leviatan: And beauty.<Delay 48><End>
+Leviathan: And beauty.<Delay 48><End>
 <End of Block>
 
 <Text entry 96>
@@ -500,7 +503,7 @@ Hey, Prince!<Delay 16><End>
 <End of Block>
 
 <Text entry 98>
-Play us the paladin song! <Delay 16><New>
+Play us the paladin song!<Delay 16><New>
 <Gilbart>: Alright. But first, we have to work. We need to rebuild the castle as soon as possible, right?<Delay 48><End>
 <End of Block>
 
@@ -509,7 +512,8 @@ Yeah, okay! See you later!<Delay 32><End>
 <End of Block>
 
 <Text entry 100>
-<Gilbart>: Watch over me; I'll bring happiness to my people.<Delay 64> Take care of <Tella>.<Delay 16><End>
+<Gilbart>: Watch over me; I'll bring happiness to my people.<Delay 64><New>
+Take care of <Tella>.<Delay 16><End>
 <End of Block>
 
 <Text entry 101>
@@ -518,7 +522,7 @@ Yeah, okay! See you later!<Delay 32><End>
 
 <Text entry 102>
 <Yang>: Stay calm. You are a queen now. And stop addressing me as "hon."<Delay 48><New>
-<Yang>'s Wife: All this formality crap's makin' my neck stiff.<New>
+<Yang>'s Wife: All this formality crap's makin' my neck stiff.<Delay 48><New>
 <Yang>: Oh, I must go.<Delay 64><End>
 <End of Block>
 
@@ -547,9 +551,9 @@ Luca: Father, have you heard from <Cecil>?<Delay 24><End>
 <End of Block>
 
 <Text entry 109>
-Giott: Good news. <Cecil> and <Rosa> will rule Baron, as king and queen.<New>
-Luca: Really!<Delay 64><New>
-Giott: We are going to the coronation.<New>
+Giott: Good news. <Cecil> and <Rosa> will rule Baron, as king and queen.<Delay 32><New>
+Luca: Really!<Delay 32><New>
+Giott: We are going to the coronation.<Delay 32><New>
 Luca: Yay!<Delay 48><End>
 <End of Block>
 
@@ -562,7 +566,9 @@ Giott: Scrap the swords and armor!<Delay 16><End>
 <End of Block>
 
 <Text entry 112>
-<Cain>: <Cecil>... <Rosa>... <Delay 32> Forgive me. I can't give you my blessing. I will train here at Ordeals to surpass my father and<Delay 64> return someday as a worthy dragoon. Maybe then...<Delay 32><End>
+<Cain>: <Cecil>... <Rosa>... <Delay 32><New>
+Forgive me. I can't give you my blessing. I will train here at Ordeals to surpass my father and...<Delay 64><New>
+return someday as a worthy dragoon. Maybe then...<Delay 32><End>
 <End of Block>
 
 <Text entry 113>
@@ -583,7 +589,7 @@ Oh my gosh! The moon!<Delay 24><End>
 
 <Text entry 117>
 <Rosa>: What's wrong?<Delay 16><New>
-<Cecil>: Nothing... I thought I heard my brother. <Delay 48><New>
+<Cecil>: Nothing... I thought I heard my brother.<Delay 48><New>
 <Rosa>: What did he say?<Delay 16><End>
 <End of Block>
 
@@ -601,7 +607,8 @@ Received Crystal<End>
 <End of Block>
 
 <Text entry 121>
-<Cid>: Save the hanky-panky 'til after the ceremony! Come on, <Rosa>! <Delay 48> Wait, do I have to call you Queen from now on?<Delay 16><End>
+<Cid>: Save the hanky-panky 'til after the ceremony! Come on, <Rosa>!<Delay 48><New>
+Wait, do I have to call you Queen from now on?<Delay 16><End>
 <End of Block>
 
 <Text entry 122>
@@ -609,7 +616,8 @@ Received Crystal<End>
 <End of Block>
 
 <Text entry 123>
-<Cid>: So I'm still your daddy, right? Well, I can't give the bride away until<Delay 48> she puts on some makeup. The maids are waitin' for ya.<New>
+<Cid>: So I'm still your daddy, right? Well, I can't give the bride away until...<Delay 48><New>
+she puts on some makeup. The maids are waitin' for ya.<Delay 32><New>
 <Rosa>: I'll be right down.<Delay 32><End>
 <End of Block>
 
@@ -618,12 +626,14 @@ Received Crystal<End>
 <End of Block>
 
 <Text entry 125>
-<Rosa>: Everyone will be here soon. I can't wait to see them.<New>
+<Rosa>: Everyone will be here soon. I can't wait to see them.<Delay 48><New>
 <Cecil>: Yeah.<Delay 48><End>
 <End of Block>
 
 <Text entry 126>
-<Cecil>: I did hear him... <Delay 16> He said... <Delay 16> Goodbye...<Delay 16><End>
+<Cecil>: I did hear him... <Delay 16><New>
+He said... <Delay 16><New>
+Goodbye...<Delay 16><End>
 <End of Block>
 
 <Text entry 127>
@@ -643,7 +653,7 @@ Zeromus, the absolute darkness, the epitome of hate.<Music 11><End>
 <End of Block>
 
 <Text entry 131>
-<Golbeza>: Zemus...or should I say Zeromus. I shall destroy you once and for all!<End>
+<Golbeza>: Zemus... or should I say Zeromus. I shall destroy you once and for all!<End>
 <End of Block>
 
 <Text entry 132>
@@ -754,7 +764,8 @@ King: Do not grieve. Through death, I have attained eternal power. That summoner
 
 <Text entry 157>
 King: You have come of age. The world's fate lies in your hands, and I shall fight at your side as Odin.<New>
-<Cecil>: Your Majesty! <Rydia> learned Odin<Music 41><Delay 40><End>
+<Cecil>: Your Majesty!<New>
+<Rydia> learned Odin<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 158>
