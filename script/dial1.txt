@@ -1,0 +1,2643 @@
+﻿<512 text entries>
+<Text entry 1>
+Inventory full<End>
+<End of Block>
+
+<Text entry 2>
+Found <Item><End>
+<End of Block>
+
+<Text entry 3>
+Found <Value> Gil<End>
+<End of Block>
+
+<Text entry 4>
+Monsters!<End>
+<End of Block>
+
+<Text entry 5>
+Empty<End>
+<End of Block>
+
+<Text entry 6>
+Locked<End>
+<End of Block>
+
+<Text entry 7>
+Unlocked the door<End>
+<End of Block>
+
+<Text entry 8>
+Good night.<Delay 5><End>
+<End of Block>
+
+<Text entry 9>
+All set!<End>
+<End of Block>
+
+<Text entry 10>
+HP restored and status effects removed<End>
+<End of Block>
+
+<Text entry 11>
+HP and MP restored<End>
+<End of Block>
+
+<Text entry 12>
+Chocobo, giddyup!<End>
+<End of Block>
+
+<Text entry 13>
+<Cecil>: <Golbeza>, <Fusuya>!<End>
+<End of Block>
+
+<Text entry 14>
+Black chocobo, giddyup!<End>
+<End of Block>
+
+<Text entry 15>
+<Cecil>: ?<New>
+<Rosa>: Dolls?<End>
+<End of Block>
+
+<Text entry 16>
+I smell chocobo in the air.<End>
+<End of Block>
+
+<Text entry 17>
+White Chocobo, gotcha!<End>
+<End of Block>
+
+<Text entry 18>
+Enter Fat Chocobo!<End>
+<End of Block>
+
+<Text entry 19>
+<Tella>: <Anna>!<New>
+<Anna>: Father, <Gilbart> is... the prince of Damcyan. Forgive me, Father, for running away... but I love <Gilbart>. Still, I knew I couldn't find happiness...without your consent. I was going to come home, but...<New>
+<Gilbart>: Baron's Red Wings, led by <Golbeza>, blitzed us.<New>
+<Cecil>: I've never heard of <Golbeza>. Who is he?<New>
+<Gilbart>: I don't know. His powers were beyond words.<New>
+<Cecil>: But why did they attack Damcyan?<New>
+<Gilbart>: They wanted the Crystal, and they spared no one to get it. My mother, my father... <Anna> shielded me from their arrows...<End>
+<End of Block>
+
+<Text entry 20>
+AAAH!<End>
+<End of Block>
+
+<Text entry 21>
+Nothing happened<End>
+<End of Block>
+
+<Text entry 22>
+MP restored<End>
+<End of Block>
+
+<Text entry 23>
+Found <Item><End>
+<End of Block>
+
+<Text entry 24>
+Found <Value> Gil<End>
+<End of Block>
+
+<Text entry 25>
+Sealed by an invisible force.<End>
+<End of Block>
+
+<Text entry 26>
+Not enough Gil!<End>
+<End of Block>
+
+<Text entry 27>
+It's <Value> Gil per night. Will you be staying?<End>
+<End of Block>
+
+<Text entry 28>
+Please come again.<End>
+<End of Block>
+
+<Text entry 29>
+<Cecil>: What the--<End>
+<End of Block>
+
+<Text entry 30>
+We were too negligent.<End>
+<End of Block>
+
+<Text entry 31>
+...<End>
+<End of Block>
+
+<Text entry 32>
+Crew: Captain, we will arrive at Baron shortly.<New>
+<Cecil>: ...Alright.<End>
+<End of Block>
+
+<Text entry 33>
+Crew: The captain seems kinda down.<New>
+Crew: After what we did, who wouldn't be? I mean orders are orders, but killing innocent people to get the Crystals...?<End>
+<End of Block>
+
+<Text entry 34>
+Crew: But, Captain!<New>
+Crew: Surely you don't condone what we've done, Captain?<New>
+<Cecil>: All of you, listen well. The raid on Mysidia was imperative. His Majesty and his council concluded that the Mysidians, who know much about the Crystals, posed a serious threat to our kingdom. For Baron to prosper, we need the Crystals. As soldiers of the Royal Air Force, we must achieve this by any means necessary.<New>
+Crew: Captain!<End>
+<End of Block>
+
+<Text entry 35>
+Crew: Monsters incoming!<End>
+<End of Block>
+
+<Text entry 36>
+Crew: Ugh!<New>
+<Cecil>: Are you alright!?<New>
+Crew: More incoming!<New>
+<Cecil>: Dammit!<End>
+<End of Block>
+
+<Text entry 37>
+This is my realm... The Zemus Zone. Perish in the darkness...<End>
+<End of Block>
+
+<Text entry 38>
+Crew: Captain, we are now over Baron.<New>
+<Cecil>: Prepare for landing.<End>
+<End of Block>
+
+<Text entry 39>
+Baigan: Ah, the Crystal is now ours, yes?<New>
+<Cecil>: The Mysidians put up no resistance. They were so helpless...<New>
+Baigan: You pity them? Hmph. Come, Captain. His Majesty awaits.<End>
+<End of Block>
+
+<Text entry 40>
+D<End>
+<End of Block>
+
+<Text entry 41>
+Baigan: Forgive me, Captain, but I must speak to His Majesty in private. Please wait here.<End>
+<End of Block>
+
+<Text entry 42>
+Baigan: Your Majesty, I'm afraid <Cecil> can no longer be trusted. He clearly questions your authority.<New>
+King: I suspected as much. It matters not, so long as I get the Crystals. Send him in.<New>
+Baigan: Yes, Your Majesty.<End>
+<End of Block>
+
+<Text entry 43>
+Baigan: Captain. His Majesty summons you.<End>
+<End of Block>
+
+<Text entry 44>
+King: Baron hails your return. The Crystal, <Cecil>.<New>
+<Cecil>: Yes, Your Majesty.<End>
+<End of Block>
+
+<Text entry 45>
+Handed over the Water Crystal<End>
+<End of Block>
+
+<Text entry 46>
+King: So this is the Crystal. What splendor... Dismissed, <Cecil>.<End>
+<End of Block>
+
+<Text entry 47>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 48>
+<Cecil>: Your Majesty!<End>
+<End of Block>
+
+<Text entry 49>
+King: !?<New>
+Baigan: Why, Captain. What is it?<End>
+<End of Block>
+
+<Text entry 50>
+<Cecil>: Your Majesty, forgive me, but what do you intend? The men are confused-- some, even displeased.<New>
+King: And you? You question my command?<New>
+<Cecil>: No! I only--<New>
+King: Silence! Dissension only leads to treason, and that, I will not tolerate. I hereby relieve you of command of the Red Wings.<End>
+<End of Block>
+
+<Text entry 51>
+King: Now, I charge you with another duty. Slay the phantom beast that infests the Mist Valley, and deliver this Bomb Ring to the village Mist. You leave tomorrow, at first light.<End>
+<End of Block>
+
+<Text entry 52>
+<Cain>: Your Majesty, I beg you to reconsider.<End>
+<End of Block>
+
+<Text entry 53>
+<Cain>: <Cecil> has done no wrong.<End>
+<End of Block>
+
+<Text entry 54>
+King: You insolent cur! How dare you barge in here!? If you're so concerned about him, by all means, accompany him! Now, take the ring and begone!<End>
+<End of Block>
+
+<Text entry 55>
+<Cecil>: I'm sorry, <Cain>.<New>
+<Cain>: Don't worry. After we finish this task, you'll be flying again in no time.<New>
+<Cecil>: ...<New>
+<Cain>: Get some rest. Leave tomorrow's preparations to me.<End>
+<End of Block>
+
+<Text entry 56>
+<Cain>: What's wrong?<New>
+<Cecil>: Nothing...except that I dragged you into one hell of a mess.<New>
+<Cain>: Yeah, what else is new? Kidding.<New>
+<Cecil>: I mastered the dark sword at His Majesty's orders. But it was to protect Baron, not to plunder.<New>
+<Cain>: Don't get yourself down over this. I'm sure the king had his reasons.<New>
+<Cecil>: I envy you, <Cain>-- the path you chose.<New>
+<Cain>: I'm just following in my father's footsteps. I suppose I could've attained higher rank had I become a dark knight, but this suits me better.<New>
+<Cecil>: ...<New>
+<Cain>: Don't think too much, and get some rest already. We rise early tomorrow. Hey, 500 Gil says I slay that beast tomorrow.<New>
+<Cecil>: Alright, you're on.<End>
+<End of Block>
+
+<Text entry 57>
+<Rosa>: <Cecil>!<End>
+<End of Block>
+
+<Text entry 58>
+<Rosa>: Thank goodness you're alright. I was so worried. You and your men left on such short notice.<New>
+<Cecil>: We're okay... I wish I could say the same for the Mysidians...<End>
+<End of Block>
+
+<Text entry 59>
+<Rosa>: I'll visit you later, okay?<New>
+<Cecil>: Alright...<End>
+<End of Block>
+
+<Text entry 60>
+<Cecil>: What's happened to the king? He covets the Crystals as though he's possessed... and he'll resort to any means to get them. Nevertheless, I can't defy him. How could I cross the man who raised <Cain> and me like his very own? The chivalrous knight whom I've adored and admired since childhood? I will not betray him. I can't.<End>
+<End of Block>
+
+<Text entry 61>
+<Rosa>: What's going on? You just returned from Mysidia, and now you must leave again to battle this phantom beast.<New>
+<Cecil>: Don't worry.<End>
+<End of Block>
+
+<Text entry 62>
+<Rosa>: <Cecil>, look at me.<End>
+<End of Block>
+
+<Text entry 63>
+<Cecil>: In Mysidia, we killed innocent people to steal their... It was horrible. I guess it's my fate as a dark knight. Soon, I won't even feel any remorse for my actions.<End>
+<End of Block>
+
+<Text entry 64>
+<Rosa>: You and I both know that would never happen.<End>
+<End of Block>
+
+<Text entry 65>
+<Cecil>: Still, I can't defy the king... I'm a hopeless coward.<End>
+<End of Block>
+
+<Text entry 66>
+<Rosa>: The <Cecil> I know would never whimper like this! The <Cecil> I love...<End>
+<End of Block>
+
+<Text entry 67>
+<Rosa>: You leave for Mist early tomorrow, right?<End>
+<End of Block>
+
+<Text entry 68>
+<Cecil>: Don't worry. <Cain>'s coming, too.<End>
+<End of Block>
+
+<Text entry 69>
+<Cecil>: I'll be fine. Trust me.<End>
+<End of Block>
+
+<Text entry 70>
+<Rosa>: Please come back safe, okay?<End>
+<End of Block>
+
+<Text entry 71>
+<Cecil>: Thanks, <Rosa>...<End>
+<End of Block>
+
+<Text entry 72>
+<Cecil>: <Yang>!<New>
+<Yang>: ?<New>
+<Cecil>: It's me, <Cecil>!<New>
+<Yang>: <Cecil>... Baron's knight turned traitor. Seize him!<New>
+Guard: Yes, sir!<End>
+<End of Block>
+
+<Text entry 73>
+<Cecil>: <Yang>! What's wrong!?<New>
+<Yang>: You insolent wretch!<End>
+<End of Block>
+
+<Text entry 74>
+<Yang>: <Cecil>! What just happened? After Leviatan attacked us...I cannot remember anything.<New>
+<Tella>: Obviously, you suffered a slight case of amnesia and were being used by Baron.<End>
+<End of Block>
+
+<Text entry 75>
+<Yang>: <Rydia> was swallowed by Leviatan. I don't know what happened to <Gilbart>.<New>
+<Cecil>: I see.<End>
+<End of Block>
+
+<Text entry 76>
+<Yang>: Where are we?<New>
+<Cecil>: Baron. Let's get a room to discuss everything. High Monk <Yang> joined the party <Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 77>
+<Cecil>: <Yang>, this is <Tella>. His daughter and <Gilbart>--<New>
+<Tella>: My daughter loved him enough to sacrifice her life for him.<New>
+<Yang>: I am sorry for your loss. I am <Yang>, of Fabul.<End>
+<End of Block>
+
+<Text entry 78>
+<Porom>: <Palom>! Apologize!<New>
+<Yang>: No, he is right. Forgive my actions.<New>
+<Cecil>: Well, first things first. We have to find <Cid>.<New>
+<Tella>: Sneaking into the castle won't be easy.<End>
+<End of Block>
+
+<Text entry 79>
+<Cecil>: This is the Baron Key! Of course! They must've given it to you when they gave you command of those guards. With this key, I believe we'll be able to find <Cid>. Received BaronKey<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 80>
+<Cecil>: The ring's glowing!<End>
+<End of Block>
+
+<Text entry 81>
+<Cain>: My god!<New>
+<Cecil>: ...This is it? This is why he sent us!?<New>
+<Cain>: The entire village in flames...<End>
+<End of Block>
+
+<Text entry 82>
+<Cecil>: WHY!!! Nooo! Mommy!<End>
+<End of Block>
+
+<Text entry 83>
+<Cecil>: !?<End>
+<End of Block>
+
+<Text entry 84>
+Girl: My mom's dragon died, so my mom also...<End>
+<End of Block>
+
+<Text entry 85>
+<Cecil>: What!?<New>
+<Cain>: People with the power to summon monsters-- the summoners... They really exist.<New>
+<Cecil>: Then...her mother died because we killed the dragon.<End>
+<End of Block>
+
+<Text entry 86>
+Girl: You killed my mom's dragon!!?<New>
+<Cecil>: We didn't know. I'm...I'm sorry.<End>
+<End of Block>
+
+<Text entry 87>
+<Cain>: So this is the king's wish...to annihilate every summoner in this village. ...I'm afraid we have to take care of her, too.<End>
+<End of Block>
+
+<Text entry 88>
+<Cecil>: WHAT!?<New>
+<Cain>: I know, but it's the king's orders.<New>
+<Cecil>: <Cain>! She's just a child!<New>
+<Cain>: You intend to defy the king?<New>
+<Cecil>: I refuse to continue this slaughter in the king's name!<End>
+<End of Block>
+
+<Text entry 89>
+<Cain>: Damn... I was afraid you'd say that. Well, I can't kill you, so I might as well join you.<New>
+<Cecil>: <Cain>.<New>
+<Cain>: I owe the king so much, but I can't disgrace the dragoons. Not on my life.<New>
+<Cecil>: I guess we're both traitors hereon.<New>
+<Cain>: Opposing the mightiest kingdom in the land... We'll need allies to survive. We have to rescue <Rosa> somehow, too.<New>
+<Cecil>: Thanks, <Cain>.<New>
+<Cain>: Save it. I'm not doing it for you.<New>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 90>
+<Cain>: We'd better get going. What should we do about that girl?<New>
+<Cecil>: We can't leave her.<End>
+<End of Block>
+
+<Text entry 91>
+<Cecil>: It's alright. We're not going to hurt you. Come with us, okay?<New>
+Girl: No!<End>
+<End of Block>
+
+<Text entry 92>
+<Cain>: Come on! We have to go now!<New>
+Girl: No! Stay away!!<End>
+<End of Block>
+
+<Text entry 93>
+<Cecil>: Wait!<End>
+<End of Block>
+
+<Text entry 94>
+Girl: I hate you!! You killed my mom!!<End>
+<End of Block>
+
+<Text entry 95>
+<Cecil>: She's safe. Thank goodness. !!<End>
+<End of Block>
+
+<Text entry 96>
+<Cecil>: I hope he's safe... I have to get her out of here.<End>
+<End of Block>
+
+<Text entry 97>
+<Cecil>: I have to find her a place to rest.<End>
+<End of Block>
+
+<Text entry 98>
+Welcome. Oh, is she hurt!? Take her inside! No charge, just go ahead!<New>
+<Cecil>: Thank you.<End>
+<End of Block>
+
+<Text entry 99>
+<Cecil>: Hey. Are you okay?<New>
+Girl: ...<New>
+<Cecil>: My name is <Cecil>. What's yours?<New>
+Girl: ...<New>
+<Cecil>: ...I'm sorry about your mom. I understand if you can't forgive me. Will you at least let me protect you?<New>
+Girl: ...<End>
+<End of Block>
+
+<Text entry 100>
+General: <Cecil>! Finally, I've found you.<New>
+Girl: !<New>
+<Cecil>: Wait! The king--<New>
+General: I am here on the king's orders. All summoners of Mist must be annihilated. Now hand over the girl.<New>
+Girl: !!<New>
+<Cecil>: No.<New>
+General: Kill him.<End>
+<End of Block>
+
+<Text entry 101>
+Girl: Are you okay?<New>
+<Cecil>: Yeah. Don't worry. I won't let anyone hurt you.<New>
+Girl: You promise?<New>
+<Cecil>: I promise.<End>
+<End of Block>
+
+<Text entry 102>
+Girl: ...I'm <Rydia>.<New>
+<Cecil>: <Rydia>... Summoner <Rydia> joined the party<End>
+<End of Block>
+
+<Text entry 103>
+Exposed <Rosa> to Sand Ruby light<End>
+<End of Block>
+
+<Text entry 104>
+<Rosa>: ...Oh.<End>
+<End of Block>
+
+<Text entry 105>
+<Rosa>: <Cecil>. You're alive!<New>
+<Cecil>: How do you feel?<New>
+<Rosa>: I'm fine. I thought<Music 19> I had lost you. Weren't you in Mist when the earthquake struck?<New>
+<Cecil>: Yeah. I'm sorry I worried you... <Rosa>, who is <Golbeza>?<New>
+<Rosa>: He's the new captain of the Red Wings, appointed by the king himself. The king has not been himself lately. I believe <Golbeza> is manipulating him to collect the Crystals for himself. With Mysidia's Water Crystal in hand, he'll surely go after the other three-- the Fire Crystal of Damcyan, the Wind Crystal of Fabul, and the Earth Crystal of Troia.<End>
+<End of Block>
+
+<Text entry 106>
+<Gilbart>: The Fire Crystal has already fallen into his hands.<New>
+<Cecil>: <Gilbart> is the prince of Damcyan. And <Rydia> is a summoner of Mist. I couldn't have gotten the Sand Ruby to cure your fever without their help.<New>
+<Rydia>: Hi.<New>
+<Rosa>: Hello, <Rydia>. Thank you both so much. <Cecil>, after Damcyan, their next target must be Fabul. We must--ugh!<End>
+<End of Block>
+
+<Text entry 107>
+<Cecil>: You have to rest now. Don't worry. We'll go to Fabul.<New>
+<Gilbart>: But to reach Fabul, we must traverse Mt. Hobs, and the trail is blocked by thick ice.<End>
+<End of Block>
+
+<Text entry 108>
+<Rosa>: <Rydia>, can you cast Fire?<New>
+<Rydia>: ...No.<End>
+<End of Block>
+
+<Text entry 109>
+<Rosa>: Fire is the most elementary of black magic spells. As a summoner, I'm sure you can--ugh!<End>
+<End of Block>
+
+<Text entry 110>
+<Cecil>: <Rosa>, stop! You're definitely not coming with us... Not in this condition.<End>
+<End of Block>
+
+<Text entry 111>
+<Gilbart>: <Anna>, I miss you so much...<End>
+<End of Block>
+
+<Text entry 112>
+<Gilbart>: <Anna>! This can't be true! This is a dream.<New>
+<Anna>: Yes, it is, and now you must go on. Goodbye, <Gilbart>.<New>
+<Gilbart>: NO! Don't go! I love you! Please, <Anna>! Don't go!<End>
+<End of Block>
+
+<Text entry 113>
+<Anna>: You must not let <Golbeza> have the Crystals. Fight for your people, <Gilbart>, and give them the same love you shared with me.<End>
+<End of Block>
+
+<Text entry 114>
+<Gilbart>: <Anna>... I'll fight. I'll fight for you! But what am I to do without... I don't know.<End>
+<End of Block>
+
+<Text entry 115>
+<Tella>: Fast asleep. She must have been very tired. Where is her home?<New>
+<Cecil>: Mist Village.<New>
+<Tella>: She seems very gifted. With proper training, she'll be able to master many spells. Look at her. She looks so adorable...reminds me of <Anna>, years ago.<New>
+<Cecil>: <Anna> is...<New>
+<Tella>: My only daughter. She eloped with a bard to Damcyan, because I didn't consent to their union.<End>
+<End of Block>
+
+<Text entry 116>
+<Tella>: What business have you in Damcyan?<New>
+<Cecil>: A friend of mine suffers from desert fever.<New>
+<Tella>: You need the Sand Ruby. Acquiring it won't be easy.<New>
+<Cecil>: Tell me more about this monster we must face.<New>
+<Tella>: A vicious creature with eight huge tentacles. We must kill it quickly and reach Damcyan before it's too late.<New>
+<Cecil>: Too late for what?<New>
+<Tella>: I don't know. I only pray my instincts are wrong...<End>
+<End of Block>
+
+<Text entry 117>
+<Cid>: Just button up and relax. I'll be back in a jiffy!<End>
+<End of Block>
+
+<Text entry 118>
+<Rosa>: Be careful, <Cid>.<New>
+<Cid>: Heh heh. You're not fallin' for me are you, <Rosa>?<End>
+<End of Block>
+
+<Text entry 119>
+<Cecil>: King Giott, the Crystal in the castle--where is it?<New>
+Giott: In the safest place. Hidden behind my throne.<End>
+<End of Block>
+
+<Text entry 120>
+<Yang>: !<End>
+<End of Block>
+
+<Text entry 121>
+<Cecil>: <Yang>?<New>
+<Yang>: Someone is spying on us.<New>
+Giott: Come out!<End>
+<End of Block>
+
+<Text entry 122>
+Giott: Open the door!<New>
+Dwarf: Rally!<End>
+<End of Block>
+
+<Text entry 123>
+The bombardment was too much.<End>
+<End of Block>
+
+<Text entry 124>
+King: <Yang>, at last.<New>
+<Yang>: Sire, we must prepare for battle. Baron will attack us any second to steal our Crystal.<New>
+King: How do you know this?<New>
+<Yang>: These two are citizens of Baron. They came to warn us.<New>
+King: And these others?<End>
+<End of Block>
+
+<Text entry 125>
+<Cecil>: Sir, we haven't much time. The castle's defense must be tightened immediately.<New>
+King: <Yang>, can we trust this dark knight and his companions?<New>
+<Yang>: Yes. They risked their lives to help me.<End>
+<End of Block>
+
+<Text entry 126>
+<Gilbart>: I am honored to see you again.<New>
+King: Prince <Gilbart>!<New>
+<Gilbart>: Sire, Baron's fleet decimated Damcyan and claimed our Crystal not long ago. Many died, including my parents...And my beloved. Damcyan's tragedy must not be repeated!<End>
+<End of Block>
+
+<Text entry 127>
+<Yang>: We will assemble at the main gate.<End>
+<End of Block>
+
+<Text entry 128>
+<Yang>: They have already offered to help, sire. We will join the forward guards by the main gate.<New>
+King: Very well. Will the ladies assist our medic?<New>
+<Rosa>: Yes, sire.<New>
+King: Fabul's fate rests in your hands. May we be victorious.<End>
+<End of Block>
+
+<Text entry 129>
+<Cecil>: <Rydia>, take care of <Rosa> for me.<End>
+<End of Block>
+
+<Text entry 130>
+THEY'RE COMING!<New>
+<Yang>: Attack!<End>
+<End of Block>
+
+<Text entry 131>
+RED WINGS!<End>
+<End of Block>
+
+<Text entry 132>
+<Cecil>: We can't hold them!<New>
+<Yang>: Retreat!<End>
+<End of Block>
+
+<Text entry 133>
+<Yang>: We are severely outnumbered. I regret involving you all.<New>
+<Cecil>: This is our war, too...and it's far from over.<New>
+<Gilbart>: They're coming!!<End>
+<End of Block>
+
+<Text entry 134>
+<Yang>: Fall back!<End>
+<End of Block>
+
+<Text entry 135>
+<Cecil>: The king is behind us. We must hold them here.<New>
+<Yang>: He has already retreated. We can withdraw into the throne room if the need arises.<End>
+<End of Block>
+
+<Text entry 136>
+<Yang>: Crush them!<End>
+<End of Block>
+
+<Text entry 137>
+<Gilbart>: Let's get out of here!<New>
+<Yang>: !<End>
+<End of Block>
+
+<Text entry 138>
+<Yang>: The door has been locked. We must hold this ground. The Crystal is in the next chamber.<End>
+<End of Block>
+
+<Text entry 139>
+<Gilbart>: OH MY GOSH!<New>
+<Yang>: You fool! What are you doing!?<New>
+<Gilbart>: H-He's one of them!<End>
+<End of Block>
+
+<Text entry 140>
+<Yang>: This is endless. Withdraw to the Crystal Room.<End>
+<End of Block>
+
+<Text entry 141>
+<Cain>: It's been a while.<New>
+<Cecil>: <Cain>! You're alive!<End>
+<End of Block>
+
+<Text entry 142>
+<Cain>: Have you any final words?<New>
+<Cecil>: <Cain>...you're under <Golbeza>'s spell...<New>
+<Cain>: Alright. Time to put you out of your misery.<New>
+<Yang>: Stop!<End>
+<End of Block>
+
+<Text entry 143>
+NO!<End>
+<End of Block>
+
+<Text entry 144>
+<Cain>: <Rosa>!<New>
+<Rosa>: <Cain>, you of all people...<New>
+<Cain>: No, I...<End>
+<End of Block>
+
+<Text entry 145>
+Befuddled by a woman? You pitiful wretch.<End>
+<End of Block>
+
+<Text entry 146>
+<Gilbart>: <Golbeza>!<New>
+<Cecil>: So you're <Golbeza>.<New>
+<Golbeza>: <Cecil>, I presume? Never hesitate to kill, <Cain>. Observe. This is how it's done!<New>
+<Gilbart>: <Cecil>!<End>
+<End of Block>
+
+<Text entry 147>
+<Golbeza>: Silence!<End>
+<End of Block>
+
+<Text entry 148>
+<Golbeza>: Get the Crystal.<New>
+<Cain>: Yes, sire.<End>
+<End of Block>
+
+<Text entry 149>
+<Rosa>: <Cain>, please! Help <Cecil>!<New>
+<Cecil>: <Rosa>, no!<New>
+<Golbeza>: So, you cherish this woman? Then I shall take her with me to raise the stakes. Until next time.<End>
+<End of Block>
+
+<Text entry 150>
+<Cain>: You won't be so lucky next time.<End>
+<End of Block>
+
+<Text entry 151>
+<Cecil>: <Rosa>...<End>
+<End of Block>
+
+<Text entry 152>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 153>
+<Rydia>: Cure!<End>
+<End of Block>
+
+<Text entry 154>
+<Rydia>: Are you okay?<New>
+<Gilbart>: Thanks, <Rydia>.<New>
+<Yang>: The Crystal is gone... I failed.<New>
+<Cecil>: <Rosa>...<End>
+<End of Block>
+
+<Text entry 155>
+<Rydia>: Come on! We have to go help <Rosa>!<End>
+<End of Block>
+
+<Text entry 156>
+<Gilbart>: She's right. This is no time to get depressed. We must rescue <Rosa> and retake the Crystals.<End>
+<End of Block>
+
+<Text entry 157>
+Master <Yang>, please let me know if you need anything.<End>
+<End of Block>
+
+<Text entry 158>
+<Gilbart>: So, how will we go about the rescue?<New>
+<Cecil>: To fight <Golbeza>, we need an airship. But Baron is the only kingdom that has them.<New>
+<Yang>: Then we must sneak into Baron and seize one.<End>
+<End of Block>
+
+<Text entry 159>
+<Cecil>: Baron's main force is the Red Wings; its sea power is relatively weak. We might be able to slip in by sea.<New>
+<Yang>: I will ask the king for a ship tomorrow morning. If all goes well, we could leave port before noon.<New>
+<Cecil>: Thank you, <Yang>.<End>
+<End of Block>
+
+<Text entry 160>
+<Yang>: Who was that dragoon?<New>
+<Cecil>: His name is <Cain>. He used to be my best friend. I don't know what happened to him...<New>
+<Yang>: Perhaps you will have your answer in Baron.<End>
+<End of Block>
+
+<Text entry 161>
+<Yang>'s Wife: Break a leg, hon, and bring back some gifts for a change!<New>
+<Yang>'s Wife: Keep your chin up, <Cecil>! You'll get her back in no time!<New>
+<Cecil>: Thank you.<End>
+<End of Block>
+
+<Text entry 162>
+Cap'n: <Cecil>, I reckon. I heard you beat the hell out of those Baron lovelies. Sit back, mate, and enjoy the ride.<End>
+<End of Block>
+
+<Text entry 163>
+Cap'n: Anchors aweigh!<New>
+Crew: Aye-aye, Cap'n!<End>
+<End of Block>
+
+<Text entry 164>
+<Yang>: What will you do once we arrive at Baron?<End>
+<End of Block>
+
+<Text entry 165>
+<Cecil>: What's going on!?<End>
+<End of Block>
+
+<Text entry 166>
+Sailor: Shiver me timbers!<End>
+<End of Block>
+
+<Text entry 167>
+Cap'n: Change course!<End>
+<End of Block>
+
+<Text entry 168>
+<Rydia>: AAAH!<End>
+<End of Block>
+
+<Text entry 169>
+<Yang>: <Rydia>!<End>
+<End of Block>
+
+<Text entry 170>
+<Cecil>: <Rydia>!! <Yang>!!<End>
+<End of Block>
+
+<Text entry 171>
+<Cecil>: ... ... Oh...<End>
+<End of Block>
+
+<Text entry 172>
+<Cecil>: Where am I...?<End>
+<End of Block>
+
+<Text entry 173>
+<Cecil>: <Rydia>!<End>
+<End of Block>
+
+<Text entry 174>
+<Cecil>: <Gilbart>!<End>
+<End of Block>
+
+<Text entry 175>
+<Cecil>: <Yang>!<End>
+<End of Block>
+
+<Text entry 176>
+<Cecil>: What happened to them...?<End>
+<End of Block>
+
+<Text entry 177>
+<Porom>: Well, what are you waiting for?<End>
+<End of Block>
+
+<Text entry 178>
+<Palom>: Ice!<End>
+<End of Block>
+
+<Text entry 179>
+<Palom>: Too easy.<End>
+<End of Block>
+
+<Text entry 180>
+<Golbeza>: Scarmiglione, come forth!<End>
+<End of Block>
+
+<Text entry 181>
+Scarmiglione: Scarmiglione of Earth, at your command.<New>
+<Golbeza>: <Cecil> aspires to too much. He ascends Mt. Ordeals as we speak. I shall clip his wings now.<New>
+Scarmiglione: So he desires to become a paladin...<New>
+<Golbeza>: Dispose of him beforehand. His dark sword should be all but useless against your undead.<New>
+Scarmiglione: I shall return with his head shortly.<End>
+<End of Block>
+
+<Text entry 182>
+<Golbeza>: This should be interesting.<End>
+<End of Block>
+
+<Text entry 183>
+<Cain>: <Cecil> might still prove quite a formidable opponent.<End>
+<End of Block>
+
+<Text entry 184>
+<Cain>: Sire, please grant me a second chance! Allow me the task of slaying him, instead of Scarmiglione!<End>
+<End of Block>
+
+<Text entry 185>
+<Golbeza>: Just be grateful I let you live after that blunder.<End>
+<End of Block>
+
+<Text entry 186>
+<Tella>: What brings you here? Wait, you seek Meteo as well?<New>
+<Porom>: Meteo!?<New>
+<Palom>: Hey! You're <Tella>, right!?<End>
+<End of Block>
+
+<Text entry 187>
+<Porom>: <Palom>, behave yourself! You stand before the Great Sage!<End>
+<End of Block>
+
+<Text entry 188>
+<Porom>: It is an honor to meet you, sir. We came here from Mysidia under the orders of our elder.<New>
+<Palom>: Yeah, we're spying--<End>
+<End of Block>
+
+<Text entry 189>
+«Whack!»<Delay 8><End>
+<End of Block>
+
+<Text entry 190>
+<Porom>: Excuse me. As I was saying, we're just serving as guides for Sir <Cecil>. My name is <Porom>, and that's--<New>
+<Palom>: <Palom>, Mysidia's most exalted mage! I've heard a lot about you even in my neck of the woods.<End>
+<End of Block>
+
+<Text entry 191>
+<Tella>: What noisy brats... <Cecil>, where are <Rydia> and <Gilbart>?<New>
+<Cecil>: We were attacked by Leviatan on our way to Baron, and...<New>
+<Tella>: What!? Are they dead?<New>
+<Cecil>: ...I'm afraid so. And <Rosa> was captured by <Golbeza>.<End>
+<End of Block>
+
+<Text entry 192>
+<Palom>: I'll bet that's his girlfriend.<End>
+<End of Block>
+
+<Text entry 193>
+<Porom>: Hush!<New>
+<Cecil>: I thought you'd headed straight to Baron to confront <Golbeza>.<End>
+<End of Block>
+
+<Text entry 194>
+<Tella>: Against the likes of <Golbeza>, my spells still lack power. So I've traveled here to seek the legendary spell, Meteo. I sense a strong aura on this mountain. I believe it holds some secret.<New>
+<Porom>: But that spell is much too dangerous! It requires tremendous vitality, and for a man of your age... Forgive me.<New>
+<Tella>: I admit, I am old. But I will make <Golbeza> pay, even if it costs my life!<End>
+<End of Block>
+
+<Text entry 195>
+<Palom>: Geez. Why are adults so pigheaded?<End>
+<End of Block>
+
+<Text entry 196>
+<Palom>: Who's <Golbeza>?<New>
+<Porom>: Don't you know anything? He's the man controlling Baron.<End>
+<End of Block>
+
+<Text entry 197>
+BSHRRR...<New>
+<Tella>: I sense evil nearby. I will enjoy killing you all.<New>
+<Cecil>: Who's there!? Show yourself!<End>
+<End of Block>
+
+<Text entry 198>
+Under Master <Golbeza>'s orders, I, Scarmiglione of Earth, will deliver you to the gates of hell. But first-- my undead hunger for your flesh!<End>
+<End of Block>
+
+<Text entry 199>
+Bshrrr... Fools. My true strength lies in death. Join me in hell!<End>
+<End of Block>
+
+<Text entry 200>
+Scarmiglione: H-How could I possibly lose to...?<End>
+<End of Block>
+
+<Text entry 201>
+Through much sorrow have I longed for your coming. I shall now entrust you with my power. By doing so, my pain will only grow. But there is no other way.<End>
+<End of Block>
+
+<Text entry 202>
+Break from your past and overcome your darkness. Only then will you receive the holy power.<End>
+<End of Block>
+
+<Text entry 203>
+<Tella>: !?<New>
+<Palom>: What's goin' on!?<New>
+<Porom>: There are two of them!<End>
+<End of Block>
+
+<Text entry 204>
+<Cecil>: Stay back! This is my battle, to atone for my wrongs.<End>
+<End of Block>
+
+<Text entry 205>
+Well done. Now receive my spirit of light, and<New>
+remember: <Golbeza> must be stopped. Farewell, my son.<New>
+<Cecil>: Please, wait!<End>
+<End of Block>
+
+<Text entry 206>
+<Cecil> became a paladin<Delay 80><End>
+<End of Block>
+
+<Text entry 207>
+<Porom>: Are you alright?<New>
+<Palom>: Dude, look at you! High five!<New>
+<Porom>: <Palom>!<New>
+<Cecil>: This feeling... I can't explain it. It seems...so familiar. What was that voice?<New>
+<Tella>: Oh... OH, YES!<New>
+<Porom>: Master <Tella>?<End>
+<End of Block>
+
+<Text entry 208>
+<Tella>: My spells! I remember them now!! <Tella> remembered all of his spells<End>
+<End of Block>
+
+<Text entry 209>
+<Porom>: My goodness.<New>
+<Palom>: Hey, <Porom>...<End>
+<End of Block>
+
+<Text entry 210>
+<Porom>: Um...<New>
+<Palom>: To tell you the truth, we--<End>
+<End of Block>
+
+<Text entry 211>
+<Tella>: <Golbeza> is doomed!! Huah ha ha!<End>
+<End of Block>
+
+<Text entry 212>
+<Tella>: Come, <Cecil>! To Baron!<New>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 213>
+<Cecil>: <Gilbart>!<End>
+<End of Block>
+
+<Text entry 214>
+<Gilbart>: <Cecil>...? You look so different...so radiant. I wish to join you again.<New>
+<Tella>: Hmph! You'll only burden us!<New>
+<Gilbart>: <Tella>... I can't begin to ask for your forgiveness. <Anna> died because of me.<New>
+<Tella>: ...<New>
+<Gilbart>: I can never atone for that.<End>
+<End of Block>
+
+<Text entry 215>
+<Yang>: <Gilbart>, think only of your health for now.<End>
+<End of Block>
+
+<Text entry 216>
+<Gilbart>: <Yang>... So, we all survived. Where is <Rydia>?<New>
+<Yang>: ...<End>
+<End of Block>
+
+<Text entry 217>
+<Gilbart>: No!! She didn't!? ...I feel so worthless...<End>
+<End of Block>
+
+<Text entry 218>
+<Gilbart>: You must be <Cid>, the airship engineer... Wait, that means you now command an airship.<End>
+<End of Block>
+
+<Text entry 219>
+<Gilbart>: Dark Elf...<End>
+<End of Block>
+
+<Text entry 220>
+Dark Elf: I comMEND your efFort. But your excurSION ends here. You will nevER get the crysTAL. You canNOT deFEAT me with those weaPONS.<New>
+<Yang>: We shall see.<New>
+<Tella>: Let me carry the weight.<End>
+<End of Block>
+
+<Text entry 221>
+<Gilbart>: <Cecil>...<End>
+<End of Block>
+
+<Text entry 222>
+Where are you going!? You're in no condition to move!<New>
+<Gilbart>: I'm alright. I just want to...get my harp to--ugh! Please! Return to your bed!<New>
+<Gilbart>: «Hack-hack!» ...I must help them.<End>
+<End of Block>
+
+<Text entry 223>
+The Twin Harp sounds the melody from <Gilbart>'s harp<New>
+<Yang>: ...?<New>
+<Tella>: This melody...<New>
+<Cecil>: It's <Gilbart>!<New>
+Dark Elf: DAH! What is this torturOUS sound!?<End>
+<End of Block>
+
+<Text entry 224>
+<Gilbart>: He cannot control the field while I am playing! Now draw your sword!<End>
+<End of Block>
+
+<Text entry 225>
+Dark Elf: This canNOT be! With the crysTAL... my eterNAL life... GaaaAH!<End>
+<End of Block>
+
+<Text entry 226>
+<Cecil>: Thank you, <Gilbart>.<End>
+<End of Block>
+
+<Text entry 227>
+<Cecil>: Thank you.<New>
+<Cid>: So how'd you manage to distract that magneto-head?<New>
+<Gilbart>: I first heard that<End>
+<End of Block>
+
+<Text entry 228>
+melody back when I traveled as a minstrel. I learned it was a song to remonstrate elves. Quite frankly, I'm surprised it worked.<New>
+<Yang>: We owe you our lives.<New>
+<Gilbart>: No, I only--ugh!<End>
+<End of Block>
+
+<Text entry 229>
+<Tella>: I have long wondered what <Anna> saw in a worm like you... Courage, rising from integrity... She was fortunate to receive your love.<New>
+<Gilbart>: ...<New>
+<Tella>: Now be silent and heal your wounds. I promise you I shall avenge <Anna>...for both of us.<New>
+<Gilbart>: Thank you...<New>
+<Cecil>: <Gilbart>, I look forward to fighting alongside you again.<End>
+<End of Block>
+
+<Text entry 230>
+<Cain>: Show me the Crystal.<End>
+<End of Block>
+
+<Text entry 231>
+<Cecil>: <Cain>!<New>
+<Cid>: Come out!<New>
+<Cain>: Keep still! First, Master <Golbeza> would like a word.<New>
+<Tella>: <Golbeza>!!<End>
+<End of Block>
+
+<Text entry 232>
+<Golbeza>: Well done, <Cecil>. You have exceeded even my expectations.<New>
+<Tella>: Wretch! Show yourself!<New>
+<Golbeza>: <Rosa> stands beside me at the top of this tower. Bring the Crystal here, and we will make the trade.<New>
+<Cecil>: She had better be safe.<New>
+<Golbeza>: You had best hurry... <Music 25> ...before she ends up dead.<End>
+<End of Block>
+
+<Text entry 233>
+Boo!<End>
+<End of Block>
+
+<Text entry 234>
+Charmed.<End>
+<End of Block>
+
+<Text entry 235>
+We the Magus sisters welcome you. We serve Barbariccia, Devil of Wind. Mindy! Sandy. Cindy. Thank you for playing and good night.<End>
+<End of Block>
+
+<Text entry 236>
+Oh poo! The Delta Attack failed! Nooo!<End>
+<End of Block>
+
+<Text entry 237>
+<Golbeza>: Welcome.<New>
+<Tella>: At last!<New>
+<Cecil>: Where's <Rosa>!?<New>
+<Golbeza>: The Crystal first.<New>
+<Cid>: She'd better be alright!<New>
+<Golbeza>: Hand over the Crystal now or she dies.<End>
+<End of Block>
+
+<Text entry 238>
+Handed over the Earth Crystal<New>
+<Cecil>: Alright, where's <Rosa>?<New>
+<Golbeza>: <Rosa>? There is no <Rosa>.<New>
+<Cecil>: What!?<New>
+<Cid>: You sick bastard!!<New>
+<Tella>: Return her this minute!<New>
+<Golbeza>: Ignorant dotard. Have you any idea with whom you are dealing?<New>
+<Tella>: How could I ever forget the monster WHO KILLED MY DAUGHTER!?<End>
+<End of Block>
+
+<Text entry 239>
+<Golbeza>: Ugh... How could he know Meteo...?<New>
+<Cecil>: <Tella>!<End>
+<End of Block>
+
+<Text entry 240>
+<Golbeza>: It matters not. I have the Crystal. <Cain>.<End>
+<End of Block>
+
+<Text entry 241>
+<Cain>: ...<New>
+<Golbeza>: The Meteo broke my spell over him. So be it; he no longer serves any purpose. Mark me, <Cecil>. Someday I will destroy you.<End>
+<End of Block>
+
+<Text entry 242>
+<Cecil>: !!<End>
+<End of Block>
+
+<Text entry 243>
+<Golbeza>: Impudent fool!<End>
+<End of Block>
+
+<Text entry 244>
+<Cecil>: Ugh... I can't...<New>
+<Golbeza>: You...<New>
+<Cecil>: ?<New>
+<Golbeza>: What is going--aagh!<New>
+<Cecil>: !?<New>
+<Golbeza>: Next time, for certain.<End>
+<End of Block>
+
+<Text entry 245>
+<Yang>: <Cecil>.<New>
+<Cid>: Y'alright there?<New>
+<Cecil>: Yeah... Meteo must have weakened him. <Tella>!<End>
+<End of Block>
+
+<Text entry 246>
+<Tella>: ...I failed...<New>
+<Cid>: Keep still!<New>
+<Tella>: I'm such a fool... I lost myself...in hatred. Avenge my daughter... for me... I beg you...<End>
+<End of Block>
+
+<Text entry 247>
+<Cecil>: <Tella>!<New>
+<Yang>: !!<New>
+<Tella>: ...<End>
+<End of Block>
+
+<Text entry 248>
+<Cecil>: <Cain>! <Cain>!<End>
+<End of Block>
+
+<Text entry 249>
+<Cecil>: !! Where is she!?<End>
+<End of Block>
+
+<Text entry 250>
+<Rosa>: <Cecil>!<End>
+<End of Block>
+
+<Text entry 251>
+<Cecil>: <Rosa>...<New>
+<Rosa>: I knew you'd come.<Music 19><End>
+<End of Block>
+
+<Text entry 252>
+<Cecil>: I missed you... so much. And I realized... I...<New>
+<Cain>: ...<New>
+<Cid>: "I," what!? Spit it out!<End>
+<End of Block>
+
+<Text entry 253>
+<Rosa>: <Cain>!?<New>
+<Cecil>: He's okay now. <Tella>'s Meteo broke <Golbeza>'s spell.<New>
+<Cain>: But I was still aware. Yet... <Rosa>...I wanted to keep you close at any cost!<End>
+<End of Block>
+
+<Text entry 254>
+<Rosa>: <Cain>...<New>
+<Cain>: ...<New>
+<Cecil>: ...<New>
+<Rosa>: Let's fight together, <Cain>.<End>
+<End of Block>
+
+<Text entry 255>
+<Cain>: After all that I've done... It's too late.<New>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 256>
+<Cid>: Oy! Save the corny drama for later! We gotta scram!<Music 0><End>
+<End of Block>
+
+<Text entry 257>
+Namingway: Well, hello. Do you wish to change your name?<End>
+<End of Block>
+
+<Text entry 258>
+Namingway: Very well. If you ever change your mind, I am always at your service.<End>
+<End of Block>
+
+<Text entry 259>
+<Cecil>: Let's go, <Cain>.<End>
+<End of Block>
+
+<Text entry 260>
+It seems Master <Golbeza> has underestimated you.<New>
+<Cain>: The Devil of Wind, Barbariccia!<End>
+<End of Block>
+
+<Text entry 261>
+Barbariccia: You disappoint me, <Cain>. Submitting to a weak imbecile, despite all your powers.<New>
+<Cain>: I've simply come to my senses. I've grown sick of siding with freaks like you!<New>
+Barbariccia: You snotty little wretch. I'll enjoy killing you all. With the old man and his Meteo gone, you have no chance.<New>
+<Cain>: You forget. Fighting in the air is my specialty, too.<End>
+<End of Block>
+
+<Text entry 262>
+Barbariccia: It's not over... The last Devil of Elements still remains! Regardless, you'll never leave here alive!<End>
+<End of Block>
+
+<Text entry 263>
+<Cecil>: It's collapsing!<New>
+<Cain>: Dammit!<New>
+<Cid>: That bleeping broad!<End>
+<End of Block>
+
+<Text entry 264>
+<Cecil>: What the... Is this...?<End>
+<End of Block>
+
+<Text entry 265>
+<Rosa>: Yes, it's your room in Baron.<New>
+<Cid>: Well, I'll be jiggered!<New>
+<Cain>: <Cecil>, we still have our work cut out for us.<End>
+<End of Block>
+
+<Text entry 266>
+<Cid>: Is this about the Crystals?<New>
+<Cain>: Yeah.<New>
+<Cecil>: We've lost Troia's Earth Crystal to <Golbeza>, which means he now holds all the Crystals.<New>
+<Cain>: Not quite. He only has four.<New>
+<Rosa>: You mean there are more?<New>
+<Cid>: Of course! So, the legends are true after all!<New>
+<Cain>: Right... The Dark Crystals.<Music 45><End>
+<End of Block>
+
+<Text entry 267>
+<Cid>: Alright, listen up. The Crystals of this world are those of light--of the "surface," so to speak.<New>
+<Cecil>: So, there's a whole set of Dark Crystals as well.<New>
+<Cain>: Exactly. So you see, he only has half of the Crystals.<New>
+<Cid>: Well, we now know they exist, but where the hell do we find 'em?<New>
+<Cain>: They lie under the surface of the earth... in the underworld.<New>
+<Cid>: Underground!? You sure about this?<New>
+<Cain>: I overheard <Golbeza>. He also said that when all of the Crystals of light and darkness are gathered, the path to the moon will open.<New>
+<Cecil>: Literally, a path to the moon?<New>
+<Cain>: I don't know. But this item's the key to unlocking it, supposedly.<End>
+<End of Block>
+
+<Text entry 268>
+Received Magma<New>
+<Cain>: You're supposed to use it somewhere to open the path to the underworld.<New>
+<Yang>: Where, exactly?<New>
+<Cain>: I wish I knew.<End>
+<End of Block>
+
+<Text entry 269>
+<Cecil>: The Magma stone... It's turning red!<End>
+<End of Block>
+
+<Text entry 270>
+<Cecil>: !?<New>
+<Cain>: The Red Wings!<End>
+<End of Block>
+
+<Text entry 271>
+<Cid>: She's falling apart!!<New>
+<Cecil>: We're going down!<End>
+<End of Block>
+
+<Text entry 272>
+King: Rally-ho. King Giott, ruler of the underworld.<New>
+<Cecil>: Thank you for welcoming us. My name is <Cecil>.<New>
+Giott: State your business.<New>
+<Cecil>: We've come in search of the Dark Crystals.<New>
+Giott: Like the others. But not on the same side.<New>
+<Cain>: Where are the Dark Crystals? Have they been taken?<New>
+Giott: They took two. Only two remain.<New>
+<Yang>: One step too late.<New>
+Giott: The castle's Crystal is still safe. Our tanks fought them off.<New>
+<Rosa>: Yes, we saw your tanks fighting against the airships on our way here.<New>
+Giott: Air-ships? The overworld makes incredible things... Hard battle for our tanks. Can you help us-- with your air-ships?<New>
+<Cid>: We need to repair her first. The bombardment really busted her good.<End>
+<End of Block>
+
+<Text entry 273>
+<Cecil>: <Cid>!<End>
+<End of Block>
+
+<Text entry 274>
+<Cid> left the party<End>
+<End of Block>
+
+<Text entry 275>
+<Cecil>: Perhaps it was your imagination.<New>
+<Yang>: I definitely sense a presence ahead.<End>
+<End of Block>
+
+<Text entry 276>
+<Cain>: It's locked! Yip-ho-ho!<End>
+<End of Block>
+
+<Text entry 277>
+Guess who? Calbrinas! We're cute! And we're scary! Love to kill! Let's take their heads! Yeah-yeah! Gift for <Golbeza>! Yip-ho-ho!<End>
+<End of Block>
+
+<Text entry 278>
+<Cecil>: !? Our paths cross again...<End>
+<End of Block>
+
+<Text entry 279>
+<Cecil>: <Golbeza>!<New>
+<Golbeza>: I commend you for finding your way to the underworld. To reward your efforts, I shall tell you why I am collecting the Crystals. The eight Crystals of light and dark are the keys to reactivating the Tower of Babil, which leads to the moon. Legends say the moon possesses power beyond our comprehension. I need only one more Crystal to realize my dream. You have been of great aid to my quest. Now prepare for your final reward!<End>
+<End of Block>
+
+<Text entry 280>
+<Cecil>: We did it... We've defeated <Golbeza>!<End>
+<End of Block>
+
+<Text entry 281>
+<Rosa>: <Rydia>...!<New>
+<Cecil>: What happened to you?<New>
+<Rydia>: Leviatan took me to the Land of Summons. A world where all the summoned monsters live. We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner. Time flows differently there, so maybe I've aged faster.<New>
+<Rosa>: That explains why you look all grown up.<New>
+<Cain>: <Cecil>, who is she?<New>
+<Cecil>: The girl we found in Mist.<New>
+<Yang>: Fortune favors us indeed.<New>
+<Cecil>: <Rydia>, we owe you our lives. Thank you.<New>
+<Rydia>: You don't have to thank me. The queen of the Land of Summons<New>
+told me: A great force is secretly at work. We must confront it together. Summoner <Rydia> joined the party <Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 282>
+I...cannot perish!<End>
+<End of Block>
+
+<Text entry 283>
+<Cecil>: The Crystal!<End>
+<End of Block>
+
+<Text entry 284>
+Have the clerics granted you permission to enter?<End>
+<End of Block>
+
+<Text entry 285>
+<Edge>: Alright, let's bust in there!<New>
+<Rydia>: Gee, I don't know about him... Ninja <Edge> joined the party<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 286>
+<Cid>: Now you can... fly over anything.<New>
+<Rosa>: Great!<New>
+<Cid>: ...<New>
+<Cain>: <Cid>!?<Music 42><Delay 40><End>
+<End of Block>
+
+<Text entry 287>
+The key to the seal shall open the way to the jewel of darkness.<End>
+<End of Block>
+
+<Text entry 288>
+You never cease to amuse me...<End>
+<End of Block>
+
+<Text entry 289>
+<Cecil>: <Golbeza>!<New>
+<Golbeza>: When the cat is away, the mice will play. The game ends now.<End>
+<End of Block>
+
+<Text entry 290>
+Whooey! Doesn't get any closer than that!<New>
+<Rosa>: <Cid>!<End>
+<End of Block>
+
+<Text entry 291>
+<Cid>: Where's <Yang>?<New>
+<Rosa>: «Sob...sob...»<New>
+<Cecil>: ...He sacrificed himself to save the dwarves.<New>
+<Cid>: ...We've lost another good man. And who is she?<New>
+<Cecil>: <Rydia>. She's a summoner of Mist.<End>
+<End of Block>
+
+<Text entry 292>
+<Cid>: The engine's not gonna last! <Cecil>, take over!<End>
+<End of Block>
+
+<Text entry 293>
+<Rosa>: <Cid>!<New>
+<Cecil>: Where are you going!?<End>
+<End of Block>
+
+<Text entry 294>
+<Cid>: Once she flies outta here to the surface, I'm gonna seal the entrance with this bomb!<End>
+<End of Block>
+
+<Text entry 295>
+<Cid>: Now this is what I call goin' out with a BANG! HEH HEH HEH heh he...h...<End>
+<End of Block>
+
+<Text entry 296>
+<Cid>: Remember! Head for Baron immediately!<End>
+<End of Block>
+
+<Text entry 297>
+<Rosa>: <Cid>...<New>
+<Rydia>: Why...?<New>
+<Cain>: Everyone rushing towards death...<End>
+<End of Block>
+
+<Text entry 298>
+Hello, <Cecil>. The boss ordered us to attach this hook to the Enterprise. It won't take long.<End>
+<End of Block>
+
+<Text entry 299>
+It's done. Now you can hoist and carry the hovercraft. Just fly the Enterprise right over the hovercraft and press the confirm button to load and unload the vehicle. With both vehicles you can go pretty much anywhere now, even the Cave of Eblan by the Tower of Babil.<End>
+<End of Block>
+
+<Text entry 300>
+<Cecil>: There's something I must tell you both. It's about <Cid>... He's-- He's impossible. Yes, we know. With all that crazy energy, I can't imagine he'll ever check out. Please baby-sit him awhile longer.<End>
+<End of Block>
+
+<Text entry 301>
+Man: Rubicante! At last...!<New>
+Rubicante: Pardon, have we met before?<New>
+Man: I am <Edge>, Prince of Eblan!<New>
+Rubicante: No, I don't recall that name.<New>
+<Edge>: It doesn't matter 'cause you're dead!<End>
+<End of Block>
+
+<Text entry 302>
+<Cecil>: Are you alright!?<New>
+<Edge>: I lost... Damn... Who are you all?<New>
+<Rydia>: We're after Rubicante, too.<New>
+<Edge>: Stay out of this! He's mine!<New>
+<Cain>: Well, you obviously don't know with whom you're dealing. He's one of the Four Fiends of Elements.<New>
+<Edge>: Heh, you take me for some sissy prince? I'm the rightful heir to the throne of Eblan, famed for its ninjutsu for generations. So buzz off! I can take care of myself!<New>
+<Rydia>: Stop it!<End>
+<End of Block>
+
+<Text entry 303>
+<Rydia>: <Tella>, <Yang>, <Cid>... They're all gone... Please. No more... «Sob.»<New>
+<Edge>: Hey...<End>
+<End of Block>
+
+<Text entry 304>
+<Cecil>: Rubicante is the strongest Fiend. The odds might be against us, but somehow we must recover the Crystals.<New>
+<Edge>: Alright, I'll let you all in on this. I can't bear to see a pretty girl cry.<New>
+<Cain>: Heh, he sure talks big for a guy who just got worked. <Rosa>, give him a hand.<End>
+<End of Block>
+
+<Text entry 305>
+<Cid>: Ahh, persistent runts!<End>
+<End of Block>
+
+<Text entry 306>
+King: <Edge>...<New>
+<Edge>: Father! Mother!<End>
+<End of Block>
+
+<Text entry 307>
+Queen: Thank heavens... You're alright...<New>
+<Edge>: You're...alive?<New>
+Queen: Come with us, <Edge>.<New>
+King: Yes...we must go now.<New>
+<Edge>: Where?<New>
+Queen: TO HELL!<Music 31><New>
+<Cecil>: !!<End>
+<End of Block>
+
+<Text entry 308>
+Sylph: You are indeed brave and compassionate like our friend <Yang>. Please summon us during your trials. We wish to fight with you.<New>
+<Rydia>: Thank you! <Rydia> learned Sylph<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 309>
+<Edge>: ...<New>
+<Rosa>: <Edge>...<End>
+<End of Block>
+
+<Text entry 310>
+Rubicante: Lugae... How dare he...?<End>
+<End of Block>
+
+<Text entry 311>
+<Edge>: Rubicante!! You sick bastard!!<New>
+Rubicante: It was Lugae who turned your parents into monsters. I am sorry for your loss. Know that my only wish is to fight fair.<New>
+<Edge>: To hell with your self-righteous crap!<New>
+Rubicante: I admire your spirit. But anger never bears true strength, and it blinds you.<New>
+<Edge>: Shut up! I'll show you the power<Music 11> of anger! Anger evoked <Edge>'s dormant powers <Edge> learned Flood and Blitz<New>
+Rubicante: Well, this is interesting. Still, nothing can penetrate my Cloak of Flame, not even ice.<End>
+<End of Block>
+
+<Text entry 312>
+Rubicante: I shall restore you to full strength. Do not disappoint me.<End>
+<End of Block>
+
+<Text entry 313>
+Rubicante: Though you are five, you have defeated me as one. I am most impressed. Still, you will never stop Master <Golbeza>. 'Til we meet again...<End>
+<End of Block>
+
+<Text entry 314>
+Your Highness!<End>
+<End of Block>
+
+<Text entry 315>
+<Edge>: Gramps!<New>
+Gramps: Pray, let us fight with you! Where is that devil Rubicante!?<End>
+<End of Block>
+
+<Text entry 316>
+<Edge>: We got him. It's over.<New>
+Gramps: Splendid! Splendid, Your Highness!<New>
+<Edge>: They helped me out.<End>
+<End of Block>
+
+<Text entry 317>
+<Edge>: So, who's this <Golbeza>?<New>
+<Cain>: Rubicante's master. He plans to gather the world's Crystals to reach the moon.<New>
+<Edge>: Why the moon?<New>
+<Cecil>: We don't know exactly. He seeks some great power there.<New>
+<Rydia>: We have to stop him.<New>
+<Edge>: So he's the mastermind behind all this. I'm going with you.<New>
+Gramps: But, Your Highness, Eblan needs you.<End>
+<End of Block>
+
+<Text entry 318>
+<Edge>: That can wait! We've gotta stop this guy before it's too late!<New>
+Gramps: But--<New>
+<Edge>: Ahh, stop worrying and go home. I'll be fine.<New>
+Gramps: Very well... Sirs, ladies, please take care of our prince.<End>
+<End of Block>
+
+<Text entry 319>
+All: Good fortune, Your Highness!<New>
+<Edge>: Yeah, yeah.<End>
+<End of Block>
+
+<Text entry 320>
+<Edge>: Damn, that hurt!<New>
+<Cain>: That was a nasty drop!<End>
+<End of Block>
+
+<Text entry 321>
+<Tella>: Indeed I am. That girl! She is a summoner! Perfect! She can help, too! A giant monster lurks in the underground lake ahead. The devil even withstands my magic. Together, I think we can defeat it, and then I can finally be on my way!<New>
+<Cecil>: We're heading to Damcyan as well.<New>
+<Tella>: Then let us hurry!<End>
+<End of Block>
+
+<Text entry 322>
+<Cecil>: It's a trap!!<Delay 12><End>
+<End of Block>
+
+<Text entry 323>
+<Cain>: ...<End>
+<End of Block>
+
+<Text entry 324>
+<Cecil>: An enemy airship.<New>
+<Edge>: Let's bust outta here with this.<New>
+<Rydia>: That's stealing!<New>
+<Edge>: Who cares.<End>
+<End of Block>
+
+<Text entry 325>
+<Rosa>: It could be a trap.<New>
+<Edge>: Hey, she's not bad. Let's call her...Falcon! What do you think, <Rydia>?<New>
+<Rydia>: Oh, whatever.<New>
+<Cecil>: Let's get going.<New>
+<Edge>: Falcon, take us up!<End>
+<End of Block>
+
+<Text entry 326>
+<Cid>: Oy, where's my food?<New>
+<Cecil>: <Cid>!<End>
+<End of Block>
+
+<Text entry 327>
+<Rosa>: I can't believe it!<New>
+<Cain>: How'd you--<New>
+<Cid>: Heh heh heh.<New>
+<Edge>: Who's this geezer?<End>
+<End of Block>
+
+<Text entry 328>
+Dwarf: Back to bed!<New>
+Dwarf: Wait 'til you heal!<End>
+<End of Block>
+
+<Text entry 329>
+<Rosa>: I think he's fine.<New>
+<Cecil>: Yeah...<End>
+<End of Block>
+
+<Text entry 330>
+<Palom>: Hey, bro! Whassup!<New>
+<Porom>: The elder restored us to normal.<New>
+Elder: This battle is not yours alone! Everyone must fight for the sake of survival.<End>
+<End of Block>
+
+<Text entry 331>
+<Rydia>: Aaah!<New>
+<Cecil>: The tower!?<End>
+<End of Block>
+
+<Text entry 332>
+<Fusuya>: We are too late!<End>
+<End of Block>
+
+<Text entry 333>
+<Edge>: What do you mean "too late"!?<New>
+<Fusuya>: The Giant of Babil will come forth!<End>
+<End of Block>
+
+<Text entry 334>
+<Edge>: <Cecil>!<End>
+<End of Block>
+
+<Text entry 335>
+<Fusuya>: Come.<End>
+<End of Block>
+
+<Text entry 336>
+<Rydia>: I passed here when I left the Land of Summons. Maybe we should go ask Leviatan for help.<End>
+<End of Block>
+
+<Text entry 337>
+<Rydia>: I lived here. I wonder if there's anything we can use.<End>
+<End of Block>
+
+<Text entry 338>
+<Rydia>: Queen Asura!<New>
+Asura: <Rydia>, dear, what brings you back?<New>
+<Rydia>: We need your help.<New>
+Asura: Very well, but first you must prove your worth according to our custom. Do you possess the strength and courage to challenge me?<End>
+<End of Block>
+
+<Text entry 339>
+You are the first to defeat Asura. But you cannot overcome evil with strength alone. A strong spirit is required to steer one's powers toward righteousness. Will you test your spirit against my powers?<End>
+<End of Block>
+
+<Text entry 340>
+<Cain>... You belong to me, <Cain>. Bring me the Crystal.<New>
+<Cecil>: <Golbeza>!<End>
+<End of Block>
+
+<Text entry 341>
+<Cecil>: Ugh. The Dark Crystal was seized<Music 31><Delay 29><End>
+<End of Block>
+
+<Text entry 342>
+<Edge>: What the hell!!<New>
+<Rosa>: <Cain>!<New>
+<Golbeza>: Now I can restore the Tower of Babil. At last, I shall reach the moon!<New>
+<Cecil>: <Cain>! Wake up!<New>
+<Cain>: ...<New>
+<Rosa>: Please, <Cain>!<End>
+<End of Block>
+
+<Text entry 343>
+Elder: We knew you would return. Please join us at the Tower of Worship.<End>
+<End of Block>
+
+<Text entry 344>
+Elder: Pray, everyone! Now is the time to make the legend come true.<End>
+<End of Block>
+
+<Text entry 345>
+Elder: Ohh... Look! Our prayers... They were answered!<End>
+<End of Block>
+
+<Text entry 346>
+Elder: There is no doubt. The glorious ship... The Lunar Whale!<Music 14><End>
+<End of Block>
+
+<Text entry 347>
+Elder: A strange voice addressed me during our prayers. It said, "Come hither to the moon." Someone awaits you on the moon.<New>
+<Cecil>: How can we possibly get there?<End>
+<End of Block>
+
+<Text entry 348>
+Owww! Big bully! But <Golbeza> now knows! He's gonna getcha-getcha! <Golbeza>!<End>
+<End of Block>
+
+<Text entry 349>
+<Edge>: Aaagh!<End>
+<End of Block>
+
+<Text entry 350>
+Rubicante: I must say I'm quite impressed. Continue your training. I look forward to our next meeting.<End>
+<End of Block>
+
+<Text entry 351>
+<Edge>: Come back!<End>
+<End of Block>
+
+<Text entry 352>
+<Cid>: Zzzz...<New>
+<Rydia>: He must be exhausted.<New>
+<Rosa>: He's overworked himself.<New>
+<Cecil>: Thanks, <Cid>.<End>
+<End of Block>
+
+<Text entry 353>
+<Rosa>: Cure!<End>
+<End of Block>
+
+<Text entry 354>
+<Edge>: Sweet! Not one, but two babes in the party.<End>
+<End of Block>
+
+<Text entry 355>
+<Edge>: Okay, let's go bust up <Golbeza>.<New>
+<Rydia>: We need to get the Crystals first.<New>
+<Edge>: Whatever. Lead the way.<End>
+<End of Block>
+
+<Text entry 356>
+<Edge>: ... Father... Mother. You can rest in peace now.<End>
+<End of Block>
+
+<Text entry 357>
+Giott: Rally-ho!<End>
+<End of Block>
+
+<Text entry 358>
+Giott: You recovered the Crystals?<New>
+<Cecil>: No, I'm sorry.<New>
+Giott: <Golbeza> is persistent. Trying to open the Sealed Cave. A matter of time before he succeeds. I want you to get the Crystal before he does. Luca.<End>
+<End of Block>
+
+<Text entry 359>
+<Cecil>: <Cid>.<New>
+<Rosa>: You've overworked yourself.<New>
+<Cid>: I guess the old windbag needs to step out of the action for awhile. Other than messin' with airships, I'm not much use anymore.<End>
+<End of Block>
+
+<Text entry 360>
+<Edge>: My hat's off to you, old man. You're really something.<New>
+<Rydia>: Get well, okay?<End>
+<End of Block>
+
+<Text entry 361>
+<Cid>: Look after <Cecil> and <Rosa>.<New>
+<Edge>: Don't worry. Just get some rest.<End>
+<End of Block>
+
+<Text entry 362>
+<Cid>: Take care of yourselves, you hear?<New>
+<Rosa>: You too.<New>
+<Cid>: Alright. Get outta here.<New>
+<Cecil>: Thanks for everything.<End>
+<End of Block>
+
+<Text entry 363>
+<Align 4>One born of a dragon,
+<Align 2>bearing darkness and light,
+<Align 3>shall rise to the heavens
+<Align 4>over the still land.
+<Align 2>Bathing the moon in eternal
+<Align 2>light, he brings a promise
+<Align 2>to Mother Earth with bounty
+<Align 7>and grace.<End>
+<End of Block>
+
+<Text entry 364>
+<Palom>: And guess what? The old man learned Meteo.<New>
+Elder: What!? Meteo, the legendary spell, unsealed? What is happening to this world...?<New>
+<Tella>: I couldn't care less as long as I avenge <Anna>!<New>
+Elder: Your daughter <Anna>?<New>
+<Tella>: <Golbeza> took her life. I swear I'll crush him with my Meteo!<New>
+Elder: <Tella>, you should not fight with hatred. Besides, you are in no condition to use Meteo.<New>
+<Tella>: If I die, so be it! I will kill <Golbeza> at any cost!<New>
+Elder: ...Still stubborn as a mule, I see.<New>
+<Tella>: And you still have a big mouth!<New>
+Elder: Nevertheless, with your spells and <Cecil>'s newfound power, you might be able to defeat <Golbeza>.<New>
+<Cecil>: In any case, we must return to Baron to commandeer an airship first.<New>
+Elder: Very well. I will have the Devil's Road opened. As a paladin, I am certain you can safely travel the bedeviled path. Well, I will retire to the Tower of Worship now. <Cecil>, <Tella>, I pray for your success.<New>
+<Cecil>: Thank you.<End>
+<End of Block>
+
+<Text entry 365>
+Luca: Yeah?<New>
+Giott: Your necklace.<New>
+Luca: Here.<New>
+Giott: The key to open the Sealed Cave. Without this necklace, no one can enter. We must protect the last Crystal.<End>
+<End of Block>
+
+<Text entry 366>
+<Cecil>: We'll do our best.<End>
+<End of Block>
+
+<Text entry 367>
+<Cid>: Geezer!? Who is this punk kid!?<New>
+<Edge>: Watch your mouth, windbag! I'm <Edge>, prince of Eblan!<New>
+<Cain>: Don't mind him. He's real slick.<New>
+<Edge>: Don't forget handsome, and really skilled!<End>
+<End of Block>
+
+<Text entry 368>
+<Rydia>: Stop provoking him! He's injured!<New>
+<Cid>: Heh heh, <Rydia>'s got you whipped, eh, boy?<New>
+<Edge>: Shut up!<End>
+<End of Block>
+
+<Text entry 369>
+<Cid>: So, what of <Golbeza>?<New>
+<Cecil>: He still holds all of the Crystals except one.<New>
+<Rosa>: We can't go after the last Crystal, since we left the Enterprise on the surface.<New>
+<Cain>: We've taken an enemy airship, but it can't fly over magma.<New>
+<Cid>: Damn, you're all hopeless without me.<Music 36><End>
+<End of Block>
+
+<Text entry 370>
+<Cid>: Ahh, can it and give me a hand!<End>
+<End of Block>
+
+<Text entry 371>
+<Cecil>: <Cain>!<New>
+<Rosa>: Get a hold of yourself!<New>
+<Cain>: I'm...alright. I'm no longer under his control!<End>
+<End of Block>
+
+<Text entry 372>
+<Cain>: With all the Crystals in hand, the way to the moon will open.<New>
+<Edge>: Stop!!<End>
+<End of Block>
+
+<Text entry 373>
+<Edge>: Damn!<New>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 374>
+The door became a monster<End>
+<End of Block>
+
+<Text entry 375>
+<Cecil>: The walls!<New>
+<Rydia>: They're moving!<New>
+<Cain>: Removing the Crystal must've triggered it!<New>
+<Edge>: So much for a smooth exit.<End>
+<End of Block>
+
+<Text entry 376>
+<Rydia>: Alright!<New>
+<Edge>: Nothin' to it!<End>
+<End of Block>
+
+<Text entry 377>
+<Golbeza>: Haah ha ha ha ha!<End>
+<End of Block>
+
+<Text entry 378>
+Giott: Rally-ho! Show me the Crystal.<End>
+<End of Block>
+
+<Text entry 379>
+<Cecil>: Actually...<New>
+Giott: They have all the Crystals!? Nothing we can do now...unless the Lunar Whale legend comes true.<New>
+<Cecil>: Lunar Whale?<Music 0><New>
+Giott: A huge ship spoken of in a legend. It says, "One born of a dragon--"<New>
+<Cecil>: The Mysidian legend!<New>
+Giott: You know Mysidia?<New>
+<Cecil>: It's the home of the mages in the overworld.<New>
+Giott: Mysidia really exists!<New>
+<Cecil>: I've met the elder of Mysidia, who now prays tirelessly in some tower.<New>
+Giott: Prays...!?<New>
+<Cecil>: ?<New>
+Giott: Praying for the Lunar Whale, perhaps! You must hurry to Mysidia!<New>
+<Rosa>: But the exit is sealed.<New>
+<Edge>: We can't use the Tower of Babil, either.<End>
+<End of Block>
+
+<Text entry 380>
+Then dig your way out.<End>
+<End of Block>
+
+<Text entry 381>
+<Cecil>: The light at Ordeals called me "son." What was that light?<New>
+Elder: I don't know, nor do I know what the legend means. But we Mysidians, for generations, are told to pray for the fulfillment of this legend and to believe in the one with the sacred light. And I believe you just might be that one.<End>
+<End of Block>
+
+<Text entry 382>
+<Cid>: I'll attach a drill to the Falcon's bow.<New>
+<Rosa>: Shouldn't you be in bed?<New>
+<Cid>: Ahh, no worries.<New>
+<Edge>: Can you really do it?<New>
+<Cid>: Piece of cake.<End>
+<End of Block>
+
+<Text entry 383>
+<Palom>: Oh, give me a break.<New>
+<Porom>: What shameful acting!<New>
+<Cecil>: Baigan, you also betray Baron!?<New>
+Baigan: <Golbeza>'s wishes are Baron's wishes. He granted a wonderful power to me. Observe!<End>
+<End of Block>
+
+<Text entry 384>
+You have won Leviatan over. That still proves nothing. I, Bahamut, god of summons, shall decree the final judgment!<End>
+<End of Block>
+
+<Text entry 385>
+<Rydia> learned Bahamut<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 386>
+Baigan: Good of you to return.<New>
+<Cecil>: Baigan.<New>
+Baigan: Is something the matter?<New>
+<Cecil>: You serve <Golbeza> as well?<New>
+Baigan: Never! As captain of the Royal Guard, my loyalty lies with Baron.<New>
+<Cecil>: Where is <Cid>? I heard he was confined somewhere in the castle.<New>
+Baigan: I, too, have attempted to find him, but my men and I were ambushed. Now, I remain the sole survivor.<New>
+<Cecil>: Then let us find him together.<New>
+Baigan: It would be an honor to join you. Captain Baigan of the Royal Guard joined the party <Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 387>
+<Cid>: Okay! Let's get to work!<End>
+<End of Block>
+
+<Text entry 388>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 389>
+Elder: The entrance to the Devil's Road lies on the east side of town. <Palom>, <Porom>, train well and return safely. Good luck to you all.<End>
+<End of Block>
+
+<Text entry 390>
+<Palom>: Yeaaah, baby!<New>
+<Porom>: <Palom>, this is not some picnic!<End>
+<End of Block>
+
+<Text entry 391>
+<Gilbart>: This is where the antlion lays its eggs.<End>
+<End of Block>
+
+<Text entry 392>
+<Rydia>: AAAH!<New>
+<Gilbart>: It's okay. Antlions are quite tame. They don't attack people. Here, I'll demonstrate by getting the Sand Ruby.<End>
+<End of Block>
+
+<Text entry 393>
+<Cecil>: Let's go, <Rydia>!<New>
+<Rydia>: Yeah. Let's get him.<End>
+<End of Block>
+
+<Text entry 394>
+Received SandRuby<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 395>
+<Gilbart>: How could this happen? They've always been so harmless.<New>
+<Cecil>: Monsters are rapidly multiplying these days, and their behavior is changing as well. I just don't know why...<New>
+<Rydia>: Come on! Let's go help <Rosa>!<New>
+<Cecil>: Yeah.<End>
+<End of Block>
+
+<Text entry 396>
+Crew: Yes, sir.<New>
+Crew: So many monsters these days... Where the heck are they coming from?<New>
+<Cecil>: What is happening to this world...?<End>
+<End of Block>
+
+<Text entry 397>
+<Cecil>: Prepare for battle!<End>
+<End of Block>
+
+<Text entry 398>
+KNIGHTS OF BARON.<New>
+<Cain>: Who are you!?<Music 45> LEAVE NOW, AND NO HARM WILL BEFALL YOU.<New>
+<Cain>: Confident bastard, aren't you? YOU REFUSE?<End>
+<End of Block>
+
+<Text entry 399>
+<Gilbart>: <Cecil>...<Rosa> only wishes to be with you.<New>
+<Cecil>: ...Alright. We'll go together. Make sure you get a lot of rest tonight.<New>
+<Rosa>: <Cecil>... Thank you. White Mage <Rosa> joined the party<End>
+<End of Block>
+
+<Text entry 400>
+<Rosa>: I'll be alright, really. As a white mage, I promise I won't be a burden.<End>
+<End of Block>
+
+<Text entry 401>
+<Cecil>: <Rosa>!<End>
+<End of Block>
+
+<Text entry 402>
+<Gilbart>: Uwaah!<End>
+<End of Block>
+
+<Text entry 403>
+<Cecil>: <Gilbart>!<End>
+<End of Block>
+
+<Text entry 404>
+<Cecil>: We'll talk later. For now, fight with us.<New>
+<Cain>: Of course. Three-on-one or one-on-one, your choice.<New>
+<Cecil>: Wh...?<New>
+<Cain>: One-on-one it is.<New>
+<Cecil>: <Cain>! Wait!!<New>
+<Cain>: En garde!<End>
+<End of Block>
+
+<Text entry 405>
+<Yang>: <Cecil>. It is our turn to assist you. For now, let us heal our wounds.<New>
+<Cecil>: Thank you.<End>
+<End of Block>
+
+<Text entry 406>
+!!<End>
+<End of Block>
+
+<Text entry 407>
+<Cecil>: That's enough!<End>
+<End of Block>
+
+<Text entry 408>
+You wanna see my dance?<End>
+<End of Block>
+
+<Text entry 409>
+You big tease!<End>
+<End of Block>
+
+<Text entry 410>
+Kiai!<Delay 5><End>
+<End of Block>
+
+<Text entry 411>
+King: Forgive me for my suspicions. <Yang>, mobilize the men for battle. Prince <Gilbart>, dark knight, will you help us defend Fabul?<End>
+<End of Block>
+
+<Text entry 412>
+FF Director: CUT! Cut! Cut!<End>
+<End of Block>
+
+<Text entry 413>
+<Yang>: I trust you will look after everything.<New>
+<Yang>'s Wife: You bet. Take care. Love ya.<End>
+<End of Block>
+
+<Text entry 414>
+<Cecil>: I have to see <Cid>; he's Baron's chief airship engineer. I'm certain he will help us.<New>
+<Gilbart>: ...<End>
+<End of Block>
+
+<Text entry 415>
+<Rydia>: Why are you shaking? Are you cold?<New>
+<Gilbart>: No. I'm fine.<End>
+<End of Block>
+
+<Text entry 416>
+Sailor: Holy mackerel!<End>
+<End of Block>
+
+<Text entry 417>
+Sailor: The lord of the sea!<End>
+<End of Block>
+
+<Text entry 418>
+Sailor: Is that really...<End>
+<End of Block>
+
+<Text entry 419>
+Cap'n: Leviatan!<End>
+<End of Block>
+
+<Text entry 420>
+Hey! Watch this!<End>
+<End of Block>
+
+<Text entry 421>
+<Cecil>: I'm getting sleepy.<End>
+<End of Block>
+
+<Text entry 422>
+«Ptui-ptui!» Curse you and all of Baron!<End>
+<End of Block>
+
+<Text entry 423>
+<Palom>: Yeah, yeah, keep your hair on.<End>
+<End of Block>
+
+<Text entry 424>
+<Porom>: <Palom>! The elder taught us not to submit to arrogance!<End>
+<End of Block>
+
+<Text entry 425>
+<Porom>: Please forgive him for his antics.<End>
+<End of Block>
+
+<Text entry 426>
+<Golbeza>: You dare question my judgment?<New>
+<Cain>: No, sire!<New>
+<Golbeza>: Scarmiglione is one of the Four Fiends of Elements. He will not fail. <Rosa> will bear witness as well.<End>
+<End of Block>
+
+<Text entry 427>
+<Cain>: ...<New>
+<Rosa>: <Cecil>...<End>
+<End of Block>
+
+<Text entry 428>
+<Cecil>: <Tella>!<End>
+<End of Block>
+
+<Text entry 429>
+<Tella>: <Cecil>!<End>
+<End of Block>
+
+<Text entry 430>
+<Porom>: You don't understand because you're still a kid! Now hush!<New>
+<Tella>: <Cecil>, you have yet to answer me. Why did you come here?<New>
+<Cecil>: I came here in hopes of becoming a paladin. I cannot defeat <Golbeza> with the dark sword...and I have longed to renounce this hateful thing.<End>
+<End of Block>
+
+<Text entry 431>
+<Tella>: Not just an ordinary man, but a powerful sorcerer, brimming with evil!<End>
+<End of Block>
+
+<Text entry 432>
+<Tella>: So, you've come here to become a paladin? Then, this mountain must hold some secret, just as I suspected. I shall accompany you. Sage <Tella> joined the party<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 433>
+Scarmiglione: See you in hell!<End>
+<End of Block>
+
+<Text entry 434>
+My son...<New>
+<Cecil>: Son...?<End>
+<End of Block>
+
+<Text entry 435>
+<Tella>: <Cecil>!<End>
+<End of Block>
+
+<Text entry 436>
+<Palom>: Geez!<New>
+<Porom>: Look out!<End>
+<End of Block>
+
+<Text entry 437>
+<Tella>: !? Me... Meteo? That light! Somehow it broke the seal upon Meteo! <Tella> learned Meteo<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 438>
+<Palom>: Hey, wait up!<End>
+<End of Block>
+
+<Text entry 439>
+<Porom>: Are you ready to go?<New>
+<Cecil>: ...Yeah.<End>
+<End of Block>
+
+<Text entry 440>
+<Cecil>: Do you know what happened to <Rydia> and <Gilbart>?<End>
+<End of Block>
+
+<Text entry 441>
+<Yang>: Hm? What is this?<End>
+<End of Block>
+
+<Text entry 442>
+Crew: It isn't right. The Red Wings are supposed to protect people. We should never--<End>
+<End of Block>
+
+<Text entry 443>
+Received Earth<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 444>
+<Cid>: The air's sure gettin' heavy. C'mon, get your hearts up! We can rise above anything with my Enterprise!<End>
+<End of Block>
+
+<Text entry 445>
+<Gilbart>: <Cecil>, whatever became of <Rosa>!?<New>
+<Cecil>: <Golbeza> proposed<New>
+a trade: Troia's Crystal for <Rosa>'s return. But the Crystal lies in the hands of the Dark Elf.<End>
+<End of Block>
+
+<Text entry 446>
+<Gilbart>: <Cecil>, pray take this.<New>
+<Cecil>: What is it?<New>
+<Gilbart>: ...My substitute.<End>
+<End of Block>
+
+<Text entry 447>
+Received TwinHarp<End>
+<End of Block>
+
+<Text entry 448>
+<Cecil>: Here. Where's <Rosa>?<New>
+<Cain>: In the Tower of Zot. Follow me.<End>
+<End of Block>
+
+<Text entry 449>
+<Cecil>: Take it.<End>
+<End of Block>
+
+<Text entry 450>
+<Tella>: Vengeance will be mine!<End>
+<End of Block>
+
+<Text entry 451>
+
+<Align 18>Meanwhile...<End>
+<End of Block>
+
+<Text entry 452>
+<Golbeza>: ...!?<End>
+<End of Block>
+
+<Text entry 453>
+<Cid>: Get up, you old...<New>
+<Tella>: ...<New>
+<Yang>: ...<New>
+<Cid>: ...I'll bet yer daughter's showerin' you with praises right now.<End>
+<End of Block>
+
+<Text entry 454>
+<Cain>: <Cecil>... I... I don't know what to--<New>
+<Cecil>: It wasn't your fault. You were hypnotized.<New>
+<Cain>: But...I retained my consciousness. <Rosa>... I can't believe I...<End>
+<End of Block>
+
+<Text entry 455>
+<Cain>: Beyond these doors! We must hurry!<End>
+<End of Block>
+
+<Text entry 456>
+<Cecil>: <Tella>, <Anna>... On my life... we will avenge you!<End>
+<End of Block>
+
+<Text entry 457>
+<Cain>: ...<New>
+<Cecil>: We need your help more than ever now.<New>
+<Cain>: <Cecil>... <Rosa>... Thank you.<End>
+<End of Block>
+
+<Text entry 458>
+White Mage <Rosa> and Dragoon <Cain> joined the party<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 459>
+Ahahahahaha...<End>
+<End of Block>
+
+<Text entry 460>
+<Rosa>: Hold on to me!<End>
+<End of Block>
+
+<Text entry 461>
+<Cid>: Ah, no worries. We'll just fly around the world on the Enterprise 'til we find somethin'.<End>
+<End of Block>
+
+<Text entry 462>
+<Cecil>: But we lost the airship near the tower.<New>
+<Cid>: My beloved's equipped with auto-pilot. I'll bet she's flown back here already.<New>
+<Rosa>: <Cid>, what would we do without you?<New>
+<Cid>: Heh heh. Alright, let's rest up for our journey to the underworld.<End>
+<End of Block>
+
+<Text entry 463>
+<Cecil>: I still don't understand. What stopped <Golbeza> from finishing me off at the tower?<End>
+<End of Block>
+
+<Text entry 464>
+<Rosa>: <Cecil>?<End>
+<End of Block>
+
+<Text entry 465>
+
+
+
+
+
+
+
+
+
+<Align 3>And so, the dark knight
+<Align 2><Cecil> was stripped of his
+<Align 2>command as captain of the
+<Align 4>Red Wings. He and the
+<Align 3>master dragoon <Cain> head
+<Align 2>toward the dark valley for
+<Align 5>the village Mist.
+
+
+
+<Align 2>The advent of the airship
+<Align 3>marked the realization
+<Align 3>of Baron's dreams, but
+<Align 5>also the birth of
+<Align 6>its militarism.
+
+
+
+<Align 3>With its Royal Air Force
+<Align 3>"Red Wings," Baron soon
+<Align 3>reigned supreme. Now, as
+<Align 2>monsters multiply and stir
+<Align 2>unrest, Baron only exploits
+<Align 3>its power to collect the
+<Align 4>world's Crystals. Why?
+
+
+
+
+
+
+<Align 3>The Crystals shed their
+<Align 5>light silently...
+
+
+
+
+<End>
+<End of Block>
+
+<Text entry 466>
+<Cecil>: <Rosa>!<End>
+<End of Block>
+
+<Text entry 467>
+Giott: We can help fix.<New>
+<Cid>: Ahh, she won't last in the heat of all this lava anyway. For now, I'm gonna make temporary fixes, then fly back up to the surface and gather me some mythril to armor her better.<End>
+<End of Block>
+
+<Text entry 468>
+Received Dark<Music 41><Delay 36><End>
+<End of Block>
+
+<Text entry 469>
+<Cecil>: But...<New>
+<Palom>: Hey, you got a problem?<New>
+<Porom>: I'm sure we can still be of assistance.<New>
+<Tella>: They're annoying runts, but we could use their help.<New>
+<Cecil>: Alright. I'm counting on you all.<End>
+<End of Block>
+
+<Text entry 470>
+<Porom>: Elder, please allow us to accompany him.<New>
+<Palom>: You're the one who told us to help him.<New>
+Elder: ...You have both overcome the trials of Ordeals to return alive. Perhaps this is your fate. Please look after them.<End>
+<End of Block>
+
+<Text entry 471>
+Elder: <Palom>, <Porom>, return to your studies.<End>
+<End of Block>
+
+<Text entry 472>
+
+<Align 16>That night...<End>
+<End of Block>
+
+<Text entry 473>
+Rally-ho, no! Important room!<End>
+<End of Block>
+
+<Text entry 474>
+<Porom>: We met him on Mt. Ordeals.<End>
+<End of Block>
+
+<Text entry 475>
+<Rosa>: <Rydia>...<New>
+<Rydia>: «Sob...sob...»<End>
+<End of Block>
+
+<Text entry 476>
+<Tella>: Enough talk! We must go defeat <Golbeza>!<New>
+Elder: <Tella>?<New>
+<Tella>: It's been a while.<End>
+<End of Block>
+
+<Text entry 477>
+<Cain>: Can we shake 'em!?<New>
+<Cid>: I don't know. They've definitely upgraded the Red Wings.<End>
+<End of Block>
+
+<Text entry 478>
+<Rydia>: They're catching up!<New>
+<Cid>: Doggonit!<End>
+<End of Block>
+
+<Text entry 479>
+<Rosa>: Wait!<New>
+<Cid>: Oh yeah, return to Baron afterward and talk to my men.<New>
+<Rosa>: <Cid>!!<New>
+<Cid>: Take good care of <Cecil>...and tie the knot already! Have a whole mess of kids!<End>
+<End of Block>
+
+<Text entry 480>
+<Cecil>: No! There has to be another way!<New>
+<Rydia>: <Cid>, please don't!<End>
+<End of Block>
+
+<Text entry 481>
+<Cid>: Hey, I'm Uncle <Cid> to you, lassie!<End>
+<End of Block>
+
+<Text entry 482>
+<Cecil>: Let's head to Baron.<End>
+<End of Block>
+
+<Text entry 483>
+<Cecil>: <Yang>!!<New>
+<Yang>: <Cecil>, everyone, I thank you.<New>
+<Cain>: Open the door!<New>
+<Rydia>: <Yang>!<New>
+<Rosa>: Please don't do this!<New>
+<Yang>: Tell my wife... ...I will always be with her.<New>
+<Cecil>: <Yang>!!!<New>
+<Yang>: Farewell.<End>
+<End of Block>
+
+<Text entry 484>
+<Porom>: Sir <Cecil> fought brilliantly.<New>
+<Palom>: I'll say. He passed with flying colors.<New>
+<Cecil>: What?<New>
+Elder: Forgive me. I assigned them to spy on you. As it turned out, there was no need for it. <Palom>, <Porom>, good work.<End>
+<End of Block>
+
+<Text entry 485>
+<Rydia> learned Asura <Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 486>
+<Rydia> learned Leviatan <Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 487>
+Elder: Unbelievable! You've succeeded!<End>
+<End of Block>
+
+<Text entry 488>
+<Gilbart>: <Anna>!!<New>
+<Tella>: <Anna>!? <Anna>!!<Delay 43><End>
+<End of Block>
+
+<Text entry 489>
+<Tella>: You love him that much...?<New>
+<Anna>: Father...forgive me. <Gilbart>...I love you...<End>
+<End of Block>
+
+<Text entry 490>
+<Gilbart>: Goodbye, <Anna>...<End>
+<End of Block>
+
+<Text entry 491>
+<Gilbart>: Let's get going.<New>
+<Cecil>: Thank you.<New>
+<Gilbart>: Oh, and please don't call me a "king." Prince <Gilbart> joined the party<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 492>
+<Tella>: He's down there!<End>
+<End of Block>
+
+<Text entry 493>
+<Cecil>: The current is too strong for us to get in!<End>
+<End of Block>
+
+<Text entry 494>
+May I see your Pass, please?<End>
+<End of Block>
+
+<Text entry 495>
+Thank you. Please enjoy.<End>
+<End of Block>
+
+<Text entry 496>
+<Cecil>: !!<Music 42><Delay 48><End>
+<End of Block>
+
+<Text entry 497>
+Found Grimoire<End>
+<End of Block>
+
+<Text entry 498>
+Found Smut<Delay 48><End>
+<End of Block>
+
+<Text entry 499>
+King: Your who? Oh, you must mean the old duffer who refused to surrender this kingdom. Kahaha. I must say I've enjoyed impersonating him.<New>
+<Cecil>: What have you done with the king!?<New>
+King: You'll see him soon enough. Oh, and give my regards to Scarmiglione when you see him in hell. That weakling never deserved to be one of the Four Fiends of Elements.<New>
+<Cecil>: !?<End>
+<End of Block>
+
+<Text entry 500>
+<Golbeza>: ...Thank you, <Cecil>.<End>
+<End of Block>
+
+<Text entry 501>
+Old Man: Could that be... the dark sword--indeed! Dark knight, I need your assistance!<New>
+<Cecil>: What's wrong?<New>
+Old Man: I must get to Damcyan to reclaim my daughter, who was deceived by a WICKED BARD!! We must hurry, for I sense an ill omen!<New>
+<Cecil>: You must be the sage <Tella>.<End>
+<End of Block>
+
+<Text entry 502>
+<Golbeza>: Yes.<End>
+<End of Block>
+
+<Text entry 503>
+Gramps: Your Highness!<Delay 16><End>
+<End of Block>
+
+<Text entry 504>
+<Yang>'s Wife: Hon! Get yer butt back here!<Delay 10><End>
+<End of Block>
+
+<Text entry 505>
+Received Necklace<End>
+<End of Block>
+
+<Text entry 506>
+<Yang>: They have beaten us here.<New>
+<Cecil>: Who are they fighting?<New>
+<Cid>: I'm gonna bust through the line! Hang on!<End>
+<End of Block>
+
+<Text entry 507>
+The coveter of the holy spear shall perish!<End>
+<End of Block>
+
+<Text entry 508>
+By sacred force, we shall protect the ribbons.<End>
+<End of Block>
+
+<Text entry 509>
+Those damned by Zemus shall never bear this sword!<End>
+<End of Block>
+
+<Text entry 510>
+Doctor: You're too late. The Tower of Babil connects the underworld and the overworld, and Rubicante has already taken all the Crystals to the surface. And my super cannons will blow the dwarves away! I win, I win! Uwee-hee--UGH!<End>
+<End of Block>
+
+<Text entry 511>
+To the seeker of this blade, I bring death!<End>
+<End of Block>
+
+<Text entry 512>
+<Yang>: Then he covets our Wind Crystal as well.<New>
+<Gilbart>: There is no doubt. He easily seized Damcyan's Crystal a few days ago.<New>
+<Yang>: ...The odds are against us. The only monks left in the castle are students. They stand little chance against Baron's forces.<End>
+<End of Block>
+

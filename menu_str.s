@@ -475,8 +475,8 @@ org $01e295
 	// Exchange
 	db $08, $0f, $10, $11, $12, $00
 org $01e2a0
-	dw $f00d
-	db $ad, $ba
+	dw $cdcd
+	db $cd, $cd
 	dw $0046
 	// You have left some
 	db $13, $14, $15, $16, $17, $18, $19, $1a, $1b, $1c, $1d, $01

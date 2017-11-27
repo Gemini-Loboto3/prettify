@@ -1,0 +1,1158 @@
+﻿<256 text entries>
+<Text entry 1>
+Inside this field, you can use a Tent or a Cabin and Save your game.<End>
+<End of Block>
+
+<Text entry 2>
+<Golbeza>: It is done...<New>
+<Fusuya>: What waste... A man of such power to be consumed with evil.<New>
+<Edge>: Right on!<End>
+<End of Block>
+
+<Text entry 3>
+<Fusuya>: We meet again.<End>
+<End of Block>
+
+<Text entry 4>
+<Rydia>: Oh gosh!<New>
+<Edge>: Dammit!!<End>
+<End of Block>
+
+<Text entry 5>
+<Rydia>: We have to do something!<New>
+<Cecil>: What's that!?<End>
+<End of Block>
+
+<Text entry 6>
+<Cid>: Time to steal the show, boys! Full throttle!<End>
+<End of Block>
+
+<Text entry 7>
+<Gilbart>: All the courage you have taught me, I will put forth!<End>
+<End of Block>
+
+<Text entry 8>
+<Edge>: Shucks! You guys beat me to it.<New>
+<Golbeza>: <Cecil>...<End>
+<End of Block>
+
+<Text entry 9>
+Giott: Enter the dwarves! We will join you! Fight for Mother Earth!<End>
+<End of Block>
+
+<Text entry 10>
+<Yang>: I will not rest while you brave this crisis.<End>
+<End of Block>
+
+<Text entry 11>
+<Cecil>: Thank you, all of you...<New>
+<Rosa>: The giant is staggering!<End>
+<End of Block>
+
+<Text entry 12>
+<Edge>: I get it! We get inside and destroy its core!<End>
+<End of Block>
+
+<Text entry 13>
+<Palom>: Hey, no hard feelings, alright?<New>
+<Porom>: I'm sorry.<New>
+<Cecil>: It's okay. You did the right thing, considering all I've done.<New>
+Elder: But now, you are a paladin and... That sword! Where did you get it?<New>
+<Cecil>: On Mt. Ordeals.<New>
+Elder: The inscription on this sword matches a pas- sage from Mysidian legend.<New>
+<Cecil>: Legend?<End>
+<End of Block>
+
+<Text entry 14>
+<Edge>: You'll just end up gettin' hypnotized again.<End>
+<End of Block>
+
+<Text entry 15>
+<Cain>: Pray kill me if that happens.<End>
+<End of Block>
+
+<Text entry 16>
+<Cain>: I'm going to the moon, too--to get even with Zemus.<End>
+<End of Block>
+
+<Text entry 17>
+<Cain>: ...<New>
+<Rosa>: <Golbeza> was being manipulated, too! It's not <Cain>'s fault!<New>
+<Cain>: <Golbeza>...too?<End>
+<End of Block>
+
+<Text entry 18>
+<Edge>: Forgive you!? The giant was revived because of you!<End>
+<End of Block>
+
+<Text entry 19>
+<Cain>: Talk later! Come on!<End>
+<End of Block>
+
+<Text entry 20>
+<Rosa>: <Cecil>!!<End>
+<End of Block>
+
+<Text entry 21>
+YOU WRETCH!<End>
+<End of Block>
+
+<Text entry 22>
+<Fusuya>: We have reached the core.<New>
+<Edge>: Damn! It's huge!<New>
+<Fusuya>: The defense system repairs the main system. We must destroy it first.<End>
+<End of Block>
+
+<Text entry 23>
+<Cecil>: Alright!<New>
+<Edge>: It stopped!<End>
+<End of Block>
+
+<Text entry 24>
+You are all DEAD!<New>
+<Fusuya>: You!<End>
+<End of Block>
+
+<Text entry 25>
+<Golbeza>: Die!<New>
+<Fusuya>: Have you forgotten who you are!?<New>
+<Golbeza>: Urgh! Stop!!<New>
+<Fusuya>: You must awaken!<End>
+<End of Block>
+
+<Text entry 26>
+<Golbeza>: ...How did I bear all that hatred...?<New>
+<Fusuya>: You have come to. Do you remember your father's name?<New>
+<Golbeza>: My father... KluYa.<New>
+<Cecil>: What!?<New>
+<Rosa>: Wait!<New>
+<Edge>: You're brothers!?<New>
+<Cecil>: ...<New>
+<Fusuya>: You were controlled by Zemus's telepathy. Your Lunarian blood easily fell prey to his influence, and amplified its effects.<End>
+<End of Block>
+
+<Text entry 27>
+<Edge>: You alright?<New>
+<Cecil>: I have been cursing...and fighting my own brother...?<New>
+<Golbeza>: ...<New>
+<Cecil>: Then again, Zemus could have chosen me instead...<New>
+<Golbeza>: No. Zemus chose me because of the evil in my soul, however small it was. Zemus...<End>
+<End of Block>
+
+<Text entry 28>
+<Cecil>: Where are you going!?<New>
+<Golbeza>: I shall settle this myself.<End>
+<End of Block>
+
+<Text entry 29>
+<Fusuya>: Wait!<End>
+<End of Block>
+
+<Text entry 30>
+<Fusuya>: Zemus is a Lunarian, of my race. I will accompany you.<End>
+<End of Block>
+
+<Text entry 31>
+<Golbeza>: Farewell, <Cecil>.<End>
+<End of Block>
+
+<Text entry 32>
+<Edge>: Aren't you gonna go with him?<New>
+<Rosa>: <Golbeza>... He's willing to die.<New>
+<Cecil>: ... ...He's my brother.<New>
+<Rydia>: <Cecil>.<New>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 33>
+<Edge>: Aw, crap!<New>
+<Rydia>: Let's go!<New>
+<Rosa>: <Cecil>!<New>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 34>
+<Edge>: Come on!<New>
+<Rydia>: But where's the exit!? This way!<End>
+<End of Block>
+
+<Text entry 35>
+<Rosa>: <Cain>!<New>
+<Edge>: What are you doin' here!?<End>
+<End of Block>
+
+<Text entry 36>
+<Cain>: I've broken free of his control once and for all. Still, I don't expect you all to forgive me.<End>
+<End of Block>
+
+<Text entry 37>
+<Rosa>: Stop it!<End>
+<End of Block>
+
+<Text entry 38>
+<Rosa>: <Golbeza> is <Cecil>'s brother. A Lunarian called Zemus con- trolled him from the moon.<New>
+<Rydia>: <Fusuya> helped <Golbeza> remember everything. Now they're going to the moon to fight Zemus.<New>
+<Cain>: <Golbeza> is... <Cecil>'s brother...<End>
+<End of Block>
+
+<Text entry 39>
+<Edge>: Then I'll have to go with you. I wanna bust Zemus up anyway.<New>
+<Cecil>: Okay...<End>
+<End of Block>
+
+<Text entry 40>
+<Cecil>: Let's go.<New>
+<Rosa>: <Cecil>.<End>
+<End of Block>
+
+<Text entry 41>
+<Edge>: Now you be a good girl and stay home.<New>
+<Rydia>: Idiot!<End>
+<End of Block>
+
+<Text entry 42>
+<Cecil>: Alright, then. Let's go!<End>
+<End of Block>
+
+<Text entry 43>
+<Edge>: «Sigh.»<End>
+<End of Block>
+
+<Text entry 44>
+<Cecil>: Ready?<End>
+<End of Block>
+
+<Text entry 45>
+<Rosa>: ...<New>
+<Cecil>: We're taking you back.<New>
+<Rosa>: No! I'm coming with you!<New>
+<Cecil>: !<New>
+<Rosa>: I don't care what happens! As long as I'm with you.<New>
+<Cecil>: ...<New>
+<Edge>: Aw, what about me? Where's my love?<New>
+<Cain>: Come on, <Cecil>.<New>
+<Cecil>: ...Okay. <Rosa>...no matter what, I will protect you.<End>
+<End of Block>
+
+<Text entry 46>
+<Edge>: You!<New>
+<Rydia>: I told you before. We have to confront this together. Besides, you'll need my help.<New>
+<Cecil>: You're right... Let's go.<End>
+<End of Block>
+
+<Text entry 47>
+<Cecil>: <Rosa>, you and <Rydia> stay behind.<New>
+<Rosa>: What!?<New>
+<Rydia>: No!<New>
+<Cecil>: I doubt we'll all return safe this time...<New>
+<Rosa>: ...<New>
+<Rydia>: But--<New>
+<Cecil>: Get off!<End>
+<End of Block>
+
+<Text entry 48>
+Awright!<End>
+<End of Block>
+
+<Text entry 49>
+<Cain>: <Rosa>!<End>
+<End of Block>
+
+<Text entry 50>
+<Cecil>: ...<End>
+<End of Block>
+
+<Text entry 51>
+<Rosa>: <Cecil>.<End>
+<End of Block>
+
+<Text entry 52>
+I am the incarnation of Zemus's enmity...<End>
+<End of Block>
+
+<Text entry 53>
+<Cecil>: Brother...<End>
+<End of Block>
+
+<Text entry 54>
+<Cecil>: Zeromus... For all life... and for those who gave their lives... We will not lose!<End>
+<End of Block>
+
+<Text entry 55>
+I will not...perish... so long as evil...dwells in the hearts...of mankind. G...gh... GRRRAAGH!<End>
+<End of Block>
+
+<Text entry 56>
+<Fusuya>: Well done!<End>
+<End of Block>
+
+<Text entry 57>
+<Fusuya>: Your powers have far exceeded my expectations. Indeed, your race has come far-- transcended ours, perhaps.<New>
+<Edge>: Yeah, we rule!<End>
+<End of Block>
+
+<Text entry 58>
+Elder: Knight of Baron... What do you want this time?<New>
+<Cecil>: My name is <Cecil>. ...I can't begin to ask you to forgive me for what I've done.<New>
+Elder: Apologies will not bring the dead back to life.<New>
+<Cecil>: ...<New>
+Elder: So...you have mourned and suffered as we have... You are not the mindless killer you once were. What brings you here?<New>
+<Cecil>: A sorcerer named <Golbeza> now commands Baron's forces, and took my friend captive. While en route to Baron to rescue her, my companions and I were attacked by Leviatan. I was shipwrecked here, and I don't know what's become of the others.<New>
+Elder: I sense your trials are just beginning. But while you depend upon the dark sword, you cannot overcome true evil. Moreover, you might be consumed by its darkness someday. If you wish to fight evil with righteousness, go to Mt. Ordeals, which lies to the east of Mysidia.<New>
+<Cecil>: But my comrades...<New>
+Elder: There is a time for everything. First, you must climb Mt. Ordeals and renounce this evil sword for a holy sword. Only then can you receive light and become a holy knight-- a paladin. Many have ventured to Ordeals to become a paladin, but none have ever returned. Will you risk your life as well and go to Ordeals?<New>
+<Cecil>: Yes.<New>
+Elder: You face heavy odds by going alone. I will assign two mages to accom- pany you. <Palom>! <Porom>!<End>
+<End of Block>
+
+<Text entry 59>
+Thank you for coming. <End>
+<End of Block>
+
+<Text entry 60>
+<Cecil>: ...Who are you?<New>
+Old Man: I am <Fusuya>, guardian of the Lunarians.<New>
+<Rosa>: Lunarians?<New>
+<Fusuya>: In eons past, a planet between Mars and Jupiter verged on extinction. The survivors escaped by ship to the blue planet.<New>
+<Cecil>: The blue planet...? Our home?<New>
+<Fusuya>: Yes, Earth. But because the people of Earth were still evolving, the survivors created another moon, where they now sleep.<End>
+<End of Block>
+
+<Text entry 61>
+<Edge>: So these survivors became Lunarians, and they're still sleeping.<New>
+<Fusuya>: Some were reluctant. One even schemed to destroy life on Earth and usurp the planet.<New>
+<Rydia>: My gosh...<New>
+<Fusuya>: I forced him to sleep, but even through long repose, the power of his will continues to grow. That very will has further corrupted evil souls, inciting them to gather the Crystals.<End>
+<End of Block>
+
+<Text entry 62>
+<Cecil>: <Golbeza> being one of them.<New>
+<Edge>: So who is this guy?<New>
+<Fusuya>: Zemus. He plans to use the Crystals, our source of energy, to restore the Tower of Babil and bring down the Giant of Babil to annihilate life on Earth.<New>
+<Rosa>: Insane...<New>
+<Fusuya>: Such is not the Lunarians' wish. They quietly wait for earthlings to evolve, and long to commune with them one day.<New>
+<Cecil>: How did the Lunar Whale come into being?<New>
+<Fusuya>: My brother KluYa made it long ago to go to the blue planet, which he had longed to visit. He introduced the concept of airships and the Devil's Road to your people. Moreover, he fell in love with an earthling. She bore two children. You are one.<End>
+<End of Block>
+
+<Text entry 63>
+Apprentices: Aye, aye!<End>
+<End of Block>
+
+<Text entry 64>
+<Cecil>: !! I'm... Then that voice at Mt. Ordeals was--<New>
+<Fusuya>: The spirit of your father, no doubt. You resemble KluYa.<New>
+<Cecil>: That light...was my father...<New>
+<Fusuya>: KluYa gave you his power to fight Zemus. We must stop him for the sake of our two races. Now let us depart for the Tower of Babil.<New>
+<Edge>: The tower's shielded.<End>
+<End of Block>
+
+<Text entry 65>
+<Fusuya>: I can neutralize the barrier. Come, we have little time. Lunarian <Fusuya> joined the party<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 66>
+<Cain>: Zeromus's last words... What do you think...?<End>
+<End of Block>
+
+<Text entry 67>
+<Rosa>: As long as evil dwells in the hearts...<New>
+<Fusuya>: In every heart, there resides good and evil... just as the Crystals of light and dark exist, just as the overworld and underworld together form the Earth. Against evil will, good will arises; thus did you overcome Zemus.<New>
+<Edge>: Ahh, it was nothin'. I was born a hero.<End>
+<End of Block>
+
+<Text entry 68>
+<Rydia>: Could you be more arrogant!? I'm surprised Zemus didn't control you.<End>
+<End of Block>
+
+<Text entry 69>
+Sage <Tella> joined the party<Delay 40><End>
+<End of Block>
+
+<Text entry 70>
+Wait!<End>
+<End of Block>
+
+<Text entry 71>
+<Edge>: Hey, never me. I'm all righteousness.<New>
+<Fusuya>: I must go now and sleep along with my people. And you?<End>
+<End of Block>
+
+<Text entry 72>
+<Cecil>: We are going home.<New>
+<Rosa>: Our friends are waiting.<End>
+<End of Block>
+
+<Text entry 73>
+<Fusuya>: Ah, yes. You are truly blessed with fine companions. I look forward to our next meeting.<End>
+<End of Block>
+
+<Text entry 74>
+<Golbeza>: I wish to accompany you.<New>
+<Fusuya>: You?<New>
+<Golbeza>: I cannot go back-- not after what I've done. And I long to know more about the Lunarians, my father's people.<New>
+<Fusuya>: Ah, yes--you are half Lunarian. A long sleep awaits us, mind you.<New>
+<Golbeza>: I have no qualms.<End>
+<End of Block>
+
+<Text entry 75>
+<Golbeza>: You called me "brother."<New>
+<Cecil>: ...<New>
+<Golbeza>: I have caused you much pain... I cannot expect your forgiveness.<End>
+<End of Block>
+
+<Text entry 76>
+<Fusuya>: Fare you well. We shall pray for peace on Earth.<End>
+<End of Block>
+
+<Text entry 77>
+<Rosa>: <Cecil>.<New>
+<Cain>: So that's it?<New>
+<Rydia>: He's your brother!<End>
+<End of Block>
+
+<Text entry 78>
+<Golbeza>: Farewell.<End>
+<End of Block>
+
+<Text entry 79>
+<Cecil>: ... Goodbye. ...Brother.<End>
+<End of Block>
+
+<Text entry 80>
+<Golbeza>: ...<End>
+<End of Block>
+
+<Text entry 81>
+Elder: Now for today's lesson.<New>
+<Porom>: Yes, Elder. <Delay 48><New>
+Elder: Uh, where is <Palom>?<New>
+<Porom>: Oh, not again!<Delay 32><End>
+<End of Block>
+
+<Text entry 82>
+<Porom>: Yep, that's when I cast Ice, and bam!<Delay 32><End>
+<End of Block>
+
+<Text entry 83>
+<Palom>: Oww!<New>
+<Porom>: Get back to the house! The elder is very angry!<Delay 48><End>
+<End of Block>
+
+<Text entry 84>
+Elder: ...and you expect to become the next <Tella>! Transcribe one thousand spells by tonight!<Delay 64><End>
+<End of Block>
+
+<Text entry 85>
+<Palom>: Nooo!<Delay 16><End>
+<End of Block>
+
+<Text entry 86>
+<Porom>: Get to work!<Delay 16><End>
+<End of Block>
+
+<Text entry 87>
+Gramps: Your Highness, as the heir to the throne you must exercise more prudence!<Delay 48><End>
+<End of Block>
+
+<Text entry 88>
+<Edge>: Stop naggin' me! I know!<Delay 16><End>
+<End of Block>
+
+<Text entry 89>
+Gramps: Then, hereon, you will refrain from courting ladies everyday. <Delay 48><New>
+<Edge>: Yeah, yeah.<New>
+Gramps: Please stop with those lazy answers!<Delay 32><End>
+<End of Block>
+
+<Text entry 90>
+<Edge>: Damn, <Rydia>... no girl in this world compares to you.<Delay 48><End>
+<End of Block>
+
+<Text entry 91>
+Leviatan: She has boundless potential.<New>
+Asura: Yes. I never imagined she would return.<Delay 48> <Rydia>!<Delay 16><End>
+<End of Block>
+
+<Text entry 92>
+<Rydia>: That's all that matters.<Delay 16><End>
+<End of Block>
+
+<Text entry 93>
+Summon Kid: I was wondering: why do I have fangs? I don't want fangs. I wish I were like you.<Delay 48><End>
+<End of Block>
+
+<Text entry 94>
+<Rydia>: Listen to me. Humans and summons look different, but we're the same.<Delay 32><End>
+<End of Block>
+
+<Text entry 95>
+Asura: She brings new life to our land.<New>
+Leviatan: And beauty.<Delay 48><End>
+<End of Block>
+
+<Text entry 96>
+<Rydia>: You and I have the same heart.<Delay 16><End>
+<End of Block>
+
+<Text entry 97>
+Hey, Prince!<Delay 16><End>
+<End of Block>
+
+<Text entry 98>
+Play us the paladin song! <Delay 16><New>
+<Gilbart>: Alright. But first, we have to work. We need to rebuild the castle as soon as possible, right?<Delay 48><End>
+<End of Block>
+
+<Text entry 99>
+Yeah, okay! See you later!<Delay 32><End>
+<End of Block>
+
+<Text entry 100>
+<Gilbart>: Watch over me; I'll bring happiness to my people.<Delay 64> Take care of <Tella>.<Delay 16><End>
+<End of Block>
+
+<Text entry 101>
+<Yang>'s Wife: Hon, I don't like this one bit.<Delay 16><End>
+<End of Block>
+
+<Text entry 102>
+<Yang>: Stay calm. You are a queen now. And stop addressing me as "hon."<Delay 48><New>
+<Yang>'s Wife: All this formality crap's makin' my neck stiff.<New>
+<Yang>: Oh, I must go.<Delay 64><End>
+<End of Block>
+
+<Text entry 103>
+Ex-King: Now, now. <Yang> is striving to build a new Fabul.<Delay 48><End>
+<End of Block>
+
+<Text entry 104>
+Rally-ho!<Delay 16><End>
+<End of Block>
+
+<Text entry 105>
+Giott: Begin work! The castle needs much fixing.<Delay 48><End>
+<End of Block>
+
+<Text entry 106>
+King, we rally need more steel!<Delay 32><End>
+<End of Block>
+
+<Text entry 107>
+Giott: Scrap the tanks! No more wars! No need for them!<Delay 48><End>
+<End of Block>
+
+<Text entry 108>
+Luca: Father, have you heard from <Cecil>?<Delay 24><End>
+<End of Block>
+
+<Text entry 109>
+Giott: Good news. <Cecil> and <Rosa> will rule Baron, as king and queen.<New>
+Luca: Really!<Delay 64><New>
+Giott: We are going to the coronation.<New>
+Luca: Yay!<Delay 48><End>
+<End of Block>
+
+<Text entry 110>
+King, we rally need more tanks.<Delay 16><End>
+<End of Block>
+
+<Text entry 111>
+Giott: Scrap the swords and armor!<Delay 16><End>
+<End of Block>
+
+<Text entry 112>
+<Cain>: <Cecil>... <Rosa>... <Delay 32> Forgive me. I can't give you my blessing. I will train here at Ordeals to surpass my father and<Delay 64> return someday as a worthy dragoon. Maybe then...<Delay 32><End>
+<End of Block>
+
+<Text entry 113>
+Huh!?<Delay 10><End>
+<End of Block>
+
+<Text entry 114>
+Corio: What?<Delay 16><End>
+<End of Block>
+
+<Text entry 115>
+Oh my gosh! The moon!<Delay 24><End>
+<End of Block>
+
+<Text entry 116>
+<Cecil>: ...!<Delay 16><End>
+<End of Block>
+
+<Text entry 117>
+<Rosa>: What's wrong?<Delay 16><New>
+<Cecil>: Nothing... I thought I heard my brother. <Delay 48><New>
+<Rosa>: What did he say?<Delay 16><End>
+<End of Block>
+
+<Text entry 118>
+Received Crystal<End>
+<End of Block>
+
+<Text entry 119>
+<Cecil>: ...It was just my imagination.<Delay 32><End>
+<End of Block>
+
+<Text entry 120>
+<Cid>: Oy, what the hell's takin' so long!? You're holdin' up the show!<Delay 48><New>
+<Rosa>: Sorry.<Delay 16><End>
+<End of Block>
+
+<Text entry 121>
+<Cid>: Save the hanky-panky 'til after the ceremony! Come on, <Rosa>! <Delay 48> Wait, do I have to call you Queen from now on?<Delay 16><End>
+<End of Block>
+
+<Text entry 122>
+<Rosa>: No, please don't.<Delay 16><End>
+<End of Block>
+
+<Text entry 123>
+<Cid>: So I'm still your daddy, right? Well, I can't give the bride away until<Delay 48> she puts on some makeup. The maids are waitin' for ya.<New>
+<Rosa>: I'll be right down.<Delay 32><End>
+<End of Block>
+
+<Text entry 124>
+<Golbeza>: <Cecil>... Here... Use this...<End>
+<End of Block>
+
+<Text entry 125>
+<Rosa>: Everyone will be here soon. I can't wait to see them.<New>
+<Cecil>: Yeah.<Delay 48><End>
+<End of Block>
+
+<Text entry 126>
+<Cecil>: I did hear him... <Delay 16> He said... <Delay 16> Goodbye...<Delay 16><End>
+<End of Block>
+
+<Text entry 127>
+<Gilbart>: <Anna>...<Delay 16><End>
+<End of Block>
+
+<Text entry 128>
+<Yang>: It is time for training.<Delay 16><End>
+<End of Block>
+
+<Text entry 129>
+Zeromus, the absolute darkness, the epitome of hate.<Music 11><End>
+<End of Block>
+
+<Text entry 130>
+<Fusuya>: Death only increased Zemus's hatred.<End>
+<End of Block>
+
+<Text entry 131>
+<Golbeza>: Zemus...or should I say Zeromus. I shall destroy you once and for all!<End>
+<End of Block>
+
+<Text entry 132>
+<Fusuya>: Your hatred ends with us!<End>
+<End of Block>
+
+<Text entry 133>
+Zeromus: Agony... Death... The hatred to rage on until all dies.<End>
+<End of Block>
+
+<Text entry 134>
+<Porom>: Elder!<End>
+<End of Block>
+
+<Text entry 135>
+<Palom>: We gotta do something!<End>
+<End of Block>
+
+<Text entry 136>
+Elder: It is time.<End>
+<End of Block>
+
+<Text entry 137>
+Elder: We must pray for them... We must pray for the world.<End>
+<End of Block>
+
+<Text entry 138>
+Elder: <Palom>, <Porom>, we shall send everybody's prayers to <Cecil>.<End>
+<End of Block>
+
+<Text entry 139>
+<Yang>: <Cecil>...<End>
+<End of Block>
+
+<Text entry 140>
+<Gilbart>: Pray show us your courage, once more.<End>
+<End of Block>
+
+<Text entry 141>
+<Cid>: We're all waitin' for you!<End>
+<End of Block>
+
+<Text entry 142>
+Giott: Return peace to Mother Earth.<End>
+<End of Block>
+
+<Text entry 143>
+Luca: Please stand up!<End>
+<End of Block>
+
+<Text entry 144>
+You're our last hope.<End>
+<End of Block>
+
+<Text entry 145>
+Please return safe.<End>
+<End of Block>
+
+<Text entry 146>
+Elder: Moon of the heavens. Receive our prayers.<End>
+<End of Block>
+
+<Text entry 147>
+<Palom>: Come on, bro!<End>
+<End of Block>
+
+<Text entry 148>
+<Cecil>: ...These are the mages you spoke of?<New>
+Elder: Yes. <Porom> and her twin brother, <Palom>. They are still students, but I am certain they will be of great help.<New>
+<Palom>: That'll be a thousand Gil per hour for my services, starting now.<New>
+Elder: <Palom>! Consider this a part of your training.<End>
+<End of Block>
+
+<Text entry 149>
+<Cain>: <Cecil>.<End>
+<End of Block>
+
+<Text entry 150>
+<Porom>: Everyone... Please...<End>
+<End of Block>
+
+<Text entry 151>
+<Cecil>: <Rosa>...<Music 19><End>
+<End of Block>
+
+<Text entry 152>
+<Gilbart>: ...<End>
+<End of Block>
+
+<Text entry 153>
+<Cecil>...<New>
+<Cecil>: Your Majesty!?<End>
+<End of Block>
+
+<Text entry 154>
+King: Go to the Land of Summons and return here. I shall grant you a gift.<New>
+<Cecil>: Your Majesty!<End>
+<End of Block>
+
+<Text entry 155>
+King: You have returned.<End>
+<End of Block>
+
+<Text entry 156>
+<Cecil>: Your Majesty...<New>
+King: Do not grieve. Through death, I have attained eternal power. That summoner of Mist may call upon me at will; thereupon, I shall appear as an almighty summon. But our law decrees that I must first test your worth. Do not fail.<End>
+<End of Block>
+
+<Text entry 157>
+King: You have come of age. The world's fate lies in your hands, and I shall fight at your side as Odin.<New>
+<Cecil>: Your Majesty! <Rydia> learned Odin<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 158>
+<Cecil>: <Cain>?<End>
+<End of Block>
+
+<Text entry 159>
+<Cecil>: <Cain>!<End>
+<End of Block>
+
+<Text entry 160>
+<Cecil>: I still don't understand. That light... It called me "my son"... And why did it mention <Golbeza>?<End>
+<End of Block>
+
+<Text entry 161>
+<Tella>: I shall avenge you both... Do you hear me!? I shall avenge you!!<End>
+<End of Block>
+
+<Text entry 162>
+<Cecil>: Why...? <Golbeza>...!<End>
+<End of Block>
+
+<Text entry 163>
+<Rosa>: Exit!<End>
+<End of Block>
+
+<Text entry 164>
+<Cecil>: Never mind. Let's get some rest.<End>
+<End of Block>
+
+<Text entry 165>
+<Cecil>: Is everyone alright?<New>
+<Cid>: Yeah, but my baby took a helluva beating. She might go down any minute.<New>
+<Cecil>: Let's set her down.<End>
+<End of Block>
+
+<Text entry 166>
+<Palom>: Ahem! I am <Palom>, of Mysidia... Heh heh, pretty good impersonation, huh?<End>
+<End of Block>
+
+<Text entry 167>
+<Porom>: Please don't mind him. I'm his twin sister, <Porom>.<New>
+<Palom>: Hey, that kick really hurt! How could you let them play you like that?<End>
+<End of Block>
+
+<Text entry 168>
+T<End>
+<End of Block>
+
+<Text entry 169>
+T<End>
+<End of Block>
+
+<Text entry 170>
+T<End>
+<End of Block>
+
+<Text entry 171>
+T<End>
+<End of Block>
+
+<Text entry 172>
+T<End>
+<End of Block>
+
+<Text entry 173>
+T<End>
+<End of Block>
+
+<Text entry 174>
+T<End>
+<End of Block>
+
+<Text entry 175>
+T<End>
+<End of Block>
+
+<Text entry 176>
+T<End>
+<End of Block>
+
+<Text entry 177>
+T<End>
+<End of Block>
+
+<Text entry 178>
+T<End>
+<End of Block>
+
+<Text entry 179>
+T<End>
+<End of Block>
+
+<Text entry 180>
+T<End>
+<End of Block>
+
+<Text entry 181>
+T<End>
+<End of Block>
+
+<Text entry 182>
+T<End>
+<End of Block>
+
+<Text entry 183>
+T<End>
+<End of Block>
+
+<Text entry 184>
+T<End>
+<End of Block>
+
+<Text entry 185>
+T<End>
+<End of Block>
+
+<Text entry 186>
+T<End>
+<End of Block>
+
+<Text entry 187>
+T<End>
+<End of Block>
+
+<Text entry 188>
+T<End>
+<End of Block>
+
+<Text entry 189>
+T<End>
+<End of Block>
+
+<Text entry 190>
+T<End>
+<End of Block>
+
+<Text entry 191>
+T<End>
+<End of Block>
+
+<Text entry 192>
+T<End>
+<End of Block>
+
+<Text entry 193>
+T<End>
+<End of Block>
+
+<Text entry 194>
+T<End>
+<End of Block>
+
+<Text entry 195>
+T<End>
+<End of Block>
+
+<Text entry 196>
+T<End>
+<End of Block>
+
+<Text entry 197>
+T<End>
+<End of Block>
+
+<Text entry 198>
+T<End>
+<End of Block>
+
+<Text entry 199>
+T<End>
+<End of Block>
+
+<Text entry 200>
+T<End>
+<End of Block>
+
+<Text entry 201>
+T<End>
+<End of Block>
+
+<Text entry 202>
+T<End>
+<End of Block>
+
+<Text entry 203>
+T<End>
+<End of Block>
+
+<Text entry 204>
+T<End>
+<End of Block>
+
+<Text entry 205>
+T<End>
+<End of Block>
+
+<Text entry 206>
+T<End>
+<End of Block>
+
+<Text entry 207>
+T<End>
+<End of Block>
+
+<Text entry 208>
+T<End>
+<End of Block>
+
+<Text entry 209>
+T<End>
+<End of Block>
+
+<Text entry 210>
+T<End>
+<End of Block>
+
+<Text entry 211>
+T<End>
+<End of Block>
+
+<Text entry 212>
+T<End>
+<End of Block>
+
+<Text entry 213>
+T<End>
+<End of Block>
+
+<Text entry 214>
+T<End>
+<End of Block>
+
+<Text entry 215>
+T<End>
+<End of Block>
+
+<Text entry 216>
+T<End>
+<End of Block>
+
+<Text entry 217>
+T<End>
+<End of Block>
+
+<Text entry 218>
+T<End>
+<End of Block>
+
+<Text entry 219>
+T<End>
+<End of Block>
+
+<Text entry 220>
+T<End>
+<End of Block>
+
+<Text entry 221>
+T<End>
+<End of Block>
+
+<Text entry 222>
+T<End>
+<End of Block>
+
+<Text entry 223>
+T<End>
+<End of Block>
+
+<Text entry 224>
+T<End>
+<End of Block>
+
+<Text entry 225>
+T<End>
+<End of Block>
+
+<Text entry 226>
+T<End>
+<End of Block>
+
+<Text entry 227>
+T<End>
+<End of Block>
+
+<Text entry 228>
+T<End>
+<End of Block>
+
+<Text entry 229>
+T<End>
+<End of Block>
+
+<Text entry 230>
+T<End>
+<End of Block>
+
+<Text entry 231>
+T<End>
+<End of Block>
+
+<Text entry 232>
+T<End>
+<End of Block>
+
+<Text entry 233>
+T<End>
+<End of Block>
+
+<Text entry 234>
+T<End>
+<End of Block>
+
+<Text entry 235>
+T<End>
+<End of Block>
+
+<Text entry 236>
+T<End>
+<End of Block>
+
+<Text entry 237>
+T<End>
+<End of Block>
+
+<Text entry 238>
+T<End>
+<End of Block>
+
+<Text entry 239>
+T<End>
+<End of Block>
+
+<Text entry 240>
+T<End>
+<End of Block>
+
+<Text entry 241>
+T<End>
+<End of Block>
+
+<Text entry 242>
+T<End>
+<End of Block>
+
+<Text entry 243>
+T<End>
+<End of Block>
+
+<Text entry 244>
+T<End>
+<End of Block>
+
+<Text entry 245>
+T<End>
+<End of Block>
+
+<Text entry 246>
+T<End>
+<End of Block>
+
+<Text entry 247>
+T<End>
+<End of Block>
+
+<Text entry 248>
+T<End>
+<End of Block>
+
+<Text entry 249>
+T<End>
+<End of Block>
+
+<Text entry 250>
+T<End>
+<End of Block>
+
+<Text entry 251>
+T<End>
+<End of Block>
+
+<Text entry 252>
+T<End>
+<End of Block>
+
+<Text entry 253>
+T<End>
+<End of Block>
+
+<Text entry 254>
+T<End>
+<End of Block>
+
+<Text entry 255>
+T<End>
+<End of Block>
+
+<Text entry 256>
+T<End>
+<End of Block>
+

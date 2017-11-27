@@ -22,7 +22,22 @@ item_bin:
 	
 org $238000
 item_desc_gfx:
-incbin "item_desc.sfc"
+	incbin "item_desc.sfc"
+
+org $268000
+dialog_pptr2:
+	incbin "dial.ptr"
+dialog_ptr1:
+	incbin "dial1.ptr"
+dialog_ptr2:
+	incbin "dial2.ptr"
+dialog_ptr3:
+	incbin "dial3.ptr"
+dialog_data:
+	incbin "dial.bin"
+	
+// include further data here
+org $2A8000
 
 org $228000
 _St_name_draw:
@@ -1203,9 +1218,3 @@ St_fix_win_resize:		// comes from $18687
 	dec $1D
 	bne -
 	rtl
-
-
-//data_desc:
-//	incbin test.dat
-//org $238000
-//	incbin "test.sfc"

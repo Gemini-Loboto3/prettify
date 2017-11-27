@@ -1,0 +1,4512 @@
+﻿<1092 text entries>
+<Text entry 1, pointer>
+You wish to go to the Mist Valley? You must head to the cavern northwest of Baron.<End>
+<End of Block>
+
+<Text entry 2>
+Do not defy the king or you'll end up like <Cid>.<End>
+<End of Block>
+
+<Text entry 3>
+Sir <Cecil>! Please avenge the king!<End>
+<End of Block>
+
+<Text entry 4>
+The king is gravely mistaken in ordering his men to master the dark sword.<End>
+<End of Block>
+
+<Text entry 5>
+I believe the king has gone mad!<End>
+<End of Block>
+
+<Text entry 6>
+You're no longer a dark knight? Good for you.<End>
+<End of Block>
+
+<Text entry 7>
+Beware of the mist!<End>
+<End of Block>
+
+<Text entry 8>
+I saw a strange monk with the soldiers at the inn.<End>
+<End of Block>
+
+<Text entry 9>
+What will become of Baron now? The king left no heir.<End>
+<End of Block>
+
+<Text entry 10>
+That's cool-lookin' armor. Hey, aren't you... DARK KNIGHT! HEEELP!<End>
+<End of Block>
+
+<Text entry 11>
+I wonder if that dark knight really died. I kinda liked him.<End>
+<End of Block>
+
+<Text entry 12>
+So are you gonna go beat up <Golbeza> now?<End>
+<End of Block>
+
+<Text entry 13>
+That building over yonder...on the west side? Oh yeah... It leads to an old waterway that goes all the way to the castle. But I reckon it's always locked.<End>
+<End of Block>
+
+<Text entry 14>
+Who's gonna rule Baron now?<End>
+<End of Block>
+
+<Text entry 15>
+No, I didn't say anything about the king! Really! Wait, I'll show you something neat.<End>
+<End of Block>
+
+<Text entry 16>
+I haven't been able to dance lately. New rules.<End>
+<End of Block>
+
+<Text entry 17>
+Wow, you look so good now! You used to be so glum as a dark knight.<End>
+<End of Block>
+
+<Text entry 18, pointer>
+The great fire killed everyone--the women and children, the skilled summoners.<End>
+<End of Block>
+
+<Text entry 19>
+It's so desolate...<End>
+<End of Block>
+
+<Text entry 20>
+Rumor has it that a mighty summon rests beneath Baron. Supposedly, it can kill with a single blow.<End>
+<End of Block>
+
+<Text entry 21>
+The creatures called by summoners come from the Land of Summons, which exists deep under the ground.<End>
+<End of Block>
+
+<Text entry 22, pointer>
+This is Kaipo, also known as the Damcyan Desert Oasis.<End>
+<End of Block>
+
+<Text entry 23>
+Some damsel from Baron passed out on the outskirts of town. She was taken to someone's house to rest.<End>
+<End of Block>
+
+<Text entry 24>
+<Anna> found the man of her dreams, but the sage <Tella> didn't approve, so she ran away.<End>
+<End of Block>
+
+<Text entry 25>
+I wanna go to Damcyan, but there are too many monsters in the Water Cavern. Hey, check out this dance.<End>
+<End of Block>
+
+<Text entry 26>
+I heard there's a big monster with eight arms in the Water Cavern.<End>
+<End of Block>
+
+<Text entry 27>
+Damcyan is north of here; it rules over the entire desert. People say the prince of Damcyan has a lovely voice, like a siren's. He sounds like a sissy, if you ask me.<End>
+<End of Block>
+
+<Text entry 28>
+If you're gonna travel with that little girl, you should move her over to the Back Row.<End>
+<End of Block>
+
+<Text entry 29, pointer>
+Murderer! Take this! Toad!<End>
+<End of Block>
+
+<Text entry 30>
+You, become a paladin!? Ha!<End>
+<End of Block>
+
+<Text entry 31>
+D<End>
+<End of Block>
+
+<Text entry 32>
+No way! How the heck did you...!?<End>
+<End of Block>
+
+<Text entry 33>
+Hi. I was just wondering if you knew how much we've suffered because of you. Good day.<End>
+<End of Block>
+
+<Text entry 34>
+Mt. Ordeals lies to the east.<End>
+<End of Block>
+
+<Text entry 35>
+I shall pray for you hereon.<End>
+<End of Block>
+
+<Text entry 36>
+I have nothing to say to the likes of you.<End>
+<End of Block>
+
+<Text entry 37>
+With a dark sword, you don't stand a chance against the undead swarming Mt. Ordeals.<End>
+<End of Block>
+
+<Text entry 38>
+Wh--how did YOU become a paladin!?<End>
+<End of Block>
+
+<Text entry 39>
+Why do people kill each other...?<End>
+<End of Block>
+
+<Text entry 40>
+You must overcome the trials of Ordeals and renounce your dark knighthood.<End>
+<End of Block>
+
+<Text entry 41>
+You must conduct yourself like a paladin now.<End>
+<End of Block>
+
+<Text entry 42>
+You have the gall to come here!?<End>
+<End of Block>
+
+<Text entry 43>
+Whether anyone can receive the holy light to become a paladin remains to be seen.<End>
+<End of Block>
+
+<Text entry 44>
+I still can't find it in my heart to forgive you.<End>
+<End of Block>
+
+<Text entry 45>
+Blankety-blank! You're back! Go away!<End>
+<End of Block>
+
+<Text entry 46>
+Blankety-blank! You wanna become a paladin? No way.<End>
+<End of Block>
+
+<Text entry 47>
+Blankety-blank! That form... Have you become a paladin? Wow...<End>
+<End of Block>
+
+<Text entry 48>
+D<End>
+<End of Block>
+
+<Text entry 49>
+The Devil's Road, which leads all the way to Baron, is inside this building. We sealed the road after Baron attacked us.<End>
+<End of Block>
+
+<Text entry 50>
+The Devil's Road has warped dimensions. Supposedly, one must sacrifice much vitality to cross it.<End>
+<End of Block>
+
+<Text entry 51, pointer>
+Hoity-toity! Giants!<End>
+<End of Block>
+
+<Text entry 52>
+Wow, a human visitor. Please don't step on me, okay?<End>
+<End of Block>
+
+<Text entry 53>
+I can't imagine how much you spend on food.<End>
+<End of Block>
+
+<Text entry 54>
+Mr. Frog, Mr. Little, and I work together to gather, refine, and process mythril to make a lot of stuff.<End>
+<End of Block>
+
+<Text entry 55>
+Mythril Mountain lies far to the north. Well, not so far for you guys.<End>
+<End of Block>
+
+<Text entry 56>
+S'up, G!<End>
+<End of Block>
+
+<Text entry 57>
+Yo-yo-yo!<End>
+<End of Block>
+
+<Text entry 58>
+Who you? Who we?<End>
+<End of Block>
+
+<Text entry 59>
+We da Mithra Brothas! Yo, hit it!<End>
+<End of Block>
+
+<Text entry 60>
+Yeah.<End>
+<End of Block>
+
+<Text entry 61, pointer>
+Oh, you wanna join us?<End>
+<End of Block>
+
+<Text entry 62>
+Trees and water abound in Troia.<End>
+<End of Block>
+
+<Text entry 63>
+Oh, for pete's sake, go put on some trunks!<End>
+<End of Block>
+
+<Text entry 64>
+Shoo! Go find your own place!<End>
+<End of Block>
+
+<Text entry 65>
+Where is that old codger?<End>
+<End of Block>
+
+<Text entry 66>
+Have you heard of the Twin Harp? With it, I heard you can transmit your voice really far.<End>
+<End of Block>
+
+<Text entry 67>
+... Go away! Can't you see I'm sunbathing!<End>
+<End of Block>
+
+<Text entry 68>
+I took a silver strongbox to the northeast cavern, and it got stuck to the ground, so I had to leave it behind.<End>
+<End of Block>
+
+<Text entry 69, pointer>
+This is Agart. The people here all share the same lineage. Our ancestors were dwarves.<End>
+<End of Block>
+
+<Text entry 70>
+According to a famous saying, there are two sides to everything-- even to this world.<End>
+<End of Block>
+
+<Text entry 71>
+Maybe I'm short because my ancestors were dwarves.<End>
+<End of Block>
+
+<Text entry 72>
+What? You wanna know how our ancestors came here? Well, it's a funny story... Um... Dern! I forgot!<End>
+<End of Block>
+
+<Text entry 73>
+We cannot live without the blessing of the sun, although our ancestors might disagree.<End>
+<End of Block>
+
+<Text entry 74>
+I'm strong! My grandpa's grandpa's grandpa was really strong, too!<End>
+<End of Block>
+
+<Text entry 75>
+D<End>
+<End of Block>
+
+<Text entry 76>
+Behind this door lies a sacred well that has been here for generations. Its depth remains unknown.<End>
+<End of Block>
+
+<Text entry 77, pointer>
+T<End>
+<End of Block>
+
+<Text entry 78, pointer>
+T<End>
+<End of Block>
+
+<Text entry 79, pointer>
+T<End>
+<End of Block>
+
+<Text entry 80, pointer>
+T<End>
+<End of Block>
+
+<Text entry 81, pointer>
+Hey, are you a bad guy? You look like a bad guy.<End>
+<End of Block>
+
+<Text entry 82>
+Scary soldiers are always here, so not many people come here anymore.<End>
+<End of Block>
+
+<Text entry 83>
+Dancers Wanted!
+Looking for cute,
+talented dancers!
+<Align 8>-Innkeeper<End>
+<End of Block>
+
+<Text entry 84>
+W-Welcome, sir. Please order anything you'd like, free of charge, of course.<End>
+<End of Block>
+
+<Text entry 85>
+I hear the king confined <Cid> in the castle as punishment for hiding the newest airship.<End>
+<End of Block>
+
+<Text entry 86>
+Sir <Cecil>, how about a drink? It's on me.<End>
+<End of Block>
+
+<Text entry 87>
+Sir <Cecil> of the Red Wings! I-I've done nothing wrong! I've paid my taxes!<End>
+<End of Block>
+
+<Text entry 88>
+The soldiers are so rowdy and do whatever they like!<End>
+<End of Block>
+
+<Text entry 89>
+Thanks to you, sir, the people look much livelier. Okay, time to work!<End>
+<End of Block>
+
+<Text entry 90>
+You don't look scary anymore. You look like a good guy.<End>
+<End of Block>
+
+<Text entry 91>
+D<End>
+<End of Block>
+
+<Text entry 92>
+Thanks for taking care of those soldiers. You're more than welcome to spend the night here.<End>
+<End of Block>
+
+<Text entry 93>
+Where's my drink!? What are you lookin' at!?<End>
+<End of Block>
+
+<Text entry 94, pointer>
+T<End>
+<End of Block>
+
+<Text entry 95, pointer>
+<Cid>: Zzz...I did it! Zzz...new...Zzz... engine...Zzz...<End>
+<End of Block>
+
+<Text entry 96>
+<Cecil>, please tell Dad to stop pulling all-nighters. He's been so confronta- tional lately he doesn't listen to me. He's been arguing a lot with some of the townspeople, too, because they're always badmouthing the king and the soldiers.<End>
+<End of Block>
+
+<Text entry 97>
+Principles of Buoyancy<End>
+<End of Block>
+
+<Text entry 98>
+The History of Shipbuilding<End>
+<End of Block>
+
+<Text entry 99>
+Birds of the World<End>
+<End of Block>
+
+<Text entry 100>
+<Cecil>, you're alive! Have you seen my father? He hasn't returned from the castle for the longest time!<End>
+<End of Block>
+
+<Text entry 101>
+Dad!! I was worried sick! Everyone, I know he's a handful, but please look after him.<End>
+<End of Block>
+
+<Text entry 102>
+How's my father doing? I'll bet he's playing around with his airships again.<End>
+<End of Block>
+
+<Text entry 103>
+Zzzz...Zzzz...<End>
+<End of Block>
+
+<Text entry 104, pointer>
+<Rosa>'s Mother: I hear the king and you boys are up to no good these days. Whatever it is you're all doing, keep <Rosa> out of it, you hear?<End>
+<End of Block>
+
+<Text entry 105>
+<Rosa>'s Mother: Where's <Rosa>!? She left Baron to find you!<End>
+<End of Block>
+
+<Text entry 106>
+<Rosa>'s Mother: <Rosa>! Oh, thank heavens!<New>
+<Rosa>: I'm sorry, Mother.<New>
+<Rosa>'s Mother: I never should've let you become a white mage...<New>
+<Rosa>: I have no regrets at having become a white mage and fighting alongside a brave knight... ...as you did with Father.<New>
+<Rosa>'s Mother: ... <Cecil>, please take care of her.<End>
+<End of Block>
+
+<Text entry 107, pointer>
+T<End>
+<End of Block>
+
+<Text entry 108, pointer>
+D<End>
+<End of Block>
+
+<Text entry 109>
+D<End>
+<End of Block>
+
+<Text entry 110>
+D<End>
+<End of Block>
+
+<Text entry 111>
+D<End>
+<End of Block>
+
+<Text entry 112>
+I can't believe <Anna> ran away. She and her father, the sage <Tella>, are very close.<End>
+<End of Block>
+
+<Text entry 113, pointer>
+I'm a traveling scholar. I wanna go to Fabul, which is east of Damcyan, but some old man at the Water Cavern won't let me through.<End>
+<End of Block>
+
+<Text entry 114>
+Well hello. We rarely have visitors these days, what with all the monsters running around.<End>
+<End of Block>
+
+<Text entry 115>
+Quench your thirst with Kaipo Punch!<End>
+<End of Block>
+
+<Text entry 116>
+I really wanna go to the Antlion Cave east of Damcyan, but only the royals can go there.<End>
+<End of Block>
+
+<Text entry 117, pointer>
+We found a girl from Baron unconscious just outside of town. The poor thing's been afflicted with desert fever. She keeps muttering to herself... "<Cecil>, <Cecil>."<End>
+<End of Block>
+
+<Text entry 118>
+You must be <Cecil>. Please take good care of her.<End>
+<End of Block>
+
+<Text entry 119>
+To cure desert fever, you need a rare jewel called the Sand Ruby. It can only be found in a cave where the ferocious antlions dwell.<End>
+<End of Block>
+
+<Text entry 120>
+Cure for Desert Fever: Sand Ruby<End>
+<End of Block>
+
+<Text entry 121>
+<Rosa>: ...<Music 19> ... <Cecil>... ...<End>
+<End of Block>
+
+<Text entry 122>
+It was a short while, but you were beginning to feel like a daughter to me... Come by anytime.<End>
+<End of Block>
+
+<Text entry 123, pointer>
+What do you want now!?<End>
+<End of Block>
+
+<Text entry 124>
+Mt. Ordeals? You're wasting your time.<End>
+<End of Block>
+
+<Text entry 125>
+Baron shall burn in hell!<End>
+<End of Block>
+
+<Text entry 126>
+You...!?<End>
+<End of Block>
+
+<Text entry 127>
+You monster! Release our people!<End>
+<End of Block>
+
+<Text entry 128>
+Don't trust him, <Porom>. He's nothing but a cold- blooded killer.<End>
+<End of Block>
+
+<Text entry 129>
+What splendor... So this is the light of a paladin?<End>
+<End of Block>
+
+<Text entry 130>
+Piss off! «Hiccup» I ain't afraid of ya!<End>
+<End of Block>
+
+<Text entry 131>
+You, a paladin!? BWAHAHA! «Hiccup!»<End>
+<End of Block>
+
+<Text entry 132>
+«Hiccup!» Damn, I've had too much. I could've sworn I just saw a paladin...<End>
+<End of Block>
+
+<Text entry 133>
+My, you look exhausted. Here, drink this.<End>
+<End of Block>
+
+<Text entry 134>
+You, a paladin? Hmph. Not a chance.<End>
+<End of Block>
+
+<Text entry 135>
+I'll be damned. You did it.<End>
+<End of Block>
+
+<Text entry 136>
+Please, don't kill me! I have five kids to feed!<End>
+<End of Block>
+
+<Text entry 137>
+Please, don't kill me! I have six kids to-- What, you're going to Mt. Ordeals?<End>
+<End of Block>
+
+<Text entry 138>
+Wow, you look magnificent!<End>
+<End of Block>
+
+<Text entry 139>
+<Cecil>: Ugh!<End>
+<End of Block>
+
+<Text entry 140>
+Hee hee! Die, you stupid knight!<End>
+<End of Block>
+
+<Text entry 141, pointer>
+T<End>
+<End of Block>
+
+<Text entry 142, pointer>
+T<End>
+<End of Block>
+
+<Text entry 143, pointer>
+D<End>
+<End of Block>
+
+<Text entry 144>
+D<End>
+<End of Block>
+
+<Text entry 145>
+Fire, Earth, Water, Wind: Origin of All<End>
+<End of Block>
+
+<Text entry 146>
+Black Magic Encyclopedia<End>
+<End of Block>
+
+<Text entry 147>
+The Cure Spell<End>
+<End of Block>
+
+<Text entry 148>
+D<End>
+<End of Block>
+
+<Text entry 149>
+D<End>
+<End of Block>
+
+<Text entry 150>
+The elder said we should forgive and forget your terrible acts...but I cannot.<End>
+<End of Block>
+
+<Text entry 151>
+I will trust you if you can become a paladin.<End>
+<End of Block>
+
+<Text entry 152>
+Hereafter, you have my complete trust.<End>
+<End of Block>
+
+<Text entry 153>
+You are in the House of Prayer. You may talk to the elder, if you wish.<End>
+<End of Block>
+
+<Text entry 154>
+You must give your all to receive the holy light.<End>
+<End of Block>
+
+<Text entry 155>
+Imagine! Freed from darkness, you now shine as brilliant as the sun!<End>
+<End of Block>
+
+<Text entry 156>
+We are all born innocent, yet many evil souls pervade the land today.<End>
+<End of Block>
+
+<Text entry 157>
+A paladin is the antithesis of a dark knight.<End>
+<End of Block>
+
+<Text entry 158>
+So, you have become a paladin. I suppose it was your destiny.<End>
+<End of Block>
+
+<Text entry 159>
+Girl: You called for us?<New>
+Elder: Where is <Palom>?<New>
+Girl: <Palom>! Come out this minute!<End>
+<End of Block>
+
+<Text entry 160>
+Boy: Man, I can't believe I'm helping this bastard. Be grateful that Mysidia's prodigy <Palom> will accompany you!<End>
+<End of Block>
+
+<Text entry 161>
+<Porom>: My name is <Porom>. I'm pleased to meet you, sir.<End>
+<End of Block>
+
+<Text entry 162>
+<Porom>: <Palom>! You must greet him!<End>
+<End of Block>
+
+<Text entry 163>
+<Palom>: S'up, dude.<End>
+<End of Block>
+
+<Text entry 164>
+Black Mage <Palom> and White Mage <Porom> joined the party<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 165>
+Elder: Now go to Mt. Ordeals. <Palom>, <Porom>, do everything in your power to help <Cecil>.<End>
+<End of Block>
+
+<Text entry 166, pointer>
+I believe you hold the key to our fate. All I can do is pray.<End>
+<End of Block>
+
+<Text entry 167>
+...I see. <Palom>... <Porom>... I am so proud of them.<End>
+<End of Block>
+
+<Text entry 168>
+The elder often prays here ever since that incident.<End>
+<End of Block>
+
+<Text entry 169>
+We pray for all souls.<End>
+<End of Block>
+
+<Text entry 170>
+<Tella>... So he fought with hatred after all... I pray he will rest in peace.<End>
+<End of Block>
+
+<Text entry 171>
+We shall continue to pray.<End>
+<End of Block>
+
+<Text entry 172>
+Please hurry to the moon.<End>
+<End of Block>
+
+<Text entry 173>
+Elder: The Lunar Whale came from the moon. An old Mysidian record revealed that the crystal inside the ship, not the flight panel, controls navigation between here and the moon.<New>
+<Cecil>: I'll see what I can do.<End>
+<End of Block>
+
+<Text entry 174, pointer>
+The air's good, the food's good, I love this place.<End>
+<End of Block>
+
+<Text entry 175>
+Yeah! I finally got to sit at the counter.<End>
+<End of Block>
+
+<Text entry 176>
+Wow! Like, you're kinda cute, y'know? Like, you kinda look like royalty.<End>
+<End of Block>
+
+<Text entry 177>
+Live a long life, I say. I'll take this place over heaven any day.<End>
+<End of Block>
+
+<Text entry 178>
+Come, come. I'll take good care of you. WHAT, you have a problem!?<End>
+<End of Block>
+
+<Text entry 179>
+STELLAAA! I LOVE YOUUU! Gah! Why does this «expletive» always happen to me...?<End>
+<End of Block>
+
+<Text entry 180>
+D<End>
+<End of Block>
+
+<Text entry 181>
+The ladies here always look damn good.<End>
+<End of Block>
+
+<Text entry 182>
+Give me a holler if ya want something.<End>
+<End of Block>
+
+<Text entry 183>
+Liar!<End>
+<End of Block>
+
+<Text entry 184, pointer>
+Bring me a fur coat next time.<End>
+<End of Block>
+
+<Text entry 185>
+I hope you carry a fat wallet, mister. It's all high rollers from here on, if you know what I mean.<End>
+<End of Block>
+
+<Text entry 186>
+This geezer just keeps babbling about all his stupid adventures-- BOR-RING!<End>
+<End of Block>
+
+<Text entry 187>
+...and lo! I thrust my blade into the imp and struck it down! <End>
+<End of Block>
+
+<Text entry 188>
+Shoo! You don't belong here.<End>
+<End of Block>
+
+<Text entry 189>
+If that nasty geezer messes with my Jenny, I'm gonna...!<End>
+<End of Block>
+
+<Text entry 190>
+D<End>
+<End of Block>
+
+<Text entry 191>
+Sure. I'll buy you anything.<End>
+<End of Block>
+
+<Text entry 192>
+Oh yeah, I have to go pick up the food.<End>
+<End of Block>
+
+<Text entry 193, pointer>
+EEEK! Get outta here, you pervert! This is the dressing room!<End>
+<End of Block>
+
+<Text entry 194>
+D<End>
+<End of Block>
+
+<Text entry 195>
+Enjoy the show.<End>
+<End of Block>
+
+<Text entry 196>
+Haven't you got better things to do than hang out here?<End>
+<End of Block>
+
+<Text entry 197, pointer>
+T<End>
+<End of Block>
+
+<Text entry 198, pointer>
+Thanks to the ample supply of water here, we can grow fresh vegetables and even raise chocobos.<End>
+<End of Block>
+
+<Text entry 199>
+T<End>
+<End of Block>
+
+<Text entry 200>
+Chocobo Physiology<End>
+<End of Block>
+
+<Text entry 201>
+You Too Can Raise Chocobos<End>
+<End of Block>
+
+<Text entry 202, pointer>
+These black chocobos can't fly for some reason. But the ones living in the northern Chocobo Village can fly at a low altitude, though I hear they can only land in the forest.<End>
+<End of Block>
+
+<Text entry 203>
+Black chocobos can remember the way home. But they tend to run away after making a round trip.<End>
+<End of Block>
+
+<Text entry 204>
+New Breed of Chocobo Discovered!
+Black Chocobos!
+
+<Align 8>Troia News<End>
+<End of Block>
+
+<Text entry 205>
+Kweh, kweh.<End>
+<End of Block>
+
+<Text entry 206>
+D<End>
+<End of Block>
+
+<Text entry 207>
+Chocobos are cute, but they smell a little.<End>
+<End of Block>
+
+<Text entry 208>
+D<End>
+<End of Block>
+
+<Text entry 209>
+D<End>
+<End of Block>
+
+<Text entry 210>
+D<End>
+<End of Block>
+
+<Text entry 211>
+D<End>
+<End of Block>
+
+<Text entry 212>
+D<End>
+<End of Block>
+
+<Text entry 213>
+I wanna ride a black chocobo and fly.<End>
+<End of Block>
+
+<Text entry 214, pointer>
+Welcome to Corio Observatory. We carry perhaps the best telescope in the world. We've recently noticed some anomalous activity on the moon.<End>
+<End of Block>
+
+<Text entry 215>
+My husband is a real swot.<End>
+<End of Block>
+
+<Text entry 216>
+The Romantic Night Sky<End>
+<End of Block>
+
+<Text entry 217>
+Constellations<End>
+<End of Block>
+
+<Text entry 218>
+Phases of the Moons<End>
+<End of Block>
+
+<Text entry 219, pointer>
+Hello there. My name's Corio. I'm studying the two moons, and, boy, it's been weird. One of them has no sign of life or activity, but the other one... Looks like it has traces of life. On top of that, it's slowly turning red. I'm getting bad vibes from just looking at it.<End>
+<End of Block>
+
+<Text entry 220, pointer>
+I saw some red thing get sucked into the mountain crater the other day.<End>
+<End of Block>
+
+<Text entry 221>
+It's so peaceful here in Agart. Though we do have earthquakes at times.<End>
+<End of Block>
+
+<Text entry 222>
+My grandma is the oldest person in the village.<End>
+<End of Block>
+
+<Text entry 223>
+I hear our ancestors came from the mountain to the north, out of the crater. The crater's sealed now. You can't get there anyway, without an airship.<End>
+<End of Block>
+
+<Text entry 224>
+According to ancient lore, we must return the sun's will to our homeland to unfold the path to our origin.<End>
+<End of Block>
+
+<Text entry 225>
+Without dark, there exists no light. After daytime comes nighttime. The providence of nature. People called ancestors said this.<End>
+<End of Block>
+
+<Text entry 226>
+Do you wanna see an unusual dance? I'm told it originated from the other world.<End>
+<End of Block>
+
+<Text entry 227>
+Supposedly, our ancestors came from the other world. Their world also has a sun, called magma.<End>
+<End of Block>
+
+<Text entry 228, pointer>
+T<End>
+<End of Block>
+
+<Text entry 229, pointer>
+T<End>
+<End of Block>
+
+<Text entry 230, pointer>
+T<End>
+<End of Block>
+
+<Text entry 231, pointer>
+All is well, sir.<End>
+<End of Block>
+
+<Text entry 232>
+I can't believe a monster was impersonating the king.<End>
+<End of Block>
+
+<Text entry 233>
+There's been a foreboding mood surrounding the castle lately.<End>
+<End of Block>
+
+<Text entry 234>
+Perhaps we were being manipulated, too.<End>
+<End of Block>
+
+<Text entry 235>
+You leave early tomorrow. Please get some rest.<End>
+<End of Block>
+
+<Text entry 236>
+The king forbids you from entering the castle until you have delivered the Bomb Ring to Mist Village.<End>
+<End of Block>
+
+<Text entry 237>
+Leave at once!<End>
+<End of Block>
+
+<Text entry 238>
+Nightfall is approaching, sir. Please remain inside the castle.<End>
+<End of Block>
+
+<Text entry 239>
+I hear that summons can sometimes neutralize all attacks.<End>
+<End of Block>
+
+<Text entry 240>
+You look familiar...<End>
+<End of Block>
+
+<Text entry 241>
+This tower is off-limits.<End>
+<End of Block>
+
+<Text entry 242>
+<Cid>: Well, well, well. Look who's back. <Rosa> was mighty worried about you.<End>
+<End of Block>
+
+<Text entry 243>
+<Cid>: I told you before, and I'll tell you again. If you EVER make her cry, I'm gonna-- I...I'm not gonna let you ride my airships. So, how are my babies doin'? I'll bet you and your grunts crashed them again, huh? What's the matter with you, boy?<New>
+<Cecil>: Well...<New>
+<Cid>: WHAT!? The king demoted you to an errand boy!? What about my Red Wings!? They'll be a mess without you! What's come over the king? Maybe I should think twice about workin' on the new prototype he's been hounding me to finish. Hell if I'm gonna let him use my beloved airships as killin' machines! <Cecil>, you and me, we gotta stick together on this. Now, you go complete your mission and get back safe, you hear? Whoa, I've gotta get home, or my daughter's gonna kill me.<End>
+<End of Block>
+
+<Text entry 244>
+Have you seen Master <Cid>? He ordered us to service the airships, then disappeared somewhere.<End>
+<End of Block>
+
+<Text entry 245>
+Boss! You're alive!<End>
+<End of Block>
+
+<Text entry 246>
+How's the boss doing? Same old, same old?<End>
+<End of Block>
+
+<Text entry 247>
+Man, we have to pull another all-nighter... This sucks! Don't tell the boss that I was complaining, alright?<End>
+<End of Block>
+
+<Text entry 248>
+Yeow! Is that you, Boss!? Damn! For a second there, I thought you were a ghost.<End>
+<End of Block>
+
+<Text entry 249>
+My skills have reached a new level. Maybe I'm ready to fill the boss's shoes now. Don't tell the boss, okay?<End>
+<End of Block>
+
+<Text entry 250, pointer>
+Prince...<Gilbart>... Is he...safe?<End>
+<End of Block>
+
+<Text entry 251, pointer>
+Master <Yang>! The king wishes to see you.<End>
+<End of Block>
+
+<Text entry 252>
+I believe you should rest before you depart.<End>
+<End of Block>
+
+<Text entry 253>
+We will guard Fabul with our lives.<End>
+<End of Block>
+
+<Text entry 254>
+Greetings, sir.<End>
+<End of Block>
+
+<Text entry 255, pointer>
+...<End>
+<End of Block>
+
+<Text entry 256>
+Welcome to Troia Castle.<End>
+<End of Block>
+
+<Text entry 257>
+Ribbit!<End>
+<End of Block>
+
+<Text entry 258>
+Please make yourselves at home.<End>
+<End of Block>
+
+<Text entry 259>
+Ribbit!<End>
+<End of Block>
+
+<Text entry 260>
+You wish to know about the Crystal? Speak to the clerics inside the castle.<End>
+<End of Block>
+
+<Text entry 261>
+D<End>
+<End of Block>
+
+<Text entry 262>
+The clerics are solemn servants of the gods. Honor them and conduct yourselves properly, understood?<End>
+<End of Block>
+
+<Text entry 263, pointer>
+T<End>
+<End of Block>
+
+<Text entry 264, pointer>
+T<End>
+<End of Block>
+
+<Text entry 265, pointer>
+You are free to take the items in this room. Press the switch on the wall to open the door.<End>
+<End of Block>
+
+<Text entry 266>
+I heard the late king's voice echoing from below. Could it be some curse?<End>
+<End of Block>
+
+<Text entry 267>
+I heard you brought back the Crystal from Mysidia.<End>
+<End of Block>
+
+<Text entry 268>
+<Golbeza> commanded only monsters--no humans among his followers.<End>
+<End of Block>
+
+<Text entry 269>
+Zzz...!? I'm on duty! Leave me alone!<End>
+<End of Block>
+
+<Text entry 270>
+What tragedy... <End>
+<End of Block>
+
+<Text entry 271>
+<Cain>: So, are you ready for some real combat?<New>
+<Cecil>: Always.<New>
+<Cain>: Lead the way.<End>
+<End of Block>
+
+<Text entry 272>
+<Cecil>!<End>
+<End of Block>
+
+<Text entry 273>
+<Cecil>: What is it?<New>
+<Palom>: Something's wrong.<New>
+<Porom>: Yes. I sense danger. A monster?<End>
+<End of Block>
+
+<Text entry 274>
+Baigan: What!?<End>
+<End of Block>
+
+<Text entry 275>
+<Palom>: Scrap metal! Nothin' to it!<New>
+<Cecil>: Even Baigan, who seemed so loyal...<End>
+<End of Block>
+
+<Text entry 276, pointer>
+Lately, I sense a strange air about His Majesty.<End>
+<End of Block>
+
+<Text entry 277>
+Sir <Cecil> for king! <End>
+<End of Block>
+
+<Text entry 278>
+I can't stand Baigan!<End>
+<End of Block>
+
+<Text entry 279>
+Though we have lost the king, Baron will live on.<End>
+<End of Block>
+
+<Text entry 280>
+Whatever others may say, I trust the king.<End>
+<End of Block>
+
+<Text entry 281>
+We must avenge the king!<End>
+<End of Block>
+
+<Text entry 282>
+The Mist Valley is northwest of Baron.<End>
+<End of Block>
+
+<Text entry 283>
+On our honor, we the dragoons will protect the castle.<End>
+<End of Block>
+
+<Text entry 284>
+With you and Master <Cain> joining forces, nothing will be able to stop you.<End>
+<End of Block>
+
+<Text entry 285>
+I failed to protect the king. I cannot face Master <Cain>.<End>
+<End of Block>
+
+<Text entry 286>
+I've heard rather disturbing rumors regarding the king lately.<End>
+<End of Block>
+
+<Text entry 287>
+We will guard Baron with our lives, sir.<End>
+<End of Block>
+
+<Text entry 288>
+<Cain>: I'll see you tomorrow.<End>
+<End of Block>
+
+<Text entry 289>
+<Cecil>: I never knew about this.<New>
+<Cid>: It's been here all along.<End>
+<End of Block>
+
+<Text entry 290>
+Refrain from any rebellious thoughts if you wish to survive these times.<End>
+<End of Block>
+
+<Text entry 291>
+I should have acted sooner to stop the king.<End>
+<End of Block>
+
+<Text entry 292, pointer>
+King: <Cecil>!? You ingrate! How dare you renounce the dark sword without my authority!?<New>
+<Cecil>: ...How dare YOU renounce your duty to your people, "Your Majesty"!<End>
+<End of Block>
+
+<Text entry 293>
+You swine!!<End>
+<End of Block>
+
+<Text entry 294>
+<Cid>: Lockin' me up in that stink hole! I'm gonna knock your teeth in! ...Eh?<End>
+<End of Block>
+
+<Text entry 295>
+<Cecil>: <Cid>!<New>
+<Cid>: <Cecil>? Doggone, I thought you croaked! Where's my beloved <Rosa>!? She ran after you, convinced that you were still alive.<New>
+<Cecil>: <Golbeza> took her...<New>
+<Cid>: WHAT!? You bumblin' pinhead!! Curse that <Golbeza>! First my airship, and now <Rosa>!<End>
+<End of Block>
+
+<Text entry 296>
+<Tella>: Cut your jabber and lead us to your airship!<End>
+<End of Block>
+
+<Text entry 297>
+<Cid>: Who is this old fart?<New>
+<Tella>: You bug-eyed stinker!<New>
+<Cid>: Ahh, go get your walker, y'fossil!<End>
+<End of Block>
+
+<Text entry 298>
+<Porom>: Please, this is not the time. Sir, this is the great sage, Master <Tella>.<End>
+<End of Block>
+
+<Text entry 299>
+<Porom>: Master <Yang>, the high monk of Fabul. And I'm <Porom>, from Mysidia.<New>
+<Palom>: Oh man, oh man... We've got another geezer aboard.<End>
+<End of Block>
+
+<Text entry 300>
+<Porom>: That repulsive brat is my twin brother, <Palom>.<New>
+<Palom>: Your goody-two-shoes attitude is gettin' old.<End>
+<End of Block>
+
+<Text entry 301>
+<Yang>: Pleased to meet you.<New>
+<Cid>: Well, ain't you a mannerly fella.<End>
+<End of Block>
+
+<Text entry 302>
+<Cecil>: <Cid>, where is your new airship?<New>
+<Cid>: Heh heh heh. Where nobody would suspect.<End>
+<End of Block>
+
+<Text entry 303>
+Never again shall monsters rule over this castle!<End>
+<End of Block>
+
+<Text entry 304>
+<Cid>: Wait 'til you see my beloved! She's my finest work yet!<End>
+<End of Block>
+
+<Text entry 305>
+<Tella>: How about today!? Before <Rosa>'s killed!<End>
+<End of Block>
+
+<Text entry 306>
+<Cid>: Ahh, go shave your ears! Doggone... Follow me!<End>
+<End of Block>
+
+<Text entry 307>
+King: Behold! I am the Devil of Water, Cagnazzo!<End>
+<End of Block>
+
+<Text entry 308>
+Received BombRing<End>
+<End of Block>
+
+<Text entry 309, pointer>
+T<End>
+<End of Block>
+
+<Text entry 310, pointer>
+D<End>
+<End of Block>
+
+<Text entry 311>
+D<End>
+<End of Block>
+
+<Text entry 312>
+D<End>
+<End of Block>
+
+<Text entry 313>
+D<End>
+<End of Block>
+
+<Text entry 314>
+D<End>
+<End of Block>
+
+<Text entry 315>
+D<End>
+<End of Block>
+
+<Text entry 316>
+D<End>
+<End of Block>
+
+<Text entry 317>
+D<End>
+<End of Block>
+
+<Text entry 318>
+D<End>
+<End of Block>
+
+<Text entry 319>
+D<End>
+<End of Block>
+
+<Text entry 320>
+Baron's sacred treasures rest within these walls. Access to this chamber is forbidden.<End>
+<End of Block>
+
+<Text entry 321, pointer>
+T<End>
+<End of Block>
+
+<Text entry 322, pointer>
+We've locked up the Mysidian mages who opposed us, sir.<End>
+<End of Block>
+
+<Text entry 323>
+I hope we don't have to imprison people anymore.<End>
+<End of Block>
+
+<Text entry 324>
+You! You won't get away with this, you hear me!?<End>
+<End of Block>
+
+<Text entry 325>
+I do not expect you to spare us. But, please, return the Crystal to Mysidia.<End>
+<End of Block>
+
+<Text entry 326>
+You idiots don't know anything! The Crystal is not just any old jewel!<End>
+<End of Block>
+
+<Text entry 327, pointer>
+OWWW! My arm's broken!<End>
+<End of Block>
+
+<Text entry 328>
+Captain!? I didn't recognize you!<End>
+<End of Block>
+
+<Text entry 329>
+Captain...<End>
+<End of Block>
+
+<Text entry 330>
+It's good to see you again, Captain!<End>
+<End of Block>
+
+<Text entry 331>
+We'll just eat and laugh and try to forget about Mysidia.<End>
+<End of Block>
+
+<Text entry 332>
+Please become our next king.<End>
+<End of Block>
+
+<Text entry 333>
+I still can't believe what we did.<End>
+<End of Block>
+
+<Text entry 334>
+<Golbeza> took the Red Wings!<End>
+<End of Block>
+
+<Text entry 335>
+So much for the Red Wings' honor...<End>
+<End of Block>
+
+<Text entry 336>
+If only we had airships!<End>
+<End of Block>
+
+<Text entry 337, pointer>
+T<End>
+<End of Block>
+
+<Text entry 338, pointer>
+I've changed your sheets, sir. Good night.<End>
+<End of Block>
+
+<Text entry 339, pointer>
+T<End>
+<End of Block>
+
+<Text entry 340, pointer>
+T<End>
+<End of Block>
+
+<Text entry 341, pointer>
+T<End>
+<End of Block>
+
+<Text entry 342, pointer>
+T<End>
+<End of Block>
+
+<Text entry 343, pointer>
+T<End>
+<End of Block>
+
+<Text entry 344, pointer>
+T<End>
+<End of Block>
+
+<Text entry 345, pointer>
+T<End>
+<End of Block>
+
+<Text entry 346, pointer>
+T<End>
+<End of Block>
+
+<Text entry 347, pointer>
+T<End>
+<End of Block>
+
+<Text entry 348, pointer>
+T<End>
+<End of Block>
+
+<Text entry 349, pointer>
+T<End>
+<End of Block>
+
+<Text entry 350, pointer>
+They took...the Crystal...<End>
+<End of Block>
+
+<Text entry 351, pointer>
+The healing pots... upstairs... I must...<End>
+<End of Block>
+
+<Text entry 352, pointer>
+<Tella>: !? <Anna>!!<End>
+<End of Block>
+
+<Text entry 353>
+<Tella>: You! You're that bard!!<End>
+<End of Block>
+
+<Text entry 354>
+<Gilbart>: You can find the Sand Ruby in the Antlion Cave, which lies to the east. The ruby forms from the fluid that the antlion secretes when it lays eggs. We must cross the shallows with our hovercraft to reach the cave. After we acquire the Sand Ruby, we can cross the shallows to reach Kaipo.<End>
+<End of Block>
+
+<Text entry 355>
+I think I'll withdraw to Kaipo. I should be able to get there easily from the shallows to the west.<End>
+<End of Block>
+
+<Text entry 356>
+I had planned to head across Mt. Hobs to Fabul, but the trail was blocked by thick ice.<End>
+<End of Block>
+
+<Text entry 357>
+<Tella>: <Golbeza> is dead!! DEAD!!<New>
+<Gilbart>: <Anna>! <Anna>, open your eyes. <Anna>, please! Don't leave me!<New>
+<Tella>: SHUT UP! Crying won't bring her back!!<End>
+<End of Block>
+
+<Text entry 358>
+<Cecil>: <Tella>, wait!<End>
+<End of Block>
+
+<Text entry 359>
+<Tella>: I will kill <Golbeza>! I don't need you! I don't need anyone!!<End>
+<End of Block>
+
+<Text entry 360>
+<Tella> left the party<End>
+<End of Block>
+
+<Text entry 361>
+<Gilbart>: <Anna>!!! «Snivel-snivel!»<End>
+<End of Block>
+
+<Text entry 362>
+<Rydia>: Stop crying!<End>
+<End of Block>
+
+<Text entry 363>
+<Rydia>: You're a grown-up! Grown-ups don't cry! I lost my mom...but I'm not gonna cry anymore.<New>
+<Cecil>: <Rydia>...<End>
+<End of Block>
+
+<Text entry 364>
+<Gilbart>: I don't care. Leave me alone! I'm staying here with <Anna>. I will never leave her side.<End>
+<End of Block>
+
+<Text entry 365>
+<Cecil>: That's enough! You're now the rightful ruler of Damcyan, so start acting like it! You owe it to your people, and most of all, you owe it to <Anna>. King of Damcyan, my name is <Cecil>, and I need your help.<New>
+<Gilbart>: Huh?<New>
+<Cecil>: My friend is suffering from desert fever in Kaipo. I need to get the Sand Ruby to save her. Can you help me?<New>
+<Gilbart>: ...What is her name?<New>
+<Cecil>: <Rosa>.<End>
+<End of Block>
+
+<Text entry 366>
+<Gilbart>: <Rosa>...she is very dear to you, yes? Like <Anna> was to me...<End>
+<End of Block>
+
+<Text entry 367, pointer>
+Ugh...my eyes. Who goes there? Don't let them... get the treas...<End>
+<End of Block>
+
+<Text entry 368, pointer>
+T<End>
+<End of Block>
+
+<Text entry 369, pointer>
+T<End>
+<End of Block>
+
+<Text entry 370, pointer>
+T<End>
+<End of Block>
+
+<Text entry 371, pointer>
+T<End>
+<End of Block>
+
+<Text entry 372, pointer>
+Your men were annihilated, Master!?<End>
+<End of Block>
+
+<Text entry 373>
+If only we were stronger...<End>
+<End of Block>
+
+<Text entry 374>
+The sailors have been spreading rather strange rumors... Something about a sea god being angry.<End>
+<End of Block>
+
+<Text entry 375>
+Welcome back.<End>
+<End of Block>
+
+<Text entry 376, pointer>
+Welcome home, Master.<End>
+<End of Block>
+
+<Text entry 377>
+Please leave the security to us and get some rest at the inn.<End>
+<End of Block>
+
+<Text entry 378>
+Many vessels have been shipwrecked lately, but the cause has yet to be determined.<End>
+<End of Block>
+
+<Text entry 379>
+I'm happy to see you safe and sound, sir.<End>
+<End of Block>
+
+<Text entry 380, pointer>
+D<End>
+<End of Block>
+
+<Text entry 381>
+D<End>
+<End of Block>
+
+<Text entry 382>
+D<End>
+<End of Block>
+
+<Text entry 383>
+The king rests in his quarters. He suffered injuries during the attack.<End>
+<End of Block>
+
+<Text entry 384, pointer>
+T<End>
+<End of Block>
+
+<Text entry 385, pointer>
+T<End>
+<End of Block>
+
+<Text entry 386, pointer>
+T<End>
+<End of Block>
+
+<Text entry 387, pointer>
+I heard there was some trouble at Mt. Hobs.<End>
+<End of Block>
+
+<Text entry 388>
+If we had even one airship, we could've put up a better fight.<End>
+<End of Block>
+
+<Text entry 389>
+Master! I wasn't sleeping! I-I was meditating.<End>
+<End of Block>
+
+<Text entry 390>
+I will pray for your safety.<End>
+<End of Block>
+
+<Text entry 391, pointer>
+Master, how did the training go?<End>
+<End of Block>
+
+<Text entry 392>
+That was one hell of an attack.<End>
+<End of Block>
+
+<Text entry 393>
+We'll be safe as long as we stay in the castle.<End>
+<End of Block>
+
+<Text entry 394>
+Good thing our homes are within these walls, or else we could've lost everything in all that bombing.<End>
+<End of Block>
+
+<Text entry 395>
+Master <Yang>! I hear there's bad guys coming. So you're gonna kick some butt, right?<End>
+<End of Block>
+
+<Text entry 396>
+Atchaa! I can't wait to start training.<End>
+<End of Block>
+
+<Text entry 397, pointer>
+King: Fabul has suffered much. We must regroup and protect the people. Do not worry about me. Retire to the inn and get your rest.<End>
+<End of Block>
+
+<Text entry 398>
+King: I see. I will arrange for a ship right away. <Yang>, accompany <Cecil> and help him with the rescue. <Cecil>, take this sword. It belonged to a dark knight who came to Fabul many years ago. The sword exudes tremendous force, but it is still a weapon of darkness. Darkness can never prevail over true evil.<End>
+<End of Block>
+
+<Text entry 399>
+King: <Golbeza> must be stopped. If he acquires all the Crys- tals, the world will suffer an unprecedented crisis.<End>
+<End of Block>
+
+<Text entry 400>
+This is the king's quarters.<End>
+<End of Block>
+
+<Text entry 401>
+The king used to be a famous monk. He'll be fine.<End>
+<End of Block>
+
+<Text entry 402>
+King: Go to the harbor to the east as soon as you are prepared. A ship shall await you there.<End>
+<End of Block>
+
+<Text entry 403>
+Let's sleep in the king's bed!<End>
+<End of Block>
+
+<Text entry 404>
+Received Death<End>
+<End of Block>
+
+<Text entry 405, pointer>
+T<End>
+<End of Block>
+
+<Text entry 406, pointer>
+This ward is ready for anything.<End>
+<End of Block>
+
+<Text entry 407>
+If only my magic were as powerful as Lady <Rosa>'s...<End>
+<End of Block>
+
+<Text entry 408>
+<Golbeza> will pay for this!<End>
+<End of Block>
+
+<Text entry 409>
+How is Baron controlling all those monsters?<End>
+<End of Block>
+
+<Text entry 410, pointer>
+Woman: Where have you been? Off loafin', I'll bet!<New>
+<Yang>: This is my wife. <Cecil> and his companions came to my aid on Mt. Hobs.<New>
+<Yang>'s Wife: Well that was mighty kind of y'all. Hey, hon, ain't you got someplace to be? I heard the king's awaitin' ya.<End>
+<End of Block>
+
+<Text entry 411>
+<Yang>'s Wife: Oh, hon. Y'alright?<New>
+<Yang>: I am fine, thanks to their help.<New>
+<Yang>'s Wife: Y'all're like <Yang>'s guardian angels.<New>
+<Yang>: You are alright?<New>
+<Yang>'s Wife: Yeah, and I betcha those Baron bozos ain't never comin' back; 'cause I gave 'em one helluva beatin' with my fryin' pan.<End>
+<End of Block>
+
+<Text entry 412>
+Quit pickin' your nose here and go take care of business.<End>
+<End of Block>
+
+<Text entry 413>
+What!? Shut up! My hon's not dead! No way...<End>
+<End of Block>
+
+<Text entry 414>
+Damn loafer... Phew, these onions... «Sniffle-sniffle...»<End>
+<End of Block>
+
+<Text entry 415>
+Here, take this, and smack that no-good in the head, will ya?<End>
+<End of Block>
+
+<Text entry 416>
+Received Pan<End>
+<End of Block>
+
+<Text entry 417>
+Come again? My hon's in the underworld?<End>
+<End of Block>
+
+<Text entry 418>
+Oh, thanks. Here, this might come in handy.<End>
+<End of Block>
+
+<Text entry 419>
+Received Knife<End>
+<End of Block>
+
+<Text entry 420>
+Tell him not to worry 'bout me.<End>
+<End of Block>
+
+<Text entry 421, pointer>
+T<End>
+<End of Block>
+
+<Text entry 422, pointer>
+<Tella>: We'll rest here.<End>
+<End of Block>
+
+<Text entry 423>
+<Tella>: This magic field repels all monsters. You can Save and use a Tent or a Cabin in here. Let's rest in my Tent and prepare for the coming battle.<End>
+<End of Block>
+
+<Text entry 424, pointer>
+I am a guard, not a dancer! The castle guards are all women.<End>
+<End of Block>
+
+<Text entry 425>
+I hope Baron won't attack us.<End>
+<End of Block>
+
+<Text entry 426>
+This armor lacks strength, but affords excellent mobility, not to mention fashion appeal.<End>
+<End of Block>
+
+<Text entry 427>
+Unlike most kingdoms, Troia is governed by women.<End>
+<End of Block>
+
+<Text entry 428>
+The clerics are convening in the chamber behind me.<End>
+<End of Block>
+
+<Text entry 429>
+A Damcyan man drifted into Troia somehow. He claims he's a prince.<End>
+<End of Block>
+
+<Text entry 430>
+D<End>
+<End of Block>
+
+<Text entry 431>
+Troia has never been at war.<End>
+<End of Block>
+
+<Text entry 432, pointer>
+The eight clerics are sisters.<End>
+<End of Block>
+
+<Text entry 433>
+Without the Crystal, Troia might become a wasteland again!<End>
+<End of Block>
+
+<Text entry 434>
+Women make far more civilized rulers than men.<End>
+<End of Block>
+
+<Text entry 435>
+Whatever your circumstances, you may borrow the Crystal as promised.<End>
+<End of Block>
+
+<Text entry 436>
+Really!? The Crystal was taken!? Oh no!<End>
+<End of Block>
+
+<Text entry 437>
+The Dark Elf is weak against metallic weapons. To protect himself from them, he set up a magnetic field around the northeast cavern.<End>
+<End of Block>
+
+<Text entry 438>
+You can borrow the Crystal. Be on your guard.<End>
+<End of Block>
+
+<Text entry 439>
+How could the Crystals fall into the wrong hands!<End>
+<End of Block>
+
+<Text entry 440>
+If y'all be lookin' fer the Dark Elf, go to the cavern on the northeast island.<End>
+<End of Block>
+
+<Text entry 441>
+Who the heck was that!?<End>
+<End of Block>
+
+<Text entry 442>
+Ye lost our Crystal!? Well, get it back!<End>
+<End of Block>
+
+<Text entry 443>
+If you can recover the Crystal, we will allow you to borrow it. Please speak to us once you obtain it.<End>
+<End of Block>
+
+<Text entry 444>
+Feel free to take the items in the underground storeroom.<End>
+<End of Block>
+
+<Text entry 445>
+With this <Golbeza> controlling all the Crystals, the entire world is at risk.<End>
+<End of Block>
+
+<Text entry 446>
+Equipping anything metallic inside the northeast cavern will hamper your movement.<End>
+<End of Block>
+
+<Text entry 447>
+Dang! Just when we got it back! You'd better bring it back!<End>
+<End of Block>
+
+<Text entry 448>
+The Crystals were assigned to the four kingdoms to avoid such a disaster.<End>
+<End of Block>
+
+<Text entry 449>
+We could consider lending the Earth Crystal to you if you can reclaim it.<End>
+<End of Block>
+
+<Text entry 450>
+Please tell me that was your friend.<End>
+<End of Block>
+
+<Text entry 451>
+One who gathers all the Crystals gains tremendous powers.<End>
+<End of Block>
+
+<Text entry 452>
+The bleeping Dark Elf stole our Earth Crystal.<End>
+<End of Block>
+
+<Text entry 453>
+The nature of the Crystal's power changes depending on the bearer. If it falls into the wrong hands, who knows what could happen to it.<End>
+<End of Block>
+
+<Text entry 454>
+Hell, if there are really more than four Crystals, we still have hope.<End>
+<End of Block>
+
+<Text entry 455>
+We have governed Troia for years with the blessing of the Earth Crystal, but now...<End>
+<End of Block>
+
+<Text entry 456>
+What is going on!?<End>
+<End of Block>
+
+<Text entry 457>
+Geez...! Forget Troia! The entire planet's in danger!<End>
+<End of Block>
+
+<Text entry 458>
+Cleric: Oh, my goodness!<End>
+<End of Block>
+
+<Text entry 459>
+The Earth Crystal, indeed! How the hell'd you...! Three cheers! BANZAI!<End>
+<End of Block>
+
+<Text entry 460>
+It's about time, <Cecil>.<End>
+<End of Block>
+
+<Text entry 461>
+<Cid>: Who the hell!?<New>
+<Cecil>: <Cain>!<Music 22><New>
+<Cain>: Bring the Crystal and board your ship. I'll take you to <Rosa>.<End>
+<End of Block>
+
+<Text entry 462, pointer>
+T<End>
+<End of Block>
+
+<Text entry 463, pointer>
+We are attending to the prince around the clock. Me? I'm the nurse. She's the doctor.<End>
+<End of Block>
+
+<Text entry 464>
+He requires much rest. He seems naturally frail, which explains his slow recovery.<End>
+<End of Block>
+
+<Text entry 465>
+<Gilbart>: <Cecil>, please save <Rosa>.<End>
+<End of Block>
+
+<Text entry 466>
+Please keep your voice down. We have a sick man resting.<End>
+<End of Block>
+
+<Text entry 467>
+Please take care.<End>
+<End of Block>
+
+<Text entry 468>
+<Tella>'s...!? Nooo... Why...<End>
+<End of Block>
+
+<Text entry 469>
+<Yang>... If only I were stronger...<End>
+<End of Block>
+
+<Text entry 470>
+<Yang> is alright? Thank heavens... Have you notified his wife?<End>
+<End of Block>
+
+<Text entry 471>
+<Gilbart>'s harp<End>
+<End of Block>
+
+<Text entry 472, pointer>
+T<End>
+<End of Block>
+
+<Text entry 473, pointer>
+This was once a dungeon, but it now houses Troia's treasures.<End>
+<End of Block>
+
+<Text entry 474>
+Don't lie to me!<End>
+<End of Block>
+
+<Text entry 475>
+Go right ahead.<End>
+<End of Block>
+
+<Text entry 476>
+My, you're honest.<End>
+<End of Block>
+
+<Text entry 477, pointer>
+T<End>
+<End of Block>
+
+<Text entry 478, pointer>
+T<End>
+<End of Block>
+
+<Text entry 479, pointer>
+T<End>
+<End of Block>
+
+<Text entry 480, pointer>
+T<End>
+<End of Block>
+
+<Text entry 481, pointer>
+T<End>
+<End of Block>
+
+<Text entry 482, pointer>
+T<End>
+<End of Block>
+
+<Text entry 483, pointer>
+T<End>
+<End of Block>
+
+<Text entry 484, pointer>
+T<End>
+<End of Block>
+
+<Text entry 485, pointer>
+T<End>
+<End of Block>
+
+<Text entry 486, pointer>
+T<End>
+<End of Block>
+
+<Text entry 487, pointer>
+T<End>
+<End of Block>
+
+<Text entry 488, pointer>
+We're diligently working to develop more spells for actual combat.<End>
+<End of Block>
+
+<Text entry 489>
+How could you not see through that phony?<End>
+<End of Block>
+
+<Text entry 490>
+Basic spells like Fire and Ice aren't powerful enough against many monsters. I seem to remember hearing about more potent spells, but...<End>
+<End of Block>
+
+<Text entry 491>
+So, Meteo exists after all!<End>
+<End of Block>
+
+<Text entry 492>
+Sleep! Heh heh. Sweet dreams. Huh? You're not sleepy at all? Hmmm. What did I do wrong...?<End>
+<End of Block>
+
+<Text entry 493>
+Piggy! !? Shoot!<End>
+<End of Block>
+
+<Text entry 494>
+Darn, that was Mini.<End>
+<End of Block>
+
+<Text entry 495, pointer>
+<Rosa> became a white mage for you, <Cecil>, to help you in any way she could. Don't worry her too much, got it?<End>
+<End of Block>
+
+<Text entry 496>
+I pray that the king might rest in peace.<End>
+<End of Block>
+
+<Text entry 497>
+I'm currently studying<New>
+basic white magic: Cure1, Cure2, and Cure3, three levels of cure spells.<End>
+<End of Block>
+
+<Text entry 498>
+How could a monster impersonate the king...?<End>
+<End of Block>
+
+<Text entry 499>
+The king is brimming with vigor these days. I find it somewhat unnatural.<End>
+<End of Block>
+
+<Text entry 500>
+We will support the soldiers with our white magic.<End>
+<End of Block>
+
+<Text entry 501, pointer>
+T<End>
+<End of Block>
+
+<Text entry 502, pointer>
+Move characters with low vitalities to the Back Row. Press the left directional button during battle to switch between front and back rows, and press the right directional button to Parry. To use a weapon in your inventory during battle, select Item and press the up directional button until the Weapon Menu appears. You can wield different weapons and replenish arrows by choosing them in this menu.<End>
+<End of Block>
+
+<Text entry 503>
+You must make quick decisions in battle! Slow down the battle speed if you're still a beginner. If you select "Active" Battle Mode in the Config Menu, monsters will attack even while you are choosing items or magic.<End>
+<End of Block>
+
+<Text entry 504>
+Caverns have save points. Use them wisely.<End>
+<End of Block>
+
+<Text entry 505>
+If your inventory becomes full, go talk to Fat Chocobo in a Chocobo Forest. He will hold onto your stuff for you. Use a Gysahl when the smell of chocobo is in the air.<End>
+<End of Block>
+
+<Text entry 506>
+The man next to you is Namingway. Talk to him if you want to change your name.<End>
+<End of Block>
+
+<Text entry 507>
+To escape from battle, press the R1 and L1 buttons simultaneously. You can cast some spells on multiple targets. During battle, press the left directional button to target all enemies or the right directional button to target all allies. When casting magic outside of battle, press the left button or the right button to target all allies.<End>
+<End of Block>
+
+<Text entry 508, pointer>
+T<End>
+<End of Block>
+
+<Text entry 509, pointer>
+T<End>
+<End of Block>
+
+<Text entry 510, pointer>
+GO BACK.<New>
+<Cecil>: Who's there!? Show yourself!<End>
+<End of Block>
+
+<Text entry 511>
+LEAVE AT ONCE.<New>
+<Cain>: Could that be the Beast of Mist Valley?<End>
+<End of Block>
+
+<Text entry 512>
+<Cecil>: We have to go to Mist Village. We're not going back. SO BE IT.<New>
+<Cain>: The mist is gathering!<End>
+<End of Block>
+
+<Text entry 513, pointer>
+T<End>
+<End of Block>
+
+<Text entry 514, pointer>
+T<End>
+<End of Block>
+
+<Text entry 515, pointer>
+Old Man: What the hell are you doing here!? This cavern is swarming with monsters! Return to Kaipo!<End>
+<End of Block>
+
+<Text entry 516, pointer>
+T<End>
+<End of Block>
+
+<Text entry 517, pointer>
+T<End>
+<End of Block>
+
+<Text entry 518, pointer>
+T<End>
+<End of Block>
+
+<Text entry 519, pointer>
+<Tella>: This leads outside. The monster lies in the cave beyond. Use a Tent outside if you must.<End>
+<End of Block>
+
+<Text entry 520, pointer>
+T<End>
+<End of Block>
+
+<Text entry 521, pointer>
+T<End>
+<End of Block>
+
+<Text entry 522, pointer>
+<Tella>: There he is!<End>
+<End of Block>
+
+<Text entry 523>
+<Tella>: WATCH OUT!<End>
+<End of Block>
+
+<Text entry 524>
+<Tella>: Come now! Damcyan is beyond this waterfall!<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 525, pointer>
+T<End>
+<End of Block>
+
+<Text entry 526, pointer>
+T<End>
+<End of Block>
+
+<Text entry 527, pointer>
+T<End>
+<End of Block>
+
+<Text entry 528, pointer>
+T<End>
+<End of Block>
+
+<Text entry 529, pointer>
+T<End>
+<End of Block>
+
+<Text entry 530, pointer>
+T<End>
+<End of Block>
+
+<Text entry 531, pointer>
+T<End>
+<End of Block>
+
+<Text entry 532, pointer>
+The trail is blocked by ice.<End>
+<End of Block>
+
+<Text entry 533>
+<Rosa>: <Rydia>, can you try chanting the Fire spell?<New>
+<Rydia>: ...<End>
+<End of Block>
+
+<Text entry 534>
+<Rydia>: ...No.<New>
+<Rosa>: ?<New>
+<Rydia>: I...I hate fire.<New>
+<Cecil>: That's right... Her village was destroyed by fire when...<End>
+<End of Block>
+
+<Text entry 535>
+<Rosa>: <Rydia>... You're the only one who can melt this ice.<New>
+<Rydia>: ...<New>
+<Rosa>: If we can't get through here to Fabul, more people will be in danger. Please, <Rydia>.<New>
+<Gilbart>: <Rydia>, you've helped me. You've helped <Cecil> and <Rosa>. You have the power to help many more people.<New>
+<Cecil>: ...<New>
+<Rydia>: ... ... ...<End>
+<End of Block>
+
+<Text entry 536>
+<Rydia>: Fire!<End>
+<End of Block>
+
+<Text entry 537>
+<Rydia> learned Fire1<Delay 40><End>
+<End of Block>
+
+<Text entry 538>
+<Gilbart>: <Rydia>, you're incredible!<New>
+<Rydia>: Tee hee.<New>
+<Rosa>: I knew you could do it!<New>
+<Cecil>: Thank you, <Rydia>.<End>
+<End of Block>
+
+<Text entry 539>
+<Gilbart>: <Rydia>, what is the matter?<New>
+<Rosa>: Give it a try. I know you can do it.<End>
+<End of Block>
+
+<Text entry 540, pointer>
+<Gilbart>: That garb... He's one of Fabul's monks. I'm sure of it.<End>
+<End of Block>
+
+<Text entry 541>
+<Gilbart>: Good grief! A BOMB!<New>
+<Rydia>: Let's help him!<End>
+<End of Block>
+
+<Text entry 542>
+Monk: You have my grati- tude. <Yang> is my name. I am the high monk of Fabul. I came here to train with my men. Now they are all dead--killed by a swarm of beasts. And they were Fabul's finest.<New>
+<Cecil>: My name is <Cecil>. We bring urgent news to Fabul.<New>
+<Rosa>: A villain named <Golbeza> abuses Baron's authority to seize the world's Crystals.<End>
+<End of Block>
+
+<Text entry 543>
+Monk: Kiai!<End>
+<End of Block>
+
+<Text entry 544>
+<Cecil>: What's going on?<End>
+<End of Block>
+
+<Text entry 545>
+<Rosa>: <Golbeza> must've sent the monsters that wiped out your men.<End>
+<End of Block>
+
+<Text entry 546>
+<Yang>: ...Then the attack is imminent. I must go.<New>
+<Cecil>: We will follow you to Fabul. We would like to help.<End>
+<End of Block>
+
+<Text entry 547>
+<Yang>: I am grateful; however, this does not concern you.<New>
+<Cecil>: But it does.<New>
+<Gilbart>: I am the prince of Damcyan.<New>
+<Cecil>: <Rosa> and I are citizens of Baron, and this girl is one of many victims of our kingdom's recent attacks...which I have personally led.<New>
+<Rydia>: ...<End>
+<End of Block>
+
+<Text entry 548>
+<Yang>: I see... I humbly accept your assistance.<New>
+<Cecil>: Let's go. We haven't much time.<New>
+<Yang>: Fabul lies to the east of these mountains.<End>
+<End of Block>
+
+<Text entry 549>
+High Monk <Yang> joined the party<Delay 40><End>
+<End of Block>
+
+<Text entry 550, pointer>
+T<End>
+<End of Block>
+
+<Text entry 551, pointer>
+T<End>
+<End of Block>
+
+<Text entry 552, pointer>
+T<End>
+<End of Block>
+
+<Text entry 553, pointer>
+T<End>
+<End of Block>
+
+<Text entry 554, pointer>
+The trail is blocked by fire.<End>
+<End of Block>
+
+<Text entry 555, pointer>
+T<End>
+<End of Block>
+
+<Text entry 556, pointer>
+T<End>
+<End of Block>
+
+<Text entry 557, pointer>
+Bshrrr...<New>
+<Porom>: <Palom>, stop that!<New>
+<Palom>: What!? I didn't do anything!<End>
+<End of Block>
+
+<Text entry 558>
+Bshrrr...<New>
+<Porom>: <Palom>!<New>
+<Palom>: It wasn't me!<End>
+<End of Block>
+
+<Text entry 559, pointer>
+T<End>
+<End of Block>
+
+<Text entry 560, pointer>
+T<End>
+<End of Block>
+
+<Text entry 561, pointer>
+Kahahahaha... You have defeated me... but you have not heard the last of Cagnazzo. Now join me in the nether world!<End>
+<End of Block>
+
+<Text entry 562>
+<Tella>: The walls!<End>
+<End of Block>
+
+<Text entry 563>
+<Cid>: It's locked!<Music 35><New>
+<Tella>: Same here!<End>
+<End of Block>
+
+<Text entry 564>
+<Cecil>: <Palom>! <Porom>!<End>
+<End of Block>
+
+<Text entry 565>
+<Palom>: ...We got no choice.<New>
+<Porom>: We would've followed you forever, <Cecil>.<New>
+<Tella>: What!?<New>
+<Palom>: It's been fun, <Cecil>.<New>
+<Porom>: Thank you.<End>
+<End of Block>
+
+<Text entry 566>
+<Palom>: Ready?<New>
+<Porom>: Yeah.<End>
+<End of Block>
+
+<Text entry 567>
+<Cecil>: NOOO!<New>
+<Palom> & <Porom>: Stone!<End>
+<End of Block>
+
+<Text entry 568>
+<Cecil>: <Palom>!! <Porom>!!<Music 42><Delay 40><End>
+<End of Block>
+
+<Text entry 569>
+The spell has no effect, as the twins have become stone of their own will.<End>
+<End of Block>
+
+<Text entry 570>
+<Yang>: Forgive me, <Palom>, <Porom>.<End>
+<End of Block>
+
+<Text entry 571>
+<Cid>: Time for some payback! To the Enterprise!<End>
+<End of Block>
+
+<Text entry 572>
+<Tella>: Hold on! Esuna!<End>
+<End of Block>
+
+<Text entry 573>
+The king is most displeased. He shan't see you until you deliver the Bomb Ring to Mist Village.<End>
+<End of Block>
+
+<Text entry 574>
+<Tella>: You fools!! I'm an old man; it should have been me!<End>
+<End of Block>
+
+<Text entry 575, pointer>
+<Cecil>: It sure looks deep.<End>
+<End of Block>
+
+<Text entry 576, pointer>
+<Cid>: What the hell's causin' this magnetic field!? Equipping anything metallic might tie us down!<New>
+<Yang>: Wielding my claws has no effect, it seems.<New>
+<Tella>: Fear not! We stand invincible with my magic!<End>
+<End of Block>
+
+<Text entry 577, pointer>
+T<End>
+<End of Block>
+
+<Text entry 578, pointer>
+T<End>
+<End of Block>
+
+<Text entry 579, pointer>
+T<End>
+<End of Block>
+
+<Text entry 580, pointer>
+T<End>
+<End of Block>
+
+<Text entry 581, pointer>
+T<End>
+<End of Block>
+
+<Text entry 582, pointer>
+T<End>
+<End of Block>
+
+<Text entry 583, pointer>
+T<End>
+<End of Block>
+
+<Text entry 584, pointer>
+<Cecil>: If only I could use my sword...<End>
+<End of Block>
+
+<Text entry 585>
+<Cecil>: Alright!<End>
+<End of Block>
+
+<Text entry 586>
+Sealed by the Dark Elf<End>
+<End of Block>
+
+<Text entry 587>
+You... GAAAH!<End>
+<End of Block>
+
+<Text entry 588, pointer>
+T<End>
+<End of Block>
+
+<Text entry 589, pointer>
+T<End>
+<End of Block>
+
+<Text entry 590, pointer>
+The Devil's Road leads to Mysidia, but it has remained closed since the Mysidians sealed their end. Baron once actively traded with Mysidia via this path. The stairs lead to the training room.<End>
+<End of Block>
+
+<Text entry 591>
+It appears the Mysidians have removed the seal.<End>
+<End of Block>
+
+<Text entry 592>
+The path is sealed and cannot be used.<End>
+<End of Block>
+
+<Text entry 593, pointer>
+T<End>
+<End of Block>
+
+<Text entry 594, pointer>
+T<End>
+<End of Block>
+
+<Text entry 595, pointer>
+T<End>
+<End of Block>
+
+<Text entry 596, pointer>
+T<End>
+<End of Block>
+
+<Text entry 597, pointer>
+T<End>
+<End of Block>
+
+<Text entry 598, pointer>
+T<End>
+<End of Block>
+
+<Text entry 599, pointer>
+T<End>
+<End of Block>
+
+<Text entry 600, pointer>
+<Golbeza>: He defeated Cagnazzo. His power continues to grow.<End>
+<End of Block>
+
+<Text entry 601>
+<Cain>: Sire, regarding the last Crystal--<New>
+<Golbeza>: I know. That place remains a problem.<New>
+<Cain>: Then, by all means, let's have <Cecil> get it for us.<New>
+<Golbeza>: Hmm...<End>
+<End of Block>
+
+<Text entry 602>
+<Cain>: I'm certain he will comply; after all, we have <Rosa>. We can exchange her for the last Crystal.<End>
+<End of Block>
+
+<Text entry 603>
+<Golbeza>: A primitive idea, but it just might work. And I will destroy him at the time of exchange.<New>
+<Cain>: I shall go to convey your terms to him.<End>
+<End of Block>
+
+<Text entry 604>
+<Rosa>: <Cain>!<End>
+<End of Block>
+
+<Text entry 605>
+<Cain>: <Rosa>, you'll see soon enough that I am superior to <Cecil>.<End>
+<End of Block>
+
+<Text entry 606>
+<Cecil>: That sure was close.<End>
+<End of Block>
+
+<Text entry 607, pointer>
+Dad found an unusual ore here. But he'd rather find an unusual tail. He likes collecting animal tails.<End>
+<End of Block>
+
+<Text entry 608>
+Beat it! Bring a tail back if you want my attention.<End>
+<End of Block>
+
+<Text entry 609>
+Th-This is the Rat Tail! Let's trade, alright? Received Adamant<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 610>
+The legendary Pink Tail! Take this in return. Received Adamant<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 611, pointer>
+T<End>
+<End of Block>
+
+<Text entry 612, pointer>
+T<End>
+<End of Block>
+
+<Text entry 613, pointer>
+<Fusuya>: Approach its mouth.<New>
+<Cid>: Who is he?<New>
+<Cecil>: <Fusuya>, guardian of the Lunarians.<New>
+<Cid>: Lu--what?<New>
+<Fusuya>: Can you or not?<New>
+<Cid>: Ahh, keep your beard on. There's nothin' I can't do.<End>
+<End of Block>
+
+<Text entry 614>
+<Fusuya>: Now!<New>
+<Cid>: Hang on!<End>
+<End of Block>
+
+<Text entry 615, pointer>
+T<End>
+<End of Block>
+
+<Text entry 616, pointer>
+T<End>
+<End of Block>
+
+<Text entry 617, pointer>
+T<End>
+<End of Block>
+
+<Text entry 618, pointer>
+<Cecil>: How do we get in?<New>
+<Edge>: Heh heh. Watch.<End>
+<End of Block>
+
+<Text entry 619>
+<Edge>: Ready?<End>
+<End of Block>
+
+<Text entry 620, pointer>
+T<End>
+<End of Block>
+
+<Text entry 621, pointer>
+T<End>
+<End of Block>
+
+<Text entry 622, pointer>
+T<End>
+<End of Block>
+
+<Text entry 623, pointer>
+T<End>
+<End of Block>
+
+<Text entry 624, pointer>
+T<End>
+<End of Block>
+
+<Text entry 625, pointer>
+T<End>
+<End of Block>
+
+<Text entry 626, pointer>
+T<End>
+<End of Block>
+
+<Text entry 627, pointer>
+T<End>
+<End of Block>
+
+<Text entry 628, pointer>
+T<End>
+<End of Block>
+
+<Text entry 629, pointer>
+T<End>
+<End of Block>
+
+<Text entry 630, pointer>
+T<End>
+<End of Block>
+
+<Text entry 631, pointer>
+T<End>
+<End of Block>
+
+<Text entry 632, pointer>
+T<End>
+<End of Block>
+
+<Text entry 633, pointer>
+T<End>
+<End of Block>
+
+<Text entry 634, pointer>
+T<End>
+<End of Block>
+
+<Text entry 635, pointer>
+T<End>
+<End of Block>
+
+<Text entry 636, pointer>
+T<End>
+<End of Block>
+
+<Text entry 637, pointer>
+T<End>
+<End of Block>
+
+<Text entry 638, pointer>
+T<End>
+<End of Block>
+
+<Text entry 639, pointer>
+T<End>
+<End of Block>
+
+<Text entry 640, pointer>
+At last.<End>
+<End of Block>
+
+<Text entry 641>
+You cannot stop the Giant of Babil.<End>
+<End of Block>
+
+<Text entry 642>
+Kahaha... Now it's your turn.<End>
+<End of Block>
+
+<Text entry 643>
+To go to hell!<End>
+<End of Block>
+
+<Text entry 644>
+<Cecil>: The Four Fiends!<New>
+Scarmiglione: Indeed.<New>
+Cagnazzo: Master Zemus blessed us with a second life.<New>
+Barbariccia: Prepare to die.<New>
+Rubicante: I shall enjoy fighting you again. As you have taught me, we, too, will fight as one. Now allow me to restore your strength.<End>
+<End of Block>
+
+<Text entry 645>
+Rubicante: This time we shall prevail.<End>
+<End of Block>
+
+<Text entry 646>
+Scarmiglione: Master Zemus!<End>
+<End of Block>
+
+<Text entry 647>
+Cagnazzo: One last chance!<End>
+<End of Block>
+
+<Text entry 648>
+Barbariccia: Failed again...<End>
+<End of Block>
+
+<Text entry 649>
+Rubicante: Farewell, valiants.<End>
+<End of Block>
+
+<Text entry 650, pointer>
+T<End>
+<End of Block>
+
+<Text entry 651, pointer>
+T<End>
+<End of Block>
+
+<Text entry 652, pointer>
+T<End>
+<End of Block>
+
+<Text entry 653, pointer>
+<Cecil>: Is everyone alright?<End>
+<End of Block>
+
+<Text entry 654, pointer>
+T<End>
+<End of Block>
+
+<Text entry 655, pointer>
+T<End>
+<End of Block>
+
+<Text entry 656, pointer>
+<Yang>: Amazing...<New>
+<Cid>: Ain't she a beauty? Let's go, Enterprise!<End>
+<End of Block>
+
+<Text entry 657>
+<Cecil>: !?<End>
+<End of Block>
+
+<Text entry 658, pointer>
+<Cecil>: <Cain>!<End>
+<End of Block>
+
+<Text entry 659>
+<Cain>: Heh! That drag suits you well.<End>
+<End of Block>
+
+<Text entry 660>
+<Cid>: <Cain>! You little maggot!<End>
+<End of Block>
+
+<Text entry 661>
+<Cecil>: Where's <Rosa>!?<New>
+<Cain>: If you want her back, bring me the Earth Crystal.<New>
+<Cecil>: The Crystal in Troia?<End>
+<End of Block>
+
+<Text entry 662>
+<Tella>: You shameless dog!<New>
+<Cain>: We'll make the trade once you get the Crystal. Remember, <Rosa>'s life depends on it.<New>
+<Yang>: You call yourself a knight!?<End>
+<End of Block>
+
+<Text entry 663>
+<Cecil>: Snap out of it, <Cain>! Please!<End>
+<End of Block>
+
+<Text entry 664>
+<Cain>: I've said my piece.<End>
+<End of Block>
+
+<Text entry 665, pointer>
+T<End>
+<End of Block>
+
+<Text entry 666, pointer>
+T<End>
+<End of Block>
+
+<Text entry 667, pointer>
+T<End>
+<End of Block>
+
+<Text entry 668, pointer>
+Who goes there! Oh, humans...<End>
+<End of Block>
+
+<Text entry 669>
+The survivors are hiding inside.<End>
+<End of Block>
+
+<Text entry 670>
+This is a passageway to the Tower of Babil.<End>
+<End of Block>
+
+<Text entry 671>
+With our castle destroyed, this is all that is left of our kingdom.<End>
+<End of Block>
+
+<Text entry 672>
+We are the proud people of Eblan!<End>
+<End of Block>
+
+<Text entry 673>
+The prince went to scout ahead, but has yet to return.<End>
+<End of Block>
+
+<Text entry 674>
+D<End>
+<End of Block>
+
+<Text entry 675>
+We're low on food. I wonder how long we'll last.<End>
+<End of Block>
+
+<Text entry 676>
+Show the world your greatness, Your Highness!<End>
+<End of Block>
+
+<Text entry 677>
+We will hold the fort until the prince returns.<End>
+<End of Block>
+
+<Text entry 678, pointer>
+The prince went on alone!<End>
+<End of Block>
+
+<Text entry 679>
+When the prince gets mad, you can't stop him!<End>
+<End of Block>
+
+<Text entry 680, pointer>
+Please, stop him.<End>
+<End of Block>
+
+<Text entry 681>
+The prince went after Rubicante...<End>
+<End of Block>
+
+<Text entry 682>
+Your Highness. Please take caution.<End>
+<End of Block>
+
+<Text entry 683, pointer>
+T<End>
+<End of Block>
+
+<Text entry 684, pointer>
+T<End>
+<End of Block>
+
+<Text entry 685, pointer>
+T<End>
+<End of Block>
+
+<Text entry 686, pointer>
+The prince will surely defeat our enemy.<End>
+<End of Block>
+
+<Text entry 687>
+I can't believe what happened to the king and queen...<End>
+<End of Block>
+
+<Text entry 688>
+Nobody'll hurt my mom! My new brother is in her tummy!<End>
+<End of Block>
+
+<Text entry 689>
+How did they defeat our ninjutsu so easily?<End>
+<End of Block>
+
+<Text entry 690>
+Perhaps Eblan's ninjutsu will end with us...<End>
+<End of Block>
+
+<Text entry 691>
+I am a senior minister of Eblan. The prince is harsh, but a good man. He went to the Tower of Babil to avenge his parents.<End>
+<End of Block>
+
+<Text entry 692>
+Hang in there!<End>
+<End of Block>
+
+<Text entry 693>
+Where did that monster come from?<End>
+<End of Block>
+
+<Text entry 694>
+I'm hungry already.<End>
+<End of Block>
+
+<Text entry 695>
+The prince said he'd go slay monsters! He'll come back soon, right?<End>
+<End of Block>
+
+<Text entry 696>
+Do not worry about us, Your Highness. Please be careful.<End>
+<End of Block>
+
+<Text entry 697, pointer>
+T<End>
+<End of Block>
+
+<Text entry 698, pointer>
+<Cid>: Battle stations! Time to unleash the power of the Enterprise!<End>
+<End of Block>
+
+<Text entry 699>
+<Cecil>: Wait!<New>
+<Yang>: What is that?<New>
+<Tella>: It's a white flag.<End>
+<End of Block>
+
+<Text entry 700>
+<Yang>: <Cecil>.<New>
+<Cid>: That dirty scumbag...<End>
+<End of Block>
+
+<Text entry 701>
+<Cecil>: <Cid>, set a course northwest...to Troia.<End>
+<End of Block>
+
+<Text entry 702, pointer>
+T<End>
+<End of Block>
+
+<Text entry 703, pointer>
+T<End>
+<End of Block>
+
+<Text entry 704, pointer>
+T<End>
+<End of Block>
+
+<Text entry 705, pointer>
+T<End>
+<End of Block>
+
+<Text entry 706, pointer>
+T<End>
+<End of Block>
+
+<Text entry 707, pointer>
+T<End>
+<End of Block>
+
+<Text entry 708, pointer>
+T<End>
+<End of Block>
+
+<Text entry 709, pointer>
+T<End>
+<End of Block>
+
+<Text entry 710, pointer>
+T<End>
+<End of Block>
+
+<Text entry 711, pointer>
+T<End>
+<End of Block>
+
+<Text entry 712, pointer>
+T<End>
+<End of Block>
+
+<Text entry 713, pointer>
+T<End>
+<End of Block>
+
+<Text entry 714, pointer>
+T<End>
+<End of Block>
+
+<Text entry 715, pointer>
+T<End>
+<End of Block>
+
+<Text entry 716, pointer>
+T<End>
+<End of Block>
+
+<Text entry 717, pointer>
+T<End>
+<End of Block>
+
+<Text entry 718, pointer>
+T<End>
+<End of Block>
+
+<Text entry 719, pointer>
+T<End>
+<End of Block>
+
+<Text entry 720, pointer>
+T<End>
+<End of Block>
+
+<Text entry 721, pointer>
+T<End>
+<End of Block>
+
+<Text entry 722, pointer>
+T<End>
+<End of Block>
+
+<Text entry 723, pointer>
+D<End>
+<End of Block>
+
+<Text entry 724>
+D<End>
+<End of Block>
+
+<Text entry 725>
+D<End>
+<End of Block>
+
+<Text entry 726>
+D<End>
+<End of Block>
+
+<Text entry 727>
+D<End>
+<End of Block>
+
+<Text entry 728>
+D<End>
+<End of Block>
+
+<Text entry 729>
+D<End>
+<End of Block>
+
+<Text entry 730>
+What do you want!? More weapons to butcher our people!?<End>
+<End of Block>
+
+<Text entry 731>
+Tough luck. You can't use most of the weapons here unless you are a paladin.<End>
+<End of Block>
+
+<Text entry 732>
+I told you, you can't use the weapons here until you become...a paladin? How...?<End>
+<End of Block>
+
+<Text entry 733, pointer>
+T<End>
+<End of Block>
+
+<Text entry 734, pointer>
+I'm the prettiest girl in this village! You don't look convinced. Come on, look closely.<End>
+<End of Block>
+
+<Text entry 735>
+Having a beautiful daughter isn't easy, I tell you. Protecting her from all the frogs and pigs...<End>
+<End of Block>
+
+<Text entry 736, pointer>
+T<End>
+<End of Block>
+
+<Text entry 737, pointer>
+T<End>
+<End of Block>
+
+<Text entry 738, pointer>
+T<End>
+<End of Block>
+
+<Text entry 739, pointer>
+D<End>
+<End of Block>
+
+<Text entry 740>
+If you're journeying far, you mustn't forget to bring Potions, Antidotes, and Tents along.<End>
+<End of Block>
+
+<Text entry 741, pointer>
+T<End>
+<End of Block>
+
+<Text entry 742, pointer>
+T<End>
+<End of Block>
+
+<Text entry 743, pointer>
+T<End>
+<End of Block>
+
+<Text entry 744, pointer>
+T<End>
+<End of Block>
+
+<Text entry 745, pointer>
+T<End>
+<End of Block>
+
+<Text entry 746, pointer>
+T<End>
+<End of Block>
+
+<Text entry 747, pointer>
+T<End>
+<End of Block>
+
+<Text entry 748, pointer>
+T<End>
+<End of Block>
+
+<Text entry 749, pointer>
+T<End>
+<End of Block>
+
+<Text entry 750, pointer>
+T<End>
+<End of Block>
+
+<Text entry 751, pointer>
+T<End>
+<End of Block>
+
+<Text entry 752, pointer>
+T<End>
+<End of Block>
+
+<Text entry 753, pointer>
+T<End>
+<End of Block>
+
+<Text entry 754, pointer>
+T<End>
+<End of Block>
+
+<Text entry 755, pointer>
+T<End>
+<End of Block>
+
+<Text entry 756, pointer>
+T<End>
+<End of Block>
+
+<Text entry 757, pointer>
+T<End>
+<End of Block>
+
+<Text entry 758, pointer>
+T<End>
+<End of Block>
+
+<Text entry 759, pointer>
+T<End>
+<End of Block>
+
+<Text entry 760, pointer>
+T<End>
+<End of Block>
+
+<Text entry 761, pointer>
+Mercy me! Where'd you come from?<End>
+<End of Block>
+
+<Text entry 762>
+Rally-ho? No, here we say lali-ho!<End>
+<End of Block>
+
+<Text entry 763>
+Lali-ho! So the castle's had it rough recently. What's up?<End>
+<End of Block>
+
+<Text entry 764>
+You come from overworld? Mercy me! So there really is an overworld!<End>
+<End of Block>
+
+<Text entry 765>
+Guess what! An island in the northwest leads to the Land of Summons. Scary, eh?<End>
+<End of Block>
+
+<Text entry 766>
+I hear the seas of the overworld are blue. How disturbing!<End>
+<End of Block>
+
+<Text entry 767, pointer>
+This is Master Kokkol's workshop, home of the world's finest smith.<End>
+<End of Block>
+
+<Text entry 768>
+The master lost his spark, and sleeps the days away.<End>
+<End of Block>
+
+<Text entry 769>
+The master's back!<End>
+<End of Block>
+
+<Text entry 770>
+I'm gonna work hard, too!<End>
+<End of Block>
+
+<Text entry 771>
+Hey, give me some time!<End>
+<End of Block>
+
+<Text entry 772>
+It's ready! The holy sword Excalibur! Received Excalbur<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 773>
+I love smithing again!<End>
+<End of Block>
+
+<Text entry 774>
+Look what the master made!<End>
+<End of Block>
+
+<Text entry 775, pointer>
+My smithing days are over! And I can't find that ore of legend, Adamant...<End>
+<End of Block>
+
+<Text entry 776>
+This is Adamant! Give me that old sword! I shall give it new life!<End>
+<End of Block>
+
+<Text entry 777>
+Handed over the Legend<End>
+<End of Block>
+
+<Text entry 778>
+Zzzz...<End>
+<End of Block>
+
+<Text entry 779, pointer>
+They say sylphs live in caves to the northwest.<End>
+<End of Block>
+
+<Text entry 780>
+Sylphs are afraid of us! Even though we're so nice!<End>
+<End of Block>
+
+<Text entry 781, pointer>
+Oooh, a guest! Haven't had one for ages!<End>
+<End of Block>
+
+<Text entry 782, pointer>
+You sure came a long way. Here, take all you want!<End>
+<End of Block>
+
+<Text entry 783>
+Weapons for sale.<End>
+<End of Block>
+
+<Text entry 784, pointer>
+Rally-ho!<End>
+<End of Block>
+
+<Text entry 785>
+King Giott rules this castle.<End>
+<End of Block>
+
+<Text entry 786>
+<Golbeza> is evil! You, I don't know.<End>
+<End of Block>
+
+<Text entry 787>
+Go see King Giott.<End>
+<End of Block>
+
+<Text entry 788>
+All's well!<End>
+<End of Block>
+
+<Text entry 789>
+All's well over here, too!<End>
+<End of Block>
+
+<Text entry 790>
+<Golbeza> has retreated!<End>
+<End of Block>
+
+<Text entry 791>
+Is the overworld full of evil?<End>
+<End of Block>
+
+<Text entry 792, pointer>
+Rally-ho is the dwarven greeting!<End>
+<End of Block>
+
+<Text entry 793>
+Together, now! One, two, three. Rally-ho!<End>
+<End of Block>
+
+<Text entry 794>
+Rally-ho!<End>
+<End of Block>
+
+<Text entry 795>
+King Giott is waiting.<End>
+<End of Block>
+
+<Text entry 796>
+I'm a nurse. No, I'm not a man!<End>
+<End of Block>
+
+<Text entry 797>
+The overworld entrance collapsed. Very scary! I helped an old kook.<End>
+<End of Block>
+
+<Text entry 798>
+I'm Luca. My dolls disappeared. Have you seen them?<End>
+<End of Block>
+
+<Text entry 799, pointer>
+We have tanks for defense! We won't lose so easily!<End>
+<End of Block>
+
+<Text entry 800>
+The king loves Luca. So did the queen.<End>
+<End of Block>
+
+<Text entry 801>
+Rally-ho! Got it?<End>
+<End of Block>
+
+<Text entry 802>
+The underworld is a great place to live! Rally here with us!<End>
+<End of Block>
+
+<Text entry 803>
+<Cecil>: Forgive me. <Golbeza> has taken the Crystal.<New>
+Giott: One Crystal left... We must protect.<New>
+<Rosa>: Yes. Where can we find it?<New>
+Giott: In the Sealed Cave to the southwest, where <Golbeza> is now heading. Worry not. He cannot enter without the key. I have a request.<New>
+<Cecil>: Anything. After all, we lost your Crystal to <Golbeza>.<New>
+Giott: Request you retrieve the seven Crystals at the Tower of Babil.<New>
+<Yang>: I presume it will be fortified...<New>
+<Cain>: ...by <Golbeza>'s forces. It won't be easy.<New>
+Giott: My plan: Our tanks will distract them. You sneak in. You seize the Crystals. Now or never, before <Golbeza> returns from the Sealed Cave.<End>
+<End of Block>
+
+<Text entry 804>
+<Cain>: What do you think?<New>
+<Rydia>: A large force might be waiting.<New>
+<Rosa>: It's a risk.<New>
+<Yang>: As they say, "Nothing ventured, nothing gained."<New>
+<Cain>: Like Giott said, now might be our only chance.<New>
+<Cecil>: Alright.<End>
+<End of Block>
+
+<Text entry 805>
+<Cecil>: We'll go to the tower to retake the Crystals.<End>
+<End of Block>
+
+<Text entry 806>
+Giott: Excellent! Exit is at the bottom of the castle, whenever you are ready. Good luck.<End>
+<End of Block>
+
+<Text entry 807>
+How dare they use my dolls for something like that!<End>
+<End of Block>
+
+<Text entry 808>
+Giott: We will hold off the enemy. You head southwest to the Sealed Cave.<End>
+<End of Block>
+
+<Text entry 809>
+Giott: Go to Mysidia! Good luck.<End>
+<End of Block>
+
+<Text entry 810>
+That necklace was my mother's.<End>
+<End of Block>
+
+<Text entry 811>
+Tomra is near the Sealed Cave. Dwarves live there. We can't go there. They can't come here.<End>
+<End of Block>
+
+<Text entry 812>
+Dwarves can't fly. But you can fly. You can go to the Sealed Cave.<End>
+<End of Block>
+
+<Text entry 813>
+The Underworld has caves. Find the right cave. You can go to the Land of Summons.<End>
+<End of Block>
+
+<Text entry 814>
+You can't fly over lava? Where is that airship feller? Can't he help?<End>
+<End of Block>
+
+<Text entry 815>
+Please visit us again.<End>
+<End of Block>
+
+<Text entry 816, pointer>
+Fat Chocobo? You're rude! Here it's the bird of the gods!<End>
+<End of Block>
+
+<Text entry 817>
+The great one can carry a lot of stuff!<End>
+<End of Block>
+
+<Text entry 818>
+You can't go through here. You need the king's okay.<End>
+<End of Block>
+
+<Text entry 819>
+You have the king's okay? Then, I'll open it for you.<End>
+<End of Block>
+
+<Text entry 820, pointer>
+Rally-ho!<End>
+<End of Block>
+
+<Text entry 821>
+Take care!<End>
+<End of Block>
+
+<Text entry 822>
+Watch out for the big cannons in the Tower of Babil!<End>
+<End of Block>
+
+<Text entry 823>
+The underworld monsters are fearsome! Be careful!<End>
+<End of Block>
+
+<Text entry 824, pointer>
+T<End>
+<End of Block>
+
+<Text entry 825, pointer>
+T<End>
+<End of Block>
+
+<Text entry 826, pointer>
+Dwarven weapons are heavy! Too heavy for humans!<End>
+<End of Block>
+
+<Text entry 827>
+Dwarven armor is thick! Too thick for humans to move in!<End>
+<End of Block>
+
+<Text entry 828, pointer>
+I'm brave! But you're even more brave!<End>
+<End of Block>
+
+<Text entry 829>
+Come back in one piece!<End>
+<End of Block>
+
+<Text entry 830>
+He who fights and runs away lives to see another day!<End>
+<End of Block>
+
+<Text entry 831>
+The strongest of the fearsome four is at the Tower of Babil!<End>
+<End of Block>
+
+<Text entry 832>
+You sneak in while we distract them with our tanks!<End>
+<End of Block>
+
+<Text entry 833>
+Inside is the Water of Life! Drink before you go!<End>
+<End of Block>
+
+<Text entry 834, pointer>
+T<End>
+<End of Block>
+
+<Text entry 835, pointer>
+Dwarven items are mysterious. Too mysterious for humans?<End>
+<End of Block>
+
+<Text entry 836, pointer>
+This is the infirmary!<End>
+<End of Block>
+
+<Text entry 837>
+We dwarves are strong! But we still bleed!<End>
+<End of Block>
+
+<Text entry 838>
+That kook is old. But he's strong.<End>
+<End of Block>
+
+<Text entry 839>
+That kook is a pig! He complains a lot. He still eats a lot.<End>
+<End of Block>
+
+<Text entry 840>
+I'm getting better!<End>
+<End of Block>
+
+<Text entry 841>
+Zzzz...<End>
+<End of Block>
+
+<Text entry 842>
+That kook's crazy. He needs rest.<End>
+<End of Block>
+
+<Text entry 843>
+That kook's rowdy. But he's nice.<End>
+<End of Block>
+
+<Text entry 844>
+Zzzz...Zzzz...<End>
+<End of Block>
+
+<Text entry 845>
+That kook really attached the drill!<End>
+<End of Block>
+
+<Text entry 846>
+Overworld people work hard. I'm impressed!<End>
+<End of Block>
+
+<Text entry 847>
+<Cid>: You'll be fine. Just think of that airship as me.<End>
+<End of Block>
+
+<Text entry 848, pointer>
+T<End>
+<End of Block>
+
+<Text entry 849, pointer>
+T<End>
+<End of Block>
+
+<Text entry 850, pointer>
+T<End>
+<End of Block>
+
+<Text entry 851, pointer>
+T<End>
+<End of Block>
+
+<Text entry 852, pointer>
+T<End>
+<End of Block>
+
+<Text entry 853, pointer>
+T<End>
+<End of Block>
+
+<Text entry 854, pointer>
+T<End>
+<End of Block>
+
+<Text entry 855, pointer>
+T<End>
+<End of Block>
+
+<Text entry 856, pointer>
+You're fighting <Golbeza>, too? Then, take this treasure!<End>
+<End of Block>
+
+<Text entry 857>
+King Giott wants you to use this treasure well!<End>
+<End of Block>
+
+<Text entry 858, pointer>
+T<End>
+<End of Block>
+
+<Text entry 859, pointer>
+T<End>
+<End of Block>
+
+<Text entry 860, pointer>
+T<End>
+<End of Block>
+
+<Text entry 861, pointer>
+T<End>
+<End of Block>
+
+<Text entry 862, pointer>
+Always fightin', never dancin'. I like dancin' more than fightin'. I rally gotta dance!<End>
+<End of Block>
+
+<Text entry 863>
+Bleh! Dizzy... I'm rally sick!<End>
+<End of Block>
+
+<Text entry 864, pointer>
+T<End>
+<End of Block>
+
+<Text entry 865, pointer>
+T<End>
+<End of Block>
+
+<Text entry 866, pointer>
+T<End>
+<End of Block>
+
+<Text entry 867, pointer>
+T<End>
+<End of Block>
+
+<Text entry 868, pointer>
+The door is broken<End>
+<End of Block>
+
+<Text entry 869, pointer>
+T<End>
+<End of Block>
+
+<Text entry 870, pointer>
+T<End>
+<End of Block>
+
+<Text entry 871, pointer>
+Doctor: Have a safe trip, Master Rubicante.<New>
+Rubicante: Not to worry. Eblan has been decimated along with its ninjas. Take care of things until I return.<End>
+<End of Block>
+
+<Text entry 872>
+Doctor: Uwee-hee-heee!! <Golbeza> and Rubicante are gone! Time to party!<New>
+<Rydia>: What's with him?<End>
+<End of Block>
+
+<Text entry 873>
+Doctor: Who's there!?<End>
+<End of Block>
+
+<Text entry 874>
+<Cain>: Caught you at a bad time, eh? Your buddy Rubicante's gone. Whatever will you do now?<End>
+<End of Block>
+
+<Text entry 875>
+Doctor: GAH, disrespecting me! You nincompoop! Though I'm not one of the Four Fiends, I, Dr.Lugae, am the brains of <Golbeza>'s operation! On my honor, I will protect this tower!<New>
+<Cain>: That's a laugh!<End>
+<End of Block>
+
+<Text entry 876>
+Doctor: I've heard enough out of you! My great creation will shut your pie hole soon enough!<End>
+<End of Block>
+
+<Text entry 877>
+<Rydia>: The dwarves are in danger!<End>
+<End of Block>
+
+<Text entry 878>
+<Yang>: We must stop the cannons!<End>
+<End of Block>
+
+<Text entry 879>
+<Cain>: What are we waiting for? Let's go!<End>
+<End of Block>
+
+<Text entry 880>
+Doctor: DANG IT! Okay, time to get serious!<End>
+<End of Block>
+
+<Text entry 881>
+<Rosa>: Shh.<End>
+<End of Block>
+
+<Text entry 882>
+<Cecil>: !<New>
+Doctor: <Cecil>! How'd you get up here!?<End>
+<End of Block>
+
+<Text entry 883>
+<Cecil>: It's some kind of warp system. Looks like we can't use it.<End>
+<End of Block>
+
+<Text entry 884, pointer>
+H. Sakaguchi «Director»: Kweh...<End>
+<End of Block>
+
+<Text entry 885>
+Y. Matsumura «Map Design»: How's it goin'?<End>
+<End of Block>
+
+<Text entry 886>
+M. Hoshino «Graphics»: You like the monsters I designed?<End>
+<End of Block>
+
+<Text entry 887>
+I'm Taka, the dotter.<End>
+<End of Block>
+
+<Text entry 888>
+R. Tanaka «Graphics»: My final work.<End>
+<End of Block>
+
+<Text entry 889>
+H. Nakada «Graphics»: I'm the only girl here.<End>
+<End of Block>
+
+<Text entry 890>
+K. Adachi «Menu Program»: Too easy.<End>
+<End of Block>
+
+<Text entry 891>
+T. Endo «Newbie»: I'm so tired.<End>
+<End of Block>
+
+<Text entry 892>
+S. Tanaka «Newbie»: I want my own desk.<End>
+<End of Block>
+
+<Text entry 893>
+I. Dobashi «Newbie»: I didn't steal anything.<End>
+<End of Block>
+
+<Text entry 894>
+K. Koizumi «Newbie»: No vacation, right, Mr. S?<End>
+<End of Block>
+
+<Text entry 895, pointer>
+M. Akao «Sound Program»: Time to play.<End>
+<End of Block>
+
+<Text entry 896>
+A. Ueda «Sound Effects»: Like my sounds?<End>
+<End of Block>
+
+<Text entry 897>
+N. Uematsu «Original Score»: Like the music?<End>
+<End of Block>
+
+<Text entry 898>
+K. Ito «Sound Effects»: Good luck finishing.<End>
+<End of Block>
+
+<Text entry 899, pointer>
+Keep working.<End>
+<End of Block>
+
+<Text entry 900>
+Cute girls! Hey, I'll help you guys. T. Tokita joined the party <Music 41> <Delay 40> Please take me with you! <Music 2><End>
+<End of Block>
+
+<Text entry 901>
+K. Narita «Main Program»: No more work.<End>
+<End of Block>
+
+<Text entry 902>
+...<End>
+<End of Block>
+
+<Text entry 903, pointer>
+<Fusuya>: Now is our chance to enter the Giant of Babil!<End>
+<End of Block>
+
+<Text entry 904>
+<Cecil>: <Cid>!<End>
+<End of Block>
+
+<Text entry 905, pointer>
+Gah ha ha! Killing dwarves is fun!<End>
+<End of Block>
+
+<Text entry 906>
+<Cecil>: You cowards!<End>
+<End of Block>
+
+<Text entry 907>
+What the-- How'd you get in here!? Kill them!<End>
+<End of Block>
+
+<Text entry 908>
+Urgh... D-Destroy the controls.<End>
+<End of Block>
+
+<Text entry 909>
+Nothing can stop the cannons now!<End>
+<End of Block>
+
+<Text entry 910>
+<Cecil>: !!<New>
+<Cain>: Dammit!!<End>
+<End of Block>
+
+<Text entry 911>
+<Cecil>: <Yang>!<New>
+<Rosa>: What are you doing!?<End>
+<End of Block>
+
+<Text entry 912>
+<Yang>: Leave this to me! Go!<New>
+<Rydia>: No!<New>
+<Cecil>: It's gonna blow!<New>
+<Yang>: GO!<End>
+<End of Block>
+
+<Text entry 913, pointer>
+T<End>
+<End of Block>
+
+<Text entry 914, pointer>
+T<End>
+<End of Block>
+
+<Text entry 915, pointer>
+T<End>
+<End of Block>
+
+<Text entry 916, pointer>
+T<End>
+<End of Block>
+
+<Text entry 917, pointer>
+T<End>
+<End of Block>
+
+<Text entry 918, pointer>
+You must return to the moon and face your destiny.<End>
+<End of Block>
+
+<Text entry 919>
+Good luck, bro! I wish I could go with you.<End>
+<End of Block>
+
+<Text entry 920>
+You have become a great Paladin!<End>
+<End of Block>
+
+<Text entry 921>
+Our fate rests in your hands.<End>
+<End of Block>
+
+<Text entry 922>
+I'm sure <Tella> is watching, too. Good luck.<End>
+<End of Block>
+
+<Text entry 923>
+You are the chosen ones. We shall pray for you.<End>
+<End of Block>
+
+<Text entry 924>
+Hell, I wanna go, too! I guess I'm too old...<End>
+<End of Block>
+
+<Text entry 925>
+Please return safely.<End>
+<End of Block>
+
+<Text entry 926>
+Only you can handle the boss, <Cecil>. Please come back.<End>
+<End of Block>
+
+<Text entry 927>
+<Gilbart> has been constantly praying for your safety.<End>
+<End of Block>
+
+<Text entry 928>
+I never imagined this to happen...<End>
+<End of Block>
+
+<Text entry 929>
+Please come back and visit us again, okay?<End>
+<End of Block>
+
+<Text entry 930, pointer>
+T<End>
+<End of Block>
+
+<Text entry 931, pointer>
+T<End>
+<End of Block>
+
+<Text entry 932, pointer>
+T<End>
+<End of Block>
+
+<Text entry 933, pointer>
+T<End>
+<End of Block>
+
+<Text entry 934, pointer>
+T<End>
+<End of Block>
+
+<Text entry 935, pointer>
+T<End>
+<End of Block>
+
+<Text entry 936, pointer>
+<Rydia>, you're back!<End>
+<End of Block>
+
+<Text entry 937>
+<Rydia> was the first human to come here.<End>
+<End of Block>
+
+<Text entry 938>
+This is the Land of Summons.<End>
+<End of Block>
+
+<Text entry 939>
+The king of summons resides below.<End>
+<End of Block>
+
+<Text entry 940, pointer>
+T<End>
+<End of Block>
+
+<Text entry 941, pointer>
+Long time, <Rydia>!<End>
+<End of Block>
+
+<Text entry 942>
+This land is ruled by Queen Asura and the king of summons.<End>
+<End of Block>
+
+<Text entry 943>
+They say my brethren are rampaging through another world!<End>
+<End of Block>
+
+<Text entry 944>
+They say you can't meet the king without defeating Queen Asura first!<End>
+<End of Block>
+
+<Text entry 945>
+<Rydia>! Kweh? Never met a talking chocobo before?<End>
+<End of Block>
+
+<Text entry 946>
+This is the library. Lots and lots of info here.<End>
+<End of Block>
+
+<Text entry 947>
+<Rydia>! Good to see you back!<End>
+<End of Block>
+
+<Text entry 948>
+Oh, are they your friends, <Rydia>?<End>
+<End of Block>
+
+<Text entry 949, pointer>
+<Rydia>, please don't go away anymore.<End>
+<End of Block>
+
+<Text entry 950, pointer>
+Shhh! This is a library, for cryin' out loud!<End>
+<End of Block>
+
+<Text entry 951>
+Wow, these books are so moving.<End>
+<End of Block>
+
+<Text entry 952>
+Titan, Shaker of the Earth<End>
+<End of Block>
+
+<Text entry 953>
+Ifrit, Spawn of Flame<End>
+<End of Block>
+
+<Text entry 954>
+Other forms of summon magic lie undiscovered.<End>
+<End of Block>
+
+<Text entry 955>
+Ramuh, the Good Elder<End>
+<End of Block>
+
+<Text entry 956>
+Shiva, Queen of Ice<End>
+<End of Block>
+
+<Text entry 957>
+Chocobo<End>
+<End of Block>
+
+<Text entry 958>
+Summon magic: A type of magic used to call summons.<End>
+<End of Block>
+
+<Text entry 959>
+The history of the world of humans is brief compared to that of the Land of Summons.<End>
+<End of Block>
+
+<Text entry 960>
+The cave that leads to the world of humans...<End>
+<End of Block>
+
+<Text entry 961>
+Summons appear as dreadful beasts before evil souls, but as divine entities before the righteous.<End>
+<End of Block>
+
+<Text entry 962, pointer>
+Do you have literature in your world, too?<End>
+<End of Block>
+
+<Text entry 963>
+Lots of books here.<End>
+<End of Block>
+
+<Text entry 964>
+If Scan fails, use Bestiary.<End>
+<End of Block>
+
+<Text entry 965>
+Summons, Monsters, Humans<End>
+<End of Block>
+
+<Text entry 966>
+Whale from the Moon<End>
+<End of Block>
+
+<Text entry 967>
+The god of summons created us, and watches over us from afar, never knowing defeat. Perhaps the only way to defeat him is to reflect his strength.<End>
+<End of Block>
+
+<Text entry 968>
+Two moons, but in the ancient sky, they were one. So it is written.<End>
+<End of Block>
+
+<Text entry 969>
+Asura, queen of summons. She guards the path to the king. Only those who can surpass her powers may behold the king's true form.<End>
+<End of Block>
+
+<Text entry 970>
+The king of summons. His powers are without equal in this land.<End>
+<End of Block>
+
+<Text entry 971>
+Odin, undefeated conqueror. Except once when his sword was struck by lightning.<End>
+<End of Block>
+
+<Text entry 972>
+Sylphs, Delicate Creatures<End>
+<End of Block>
+
+<Text entry 973>
+True strength lies in righteous souls. Yet they must survive the test.<End>
+<End of Block>
+
+<Text entry 974, pointer>
+This is the royal chamber.<End>
+<End of Block>
+
+<Text entry 975>
+You must receive permission from Queen Asura before you may approach the king.<End>
+<End of Block>
+
+<Text entry 976>
+Asura: You have proven your worth. <Rydia>, summon me at will.<End>
+<End of Block>
+
+<Text entry 977>
+Indeed, your spirit is righteous. I, Leviatan, king of summons, shall serve you.<End>
+<End of Block>
+
+<Text entry 978>
+King? Nope, I'm just an old man.<End>
+<End of Block>
+
+<Text entry 979>
+Let us begin the test.<End>
+<End of Block>
+
+<Text entry 980>
+Then I cannot help you.<End>
+<End of Block>
+
+<Text entry 981>
+Return when you are ready.<End>
+<End of Block>
+
+<Text entry 982, pointer>
+I wonder if humans can even use our weapons...<End>
+<End of Block>
+
+<Text entry 983>
+Wow, it's you, <Rydia>!<End>
+<End of Block>
+
+<Text entry 984, pointer>
+Don't bring humans here anymore, <Rydia>.<End>
+<End of Block>
+
+<Text entry 985>
+We just want to live in peace and quiet.<End>
+<End of Block>
+
+<Text entry 986, pointer>
+Chocobo, Shiva, Ramuh... They all live here.<End>
+<End of Block>
+
+<Text entry 987>
+How's Ifrit? Still hot-headed?<End>
+<End of Block>
+
+<Text entry 988>
+Titan's got nothin' if you cast Float.<End>
+<End of Block>
+
+<Text entry 989, pointer>
+T<End>
+<End of Block>
+
+<Text entry 990, pointer>
+T<End>
+<End of Block>
+
+<Text entry 991, pointer>
+T<End>
+<End of Block>
+
+<Text entry 992, pointer>
+T<End>
+<End of Block>
+
+<Text entry 993, pointer>
+T<End>
+<End of Block>
+
+<Text entry 994, pointer>
+<Yang>: I am most grateful.<End>
+<End of Block>
+
+<Text entry 995>
+Yikes! Humans!<End>
+<End of Block>
+
+<Text entry 996>
+We'll take care of <Yang>.<End>
+<End of Block>
+
+<Text entry 997>
+Go away!<End>
+<End of Block>
+
+<Text entry 998>
+Please don't take <Yang> away.<End>
+<End of Block>
+
+<Text entry 999>
+We won't hand <Yang> over!<End>
+<End of Block>
+
+<Text entry 1000>
+Humans are so violent.<End>
+<End of Block>
+
+<Text entry 1001>
+We found him lying near the mouth of the cave. We've taken care of him, but he hasn't awakened.<End>
+<End of Block>
+
+<Text entry 1002>
+What if <Yang> dies!?<End>
+<End of Block>
+
+<Text entry 1003>
+<Yang>: ... Is it time for training? Allow me to sleep...<End>
+<End of Block>
+
+<Text entry 1004>
+<Yang>: <Cecil>!?<New>
+<Cecil>: <Yang>!<New>
+<Rydia>: Alright!<New>
+<Yang>: The Sylphs saved my life.<New>
+<Rosa>: Just as you saved us by destroying the cannons.<New>
+<Yang>: I shall join you once again.<New>
+Sylph: You must rest!<End>
+<End of Block>
+
+<Text entry 1005>
+<Yang>: I cannot rest while you risk your lives.<New>
+<Edge>: Just take it easy.<End>
+<End of Block>
+
+<Text entry 1006>
+<Yang>: You are...<New>
+<Edge>: I'm <Edge>, of Eblan. Don't worry. I can cover for you.<New>
+<Yang>: Eblan. So you are a ninja. But I must--<New>
+Sylph: No! We'll fight for you instead.<End>
+<End of Block>
+
+<Text entry 1007>
+<Yang>: ?<New>
+Sylph: She's a summoner, right? Please call upon us anytime.<New>
+<Rydia>: Thank you. <Rydia> learned Sylph<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 1008>
+Sylph: Hey! Stop...<End>
+<End of Block>
+
+<Text entry 1009>
+I'm glad <Yang>'s alright now.<End>
+<End of Block>
+
+<Text entry 1010>
+I'm gonna miss him...<End>
+<End of Block>
+
+<Text entry 1011>
+I guess he has to go back to his wife...<End>
+<End of Block>
+
+<Text entry 1012>
+Please give <Yang> our regards.<End>
+<End of Block>
+
+<Text entry 1013, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1014, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1015, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1016, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1017, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1018, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1019, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1020, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1021, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1022, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1023, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1024, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1025, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1026, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1027, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1028, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1029, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1030, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1031, pointer>
+What do you want!?<End>
+<End of Block>
+
+<Text entry 1032>
+Oh... You're half...<End>
+<End of Block>
+
+<Text entry 1033>
+The god of summons acknowledged you!? That's a first.<End>
+<End of Block>
+
+<Text entry 1034>
+You appear to shoulder a tremendous fate.<End>
+<End of Block>
+
+<Text entry 1035>
+The king of summons has not acknowledged you. Please leave.<End>
+<End of Block>
+
+<Text entry 1036>
+Your spirit and strength are worthy indeed. <Rydia>, summon me as you wish.<End>
+<End of Block>
+
+<Text entry 1037, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1038, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1039, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1040, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1041, pointer>
+We are the Crystals of the moon.<End>
+<End of Block>
+
+<Text entry 1042>
+The eight corresponding earth Crystals help sustain the moon's balance.<End>
+<End of Block>
+
+<Text entry 1043>
+The Lunarians sleep deep within the moon. <Fusuya> has protected them for eons.<End>
+<End of Block>
+
+<Text entry 1044>
+Even in captivity, Zemus continues to intensify the power of his will.<End>
+<End of Block>
+
+<Text entry 1045>
+We, the eight Crystals of the moon, have sealed Zemus.<End>
+<End of Block>
+
+<Text entry 1046>
+Zemus used <Golbeza> to gather the Earth's Crystals and amplified their energy at the Tower of Babil.<End>
+<End of Block>
+
+<Text entry 1047>
+Zemus casts a field from within to seal the path to the core.<End>
+<End of Block>
+
+<Text entry 1048>
+We surround the entrance to the central core, where Zemus lies.<End>
+<End of Block>
+
+<Text entry 1049>
+The fall of the Tower of Babil broke the seal. Now you may reach Zemus.<End>
+<End of Block>
+
+<Text entry 1050>
+Powerful weapons that once posed a threat to Luna- rians are sealed away in the core along with Zemus.<End>
+<End of Block>
+
+<Text entry 1051>
+<Fusuya> and KluYa's son entered the core some time ago.<End>
+<End of Block>
+
+<Text entry 1052>
+Containing Zemus's madness within strains our power to the utmost.<End>
+<End of Block>
+
+<Text entry 1053>
+A tremendous energy field exists between Zemus and us.<End>
+<End of Block>
+
+<Text entry 1054>
+I doubt even <Fusuya> can defeat Zemus.<End>
+<End of Block>
+
+<Text entry 1055>
+Head for the moon's core.<End>
+<End of Block>
+
+<Text entry 1056>
+We shall guide you to the core.<End>
+<End of Block>
+
+<Text entry 1057, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1058, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1059, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1060, pointer>
+You wish to change your name? Why are you asking me?<End>
+<End of Block>
+
+<Text entry 1061>
+Hummm...Hum...<End>
+<End of Block>
+
+<Text entry 1062>
+We are the Hummingways.<End>
+<End of Block>
+
+<Text entry 1063>
+Long ago, one of our people built a ship and traveled to the blue planet. He was adept at naming things.<End>
+<End of Block>
+
+<Text entry 1064, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1065, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1066, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1067, pointer>
+Received Murasame<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 1068, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1069, pointer>
+Received Ragnarok<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 1070, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1071, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1072, pointer>
+Received Masamune<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 1073>
+None shall ever bear the cursed sword Masamune!<End>
+<End of Block>
+
+<Text entry 1074, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1075, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1076, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1077, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1078, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1079, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1080, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1081, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1082, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1083, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1084, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1085, pointer>
+Received HolyLnce<Music 41><Delay 40><End>
+<End of Block>
+
+<Text entry 1086, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1087, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1088, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1089, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1090, pointer>
+T<End>
+<End of Block>
+
+<Text entry 1091>
+ T<End>
+<End of Block>
+
+<Text entry 1092>
+T<End>
+<End of Block>
+

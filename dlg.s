@@ -1,7 +1,49 @@
+define dlg_read_ptr	$3D
+
+Fld_ptr_bank1_0:
+	sta $43			// index * 3
+	asl
+	adc $43
+	tax
+	lda dialog_ptr1+0,x
+	sta {dlg_read_ptr}
+	lda dialog_ptr1+1,x
+	sta {dlg_read_ptr}+1
+	lda dialog_ptr1+2,x
+	sta {dlg_read_ptr}+2
+	rtl
+	
+Fld_ptr_bank1_1:
+	sta $43			// index * 3
+	asl
+	adc $43
+	tax
+	lda dialog_ptr1+512,x
+	sta {dlg_read_ptr}
+	lda dialog_ptr1+513,x
+	sta {dlg_read_ptr}+1
+	lda dialog_ptr1+514,x
+	sta {dlg_read_ptr}+2
+	rtl
+
+Fld_ptr_bank2:
+
+Fld_ptr_bank3:
+	sta $43			// index * 3
+	asl
+	adc $43
+	tax
+	lda dialog_ptr3+0,x
+	sta {dlg_read_ptr}
+	lda dialog_ptr3+1,x
+	sta {dlg_read_ptr}+1
+	lda dialog_ptr3+2,x
+	sta {dlg_read_ptr}+2
+	rtl
+
 //org $00B45B
 Fld_tmap_dialog:
 // macros
-define .read_ptr	$E6
 define .write_ptr	$E9
 define .buffer		$774
 // code
@@ -89,7 +131,7 @@ dw .var
 .read_inc:
 	jsr .increase
 .read:
-	lda [{.read_ptr}]
+	lda [{dlg_read_ptr}]
 	rts
 	
 .write:
@@ -103,15 +145,15 @@ dw .var
 	
 .increase:
 	rep #$20
-	lda {.read_ptr}
+	lda {dlg_read_ptr}
 	inc
-	sta {.read_ptr}
+	sta {dlg_read_ptr}
 	bit #$8000
 	beq +
-	lda.w #$8000		// reset to bank start
-	sta {.read_ptr}
+	lda.w #$8000			// reset to bank start
+	sta {dlg_read_ptr}
 	sep #$20
-	inc {.read_ptr}+2	// next bank
+	inc {dlg_read_ptr}+2	// next bank
 +
 	sep #$20
 	rts
@@ -144,7 +186,7 @@ define dlg_buffer	$7e0772
 // A.8 character to print
 Fld_vwf_draw_char:
 
-	lda.b #16
+	lda.b #16		// always process 16 scanlines
 	sta {vwf_line}
 .line:
 .lsr7:
