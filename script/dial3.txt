@@ -59,7 +59,7 @@ Giott: Enter the dwarves! We will join you! Fight for Mother Earth!<End>
 <Cecil>: It's okay. You did the right thing, considering all I've done.<New>
 Elder: But now, you are a paladin and... That sword! Where did you get it?<New>
 <Cecil>: On Mt. Ordeals.<New>
-Elder: The inscription on this sword matches a pas- sage from Mysidian legend.<New>
+Elder: The inscription on this sword matches a passage from Mysidian legend.<New>
 <Cecil>: Legend?<End>
 <End of Block>
 
@@ -190,7 +190,7 @@ You are all DEAD!<New>
 <End of Block>
 
 <Text entry 38>
-<Rosa>: <Golbeza> is <Cecil>'s brother. A Lunarian called Zemus con- trolled him from the moon.<New>
+<Rosa>: <Golbeza> is <Cecil>'s brother. A Lunarian called Zemus controlled him from the moon.<New>
 <Rydia>: <Fusuya> helped <Golbeza> remember everything. Now they're going to the moon to fight Zemus.<New>
 <Cain>: <Golbeza> is... <Cecil>'s brother...<End>
 <End of Block>
@@ -302,7 +302,7 @@ Elder: I sense your trials are just beginning. But while you depend upon the dar
 <Cecil>: But my comrades...<New>
 Elder: There is a time for everything. First, you must climb Mt. Ordeals and renounce this evil sword for a holy sword. Only then can you receive light and become a holy knight-- a paladin. Many have ventured to Ordeals to become a paladin, but none have ever returned. Will you risk your life as well and go to Ordeals?<New>
 <Cecil>: Yes.<New>
-Elder: You face heavy odds by going alone. I will assign two mages to accom- pany you. <Palom>! <Porom>!<End>
+Elder: You face heavy odds by going alone. I will assign two mages to accompany you. <Palom>! <Porom>!<End>
 <End of Block>
 
 <Text entry 59>
@@ -482,11 +482,11 @@ Asura: Yes. I never imagined she would return.<Delay 48><New>
 <End of Block>
 
 <Text entry 93>
-Summon Kid: I was wondering: why do I have fangs? I don't want fangs. I wish I were like you.<Delay 48><End>
+Eidolon Kid: I was wondering: why do I have fangs? I don't want fangs. I wish I were like you.<Delay 48><End>
 <End of Block>
 
 <Text entry 94>
-<Rydia>: Listen to me. Humans and summons look different, but we're the same.<Delay 32><End>
+<Rydia>: Listen to me. Humans and Eidolons look different, but we're the same.<Delay 32><End>
 <End of Block>
 
 <Text entry 95>
@@ -749,7 +749,7 @@ Elder: <Palom>! Consider this a part of your training.<End>
 <End of Block>
 
 <Text entry 154>
-King: Go to the Land of Summons and return here. I shall grant you a gift.<New>
+King: Go to the Feymarch and return here. I shall grant you a gift.<New>
 <Cecil>: Your Majesty!<End>
 <End of Block>
 
@@ -759,7 +759,7 @@ King: You have returned.<End>
 
 <Text entry 156>
 <Cecil>: Your Majesty...<New>
-King: Do not grieve. Through death, I have attained eternal power. That summoner of Mist may call upon me at will; thereupon, I shall appear as an almighty summon. But our law decrees that I must first test your worth. Do not fail.<End>
+King: Do not grieve. Through death, I have attained eternal power. That summoner of Mist may call upon me at will; thereupon, I shall appear as an almighty Eidolon. But our law decrees that I must first test your worth. Do not fail.<End>
 <End of Block>
 
 <Text entry 157>

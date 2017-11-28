@@ -76,11 +76,11 @@ It's so desolate...<End>
 <End of Block>
 
 <Text entry 20>
-Rumor has it that a mighty summon rests beneath Baron. Supposedly, it can kill with a single blow.<End>
+Rumor has it that a mighty Eidolon rests beneath Baron. Supposedly, it can kill with a single blow.<End>
 <End of Block>
 
 <Text entry 21>
-The creatures called by summoners come from the Land of Summons, which exists deep under the ground.<End>
+The creatures called by summoners come from the Feymarch, which exists deep under the ground.<End>
 <End of Block>
 
 <Text entry 22, pointer>
@@ -966,7 +966,7 @@ Nightfall is approaching, sir. Please remain inside the castle.<End>
 <End of Block>
 
 <Text entry 239>
-I hear that summons can sometimes neutralize all attacks.<End>
+I hear that Eidolons can sometimes neutralize all attacks.<End>
 <End of Block>
 
 <Text entry 240>
@@ -1631,7 +1631,7 @@ King: I see. I will arrange for a ship right away. <Yang>, accompany <Cecil> and
 <End of Block>
 
 <Text entry 399>
-King: <Golbeza> must be stopped. If he acquires all the Crys- tals, the world will suffer an unprecedented crisis.<End>
+King: <Golbeza> must be stopped. If he acquires all the Crystals, the world will suffer an unprecedented crisis.<End>
 <End of Block>
 
 <Text entry 400>
@@ -2090,7 +2090,7 @@ GO BACK.<New>
 
 <Text entry 511>
 LEAVE AT ONCE.<New>
-<Cain>: Could that be the Beast of Mist Valley?<End>
+<Cain>: Could that be the Eidolon of Mist Valley?<End>
 <End of Block>
 
 <Text entry 512>
@@ -3168,7 +3168,7 @@ You come from overworld? Mercy me! So there really is an overworld!<End>
 <End of Block>
 
 <Text entry 765>
-Guess what! An island in the northwest leads to the Land of Summons. Scary, eh?<End>
+Guess what! An island in the northwest leads to the Feymarch. Scary, eh?<End>
 <End of Block>
 
 <Text entry 766>
@@ -3374,7 +3374,7 @@ Dwarves can't fly. But you can fly. You can go to the Sealed Cave.<End>
 <End of Block>
 
 <Text entry 813>
-The Underworld has caves. Find the right cave. You can go to the Land of Summons.<End>
+The Underworld has caves. Find the right cave. You can go to the Feymarch.<End>
 <End of Block>
 
 <Text entry 814>
@@ -3885,11 +3885,11 @@ T<End>
 <End of Block>
 
 <Text entry 938>
-This is the Land of Summons.<End>
+This is the Feymarch.<End>
 <End of Block>
 
 <Text entry 939>
-The king of summons resides below.<End>
+The king of Eidolons resides below.<End>
 <End of Block>
 
 <Text entry 940, pointer>
@@ -3901,7 +3901,7 @@ Long time, <Rydia>!<End>
 <End of Block>
 
 <Text entry 942>
-This land is ruled by Queen Asura and the king of summons.<End>
+This land is ruled by Queen Asura and the king of Eidolons.<End>
 <End of Block>
 
 <Text entry 943>
@@ -3965,11 +3965,11 @@ Chocobo<End>
 <End of Block>
 
 <Text entry 958>
-Summon magic: A type of magic used to call summons.<End>
+Summon magic: A type of magic used to call Eidolons.<End>
 <End of Block>
 
 <Text entry 959>
-The history of the world of humans is brief compared to that of the Land of Summons.<End>
+The history of the world of humans is brief compared to that of the Feymarch.<End>
 <End of Block>
 
 <Text entry 960>
@@ -3977,7 +3977,7 @@ The cave that leads to the world of humans...<End>
 <End of Block>
 
 <Text entry 961>
-Summons appear as dreadful beasts before evil souls, but as divine entities before the righteous.<End>
+Eidolons appear as dreadful beasts before evil souls, but as divine entities before the righteous.<End>
 <End of Block>
 
 <Text entry 962, pointer>
@@ -3989,11 +3989,11 @@ Lots of books here.<End>
 <End of Block>
 
 <Text entry 964>
-If Scan fails, use Bestiary.<End>
+If Library fails, use Bestiary.<End>
 <End of Block>
 
 <Text entry 965>
-Summons, Monsters, Humans<End>
+Eidolons, Monsters, Humans<End>
 <End of Block>
 
 <Text entry 966>
@@ -4001,7 +4001,7 @@ Whale from the Moon<End>
 <End of Block>
 
 <Text entry 967>
-The god of summons created us, and watches over us from afar, never knowing defeat. Perhaps the only way to defeat him is to reflect his strength.<End>
+The god of Eidolons created us, and watches over us from afar, never knowing defeat. Perhaps the only way to defeat him is to reflect his strength.<End>
 <End of Block>
 
 <Text entry 968>
@@ -4009,11 +4009,11 @@ Two moons, but in the ancient sky, they were one. So it is written.<End>
 <End of Block>
 
 <Text entry 969>
-Asura, queen of summons. She guards the path to the king. Only those who can surpass her powers may behold the king's true form.<End>
+Asura, queen of Eidolons. She guards the path to the king. Only those who can surpass her powers may behold the king's true form.<End>
 <End of Block>
 
 <Text entry 970>
-The king of summons. His powers are without equal in this land.<End>
+The king of Eidolons. His powers are without equal in this land.<End>
 <End of Block>
 
 <Text entry 971>
@@ -4041,7 +4041,7 @@ Asura: You have proven your worth. <Rydia>, summon me at will.<End>
 <End of Block>
 
 <Text entry 977>
-Indeed, your spirit is righteous. I, Leviathan, king of summons, shall serve you.<End>
+Indeed, your spirit is righteous. I, Leviathan, king of Eidolons, shall serve you.<End>
 <End of Block>
 
 <Text entry 978>
@@ -4278,7 +4278,7 @@ Oh... You're half...<End>
 <End of Block>
 
 <Text entry 1033>
-The god of summons acknowledged you!? That's a first.<End>
+The god of Eidolons acknowledged you!? That's a first.<End>
 <End of Block>
 
 <Text entry 1034>
@@ -4286,7 +4286,7 @@ You appear to shoulder a tremendous fate.<End>
 <End of Block>
 
 <Text entry 1035>
-The king of summons has not acknowledged you. Please leave.<End>
+The king of Eidolons has not acknowledged you. Please leave.<End>
 <End of Block>
 
 <Text entry 1036>
@@ -4346,7 +4346,7 @@ The fall of the Tower of Babil broke the seal. Now you may reach Zemus.<End>
 <End of Block>
 
 <Text entry 1050>
-Powerful weapons that once posed a threat to Luna- rians are sealed away in the core along with Zemus.<End>
+Powerful weapons that once posed a threat to Lunarians are sealed away in the core along with Zemus.<End>
 <End of Block>
 
 <Text entry 1051>

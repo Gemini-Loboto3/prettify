@@ -225,7 +225,7 @@ King: Silence! Dissension only leads to treason, and that, I will not tolerate. 
 <End of Block>
 
 <Text entry 51>
-King: Now, I charge you with another duty. Slay the phantom beast that infests the Mist Valley, and deliver this Carnelian Signet to the village Mist. You leave tomorrow, at first light.<End>
+King: Now, I charge you with another duty. Slay the Eidolon that infests the Mist Valley, and deliver this Carnelian Signet to the village Mist. You leave tomorrow, at first light.<End>
 <End of Block>
 
 <Text entry 52>
@@ -256,7 +256,7 @@ King: You insolent cur! How dare you barge in here!? If you're so concerned abou
 <Cecil>: I envy you, <Cain>-- the path you chose.<New>
 <Cain>: I'm just following in my father's footsteps. I suppose I could've attained higher rank had I become a dark knight, but this suits me better.<New>
 <Cecil>: ...<New>
-<Cain>: Don't think too much, and get some rest already. We rise early tomorrow. Hey, 500 Gil says I slay that beast tomorrow.<New>
+<Cain>: Don't think too much, and get some rest already. We rise early tomorrow. Hey, 500 Gil says I slay that Eidolon tomorrow.<New>
 <Cecil>: Alright, you're on.<End>
 <End of Block>
 
@@ -279,7 +279,7 @@ King: You insolent cur! How dare you barge in here!? If you're so concerned abou
 <End of Block>
 
 <Text entry 61>
-<Rosa>: What's going on? You just returned from Mysidia, and now you must leave again to battle this phantom beast.<New>
+<Rosa>: What's going on? You just returned from Mysidia, and now you must leave again to battle this Eidolon.<New>
 <Cecil>: Don't worry.<End>
 <End of Block>
 
@@ -1415,14 +1415,13 @@ Guess who? Calbrinas! We're cute! And we're scary! Love to kill! Let's take thei
 <Text entry 281>
 <Rosa>: <Rydia>...!<New>
 <Cecil>: What happened to you?<New>
-<Rydia>: Leviathan took me to the Land of Summons. A world where all the summoned monsters live. We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner. Time flows differently there, so maybe I've aged faster.<New>
+<Rydia>: Leviathan took me to the Feymarch. A world where all the Eidolons live. We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner. Time flows differently there, so maybe I've aged faster.<New>
 <Rosa>: That explains why you look all grown up.<New>
 <Cain>: <Cecil>, who is she?<New>
 <Cecil>: The girl we found in Mist.<New>
 <Yang>: Fortune favors us indeed.<New>
 <Cecil>: <Rydia>, we owe you our lives. Thank you.<New>
-<Rydia>: You don't have to thank me. The queen of the Land of Summons<New>
-told me: A great force is secretly at work. We must confront it together.<New>
+<Rydia>: You don't have to thank me. The queen of the Feymarch told me: A great force is secretly at work. We must confront it together.<New>
 Summoner <Rydia> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
@@ -1720,7 +1719,7 @@ Elder: This battle is not yours alone! Everyone must fight for the sake of survi
 <End of Block>
 
 <Text entry 336>
-<Rydia>: I passed here when I left the Land of Summons. Maybe we should go ask Leviathan for help.<End>
+<Rydia>: I passed here when I left the Feymarch. Maybe we should go ask Leviathan for help.<End>
 <End of Block>
 
 <Text entry 337>
@@ -1998,7 +1997,7 @@ Baigan: <Golbeza>'s wishes are Baron's wishes. He granted a wonderful power to m
 <End of Block>
 
 <Text entry 384>
-You have won Leviathan over. That still proves nothing. I, Bahamut, god of summons, shall decree the final judgment!<End>
+You have won Leviathan over. That still proves nothing. I, Bahamut, god of Eidolons, shall decree the final judgment!<End>
 <End of Block>
 
 <Text entry 385>
