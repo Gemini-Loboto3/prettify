@@ -1,10 +1,14 @@
 define dlg_read_ptr	$72
 
 Fld_ptr_bank1_0:
+	rep #$20
+	lda $B2
+	and.w #$00ff
 	sta $43			// index * 3
 	asl
 	adc $43
 	tax
+	sep #$20
 	lda dialog_ptr1+0,x
 	sta {dlg_read_ptr}
 	lda dialog_ptr1+1,x
@@ -14,10 +18,14 @@ Fld_ptr_bank1_0:
 	rtl
 	
 Fld_ptr_bank1_1:
+	rep #$20
+	lda $B2
+	and.w #$00ff
 	sta $43			// index * 3
 	asl
 	adc $43
 	tax
+	sep #$20
 	lda dialog_ptr1+512,x
 	sta {dlg_read_ptr}
 	lda dialog_ptr1+513,x
@@ -27,6 +35,25 @@ Fld_ptr_bank1_1:
 	rtl
 
 Fld_ptr_bank2:
+	ldx $3D
+	rep #$20
+	lda dialog_pptr2,x
+	sta $45			// store local pointer
+	lda $B2			// get index
+	and.w #$00ff
+	sta $43			// index * 3
+	asl
+	adc $43
+	adc $45
+	tax
+	sep #$20
+	lda dialog_ptr2+0,x
+	sta {dlg_read_ptr}
+	lda dialog_ptr2+1,x
+	sta {dlg_read_ptr}+1
+	lda dialog_ptr2+2,x
+	sta {dlg_read_ptr}+2
+	rtl
 
 Fld_ptr_bank3:
 	sta $43			// index * 3
@@ -42,62 +69,83 @@ Fld_ptr_bank3:
 	rtl
 
 //org $00B45B
-Fld_tmap_dialog:
+Fld_expand_dialog:
 // macros
-define .write_ptr	$74
+define .write_ptr	$75
 define .buffer		$774
 // code
 .loop:
-	jsr .read_inc
-	cmp.b #8
+	jsr .read
+	cmp.b #9
 	bcc .char
-	tay
+	tay		// backup read character
 	asl
 	tax
-	tya
+	tya		// restore character
 	jmp (.jmp_tbl,x)
-.char:
+.line:		// 01
+.auto:		// 06
+.page:		// 09
+.char:		// 0a-ff
 	jsr .write
 	jmp .loop
-.end:
+.align:		// 02
+.music:		// 03
+.pause:		// 05
 	jsr .write
-	lda.b #1
-	sta $ed
-	rts	
-.line:
+	jsr .read
 	jsr .write
 	jmp .loop
-.align:
-	jsr .write		// write 02
-	jsr .read_inc
-	jsr .write		// write align value
-	jmp .loop
-.music:
-	jsr .read_inc
-	sta $1e01
-	lda.b #1
-	sta $1e00
-	jsl $48004
-	jmp .loop
-.name:
-.pause:
-	jsr .read_inc
-	stz $19
+.name:		// 04, expand name
+	jsr .read
 	asl
-	rol $19
 	asl
-	rol $19
 	asl
-	rol $19
 	sta $18
+	stz $19
 	ldx $18
-	stx $8f4
-	ldx.w #0
-	stx $8f6
+	ldy $3D
+	stz $7
+-
+	lda {ex_name_data},x
+	cmp.b #$ff
+	beq .loop
+	sta $774,y
+	lda.b #$ff
+	sta $834,y
+	iny
+	inx
+	inc $7
+	lda $7
+	cmp.b #8
+	bne -
+	bra .loop
+//.pause:
+	//jsr .read
+	//jsr .write
+	//stz $19
+	//asl
+	//rol $19
+	//asl
+	//rol $19
+	//asl
+	//rol $19
+	//sta $18
+	//ldx $18
+	//stx $8f4
+	//ldx.w #0
+	//stx $8f6
 	jmp .loop
-.auto:
-.item:
-.var:
+//.auto:
+	//lda.b #2
+	//sta $de
+//.not_ended
+//	lda.b #1
+//	sta $ed
+//	rts
+.item:		// 7, expand item
+	jmp .loop
+.var:		// 8, expand variable
 	lda $8f8
 	sta $30
 	lda $8f9
@@ -122,15 +170,32 @@ define .buffer		$774
 	cpx.w #6
 	bne -
 	jmp .loop
+//.is_end:
+//	jsr .peek
+//	cmp.b #0
+//	bne .not_ended
+//	lda.b #1
+//	sta $de
+//.not_ended:
+//	lda.b #1
+//	sta $ed
+.end:		// 0
+	jsr .write
+	//lda.b #1
+	//sta $ed
+	rts
 	
 .jmp_tbl:
 dw .end,  .line,  .align, .music
 dw .name, .pause, .auto,  .item,
-dw .var
+dw .var,  .page
 
-.read_inc:
-	jsr .increase
 .read:
+	lda [{dlg_read_ptr}]
+	jsr .increase
+	rts
+	
+.peek:
 	lda [{dlg_read_ptr}]
 	rts
 	
@@ -144,6 +209,7 @@ dw .var
 	rts
 	
 .increase:
+	pha
 	rep #$20
 	lda {dlg_read_ptr}
 	inc
@@ -156,6 +222,7 @@ dw .var
 	inc {dlg_read_ptr}+2	// next bank
 +
 	sep #$20
+	pla
 	rts
 	
 //org $14F6D6

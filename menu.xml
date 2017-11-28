@@ -9,7 +9,7 @@
     <line p="0x1f0">Status</line>
     <line p="0x270">Order</line>
     <line p="0x2f0">Row</line>
-    <line p="0x370">Option</line>
+    <line p="0x370">Options</line>
     <line p="0x3f0">Save</line>
   </Entry>
   <Entry type="mes" ptr ="0x1DBA7" size="4">

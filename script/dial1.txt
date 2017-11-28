@@ -1508,7 +1508,7 @@ Hello, <Cecil>. The boss ordered us to attach this hook to the Enterprise. It wo
 <End of Block>
 
 <Text entry 299>
-It's done. Now you can hoist and carry the hovercraft. Just fly the Enterprise right over the hovercraft and press the confirm button to load and unload the vehicle. With both vehicles you can go pretty much anywhere now, even the Cave of Eblan by the Tower of Babil.<End>
+It's done. Now you can hoist and carry the hovercraft. Just fly the Enterprise right over the hovercraft and press the confirm button to load and unload the vehicle. With both vehicles you can go pretty much anywhere now, even the Cave of Eblana by the Tower of Babil.<End>
 <End of Block>
 
 <Text entry 300>
@@ -1518,7 +1518,7 @@ It's done. Now you can hoist and carry the hovercraft. Just fly the Enterprise r
 <Text entry 301>
 Man: Rubicante! At last...!<New>
 Rubicante: Pardon, have we met before?<New>
-Man: I am <Edge>, Prince of Eblan!<New>
+Man: I am <Edge>, Prince of Eblana!<New>
 Rubicante: No, I don't recall that name.<New>
 <Edge>: It doesn't matter 'cause you're dead!<End>
 <End of Block>
@@ -1529,7 +1529,7 @@ Rubicante: No, I don't recall that name.<New>
 <Rydia>: We're after Rubicante, too.<New>
 <Edge>: Stay out of this! He's mine!<New>
 <Cain>: Well, you obviously don't know with whom you're dealing. He's one of the Four Fiends of Elements.<New>
-<Edge>: Heh, you take me for some sissy prince? I'm the rightful heir to the throne of Eblan, famed for its ninjutsu for generations. So buzz off! I can take care of myself!<New>
+<Edge>: Heh, you take me for some sissy prince? I'm the rightful heir to the throne of Eblana, famed for its ninjutsu for generations. So buzz off! I can take care of myself!<New>
 <Rydia>: Stop it!<End>
 <End of Block>
 
@@ -1619,7 +1619,7 @@ Gramps: Splendid! Splendid, Your Highness!<New>
 <Cecil>: We don't know exactly. He seeks some great power there.<New>
 <Rydia>: We have to stop him.<New>
 <Edge>: So he's the mastermind behind all this. I'm going with you.<New>
-Gramps: But, Your Highness, Eblan needs you.<End>
+Gramps: But, Your Highness, Eblana needs you.<End>
 <End of Block>
 
 <Text entry 318>
@@ -1892,7 +1892,7 @@ Giott: The key to open the Sealed Cave. Without this necklace, no one can enter.
 
 <Text entry 367>
 <Cid>: Geezer!? Who is this punk kid!?<New>
-<Edge>: Watch your mouth, windbag! I'm <Edge>, prince of Eblan!<New>
+<Edge>: Watch your mouth, windbag! I'm <Edge>, prince of Eblana!<New>
 <Cain>: Don't mind him. He's real slick.<New>
 <Edge>: Don't forget handsome, and really skilled!<End>
 <End of Block>

@@ -20,7 +20,7 @@ org $01db6d
 	// Row
 	db $12, $13, $01
 	dw $0370
-	// Option
+	// Options
 	db $14, $15, $16, $17, $01
 	dw $03f0
 	// Save
@@ -162,20 +162,20 @@ St_mes_mp:
 	db $05, $06, $07, $9d, $9e, $9f, $a0, $a1, $01
 	dw $05da
 	// Magic evasion
-	db $05, $06, $07, $a2, $a3, $a4, $16, $17, $01
+	db $05, $06, $07, $a2, $a3, $a4, $16, $a5, $01
 	dw $036e
 	// x
-	db $a5, $01
+	db $a6, $01
 	dw $046e
 	// x
-	db $a5, $01
+	db $a6, $01
 	dw $056e
 	// x
-	db $a5, $00
+	db $a6, $00
 org $01de98
 	dw $0262
 	// To next level
-	db $a6, $a7, $4b, $a8, $a9, $aa, $ab, $00
+	db $a7, $a8, $4b, $a9, $aa, $ab, $ac, $00
 org $01debe
 	// Weapon
 	db $02, $03, $04, $05, $00
@@ -250,29 +250,29 @@ org $01dfa7
 org $01dfc9
 	dw $0046
 	// New Game
-	db $ac, $ad, $ae, $af, $4b, $00
+	db $ad, $ae, $af, $b0, $4b, $00
 org $01dfe8
 	dw $006e
 	// Load this
-	db $b0, $b1, $b2, $b3, $b4, $01
+	db $b1, $b2, $b3, $b4, $b5, $01
 	dw $00ee
 	// data?
-	db $b5, $b6, $b7, $00
+	db $b6, $b7, $b8, $00
 org $01dffa
 	dw $0172
 	// Yes
-	db $b8, $b9, $01
+	db $b9, $ba, $01
 	dw $01f2
 	// No
-	db $2c, $ba, $00
+	db $2c, $bb, $00
 org $01e005
 	dw $046e
 	// Time
-	db $bb, $bc, $98, $00
+	db $bc, $bd, $98, $00
 org $01e00c
 	dw $0090
 	// Empty
-	db $bd, $be, $7a, $00
+	db $be, $bf, $7a, $00
 org $01e014
 	dw $0046
 	// Save
@@ -280,22 +280,22 @@ org $01e014
 org $01e01a
 	dw $0046
 	// Save aborted.
-	db $18, $19, $bf, $c0, $c1, $c2, $80, $48, $00
+	db $18, $19, $c0, $c1, $c2, $c3, $80, $48, $00
 org $01e02b
 	dw $02ee
 	// Game saved.
-	db $c3, $c4, $a1, $c5, $19, $80, $48, $00
+	db $c4, $c5, $a1, $c6, $19, $80, $48, $00
 org $01e035
 	dw $006e
 	// Overwrite
-	db $c6, $c7, $c8, $c9, $85, $ca, $01
+	db $c7, $c8, $c9, $ca, $85, $cb, $01
 	dw $00ee
 	// this data?
-	db $67, $cb, $cc, $cd, $ce, $77, $00
+	db $67, $cc, $cd, $ce, $cf, $77, $00
 org $01e048
 	dw $02f2
 	// Cancel
-	db $3e, $cf, $d0, $d1, $00
+	db $3e, $d0, $d1, $d2, $00
 org $01e054
 	dw $0142
 	db $0d, $01
@@ -486,7 +486,7 @@ org $01e2a0
 org $01e2bd
 	dw $0258
 	// learned
-	db $d2, $d3, $d4, $d5, $00
+	db $d3, $d4, $d5, $d6, $00
 org $01e2cd
 	// 1    2    3    4   5    6
 	db $80, $67, $81, $67, $82, $67, $83, $67, $84, $67, $85, $00
@@ -495,29 +495,29 @@ org $01e2d9
 	db $52, $00
 org $01e2e1
 	// Left-handed
-	db $6e, $d6, $d7, $d8, $cf, $d9, $da, $00
+	db $6e, $d7, $d8, $d9, $d0, $da, $db, $00
 org $01e2e9
 	// Right-handed
-	db $db, $dc, $dd, $de, $6b, $df, $d5, $00
+	db $dc, $dd, $de, $df, $6b, $e0, $d6, $00
 org $01e2f1
 	// Ambidexter
-	db $e0, $e1, $e2, $e3, $85, $e4, $00
+	db $e1, $e2, $e3, $e4, $85, $e5, $00
 org $01b214
 	dw $00f0
 	// Wh. magic
-	db $e5, $e6, $e7, $06, $07, $00
+	db $e6, $e7, $e8, $06, $07, $00
 org $01b21c
 	dw $0170
 	// Bl. magic
-	db $e8, $e9, $ea, $eb, $ec, $00
+	db $e9, $ea, $eb, $ec, $ed, $00
 org $01b224
 	dw $01f0
 	// Summon
-	db $ed, $ee, $ef, $9c, $00
+	db $ee, $ef, $f0, $9c, $00
 org $01b22c
 	dw $0170
 	// Ninjutsu
-	db $f0, $f1, $f2, $f3, $f4, $00
+	db $f1, $f2, $f3, $f4, $f5, $00
 org $01b234
 	dw $00f0
 	//              

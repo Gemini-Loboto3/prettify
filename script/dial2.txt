@@ -2793,7 +2793,7 @@ With our castle destroyed, this is all that is left of our kingdom.<End>
 <End of Block>
 
 <Text entry 672>
-We are the proud people of Eblan!<End>
+We are the proud people of Eblana!<End>
 <End of Block>
 
 <Text entry 673>
@@ -2865,11 +2865,11 @@ How did they defeat our ninjutsu so easily?<End>
 <End of Block>
 
 <Text entry 690>
-Perhaps Eblan's ninjutsu will end with us...<End>
+Perhaps Eblana's ninjutsu will end with us...<End>
 <End of Block>
 
 <Text entry 691>
-I am a senior minister of Eblan. The prince is harsh, but a good man. He went to the Tower of Babil to avenge his parents.<End>
+I am a senior minister of Eblana. The prince is harsh, but a good man. He went to the Tower of Babil to avenge his parents.<End>
 <End of Block>
 
 <Text entry 692>
@@ -3607,7 +3607,7 @@ T<End>
 
 <Text entry 871, pointer>
 Doctor: Have a safe trip, Master Rubicante.<New>
-Rubicante: Not to worry. Eblan has been decimated along with its ninjas. Take care of things until I return.<End>
+Rubicante: Not to worry. Eblana has been decimated along with its ninjas. Take care of things until I return.<End>
 <End of Block>
 
 <Text entry 872>
@@ -4165,8 +4165,8 @@ Sylph: You must rest!<End>
 
 <Text entry 1006>
 <Yang>: You are...<New>
-<Edge>: I'm <Edge>, of Eblan. Don't worry. I can cover for you.<New>
-<Yang>: Eblan. So you are a ninja. But I must--<New>
+<Edge>: I'm <Edge>, of Eblana. Don't worry. I can cover for you.<New>
+<Yang>: Eblana. So you are a ninja. But I must--<New>
 Sylph: No! We'll fight for you instead.<End>
 <End of Block>
 
