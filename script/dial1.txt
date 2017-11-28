@@ -418,7 +418,7 @@ Girl: You killed my mom's dragon!!?<New>
 <Text entry 89>
 <Cain>: Damn... I was afraid you'd say that. Well, I can't kill you, so I might as well join you.<New>
 <Cecil>: <Cain>.<New>
-<Cain>: I owe the king so much, but I can't disgrace the dragoons. Not on my life.<New>
+<Cain>: I owe the king so much, but I can't disgrace the dragon knights. Not on my life.<New>
 <Cecil>: I guess we're both traitors hereon.<New>
 <Cain>: Opposing the mightiest kingdom in the land... We'll need allies to survive. We have to rescue <Rosa> somehow, too.<New>
 <Cecil>: Thanks, <Cain>.<New>
@@ -792,7 +792,7 @@ Master <Yang>, please let me know if you need anything.<End>
 <End of Block>
 
 <Text entry 160>
-<Yang>: Who was that dragoon?<New>
+<Yang>: Who was that dragon knight?<New>
 <Cecil>: His name is <Cain>. He used to be my best friend. I don't know what happened to him...<New>
 <Yang>: Perhaps you will have your answer in Baron.<End>
 <End of Block>
@@ -1396,11 +1396,18 @@ Giott: Air-ships? The overworld makes incredible things... Hard battle for our t
 <End of Block>
 
 <Text entry 277>
-Guess who? Calbrinas! We're cute! And we're scary! Love to kill! Let's take their heads! Yeah-yeah! Gift for <Golbeza>! Yip-ho-ho!<End>
+Guess who? Calcabrinas!<New>
+We're cute! And we're scary!<New>
+Love to kill!<New>
+Let's take their heads!<New>
+Yeah-yeah!<New>
+Gift for master <Golbeza>!<New>
+Yip-ho-ho!<End>
 <End of Block>
 
 <Text entry 278>
-<Cecil>: !? Our paths cross again...<End>
+<Cecil>: !?<New>
+Our paths cross again...<End>
 <End of Block>
 
 <Text entry 279>
@@ -2348,7 +2355,7 @@ Received Whisperweed<End>
 <End of Block>
 
 <Text entry 458>
-White Mage <Rosa> and Dragoon <Cain> joined the party<Music 41><Delay 40><End>
+White Mage <Rosa> and Dragon Knight <Cain> joined the party<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 459>
@@ -2392,7 +2399,7 @@ Ahahahahaha...<End>
 <Align 2><Cecil> was stripped of his
 <Align 2>command as captain of the
 <Align 4>Red Wings. He and the
-<Align 3>master dragoon <Cain> head
+<Align 3>dragon knight <Cain> head
 <Align 2>toward the dark valley for
 <Align 5>the village Mist.
 

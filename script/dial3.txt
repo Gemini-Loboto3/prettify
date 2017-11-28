@@ -568,7 +568,7 @@ Giott: Scrap the swords and armor!<Delay 16><End>
 <Text entry 112>
 <Cain>: <Cecil>... <Rosa>... <Delay 32><New>
 Forgive me. I can't give you my blessing. I will train here at Ordeals to surpass my father and...<Delay 64><New>
-return someday as a worthy dragoon. Maybe then...<Delay 32><End>
+return someday as a worthy dragon knight. Maybe then...<Delay 32><End>
 <End of Block>
 
 <Text entry 113>

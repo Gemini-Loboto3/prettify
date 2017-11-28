@@ -1149,7 +1149,7 @@ The Mist Valley is northwest of Baron.<End>
 <End of Block>
 
 <Text entry 283>
-On our honor, we the dragoons will protect the castle.<End>
+On our honor, we the dragon knights will protect the castle.<End>
 <End of Block>
 
 <Text entry 284>
