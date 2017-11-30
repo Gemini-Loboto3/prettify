@@ -1,0 +1,19 @@
+65A-B	bg1 h-scroll
+65C-D	bg1 v-scroll
+65E-F	bg2 h-scroll
+660-1	bg2 v-scroll
+66A-B	mode7 center pos x
+66C-D	mode7 center pos y
+677	mosaic size
+67A
+67B	mosaic size = (this & 0xc << 3 | 3)
+67F	when 1 scrolling is fixed, otherwise increases
+6B1	related to mosaic check
+6BB	bg3 v-scroll (increasing one)
+6C2	related to mosaic check
+6D9	related to mosaic check
+6DA	irq check, bg3 v-scroll (item lists)
+6DF	irq check, bg3 v-scroll (static one)
+67D	set to zero when nmi left
+67E	reset to 0 on every nmi call
+67F	increased every irq

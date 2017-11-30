@@ -1,0 +1,188 @@
+﻿<186 text entries>
+The dragon turned into mist!<End>
+Returning to dragon form! Attack now!<End>
+Attacking the mist is futile!<End>
+Attacking causes Cold Mist!<End>
+Attack when the dragon appears!<End>
+I shall rise again.<End>
+What's happening to me!?<End>
+Tear them apart!<End>
+Confirming intruder alert.<End>
+Can you withSTAND this?<End>
+<Yang>: We stand no chance.<End>
+<Cecil>: I need my sword.<End>
+<Tella>: Ugh...<End>
+Say your prayers!<End>
+<Cecil>: <Yang>!<End>
+Die!<End>
+<Cecil>: It's me!<End>
+Hiyah!<End>
+Ugh...<End>
+Girl: Go awaaay!<End>
+This is my true form.<End>
+<Anna>: Father! Stop!<End>
+<Tella>: You spoony bard!<End>
+Bard: No! Wait!<End>
+<Tella>: Die!<End>
+Bard: P-Please! Listen!<End>
+<Tella>: Shut up!<End>
+Bard: Forgive me! Please!<End>
+<Tella>: Take this!<End>
+Bard: Agh!<End>
+A true paladin...<End>
+...will sheathe his sword.<End>
+Some fight for law.<End>
+Some fight for justice.<End>
+What will you fight for?<End>
+Die!<End>
+<Tella>: I must cast Meteor.<End>
+<Cecil>: No!<End>
+<Yang>: It will destroy you!<End>
+<Tella>: I have no choice.<End>
+Witness my final power!<End>
+<Golbeza>: I-Impossible!<End>
+<Golbeza>: Such feeble spells.<End>
+A vain attempt at revenge.<End>
+Fool!<End>
+Cindy: Cast the spell, Mindy.<End>
+Blinding winds prevent frontal attack!<End>
+Only jump attacks will connect!<End>
+King: Fools...<End>
+Burn to ashes!<End>
+<Edge>: What's going on!?<End>
+Father! Mother!<End>
+<Edge>: It's me, <Edge>!
+Your son!<End>
+The king and queen break free!<End>
+King: <Edge>...<End>
+We are no longer human...<End>
+We no longer belong here.<End>
+Queen: I'm sorry, <Edge>.<End>
+<Cecil>: Why!?<End>
+Save your breath.<End>
+<Cecil>: What's going on!?<End>
+Heh heh.<End>
+This is it, <Cecil>.<End>
+IT'S GONNA EXPLODE!<End>
+<Anna>: <Gilbart>.<End>
+A-<Anna>!<End>
+You must fight, <Gilbart>.<End>
+Believe in yourself.<End>
+<Anna>...<End>
+Gurrrgh!<End>
+Torrents of water are drawn up!<End>
+Turtle defense!<End>
+<Tella>: Excellent!<End>
+He's weakening!<End>
+<Golbeza>: Heh heh heh...<End>
+Such is your power?<End>
+I expected more.<End>
+Open your eyes...<End>
+...and gaze upon true terror.<End>
+Shadow, come forth!<End>
+<Golbeza>: Farewell, <Cecil>.<End>
+Captain: Charge!<End>
+General: Attack!<End>
+<Golbeza>: A dragon...?<End>
+Are you okay? You can move now.<End>
+<Cecil>: That voice...<End>
+This cannot...this cannot be...<End>
+Doctor: Barnabas, attack!<End>
+Barnabas: Grrr!<End>
+Doctor: Yeow! You big oaf!<End>
+Over there! Beat 'em up!<End>
+Doctor: Show no mercy!<End>
+Doctor: My baby!<End>
+Doctor: You've left me no choice!<End>
+I'll control him myself!<End>
+Doctor: You need more oil!<End>
+Barnabas: Oil...OILLL...<End>
+No more games!<End>
+Transform!<End>
+Doctor: What's this button do?<End>
+Sandy: Ready, Sis?<End>
+Mindy: Okay. Reflect it!<End>
+Sisters: Delta Attack!<End>
+You wanna die?<End>
+Lightning courses through Odin!<End>
+Rubicante: Poor technique.<End>
+But this is not the end.<End>
+This is how it's done.<End>
+<Edge>: ...<End>
+King: We must go now.<End>
+Eblan lies in good hands.<End>
+Serve our people well.<End>
+<Edge>: Don't go!<End>
+Queen: Farewell, my son.<End>
+<Edge>: Mother!<End>
+Don't go!<End>
+Thunder breaks the barrier!<End>
+All magic has been nullified!<End>
+You're so clumsy!<End>
+...<End>
+5<End>
+4<End>
+3<End>
+2<End>
+1<End>
+Unite!<End>
+Power shortage! Disengage!<End>
+<Fusuya>: Cast Meteor now!<End>
+<Golbeza>: Ready!<End>
+Zemus: Die trying.<End>
+Zemus: The body dies.<End>
+But the spirit lives on...<End>
+<Fusuya>: Meteor has no effect!<End>
+Use the Crystal!<End>
+Zeromus: You chose the dark path.<End>
+The Crystal cannot cleanse your sins.<End>
+You are bound by darkness forever!<End>
+Ribbit...<End>
+Surprise!<End>
+Greenhorn!<End>
+Look at my status.<End>
+Weak against all-nighters.<End>
+Scared of girls with specs.<End>
+Rubicante: Well fought.<End>
+Really weak.<End>
+Impossible...<End>
+How can you hit me?<End>
+Forgive me!<End>
+One day, you will see.<End>
+Reporting to Master Zemus.<End>
+Wanna hear my violin?<End>
+Not especially.<End>
+Fine.<End>
+Let's dance!<End>
+<Gilbart>: Don't give up!<End>
+<Tella>: Trust your power.<End>
+Their prayers give you strength.<End>
+<Palom>: Here!<End>
+<Porom>: Let us help you!<End>
+Their prayers give you life.<End>
+<Yang>: Keep your focus!<End>
+<Cid>: Don't die on us!<End>
+Their prayers give you vitality.<End>
+<Fusuya>: You must prevail.<End>
+<Golbeza>: Brother.<End>
+Give to the Crystal the<End>
+holy power within you.<End>
+Zeromus! Show your true self!<End>
+Their prayers give you holy power.<End>
+Zeromus: Gr...gh...ga...<End>
+Breathe this, and walk as the undead!<End>
+Die!<End>
+Zeromus reveals his true self!<End>
+You hit the programmer!?<End>
+Take this!<End>
+Hee hee, I fooled you!<End>
+The Shadow Dragon, destroyed by mist?<End>
+Let us die together!<End>
+I'll repay you twofold!<End>
+Why'd you wake me up!?<End>
+I'm going back to sleep.<End>
+Who's first?<End>
+Manager: How about Hiromi?<End>
+I'm gonna be a daddy!<End>
+Cool, huh?<End>
+Later.<End>

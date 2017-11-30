@@ -571,7 +571,7 @@ tbl_str_jobs:
 	db $A2, $A3, $A4, $ff, $ff, $ff, $ff, $ff	// Sage
 	db $A5, $A6, $A7, $ff, $ff, $ff, $ff, $ff	// Bard
 	db $A8, $A9, $AA, $AB, $AC, $AD, $ff, $ff	// White Mage
-	db $AE, $AF, $B0, $B1, $ff, $ff, $ff, $ff	// Monk
+	db $8A, $8B, $8C, $8D, $8E, $ff, $ff, $ff	// Monk
 	db $B2, $B3, $B4, $AB, $AC, $AD, $ff, $ff	// Black Mage
 	db $A8, $A9, $AA, $AB, $AC, $AD, $ff, $ff	// White Mage
 	db $B5, $B6, $B7, $B8, $ff, $ff, $ff, $ff	// Paladin

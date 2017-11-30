@@ -1,0 +1,60 @@
+﻿<59 text entries>
+No effect.<End>
+Not enough MP.<End>
+Preemptive strike!<End>
+Ambushed!<End>
+Back attack!<End>
+Escaped.<End>
+Victory!<End>
+Recalled!<End>
+No, not this.<End>
+Can't remember.<End>
+Can't speak.<End>
+Song of the Toad<End>
+Lullaby<End>
+Song of Enticement<End>
+Song of Silence<End>
+Not enough restoration items.<End>
+Prayer unanswered.<End>
+Out of sync.<End>
+Magic increased!<End>
+Flustered the enemy.<End>
+No specific weaknesses.<End>
+Vulnerable to fire.<End>
+Vulnerable to frost.<End>
+Vulnerable to lightning.<End>
+Vulnerable to darkness.<End>
+Vulnerable to holy.<End>
+Vulnerable to thrown weapons.<End>
+Couldn't steal.<End>
+Detected by the enemy!<End>
+Stole <String 131>!<End>
+<String 128>/<String 129><Var><End>
+Obtained <String 128> gil.<End>
+Received <String 129> EXP.<End>
+<String 130> gained a level!<End>
+You can't escape!<End>
+Learned <String 132>!<End>
+The party was defeated.<End>
+KO!<End>
+Turned to stone!<End>
+Turned into a frog!<End>
+Shrunk!<End>
+Turned into a pig!<End>
+Silenced!<End>
+Blinded by darkness!<End>
+Poisoned!<End>
+Cursed!<End>
+Dummy<End>
+Paralyzed!<End>
+Put to sleep!<End>
+Confused!<End>
+Berserk!<End>
+Turning to stone!<End>
+Turning to stone!<End>
+Damage done by poison.<End>
+Gradually recovering HP.<End>
+Dropped <String 128> gil!<End>
+Gradually lost HP and died.<End>
+Energy stored for double attack power!<End>
+Increased defense!<End>

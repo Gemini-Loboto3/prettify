@@ -69,6 +69,7 @@ Fld_ptr_bank3:
 	rtl
 
 //org $00B45B
+// expands dialog to a buffer
 Fld_expand_dialog:
 // macros
 define .write_ptr	$75
