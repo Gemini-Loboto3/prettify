@@ -32,6 +32,7 @@ org $18CD2
 
 incsrc ex.s
 incsrc dlg.s
+incsrc mode7.s
 
 incsrc item.s
 incsrc st.s

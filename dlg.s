@@ -1,5 +1,10 @@
 define dlg_read_ptr	$72
 
+Fld_format_number_ex:
+	
+	db $9680,$4240,$86A0,$2710,$03E8,$0064,$000A,$0001
+	db $0098,$000f,$0001,$0000,$0000,$0000,$0000,$0000
+
 Fld_ptr_bank1_0:
 	rep #$20
 	lda $B2
@@ -67,6 +72,11 @@ Fld_ptr_bank3:
 	lda dialog_ptr3+2,x
 	sta {dlg_read_ptr}+2
 	rtl
+	
+Fld_parse_dialog:
+	
+.write:
+.read:
 
 //org $00B45B
 // expands dialog to a buffer
@@ -121,29 +131,7 @@ define .buffer		$774
 	cmp.b #8
 	bne -
 	bra .loop
-//.pause:
-	//jsr .read
-	//jsr .write
-	//stz $19
-	//asl
-	//rol $19
-	//asl
-	//rol $19
-	//asl
-	//rol $19
-	//sta $18
-	//ldx $18
-	//stx $8f4
-	//ldx.w #0
-	//stx $8f6
 	jmp .loop
-//.auto:
-	//lda.b #2
-	//sta $de
-//.not_ended
-//	lda.b #1
-//	sta $ed
-//	rts
 .item:		// 7, expand item
 	jmp .loop
 .var:		// 8, expand variable
@@ -153,7 +141,7 @@ define .buffer		$774
 	sta $31
 	lda $8fa
 	sta $32
-	jsl $15C324
+	jsl $15C324		// Fld_format_number
 	ldx.w #0
 -
 	lda $36,x
@@ -171,19 +159,8 @@ define .buffer		$774
 	cpx.w #6
 	bne -
 	jmp .loop
-//.is_end:
-//	jsr .peek
-//	cmp.b #0
-//	bne .not_ended
-//	lda.b #1
-//	sta $de
-//.not_ended:
-//	lda.b #1
-//	sta $ed
 .end:		// 0
 	jsr .write
-	//lda.b #1
-	//sta $ed
 	rts
 	
 .jmp_tbl:
@@ -360,7 +337,7 @@ Fld_format_dlg:
 	inx
 	cmp.b #0			// end of string
 	beq .end
-	cmp.b #(' ')		// space
+	cmp.b #$40			// space
 	bne .ck_line
 	// is space, do prediction stuff
 	jsr Fld_width_next
@@ -464,6 +441,11 @@ dw $2023,$202A,$2031,$2038,$203F,$2046,$204D,$2054,$205B,$2062,$2069,$2070,$2077
 dw $2024,$202B,$2032,$2039,$2040,$2047,$204E,$2055,$205C,$2063,$206A,$2071,$2078,$207F,$2086,$208D,$2094,$209B,$20A2,$20A9,$20B0,$20B7,$20BE,$20C5
 dw $2025,$202C,$2033,$203A,$2041,$2048,$204F,$2056,$205D,$2064,$206B,$2072,$2079,$2080,$2087,$208E,$2095,$209C,$20A3,$20AA,$20B1,$20B8,$20BF,$20C6
 dw $2026,$202D,$2034,$203B,$2042,$2049,$2050,$2057,$205E,$2065,$206C,$2073,$207A,$2081,$2088,$208F,$2096,$209D,$20A4,$20AB,$20B2,$20B9,$20C0,$20C7
+
+//
+loc_tmap_tbl:
+dw $2020,$2022,$2024,$2026,$2028,$202A,$202C,$202E,$2030,$2032,$2034,$2036
+dw $2021,$2023,$2025,$2027,$2029,$202B,$202D,$202F,$2031,$2033,$2035,$2037
 
 // tilemap used for scrolling dialog (i.e. prologue)
 prol_tmap_tbl0:

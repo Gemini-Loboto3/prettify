@@ -1,0 +1,122 @@
+﻿<121 text entries>
+PT<End>
+P1<End>
+P2<End>
+P3<End>
+P4<End>
+P5<End>
+P6<End>
+P7<End>
+B1<End>
+B2<End>
+B3<End>
+B4<End>
+B5<End>
+B6<End>
+B7<End>
+B8<End>
+Inn<End>
+Negozio di Armi<End>
+Negozio di Protezioni<End>
+Item Shop<End>
+Bar<End>
+Campo<End>
+Stanze del Re<End>
+Prigione Sotterranea<End>
+Stanza del Cristallo<End>
+Foresta dei Chocobo<End>
+Villaggio dei Chocobo<End>
+Armor & Weapons Shop<End>
+Torre Sinistra<End>
+Torre Destra<End>
+Stanza Nascosta<End>
+Stanza d'Allenamento<End>
+Castle Baron<End>
+Laboratorio di Magia Bianca<End>
+Laboratorio di Magia Nera<End>
+Stanza di <Cecil><End>
+Baron<End>
+Underground Waterway<End>
+Acquedotto, Entrata Nord<End>
+Mist Cave<End>
+Mist<End>
+Casa di <Rydia><End>
+Kaipo, Oasis of the Desert<End>
+Acquedotto, Entrata Sud<End>
+Cascata per il Sottosuolo<End>
+Castello Damcyan<End>
+Prigione di Damcyan<End>
+Antlion, B1<End>
+Nido di Antlion<End>
+Monte Hobs, Entrata Ovest<End>
+Vetta<End>
+Fabul<End>
+Monte Hobs, Entrata Est<End>
+Porto di Fabul<End>
+Nave per Baron<End>
+Vecchio Canale<End>
+Mysidia<End>
+Casa di Preghiera<End>
+Devil's Road<End>
+Stanza di Preghiera<End>
+Mt. Ordeals, Entrata<End>
+Città del Mithril<End>
+Spiaggia<End>
+Dummy<End>
+Castello di Troia<End>
+Città di Troia<End>
+Stanza dei Programmatori<End>
+Asilo Nido Chocobo Nero<End>
+Villaggio di Agart<End>
+Osservatorio Astronomico<End>
+Casa-Osservatorio<End>
+Magnetic Cavern<End>
+Eblana Castle<End>
+Cave of Eblana Castle<End>
+Tower of Babel, P1<End>
+Torre di Zot<End>
+Bocca del Gigante<End>
+Castello dei Nani<End>
+Stanza di Casa<End>
+Passaggio di Babil<End>
+Mt. Ordeals, Postazione 3<End>
+Mt. Ordeals, Postazione 7<End>
+Castello di Eblana, Sotterraneo<End>
+Red Cap<End>
+Enterprise<End>
+Nave Mistica<End>
+Pub "Re"<End>
+Casa del fabbro Cuculo<End>
+Villaggio di Tomera<End>
+Caverna dei Mistici<End>
+Caverna del Sigillo<End>
+Caverna Insulare Adaman<End>
+Cittadella di Dwarf<End>
+Cannone Gigante<End>
+Caverna del Dio dei Mistici<End>
+Palazzo dei Lunariani<End>
+Caverna di Sylph<End>
+Gola Lunare B1<End>
+Gola Lunare B2<End>
+Gola Lunare B3<End>
+Gola Lunare B4<End>
+Gola Lunare B5<End>
+Gola Lunare B6<End>
+Gola Lunare B7<End>
+Zemus Zone<End>
+Passaggio Interno della Luna<End>
+Zeromus<End>
+Babil (Sottoterra)<End>
+Pub "Rally-ho!"<End>
+Stanza della Musica<End>
+Stanza di Riposo<End>
+Feymarch<End>
+Biblioteca del Mondo Illusorio<End>
+Casa di <Rydia><End>
+Testa del Gigante<End>
+Torace del Gigante<End>
+Stomaco del Gigante<End>
+Passaggio Dentro il Gigante<End>
+Passaggio del Gigante, Tromba delle Scale<End>
+Stanza di Controllo<End>
+Caverna dei Lunariani<End>

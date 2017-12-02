@@ -17,3 +17,6 @@
 67D	set to zero when nmi left
 67E	reset to 0 on every nmi call
 67F	increased every irq
+6B2	dialog id
+6DD	dialog bank
+6ED	pages of dialog (0=none)

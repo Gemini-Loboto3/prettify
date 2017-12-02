@@ -14,6 +14,8 @@ St_set_name:
 St_set_config:
 	incbin "st_optn.sfc"
 // 4096 bytes empty
+Fld_font8_dlg:
+	incbin "font8_dlg.bin"
 
 // this uses one full bank
 org $218000
@@ -38,6 +40,12 @@ dialog_data:
 	
 // include further data here
 org $2A8000
+prophecy_mes:
+	incbin "prophecy.bin"
+prophecy_gfx:
+	incbin "prophecy.sfc"
+font_staff:
+	incbin "font_staff.sfc"
 
 org $228000
 _St_name_draw:
@@ -1216,5 +1224,50 @@ St_fix_win_resize:		// comes from $18687
 	inx
 	inx
 	dec $1D
+	bne -
+	rtl
+
+//////////////////////////////////////
+// MODE 7 EXTENDED CODE				//
+//////////////////////////////////////
+Mode7_trans_prophecy:
+	ldx.w #0
+-
+	lda prophecy_gfx,x
+	pha
+	and.b #$0f
+	sta $2119
+	pla
+	and.b #$f0
+	beq +
+	lsr
+	lsr
+	lsr
+	lsr
++
+	sta $2119
+	inx
+	cpx.w #$2000
+	bne -
+	rtl
+	
+Mode7_trans_font:
+	ldx.w #0
+-
+	lda font_staff,x
+		pha
+	and.b #$0f
+	sta $2119
+	pla
+	and.b #$f0
+	beq +
+	lsr
+	lsr
+	lsr
+	lsr
++
+	sta $2119
+	inx
+	cpx.w #$1A00
 	bne -
 	rtl
