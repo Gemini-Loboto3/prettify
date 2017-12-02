@@ -123,7 +123,7 @@ You are all DEAD!<New>
 <Text entry 26>
 <Golbeza>: ...How did I bear all that hatred...?<New>
 <Fusuya>: You have come to. Do you remember your father's name?<New>
-<Golbeza>: My father... KluYa.<New>
+<Golbeza>: My father... Kluya.<New>
 <Cecil>: What!?<New>
 <Rosa>: Wait!<New>
 <Edge>: You're brothers!?<New>
@@ -332,7 +332,7 @@ Old Man: I am <Fusuya>, guardian of the Lunarians.<New>
 <Rosa>: Insane...<New>
 <Fusuya>: Such is not the Lunarians' wish. They quietly wait for earthlings to evolve, and long to commune with them one day.<New>
 <Cecil>: How did the Lunar Whale come into being?<New>
-<Fusuya>: My brother KluYa made it long ago to go to the blue planet, which he had longed to visit. He introduced the concept of airships and the Devil's Road to your people. Moreover, he fell in love with an earthling. She bore two children. You are one.<End>
+<Fusuya>: My brother Kluya made it long ago to go to the blue planet, which he had longed to visit. He introduced the concept of airships and the Devil's Road to your people. Moreover, he fell in love with an earthling. She bore two children. You are one.<End>
 <End of Block>
 
 <Text entry 63>
@@ -341,9 +341,9 @@ Apprentices: Aye, aye!<End>
 
 <Text entry 64>
 <Cecil>: !! I'm... Then that voice at Mt. Ordeals was--<New>
-<Fusuya>: The spirit of your father, no doubt. You resemble KluYa.<New>
+<Fusuya>: The spirit of your father, no doubt. You resemble Kluya.<New>
 <Cecil>: That light...was my father...<New>
-<Fusuya>: KluYa gave you his power to fight Zemus. We must stop him for the sake of our two races. Now let us depart for the Tower of Babil.<New>
+<Fusuya>: Kluya gave you his power to fight Zemus. We must stop him for the sake of our two races. Now let us depart for the Tower of Babil.<New>
 <Edge>: The tower's shielded.<End>
 <End of Block>
 

@@ -1256,7 +1256,7 @@ Never again shall monsters rule over this castle!<End>
 <End of Block>
 
 <Text entry 307>
-King: Behold! I am the Devil of Water, Cagnazzo!<End>
+King: Behold! I am the Tetrarch of Water, Cagnazzo!<End>
 <End of Block>
 
 <Text entry 308>
@@ -2672,7 +2672,7 @@ To go to hell!<End>
 <End of Block>
 
 <Text entry 644>
-<Cecil>: The Four Fiends!<New>
+<Cecil>: The Heavenly Tetrarchs!<New>
 Scarmiglione: Indeed.<New>
 Cagnazzo: Master Zemus blessed us with a second life.<New>
 Barbariccia: Prepare to die.<New>
@@ -3624,7 +3624,7 @@ Doctor: Who's there!?<End>
 <End of Block>
 
 <Text entry 875>
-Doctor: GAH, disrespecting me! You nincompoop! Though I'm not one of the Four Fiends, I, Dr.Lugae, am the brains of <Golbeza>'s operation! On my honor, I will protect this tower!<New>
+Doctor: GAH, disrespecting me! You nincompoop! Though I'm not one of the Heavenly Tetrarchs, I, Dr. Rugeiyu, am the brains of <Golbeza>'s operation! On my honor, I will protect this tower!<New>
 <Cain>: That's a laugh!<End>
 <End of Block>
 
@@ -4350,7 +4350,7 @@ Powerful weapons that once posed a threat to Lunarians are sealed away in the co
 <End of Block>
 
 <Text entry 1051>
-<Fusuya> and KluYa's son entered the core some time ago.<End>
+<Fusuya> and Kluya's son entered the core some time ago.<End>
 <End of Block>
 
 <Text entry 1052>

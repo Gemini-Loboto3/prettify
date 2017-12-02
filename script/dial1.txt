@@ -1155,7 +1155,7 @@ Charmed.<End>
 <End of Block>
 
 <Text entry 235>
-We the Magus sisters welcome you. We serve Barbariccia, Devil of Wind. Mindy! Sandy. Cindy. Thank you for playing and good night.<End>
+We the Magus sisters welcome you. We serve Barbariccia, Tetrarch of Wind. Mindy! Sandy. Cindy. Thank you for playing and good night.<End>
 <End of Block>
 
 <Text entry 236>
@@ -1290,7 +1290,7 @@ Namingway: Very well. If you ever change your mind, I am always at your service.
 
 <Text entry 260>
 It seems Master <Golbeza> has underestimated you.<New>
-<Cain>: The Devil of Wind, Barbariccia!<End>
+<Cain>: The Tetrarch of Wind, Barbariccia!<End>
 <End of Block>
 
 <Text entry 261>
@@ -1301,7 +1301,7 @@ Barbariccia: You snotty little wretch. I'll enjoy killing you all. With the old 
 <End of Block>
 
 <Text entry 262>
-Barbariccia: It's not over... The last Devil of Elements still remains! Regardless, you'll never leave here alive!<End>
+Barbariccia: It's not over... The last Heavenly Tetrarch still remains! Regardless, you'll never leave here alive!<End>
 <End of Block>
 
 <Text entry 263>
@@ -1535,7 +1535,7 @@ Rubicante: No, I don't recall that name.<New>
 <Edge>: I lost... Damn... Who are you all?<New>
 <Rydia>: We're after Rubicante, too.<New>
 <Edge>: Stay out of this! He's mine!<New>
-<Cain>: Well, you obviously don't know with whom you're dealing. He's one of the Four Fiends of Elements.<New>
+<Cain>: Well, you obviously don't know with whom you're dealing. He's one of the Heavenly Tetrarchs.<New>
 <Edge>: Heh, you take me for some sissy prince? I'm the rightful heir to the throne of Eblana, famed for its ninjutsu for generations. So buzz off! I can take care of myself!<New>
 <Rydia>: Stop it!<End>
 <End of Block>
@@ -1546,7 +1546,7 @@ Rubicante: No, I don't recall that name.<New>
 <End of Block>
 
 <Text entry 304>
-<Cecil>: Rubicante is the strongest Fiend. The odds might be against us, but somehow we must recover the Crystals.<New>
+<Cecil>: Rubicante is the strongest Heavenly Tetrarch. The odds might be against us, but somehow we must recover the Crystals.<New>
 <Edge>: Alright, I'll let you all in on this. I can't bear to see a pretty girl cry.<New>
 <Cain>: Heh, he sure talks big for a guy who just got worked. <Rosa>, give him a hand.<End>
 <End of Block>
@@ -1582,12 +1582,12 @@ Sylph: You are indeed brave and compassionate like our friend <Yang>. Please sum
 <End of Block>
 
 <Text entry 310>
-Rubicante: Lugae... How dare he...?<End>
+Rubicante: Rugeiyu... How dare he...?<End>
 <End of Block>
 
 <Text entry 311>
 <Edge>: Rubicante!! You sick bastard!!<New>
-Rubicante: It was Lugae who turned your parents into monsters. I am sorry for your loss. Know that my only wish is to fight fair.<New>
+Rubicante: It was Rugeiyu who turned your parents into monsters. I am sorry for your loss. Know that my only wish is to fight fair.<New>
 <Edge>: To hell with your self-righteous crap!<New>
 Rubicante: I admire your spirit. But anger never bears true strength, and it blinds you.<New>
 <Edge>: Shut up! I'll show you the power of anger!<Music 11><New>
@@ -1610,7 +1610,7 @@ Your Highness!<End>
 
 <Text entry 315>
 <Edge>: Gramps!<New>
-Gramps: Pray, let us fight with you! Where is that devil Rubicante!?<End>
+Gramps: Pray, let us fight with you! Where is that Rubicante Tetrarch!?<End>
 <End of Block>
 
 <Text entry 316>
@@ -1647,7 +1647,7 @@ All: Good fortune, Your Highness!<New>
 <End of Block>
 
 <Text entry 321>
-<Tella>: Indeed I am. That girl! She is a summoner! Perfect! She can help, too! A giant monster lurks in the underground lake ahead. The devil even withstands my magic. Together, I think we can defeat it, and then I can finally be on my way!<New>
+<Tella>: Indeed I am. That girl! She is a summoner! Perfect! She can help, too! A giant monster lurks in the underground lake ahead. The Tetrarch even withstands my magic. Together, I think we can defeat it, and then I can finally be on my way!<New>
 <Cecil>: We're heading to Damcyan as well.<New>
 <Tella>: Then let us hurry!<End>
 <End of Block>
@@ -2206,7 +2206,7 @@ Hey! Watch this!<End>
 <Text entry 426>
 <Golbeza>: You dare question my judgment?<New>
 <Cain>: No, sire!<New>
-<Golbeza>: Scarmiglione is one of the Four Fiends of Elements. He will not fail. <Rosa> will bear witness as well.<End>
+<Golbeza>: Scarmiglione is one of the Heavenly Tetrarchs. He will not fail. <Rosa> will bear witness as well.<End>
 <End of Block>
 
 <Text entry 427>
@@ -2602,7 +2602,7 @@ Found Smut<Delay 48><End>
 <Text entry 499>
 King: Your who? Oh, you must mean the old duffer who refused to surrender this kingdom. Kahaha. I must say I've enjoyed impersonating him.<New>
 <Cecil>: What have you done with the king!?<New>
-King: You'll see him soon enough. Oh, and give my regards to Scarmiglione when you see him in hell. That weakling never deserved to be one of the Four Fiends of Elements.<New>
+King: You'll see him soon enough. Oh, and give my regards to Scarmiglione when you see him in hell. That weakling never deserved to be one of the Heavenly Tetrarchs.<New>
 <Cecil>: !?<End>
 <End of Block>
 
