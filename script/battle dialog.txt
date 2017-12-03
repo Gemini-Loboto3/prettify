@@ -110,7 +110,7 @@ But this is not the end.<End>
 This is how it's done.<End>
 <Edge>: ...<End>
 King: We must go now.<End>
-Eblan lies in good hands.<End>
+Eblana lies in good hands.<End>
 Serve our people well.<End>
 <Edge>: Don't go!<End>
 Queen: Farewell, my son.<End>

@@ -1,9 +1,15 @@
 define dlg_read_ptr	$72
 
-Fld_format_number_ex:
-	
-	db $9680,$4240,$86A0,$2710,$03E8,$0064,$000A,$0001
-	db $0098,$000f,$0001,$0000,$0000,$0000,$0000,$0000
+Fld_dlg_dma:
+
+Fld_prolog_dma:
+
+Fld_dlg_page0:
+	jsr Fld_expand_dialog	// copy dialog to buffer
+	jsr Fld_format_dlg		// format line carries
+Fld_dlg_pages:
+	jsr Fld_parse_dialog	// do the actual rendering
+	rtl
 
 Fld_ptr_bank1_0:
 	rep #$20
@@ -15,11 +21,11 @@ Fld_ptr_bank1_0:
 	tax
 	sep #$20
 	lda dialog_ptr1+0,x
-	sta {dlg_read_ptr}
+	sta {dlg_read_ptr}+0x700
 	lda dialog_ptr1+1,x
-	sta {dlg_read_ptr}+1
+	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr1+2,x
-	sta {dlg_read_ptr}+2
+	sta {dlg_read_ptr}+0x702
 	rtl
 	
 Fld_ptr_bank1_1:
@@ -32,11 +38,11 @@ Fld_ptr_bank1_1:
 	tax
 	sep #$20
 	lda dialog_ptr1+512,x
-	sta {dlg_read_ptr}
+	sta {dlg_read_ptr}+0x700
 	lda dialog_ptr1+513,x
-	sta {dlg_read_ptr}+1
+	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr1+514,x
-	sta {dlg_read_ptr}+2
+	sta {dlg_read_ptr}+0x702
 	rtl
 
 Fld_ptr_bank2:
@@ -53,11 +59,11 @@ Fld_ptr_bank2:
 	tax
 	sep #$20
 	lda dialog_ptr2+0,x
-	sta {dlg_read_ptr}
+	sta {dlg_read_ptr}+0x700
 	lda dialog_ptr2+1,x
-	sta {dlg_read_ptr}+1
+	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr2+2,x
-	sta {dlg_read_ptr}+2
+	sta {dlg_read_ptr}+0x702
 	rtl
 
 Fld_ptr_bank3:
@@ -66,14 +72,38 @@ Fld_ptr_bank3:
 	adc $43
 	tax
 	lda dialog_ptr3+0,x
-	sta {dlg_read_ptr}
+	sta {dlg_read_ptr}+0x700
 	lda dialog_ptr3+1,x
-	sta {dlg_read_ptr}+1
+	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr3+2,x
-	sta {dlg_read_ptr}+2
+	sta {dlg_read_ptr}+0x702
 	rtl
 	
 Fld_parse_dialog:
+	ldx $777			// load any previous seek
+	stz {vwf_draw_x}
+	stz {vwf_draw_x}+1
+-
+	lda {dialog_buffer},x
+	inx
+	cmp.b #0			// end
+	bne +
+	// treat end
+	bra .end
++
+	cmp.b #1
+	bne +
+	// treat line break
+	jsr Fld_vwf_carry_line
+	// check if we're above 4 lines of text
+	lda {vwf_draw_y}
+	cmp #58
+	bcc -				// below 4 lines, keep going
+	
++
+.end:
+	stx $772			// store current seek
+	rts
 	
 .write:
 .read:
@@ -85,14 +115,25 @@ Fld_expand_dialog:
 define .write_ptr	$75
 define .buffer		$774
 // code
+	phd
+	// replace direct page
+	rep #$20
+	lda.w #$0700
+	tcd
+	sep #$20
+	// setup write buffer
+	ldx.w #({dialog_buffer} & 0xffff)
+	stx {.write_ptr}
+	lda.b #({dialog_buffer} >> 16)
+	sta {.write_ptr}+2
 .loop:
 	jsr .read
 	cmp.b #9
 	bcc .char
-	tay		// backup read character
+	tay						// backup read character
 	asl
 	tax
-	tya		// restore character
+	tya						// restore character
 	jmp (.jmp_tbl,x)
 .line:		// 01
 .auto:		// 06
@@ -119,20 +160,27 @@ define .buffer		$774
 	stz $7
 -
 	lda {ex_name_data},x
-	cmp.b #$ff
+	cmp.b #$ff				// premature end of the string
 	beq .loop
-	sta $774,y
-	lda.b #$ff
-	sta $834,y
-	iny
-	inx
+	jsr .write
 	inc $7
 	lda $7
-	cmp.b #8
+	cmp.b #8				// max size of a name
 	bne -
 	bra .loop
-	jmp .loop
-.item:		// 7, expand item
+.item:		// 7, expand item	
+	lda $8FB				// item id
+	asl
+	tax
+	lda .item_txt_data,x	// load item pointer
+	inc						// skip icon
+	tax
+-
+	lda .item_txt_data,x	// load character from item
+	beq +					// end of string
+	jsr .write				// write character read
+	bra -
++
 	jmp .loop
 .var:		// 8, expand variable
 	lda $8f8
@@ -141,11 +189,11 @@ define .buffer		$774
 	sta $31
 	lda $8fa
 	sta $32
-	jsl $15C324		// Fld_format_number
+	jsl $15C324				// Fld_format_number
 	ldx.w #0
 -
 	lda $36,x
-	cmp.b #$80	// '0'
+	cmp.b #$0A				// '0'
 	bne +
 	inx
 	cpx.w #5
@@ -154,6 +202,8 @@ define .buffer		$774
 +
 -
 	lda $36,x
+	clc
+	adc #$76				// convert $0A-$13 range to $80-$89
 	jsr .write
 	inx
 	cpx.w #6
@@ -161,7 +211,11 @@ define .buffer		$774
 	jmp .loop
 .end:		// 0
 	jsr .write
+	pld						// restore dpage
 	rts
+
+.item_txt_data:
+	incbin "item.bin"
 	
 .jmp_tbl:
 dw .end,  .line,  .align, .music

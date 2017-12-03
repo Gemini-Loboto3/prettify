@@ -30,7 +30,7 @@ Couldn't steal.<End>
 Detected by the enemy!<End>
 Stole <String 131>!<End>
 <String 128>/<String 129><Var><End>
-Obtained <String 128> gil.<End>
+Obtained <String 128> Gil.<End>
 Received <String 129> EXP.<End>
 <String 130> gained a level!<End>
 You can't escape!<End>

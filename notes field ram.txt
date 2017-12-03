@@ -20,3 +20,6 @@
 6B2	dialog id
 6DD	dialog bank
 6ED	pages of dialog (0=none)
+6DE	1 end, 2 autoclose
+8F4	pause value
+8F6	no idea, loads 0 with pause
