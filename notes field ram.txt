@@ -1,16 +1,31 @@
+602-3	wait values for something (nmi?)
+607	temp
 65A-B	bg1 h-scroll
 65C-D	bg1 v-scroll
 65E-F	bg2 h-scroll
 660-1	bg2 v-scroll
 66A-B	mode7 center pos x
 66C-D	mode7 center pos y
+66E
+66F
+670
+671
+672
+673
+674
+675
+676
 677	mosaic size
 67A
 67B	mosaic size = (this & 0xc << 3 | 3)
+67C
+67D
+67E
 67F	when 1 scrolling is fixed, otherwise increases
 6B1	related to mosaic check
 6BB	bg3 v-scroll (increasing one)
 6C2	related to mosaic check
+6CB	0 slow dialog scroll, 1 fast dialog scroll
 6D9	related to mosaic check
 6DA	irq check, bg3 v-scroll (item lists)
 6DF	irq check, bg3 v-scroll (static one)
@@ -21,5 +36,7 @@
 6DD	dialog bank
 6ED	pages of dialog (0=none)
 6DE	1 end, 2 autoclose
+772	string seek
+774-8F3	string buffer
 8F4	pause value
 8F6	no idea, loads 0 with pause

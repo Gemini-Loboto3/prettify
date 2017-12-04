@@ -1,23 +1,82 @@
 define dlg_read_ptr	$72
+define dlg_seek		$778
+define vwf_draw_x	$77A
+define vwf_draw_y	$77C
+define vwf_seek		$77E
+define vwf_temp_0	$780
+define vwf_temp_1	$782
+define vwf_line		$784
+define vwf_tile		$786
+define vwf_draw_x2	$788
+define vwf_canvas	$704000
+define dlg_buffer	$70A000
+define w_spc		4
+
+Fld_format_number_ex:
+	phx
+	phy
+	ldx.w #0
+.loop:
+	ldy.w #$80		// '0'
+	stz $633
+.next:
+	rep #$20
+	lda $630
+	sec
+	sbc $15C36F,x
+	sta $630
+	lda $632
+	sbc $15C37F,x
+	sta $632
+	bcc +
+	iny
+	jmp .next
++
+	lda $630
+	clc
+	adc $15C36F,x
+	sta $630
+	lda $632
+	adc $15C37F,x
+	sta $632
+	lda.w #0
+	sep #$20
+	phx
+	txa
+	lsr
+	tax
+	tya
+	sta $632,x
+	plx
+	inx
+	inx
+	cpx.w #$10
+	bne .loop
+	ply
+	plx
+	rts
 
 Fld_dlg_dma:
 
 Fld_prolog_dma:
 
 Fld_dlg_page0:
+	stz {dlg_seek}
+	stz {dlg_seek}+1
 	jsr Fld_expand_dialog	// copy dialog to buffer
-	jsr Fld_format_dlg		// format line carries
+	//jsr Fld_format_dlg		// format line carries
 Fld_dlg_pages:
 	jsr Fld_parse_dialog	// do the actual rendering
 	rtl
 
 Fld_ptr_bank1_0:
+	php
 	rep #$20
 	lda $B2
 	and.w #$00ff
-	sta $43			// index * 3
+	sta $3D			// index * 3
 	asl
-	adc $43
+	adc $3D
 	tax
 	sep #$20
 	lda dialog_ptr1+0,x
@@ -26,36 +85,40 @@ Fld_ptr_bank1_0:
 	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr1+2,x
 	sta {dlg_read_ptr}+0x702
+	plp
 	rtl
 	
 Fld_ptr_bank1_1:
+	php
 	rep #$20
 	lda $B2
 	and.w #$00ff
-	sta $43			// index * 3
+	sta $3D			// index * 3
 	asl
-	adc $43
+	adc $3D
 	tax
 	sep #$20
-	lda dialog_ptr1+512,x
+	lda dialog_ptr1+768,x
 	sta {dlg_read_ptr}+0x700
-	lda dialog_ptr1+513,x
+	lda dialog_ptr1+769,x
 	sta {dlg_read_ptr}+0x701
-	lda dialog_ptr1+514,x
+	lda dialog_ptr1+770,x
 	sta {dlg_read_ptr}+0x702
+	plp
 	rtl
 
 Fld_ptr_bank2:
+	php
 	ldx $3D
 	rep #$20
 	lda dialog_pptr2,x
-	sta $45			// store local pointer
-	lda $B2			// get index
+	sta {vwf_temp_1}	// store local pointer
+	lda $B2				// get index
 	and.w #$00ff
-	sta $43			// index * 3
+	sta {vwf_temp_0}	// index * 3
 	asl
-	adc $43
-	adc $45
+	adc {vwf_temp_0}
+	adc {vwf_temp_1}
 	tax
 	sep #$20
 	lda dialog_ptr2+0,x
@@ -64,12 +127,17 @@ Fld_ptr_bank2:
 	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr2+2,x
 	sta {dlg_read_ptr}+0x702
+	plp
 	rtl
 
 Fld_ptr_bank3:
-	sta $43			// index * 3
+	php
+	rep #$20
+	lda $B2
+	and.w #$00ff
+	sta $3D			// index * 3
 	asl
-	adc $43
+	adc $3D
 	tax
 	lda dialog_ptr3+0,x
 	sta {dlg_read_ptr}+0x700
@@ -77,10 +145,11 @@ Fld_ptr_bank3:
 	sta {dlg_read_ptr}+0x701
 	lda dialog_ptr3+2,x
 	sta {dlg_read_ptr}+0x702
+	plp
 	rtl
 	
 Fld_parse_dialog:
-	ldx $777			// load any previous seek
+	ldx {dlg_seek}		// load any previous seek
 	stz {vwf_draw_x}
 	stz {vwf_draw_x}+1
 -
@@ -89,6 +158,8 @@ Fld_parse_dialog:
 	cmp.b #0			// end
 	bne +
 	// treat end
+	lda.b #1
+	sta $DE
 	bra .end
 +
 	cmp.b #1
@@ -99,10 +170,12 @@ Fld_parse_dialog:
 	lda {vwf_draw_y}
 	cmp #58
 	bcc -				// below 4 lines, keep going
-	
 +
+	bra -
 .end:
-	stx $772			// store current seek
+	stx {dlg_seek}		// store current seek
+	lda.b #1
+	sta $ED
 	rts
 	
 .write:
@@ -123,16 +196,19 @@ define .buffer		$774
 	sep #$20
 	// setup write buffer
 	ldx.w #({dialog_buffer} & 0xffff)
-	stx {.write_ptr}
+	stx {.write_ptr}+0x700
 	lda.b #({dialog_buffer} >> 16)
-	sta {.write_ptr}+2
+	sta {.write_ptr}+0x702
 .loop:
 	jsr .read
 	cmp.b #9
-	bcc .char
+	bcs .char
 	tay						// backup read character
+	rep #$20
+	and.w #$00ff
 	asl
 	tax
+	sep #$20
 	tya						// restore character
 	jmp (.jmp_tbl,x)
 .line:		// 01
@@ -153,47 +229,52 @@ define .buffer		$774
 	asl
 	asl
 	asl
-	sta $18
-	stz $19
-	ldx $18
-	ldy $3D
-	stz $7
+	sta $618
+	stz $619
+	ldx $618
+	ldy $63D
+	stz $607
 -
 	lda {ex_name_data},x
 	cmp.b #$ff				// premature end of the string
 	beq .loop
 	jsr .write
-	inc $7
-	lda $7
+	inx
+	inc $607
+	lda $607
 	cmp.b #8				// max size of a name
 	bne -
 	bra .loop
 .item:		// 7, expand item	
 	lda $8FB				// item id
+	rep #$20
+	and.w #$00ff
 	asl
 	tax
 	lda .item_txt_data,x	// load item pointer
 	inc						// skip icon
 	tax
+	sep #$20
 -
 	lda .item_txt_data,x	// load character from item
 	beq +					// end of string
 	jsr .write				// write character read
+	inx
 	bra -
 +
 	jmp .loop
 .var:		// 8, expand variable
 	lda $8f8
-	sta $30
+	sta $630
 	lda $8f9
-	sta $31
+	sta $631
 	lda $8fa
-	sta $32
-	jsl $15C324				// Fld_format_number
+	sta $632
+	jsr Fld_format_number_ex
 	ldx.w #0
 -
-	lda $36,x
-	cmp.b #$0A				// '0'
+	lda $636,x
+	cmp.b #$80				// '0'
 	bne +
 	inx
 	cpx.w #5
@@ -201,9 +282,7 @@ define .buffer		$774
 	jmp -
 +
 -
-	lda $36,x
-	clc
-	adc #$76				// convert $0A-$13 range to $80-$89
+	lda $636,x
 	jsr .write
 	inx
 	cpx.w #6
@@ -219,7 +298,7 @@ define .buffer		$774
 	
 .jmp_tbl:
 dw .end,  .line,  .align, .music
-dw .name, .pause, .auto,  .item,
+dw .name, .pause, .auto,  .item
 dw .var,  .page
 
 .read:
@@ -247,7 +326,7 @@ dw .var,  .page
 	inc
 	sta {dlg_read_ptr}
 	bit #$8000
-	beq +
+	bne +
 	lda.w #$8000			// reset to bank start
 	sta {dlg_read_ptr}
 	sep #$20
@@ -268,18 +347,6 @@ dw .var,  .page
 	dw $2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007
 	dw $2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007
 	dw $2007,$2007,$2007,$2007,$2007,$2008,$2000,$2000
-
-define vwf_draw_x	$0
-define vwf_draw_y	$2
-define vwf_seek		$4
-define vwf_temp_0	$6
-define vwf_temp_1	$8
-define vwf_line		$10
-define vwf_tile		$12
-define vwf_draw_x2	$14
-define vwf_canvas	$704000
-define w_spc		4
-define dlg_buffer	$7e0772
 
 // parameters:
 // A.8 character to print
@@ -319,7 +386,7 @@ Fld_vwf_draw_char:
 // A.8 width of character
 Fld_vwf_get_char_w:
 	phx
-	cmp.b #' '		// space
+	cmp.b #$40		// space
 	bne .not_space
 	lda.b #{w_spc}
 	bra +
@@ -384,8 +451,7 @@ Fld_vwf_carry_line:
 	
 Fld_format_dlg:
 	ldx.w #0
-	stz {vwf_draw_x}
-	stz {vwf_draw_x}+1
+	stx {vwf_draw_x}
 -
 	lda {dlg_buffer},x
 	inx
@@ -435,7 +501,7 @@ Fld_width_next:
 -
 	lda {dlg_buffer},x
 	inx
-	cmp.b #(' ')			// we hit another space, perform check
+	cmp.b #$40				// we hit another space, perform check
 	beq +
 	cmp.b #0				// hit end of dialog, perform check
 	beq +

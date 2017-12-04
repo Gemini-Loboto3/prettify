@@ -1,31 +1,43 @@
+// replace calls to generate dialog
+org $00B32C
+	jsr Fld_dialog
+org $00B36D
+	jsr Fld_dialogs
+org $00B37B
+	nop			// remove dialog scrolling
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
+	nop
 
+// inject new pointer code
+org $00B3CE		// bank 2
+	jsl Fld_ptr_bank2
+	rts
+org $00B404		// bank 1 former 256
+	jsl Fld_ptr_bank1_0
+	rts
+org $00B41D		// bank 1 latter 256
+	jsl Fld_ptr_bank1_1
+	rts
+org $00B436		// bank 3
+	jsl Fld_ptr_bank3
+	rts
 
-org $00B533	// hack expanded names
-	asl
-	asl
-	asl
-	sta $18
-	stz $19
-	ldx $18
-	ldy $3D
-	stz $7
--
-	lda {ex_name_data},x
-	cmp.b #$ff
-	beq .endname
-	sta $774,y
-	lda.b #$ff
-	sta $834,y
-	iny
-	inx
-	inc $7
-	lda $7
-	cmp.b #8
-	bne -
-	bra .endname
-warnpc $00B565
-org $00B565
-.endname:
+// old Fld_tmap_dialog, use to inject bank 0 new code to expanded areas
+org $00B45B
+Fld_dialog:
+	jsl Fld_dlg_page0
+	rts
+
+Fld_dialogs:
+	jsl Fld_dlg_pages
+	rts
+
+warnpc $00B670
 
 // replace font for dialog with reduced set
 org $8468
