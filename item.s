@@ -100,9 +100,11 @@ St_init_name:
 St_init_config:
 	jsl _St_init_config
 	jsr St_config
+	rts
+	
 St_exit_config:
+	jsr $1947E
 	jsl _St_init_main
-	jsr $19430
 	rts
 	
 St_init_treasure:

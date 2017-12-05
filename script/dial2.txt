@@ -2094,7 +2094,8 @@ LEAVE AT ONCE.<New>
 <End of Block>
 
 <Text entry 512>
-<Cecil>: We have to go to Mist Village. We're not going back. SO BE IT.<New>
+<Cecil>: We have to go to Mist Village. We're not going back.<New>
+SO BE IT.<New>
 <Cain>: The mist is gathering!<End>
 <End of Block>
 

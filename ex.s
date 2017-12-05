@@ -16,6 +16,9 @@ St_set_config:
 // 4096 bytes empty
 Fld_font8_dlg:
 	incbin "font8_dlg.bin"
+Fld_font16_dlg:
+	incbin "font_dlg.bin"
+warnpc $218000
 
 // this uses one full bank
 org $218000

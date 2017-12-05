@@ -115,7 +115,7 @@ org $1C2CD
 	jsr St_init_shop
 org $1D17D
 	jsr St_init_config
-org $1D19B
+org $1D180
 	jsr St_exit_config
 org $19606	// boot
 	jsr St_init_main

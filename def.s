@@ -12,7 +12,6 @@ define dma_size			$122		// 2 bytes
 define list_inv_last	$e601		// stores previous index selection in inventory
 
 define backup_vram		$704000		// buffer to store vram backup (16KB, takes all remaining sram)
-define dialog_buffer	$704000
 
 define ex_name_temp		$703d00		// backup buffer for preserving names in save screen
 define ex_name_ok		$703d70		// when a slot contains 'OK' we don't need to expand names

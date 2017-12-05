@@ -131,19 +131,32 @@ We were too negligent.<End>
 <End of Block>
 
 <Text entry 32>
-Crew: Captain, we will arrive at Baron shortly.<New>
+Crew: Captain, we will arrive at Baron
+shortly.<New>
 <Cecil>: ...Alright.<End>
 <End of Block>
 
 <Text entry 33>
 Crew: The captain seems kinda down.<New>
-Crew: After what we did, who wouldn't be? I mean orders are orders, but killing innocent people to get the Crystals...?<End>
+Crew: After what we did, who wouldn't be?
+I mean orders are orders, but killing
+innocent people to get the Crystals...?<End>
 <End of Block>
 
 <Text entry 34>
 Crew: But, Captain!<New>
-Crew: Surely you don't condone what we've done, Captain?<New>
-<Cecil>: All of you, listen well. The raid on Mysidia was imperative. His Majesty and his council concluded that the Mysidians, who know much about the Crystals, posed a serious threat to our kingdom. For Baron to prosper, we need the Crystals. As soldiers of the Royal Air Force, we must achieve this by any means necessary.<New>
+Crew: Surely you don't condone what we've
+done, Captain?<New>
+<Cecil>: All of you, listen well. The
+raid on Mysidia was imperative.<New>
+His Majesty and his council concluded that
+the Mysidians, who know much about the
+Crystals, posed a serious threat to our
+kingdom.<New>
+For Baron to prosper, we need the
+Crystals. As soldiers of the Royal Air
+Force, we must achieve this by any means
+necessary.<New>
 Crew: Captain!<End>
 <End of Block>
 

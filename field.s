@@ -1,3 +1,14 @@
+// patch nmi calls to transfer tiles and tilemaps
+org $00B7AC
+	jsl Fld_dlg_trans_tmap
+	rts
+
+org $00B814
+	jsl Fld_dlg_trans_canvas
+	inc $ba
+	stz $ed
+	rts
+
 // replace calls to generate dialog
 org $00B32C
 	jsr Fld_dialog
