@@ -1,0 +1,1 @@
+xdelta -S -0 -f -A "Final Fantasy IV Prettified (test build)" -s "..\Final Fantasy IV (J).smc" "Final Fantasy IV (J).smc" ff4pretty.xdelta

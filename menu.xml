@@ -142,7 +142,7 @@
   <Entry type="mex" ptr="0x1DEF1" size="25">
     <where>shop</where>
     <line p="0x54">What would you like?</line>
-    <line p="0x146" name="St_mes_howmany">How many?    1</line>
+    <line p="0x146" name="St_mes_howmany">How many?    １</line>
   </Entry>
   <Entry type="mex" ptr="0x1DF0A" size="5">
     <where>main</where>

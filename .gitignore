@@ -1,6 +1,5 @@
 *.smc
 *.rar
 /old
-/gfx
 /*.xdelta
 /script/*.bak
