@@ -385,7 +385,9 @@ T<End>
 <End of Block>
 
 <Text entry 96>
-<Cecil>, please tell Dad to stop pulling all-nighters. He's been so confronta- tional lately he doesn't listen to me. He's been arguing a lot with some of the townspeople, too, because they're always badmouthing the king and the soldiers.<End>
+<Cecil>, please tell Dad to stop pulling all-nighters.<New>
+He's been so confrontational lately he doesn't listen to me.<New>
+He's been arguing a lot with some of the townspeople, too, because they're always badmouthing the king and the soldiers.<End>
 <End of Block>
 
 <Text entry 97>
@@ -888,7 +890,9 @@ Phases of the Moons<End>
 <End of Block>
 
 <Text entry 219, pointer>
-Hello there. My name's Corio. I'm studying the two moons, and, boy, it's been weird. One of them has no sign of life or activity, but the other one... Looks like it has traces of life. On top of that, it's slowly turning red. I'm getting bad vibes from just looking at it.<End>
+Hello there. My name's Corio. I'm studying the two moons, and, boy, it's been weird.<New>
+One of them has no sign of life or activity, but the other one... Looks like it has traces of life.<New>
+On top of that, it's slowly turning red. I'm getting bad vibes from just looking at it.<End>
 <End of Block>
 
 <Text entry 220, pointer>
@@ -1450,7 +1454,10 @@ The healing pots... upstairs... I must...<End>
 <End of Block>
 
 <Text entry 354>
-<Gilbart>: You can find the Sand Pearl in the Antlion Cave, which lies to the east. The ruby forms from the fluid that the antlion secretes when it lays eggs. We must cross the shallows with our hovercraft to reach the cave. After we acquire the Sand Pearl, we can cross the shallows to reach Kaipo.<End>
+<Gilbart>: You can find the Sand Pearl in the Antlion Cave, which lies to the east.<New>
+The ruby forms from the fluid that the antlion secretes when it lays eggs.<New>
+We must cross the shallows with our hovercraft to reach the cave.<New>
+After we acquire the Sand Pearl, we can cross the shallows to reach Kaipo.<End>
 <End of Block>
 
 <Text entry 355>
@@ -1497,7 +1504,10 @@ I had planned to head across Mt. Hobs to Fabul, but the trail was blocked by thi
 <End of Block>
 
 <Text entry 365>
-<Cecil>: That's enough! You're now the rightful ruler of Damcyan, so start acting like it! You owe it to your people, and most of all, you owe it to <Anna>. King of Damcyan, my name is <Cecil>, and I need your help.<New>
+<Cecil>: That's enough!<New>
+You're now the rightful ruler of Damcyan, so start acting like it!<New>
+You owe it to your people, and most of all, you owe it to <Anna>.<New>
+King of Damcyan, my name is <Cecil>, and I need your help.<New>
 <Gilbart>: Huh?<New>
 <Cecil>: My friend is suffering from desert fever in Kaipo. I need to get the Sand Pearl to save her. Can you help me?<New>
 <Gilbart>: ...What is her name?<New>
@@ -1633,7 +1643,10 @@ King: Fabul has suffered much. We must regroup and protect the people. Do not wo
 <End of Block>
 
 <Text entry 398>
-King: I see. I will arrange for a ship right away. <Yang>, accompany <Cecil> and help him with the rescue. <Cecil>, take this sword. It belonged to a dark knight who came to Fabul many years ago. The sword exudes tremendous force, but it is still a weapon of darkness. Darkness can never prevail over true evil.<End>
+King: I see. I will arrange for a ship right away. <Yang>, accompany <Cecil> and help him with the rescue.<New>
+<Cecil>, take this sword. It belonged to a dark knight who came to Fabul many years ago.<New>
+The sword exudes tremendous force, but it is still a weapon of darkness.<New>
+Darkness can never prevail over true evil.<End>
 <End of Block>
 
 <Text entry 399>
@@ -1883,7 +1896,10 @@ Cleric: Oh, my goodness!<End>
 <End of Block>
 
 <Text entry 459>
-The Earth Crystal, indeed! How the hell'd you...! Three cheers! BANZAI!<End>
+The Earth Crystal, indeed!<New>
+How the hell'd you...!<New>
+Three cheers!<New>
+BANZAI!<End>
 <End of Block>
 
 <Text entry 460>
@@ -2058,11 +2074,15 @@ T<End>
 <End of Block>
 
 <Text entry 502, pointer>
-Move characters with low vitalities to the Back Row. Press the left directional button during battle to switch between front and back rows, and press the right directional button to Parry. To use a weapon in your inventory during battle, select Item and press the up directional button until the Weapon Menu appears. You can wield different weapons and replenish arrows by choosing them in this menu.<End>
+Move characters with low vitalities to the Back Row.<New>
+Press the left directional button during battle to switch between front and back rows, and press the right directional button to Parry.<New>
+To use a weapon in your inventory during battle, select Item and press the up directional button until the Weapon Menu appears.<New>
+You can wield different weapons and replenish arrows by choosing them in this menu.<End>
 <End of Block>
 
 <Text entry 503>
-You must make quick decisions in battle! Slow down the battle speed if you're still a beginner. If you select "Active" Battle Mode in the Config Menu, monsters will attack even while you are choosing items or magic.<End>
+You must make quick decisions in battle! Slow down the battle speed if you're still a beginner.<New>
+If you select "Active" Battle Mode in the Options Menu, monsters will attack even while you are choosing items or magic.<End>
 <End of Block>
 
 <Text entry 504>
@@ -2070,7 +2090,8 @@ Caverns have save points. Use them wisely.<End>
 <End of Block>
 
 <Text entry 505>
-If your inventory becomes full, go talk to Fat Chocobo in a Chocobo Forest. He will hold onto your stuff for you. Use a Gysahl when the smell of chocobo is in the air.<End>
+If your inventory becomes full, go talk to Fat Chocobo in a Chocobo Forest. He will hold onto your stuff for you.<New>
+Use a Gysahl when the smell of chocobo is in the air.<End>
 <End of Block>
 
 <Text entry 506>
@@ -2078,7 +2099,9 @@ The man next to you is Namingway. Talk to him if you want to change your name.<E
 <End of Block>
 
 <Text entry 507>
-To escape from battle, press the R1 and L1 buttons simultaneously. You can cast some spells on multiple targets. During battle, press the left directional button to target all enemies or the right directional button to target all allies. When casting magic outside of battle, press the left button or the right button to target all allies.<End>
+To escape from battle, press the R and L buttons simultaneously.<New>
+You can cast some spells on multiple targets. During battle, press the left directional button to target all enemies or the right directional button to target all allies.<New>
+When casting magic outside of battle, press the left button or the right button to target all allies.<End>
 <End of Block>
 
 <Text entry 508, pointer>

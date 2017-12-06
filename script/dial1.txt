@@ -146,18 +146,10 @@ innocent people to get the Crystals...?<End>
 
 <Text entry 34>
 Crew: But, Captain!<New>
-Crew: Surely you don't condone what we've
-done, Captain?<New>
-<Cecil>: All of you, listen well. The
-raid on Mysidia was imperative.<New>
-His Majesty and his council concluded that
-the Mysidians, who know much about the
-Crystals, posed a serious threat to our
-kingdom.<New>
-For Baron to prosper, we need the
-Crystals. As soldiers of the Royal Air
-Force, we must achieve this by any means
-necessary.<New>
+Crew: Surely you don't condone what we've done, Captain?<New>
+<Cecil>: All of you, listen well. The raid on Mysidia was imperative.<New>
+His Majesty and his council concluded that the Mysidians, who know much about the Crystals, posed a serious threat to our kingdom.<New>
+For Baron to prosper, we need the Crystals. As soldiers of the Royal Air Force, we must achieve this by any means necessary.<New>
 Crew: Captain!<End>
 <End of Block>
 
@@ -530,7 +522,9 @@ Exposed <Rosa> to Sand Pearl light<End>
 <Rosa>: I'm fine. I thought...<Music 19><New>
 I had lost you. Weren't you in Mist when the earthquake struck?<New>
 <Cecil>: Yeah. I'm sorry I worried you... <Rosa>, who is <Golbeza>?<New>
-<Rosa>: He's the new captain of the Red Wings, appointed by the king himself. The king has not been himself lately. I believe <Golbeza> is manipulating him to collect the Crystals for himself. With Mysidia's Water Crystal in hand, he'll surely go after the other three-- the Fire Crystal of Damcyan, the Wind Crystal of Fabul, and the Earth Crystal of Troia.<End>
+<Rosa>: He's the new captain of the Red Wings, appointed by the king himself. The king has not been himself lately.<New>
+I believe <Golbeza> is manipulating him to collect the Crystals for himself.<New>
+With Mysidia's Water Crystal in hand, he'll surely go after the other three-- the Fire Crystal of Damcyan, the Wind Crystal of Fabul, and the Earth Crystal of Troia.<End>
 <End of Block>
 
 <Text entry 106>
@@ -963,7 +957,8 @@ Scarmiglione: I shall return with his head shortly.<End>
 <End of Block>
 
 <Text entry 194>
-<Tella>: Against the likes of <Golbeza>, my spells still lack power. So I've traveled here to seek the legendary spell, Meteor. I sense a strong aura on this mountain. I believe it holds some secret.<New>
+<Tella>: Against the likes of <Golbeza>, my spells still lack power. So I've traveled here to seek the legendary spell, Meteor.<New>
+I sense a strong aura on this mountain. I believe it holds some secret.<New>
 <Porom>: But that spell is much too dangerous! It requires tremendous vitality, and for a man of your age... Forgive me.<New>
 <Tella>: I admit, I am old. But I will make <Golbeza> pay, even if it costs my life!<End>
 <End of Block>
@@ -1100,12 +1095,13 @@ Dark Elf: I comMEND your efFort. But your excurSION ends here. You will nevER ge
 
 <Text entry 222>
 Where are you going!? You're in no condition to move!<New>
-<Gilbart>: I'm alright. I just want to...get my harp to--ugh! Please! Return to your bed!<New>
+<Gilbart>: I'm alright. I just want to...get my harp to--ugh!<New>
+Please! Return to your bed!<New>
 <Gilbart>: «Hack-hack!» ...I must help them.<End>
 <End of Block>
 
 <Text entry 223>
-The Twin Harp sounds the melody from <Gilbart>'s harp<New>
+The Whisperweed sounds the melody from <Gilbart>'s harp<New>
 <Yang>: ...?<New>
 <Tella>: This melody...<New>
 <Cecil>: It's <Gilbart>!<New>
@@ -1126,12 +1122,12 @@ Dark Elf: This canNOT be! With the crysTAL... my eterNAL life... GaaaAH!<End>
 
 <Text entry 227>
 <Cecil>: Thank you.<New>
-<Cid>: So how'd you manage to distract that magneto-head?<New>
-<Gilbart>: I first heard that<End>
+<Cid>: So how'd you manage to distract that magneto-head?<End>
 <End of Block>
 
 <Text entry 228>
-melody back when I traveled as a minstrel. I learned it was a song to remonstrate elves. Quite frankly, I'm surprised it worked.<New>
+<Gilbart>: I first heard that melody back when I traveled as a minstrel.<New>
+I learned it was a song to remonstrate elves. Quite frankly, I'm surprised it worked.<New>
 <Yang>: We owe you our lives.<New>
 <Gilbart>: No, I only--ugh!<End>
 <End of Block>
@@ -1139,7 +1135,7 @@ melody back when I traveled as a minstrel. I learned it was a song to remonstrat
 <Text entry 229>
 <Tella>: I have long wondered what <Anna> saw in a worm like you... Courage, rising from integrity... She was fortunate to receive your love.<New>
 <Gilbart>: ...<New>
-<Tella>: Now be silent and heal your wounds. I promise you I shall avenge <Anna>...for both of us.<New>
+<Tella>: Now be silent and heal your wounds. I promise you I shall avenge <Anna>... for both of us.<New>
 <Gilbart>: Thank you...<New>
 <Cecil>: <Gilbart>, I look forward to fighting alongside you again.<End>
 <End of Block>
@@ -1430,7 +1426,10 @@ Our paths cross again...<End>
 
 <Text entry 279>
 <Cecil>: <Golbeza>!<New>
-<Golbeza>: I commend you for finding your way to the underworld. To reward your efforts, I shall tell you why I am collecting the Crystals. The eight Crystals of light and dark are the keys to reactivating the Tower of Babil, which leads to the moon. Legends say the moon possesses power beyond our comprehension. I need only one more Crystal to realize my dream. You have been of great aid to my quest. Now prepare for your final reward!<End>
+<Golbeza>: I commend you for finding your way to the underworld. To reward your efforts, I shall tell you why I am collecting the Crystals.<New>
+The eight Crystals of light and dark are the keys to reactivating the Tower of Babil, which leads to the moon.<New>
+Legends say the moon possesses power beyond our comprehension. I need only one more Crystal to realize my dream.<New>
+You have been of great aid to my quest. Now prepare for your final reward!<End>
 <End of Block>
 
 <Text entry 280>
@@ -1440,7 +1439,9 @@ Our paths cross again...<End>
 <Text entry 281>
 <Rosa>: <Rydia>...!<New>
 <Cecil>: What happened to you?<New>
-<Rydia>: Leviathan took me to the Feymarch. A world where all the Eidolons live. We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner. Time flows differently there, so maybe I've aged faster.<New>
+<Rydia>: Leviathan took me to the Feymarch, a world where all the Eidolons live.<New>
+We became friends during my stay. I learned a lot there. I can't use white magic anymore, but I've grown stronger as a summoner.<New>
+Time flows differently there, so maybe I've aged faster.<New>
 <Rosa>: That explains why you look all grown up.<New>
 <Cain>: <Cecil>, who is she?<New>
 <Cecil>: The girl we found in Mist.<New>
@@ -1533,11 +1534,15 @@ Hello, <Cecil>. The boss ordered us to attach this hook to the Enterprise. It wo
 <End of Block>
 
 <Text entry 299>
-It's done. Now you can hoist and carry the hovercraft. Just fly the Enterprise right over the hovercraft and press the confirm button to load and unload the vehicle. With both vehicles you can go pretty much anywhere now, even the Cave of Eblana by the Tower of Babil.<End>
+It's done. Now you can hoist and carry the hovercraft.<New>
+Just fly the Enterprise right over the hovercraft and press the confirm button to load and unload the vehicle.<New>
+With both vehicles you can go pretty much anywhere now, even the Cave of Eblana by the Tower of Babil.<End>
 <End of Block>
 
 <Text entry 300>
-<Cecil>: There's something I must tell you both. It's about <Cid>... He's-- He's impossible. Yes, we know. With all that crazy energy, I can't imagine he'll ever check out. Please baby-sit him awhile longer.<End>
+<Cecil>: There's something I must tell you both. It's about <Cid>...<New>
+He's-- He's impossible.<New>
+Yes, we know. With all that crazy energy, I can't imagine he'll ever check out. Please baby-sit him awhile longer.<End>
 <End of Block>
 
 <Text entry 301>
@@ -1665,7 +1670,9 @@ All: Good fortune, Your Highness!<New>
 <End of Block>
 
 <Text entry 321>
-<Tella>: Indeed I am. That girl! She is a summoner! Perfect! She can help, too! A giant monster lurks in the underground lake ahead. The Tetrarch even withstands my magic. Together, I think we can defeat it, and then I can finally be on my way!<New>
+<Tella>: Indeed I am. That girl! She is a summoner! Perfect! She can help, too!<New>
+A giant monster lurks in the underground lake ahead. The creature even withstands my magic.<New>
+Together, I think we can defeat it, and then I can finally be on my way!<New>
 <Cecil>: We're heading to Damcyan as well.<New>
 <Tella>: Then let us hurry!<End>
 <End of Block>
@@ -1900,7 +1907,9 @@ Elder: ...Still stubborn as a mule, I see.<New>
 <Tella>: And you still have a big mouth!<New>
 Elder: Nevertheless, with your spells and <Cecil>'s newfound power, you might be able to defeat <Golbeza>.<New>
 <Cecil>: In any case, we must return to Baron to commandeer an airship first.<New>
-Elder: Very well. I will have the Devil's Road opened. As a paladin, I am certain you can safely travel the bedeviled path. Well, I will retire to the Tower of Worship now. <Cecil>, <Tella>, I pray for your success.<New>
+Elder: Very well. I will have the Devil's Road opened. As a paladin, I am certain you can safely travel the bedeviled path.<New>
+Well, I will retire to the Tower of Worship now.<New>
+<Cecil>, <Tella>, I pray for your success.<New>
 <Cecil>: Thank you.<End>
 <End of Block>
 
@@ -2003,7 +2012,8 @@ Then dig your way out.<End>
 
 <Text entry 381>
 <Cecil>: The light at Ordeals called me "son." What was that light?<New>
-Elder: I don't know, nor do I know what the legend means. But we Mysidians, for generations, are told to pray for the fulfillment of this legend and to believe in the one with the sacred light. And I believe you just might be that one.<End>
+Elder: I don't know, nor do I know what the legend means.<New>
+But we Mysidians, for generations, are told to pray for the fulfillment of this legend and to believe in the one with the sacred light. And I believe you just might be that one.<End>
 <End of Block>
 
 <Text entry 382>
@@ -2669,7 +2679,8 @@ Those damned by Zemus shall never bear this sword!<End>
 <End of Block>
 
 <Text entry 510>
-Doctor: You're too late. The Tower of Babil connects the underworld and the overworld, and Rubicante has already taken all the Crystals to the surface. And my super cannons will blow the dwarves away! I win, I win! Uwee-hee--UGH!<End>
+Doctor: You're too late. The Tower of Babil connects the underworld and the overworld, and Rubicante has already taken all the Crystals to the surface.
+<New>And my super cannons will blow the dwarves away! I win, I win! Uwee-hee--UGH!<End>
 <End of Block>
 
 <Text entry 511>

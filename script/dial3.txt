@@ -297,10 +297,16 @@ Elder: Knight of Baron... What do you want this time?<New>
 Elder: Apologies will not bring the dead back to life.<New>
 <Cecil>: ...<New>
 Elder: So...you have mourned and suffered as we have... You are not the mindless killer you once were. What brings you here?<New>
-<Cecil>: A sorcerer named <Golbeza> now commands Baron's forces, and took my friend captive. While en route to Baron to rescue her, my companions and I were attacked by Leviathan. I was shipwrecked here, and I don't know what's become of the others.<New>
-Elder: I sense your trials are just beginning. But while you depend upon the dark sword, you cannot overcome true evil. Moreover, you might be consumed by its darkness someday. If you wish to fight evil with righteousness, go to Mt. Ordeals, which lies to the east of Mysidia.<New>
+<Cecil>: A sorcerer named <Golbeza> now commands Baron's forces, and took my friend captive.<New>
+While en route to Baron to rescue her, my companions and I were attacked by Leviathan.<New>
+I was shipwrecked here, and I don't know what's become of the others.<New>
+Elder: I sense your trials are just beginning. But while you depend upon the dark sword, you cannot overcome true evil.<New>
+Moreover, you might be consumed by its darkness someday.<New>
+If you wish to fight evil with righteousness, go to Mt. Ordeals, which lies to the east of Mysidia.<New>
 <Cecil>: But my comrades...<New>
-Elder: There is a time for everything. First, you must climb Mt. Ordeals and renounce this evil sword for a holy sword. Only then can you receive light and become a holy knight-- a paladin. Many have ventured to Ordeals to become a paladin, but none have ever returned. Will you risk your life as well and go to Ordeals?<New>
+Elder: There is a time for everything. First, you must climb Mt. Ordeals and renounce this evil sword for a holy sword.<New>
+Only then can you receive light and become a holy knight-- a paladin. Many have ventured to Ordeals to become a paladin, but none have ever returned.<New>
+Will you risk your life as well and go to Ordeals?<New>
 <Cecil>: Yes.<New>
 Elder: You face heavy odds by going alone. I will assign two mages to accompany you. <Palom>! <Porom>!<End>
 <End of Block>
@@ -332,7 +338,10 @@ Old Man: I am <Fusuya>, guardian of the Lunarians.<New>
 <Rosa>: Insane...<New>
 <Fusuya>: Such is not the Lunarians' wish. They quietly wait for earthlings to evolve, and long to commune with them one day.<New>
 <Cecil>: How did the Lunar Whale come into being?<New>
-<Fusuya>: My brother Kluya made it long ago to go to the blue planet, which he had longed to visit. He introduced the concept of airships and the Devil's Road to your people. Moreover, he fell in love with an earthling. She bore two children. You are one.<End>
+<Fusuya>: My brother Kluya made it long ago to go to the blue planet, which he had longed to visit.<New>
+He introduced the concept of airships and the Devil's Road to your people.<New>
+Moreover, he fell in love with an earthling.<New>
+She bore two children. You are one.<End>
 <End of Block>
 
 <Text entry 63>
@@ -358,7 +367,8 @@ Lunarian <Fusuya> joined the party<Music 41><Delay 40><End>
 
 <Text entry 67>
 <Rosa>: As long as evil dwells in the hearts...<New>
-<Fusuya>: In every heart, there resides good and evil... just as the Crystals of light and dark exist, just as the overworld and underworld together form the Earth. Against evil will, good will arises; thus did you overcome Zemus.<New>
+<Fusuya>: In every heart, there resides good and evil... just as the Crystals of light and dark exist, just as the overworld and underworld together form the Earth.<New>
+Against evil will, good will arises; thus did you overcome Zemus.<New>
 <Edge>: Ahh, it was nothin'. I was born a hero.<End>
 <End of Block>
 
@@ -759,7 +769,9 @@ King: You have returned.<End>
 
 <Text entry 156>
 <Cecil>: Your Majesty...<New>
-King: Do not grieve. Through death, I have attained eternal power. That summoner of Mist may call upon me at will; thereupon, I shall appear as an almighty Eidolon. But our law decrees that I must first test your worth. Do not fail.<End>
+King: Do not grieve. Through death, I have attained eternal power.<New>
+That summoner of Mist may call upon me at will; thereupon, I shall appear as an almighty Eidolon.<New>
+But our law decrees that I must first test your worth. Do not fail.<End>
 <End of Block>
 
 <Text entry 157>
