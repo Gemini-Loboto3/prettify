@@ -239,7 +239,8 @@ King: Silence! Dissension only leads to treason, and that, I will not tolerate. 
 <End of Block>
 
 <Text entry 51>
-King: Now, I charge you with another duty. Slay the Eidolon that infests the Mist Valley, and deliver this Carnelian Signet to the village Mist. You leave tomorrow, at first light.<End>
+King: Now, I charge you with another duty. Slay the Eidolon that infests the Mist Valley, and deliver this Carnelian Signet to the village Mist.<New>
+You leave tomorrow, at first light.<End>
 <End of Block>
 
 <Text entry 52>
@@ -289,7 +290,9 @@ King: You insolent cur! How dare you barge in here!? If you're so concerned abou
 <End of Block>
 
 <Text entry 60>
-<Cecil>: What's happened to the king? He covets the Crystals as though he's possessed... and he'll resort to any means to get them. Nevertheless, I can't defy him. How could I cross the man who raised <Cain> and me like his very own? The chivalrous knight whom I've adored and admired since childhood? I will not betray him. I can't.<End>
+<Cecil>: What's happened to the king? He covets the Crystals as though he's possessed... and he'll resort to any means to get them.<New>
+Nevertheless, I can't defy him. How could I cross the man who raised <Cain> and me like his very own?<New>
+The chivalrous knight whom I've adored and admired since childhood? I will not betray him. I can't.<End>
 <End of Block>
 
 <Text entry 61>
@@ -302,7 +305,8 @@ King: You insolent cur! How dare you barge in here!? If you're so concerned abou
 <End of Block>
 
 <Text entry 63>
-<Cecil>: In Mysidia, we killed innocent people to steal their... It was horrible. I guess it's my fate as a dark knight. Soon, I won't even feel any remorse for my actions.<End>
+<Cecil>: In Mysidia, we killed innocent people to steal their... It was horrible.<New>
+I guess it's my fate as a dark knight. Soon, I won't even feel any remorse for my actions.<End>
 <End of Block>
 
 <Text entry 64>
@@ -2305,8 +2309,7 @@ Received Earth Crystal<Music 41><Delay 40><End>
 
 <Text entry 445>
 <Gilbart>: <Cecil>, whatever became of <Rosa>!?<New>
-<Cecil>: <Golbeza> proposed<New>
-a trade: Troia's Crystal for <Rosa>'s return. But the Crystal lies in the hands of the Dark Elf.<End>
+<Cecil>: <Golbeza> proposed a trade: Troia's Crystal for <Rosa>'s return. But the Crystal lies in the hands of the Dark Elf.<End>
 <End of Block>
 
 <Text entry 446>

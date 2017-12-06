@@ -984,9 +984,13 @@ This tower is off-limits.<End>
 <End of Block>
 
 <Text entry 243>
-<Cid>: I told you before, and I'll tell you again. If you EVER make her cry, I'm gonna-- I...I'm not gonna let you ride my airships. So, how are my babies doin'? I'll bet you and your grunts crashed them again, huh? What's the matter with you, boy?<New>
+<Cid>: I told you before, and I'll tell you again. If you EVER make her cry, I'm gonna-- I...I'm not gonna let you ride my airships.<New>
+So, how are my babies doin'? I'll bet you and your grunts crashed them again, huh? What's the matter with you, boy?<New>
 <Cecil>: Well...<New>
-<Cid>: WHAT!? The king demoted you to an errand boy!? What about my Red Wings!? They'll be a mess without you! What's come over the king? Maybe I should think twice about workin' on the new prototype he's been hounding me to finish. Hell if I'm gonna let him use my beloved airships as killin' machines! <Cecil>, you and me, we gotta stick together on this. Now, you go complete your mission and get back safe, you hear? Whoa, I've gotta get home, or my daughter's gonna kill me.<End>
+<Cid>: WHAT!? The king demoted you to an errand boy!? What about my Red Wings!? They'll be a mess without you! What's come over the king?<New>
+Maybe I should think twice about workin' on the new prototype he's been hounding me to finish. Hell if I'm gonna let him use my beloved airships as killin' machines!<New>
+<Cecil>, you and me, we gotta stick together on this. Now, you go complete your mission and get back safe, you hear?<New>
+Whoa, I've gotta get home, or my daughter's gonna kill me.<End>
 <End of Block>
 
 <Text entry 244>

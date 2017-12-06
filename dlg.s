@@ -467,21 +467,20 @@ define .buffer		$774
 	sta $632
 	jsr Fld_format_number_ex
 	ldx.w #0
--
+.varloop:
 	lda $636,x
 	cmp.b #$80				// '0'
-	bne +
+	bne .varskip
 	inx
 	cpx.w #5
-	beq +
-	jmp -
-+
--
+	beq .varskip
+	jmp .varloop
+.varskip:
 	lda $636,x
 	jsr .write
 	inx
 	cpx.w #6
-	bne -
+	bne .varskip
 	jmp .loop
 .end:		// 0
 	jsr .write
@@ -1023,7 +1022,7 @@ Fld_format_number_ex:
 	lsr
 	tax
 	tya
-	sta $632,x
+	sta $634,x
 	plx
 	inx
 	inx
@@ -1043,8 +1042,8 @@ db	5,5,5,5,5,5,5,6,4,5,6,5,6,6,5,5
 db	5,5,5,6,6,6,6,6,6,6,5,5,5,5,5,4
 //	g h i j k l m n o p q r s t u v
 db	5,5,2,3,5,2,6,5,5,5,5,5,5,4,5,5
-//	w x y z & # + ( ) woxzxaxuxo0 1
-db	6,6,5,5,6,6,6,4,4,5,5,5,5,5,5,4
+//	w x y z & # + ( ) « » ; xuxo0 1
+db	6,6,5,5,6,6,6,4,4,5,5,3,5,5,5,4
 //  2 3 4 5 6 7 8 9 à è é ì ò ö ù ü
 db	5,5,5,5,5,5,5,5,5,5,5,3,5,5,5,5
 //	À È É Ì Ò Ù ~ = titutetonaninune
