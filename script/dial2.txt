@@ -2381,7 +2381,7 @@ Kahahahaha... You have defeated me... but you have not heard the last of Cagnazz
 
 <Text entry 567>
 <Cecil>: NOOO!<New>
-<Palom> & <Porom>: Stone!<End>
+<Palom> & <Porom>: Break!<End>
 <End of Block>
 
 <Text entry 568>
@@ -2401,7 +2401,7 @@ The spell has no effect, as the twins have become stone of their own will.<End>
 <End of Block>
 
 <Text entry 572>
-<Tella>: Hold on! Esuna!<End>
+<Tella>: Hold on! S-Null!<End>
 <End of Block>
 
 <Text entry 573>
