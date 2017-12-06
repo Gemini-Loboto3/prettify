@@ -1,3 +1,4 @@
+// various font sets
 org $208000
 font_bin:
 	incbin "font.bin"
@@ -13,7 +14,6 @@ St_set_name:
 	incbin "st_name.sfc"
 St_set_config:
 	incbin "st_optn.sfc"
-// 4096 bytes empty
 Fld_font8_dlg:
 	incbin "font8_dlg.bin"
 Fld_font16_dlg:
@@ -25,10 +25,12 @@ org $218000
 item_bin:
 	incbin "item.sfc"
 	
+// takes at least 3 banks
 org $238000
 item_desc_gfx:
 	incbin "item_desc.sfc"
 
+// dialog string and pointer bank
 org $268000
 dialog_pptr2:
 	incbin "dial.ptr"
@@ -41,7 +43,7 @@ dialog_ptr3:
 dialog_data:
 	incbin "dial.bin"
 	
-// include further data here
+// mode 7 data and graphics
 org $2A8000
 prophecy_mes:
 	incbin "prophecy.bin"

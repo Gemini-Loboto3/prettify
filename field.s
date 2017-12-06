@@ -47,8 +47,37 @@ Fld_dialog:
 Fld_dialogs:
 	jsl Fld_dlg_pages
 	rts
-
+	
+Legend:
+	jsl Fld_dlg8_page
+	lda.b #0
+	jsl Fld_legend_dma
+	jsl Fld_dlg8_pages
+	lda.b #1
+	jsl Fld_legend_dma
+	rts
 warnpc $00B670
+
+// replace how Mysidian legend works
+org $00C78E
+	nop				// kill font replacement
+	nop
+	nop
+	nop
+org $00C7F6
+	jsl Fld_legend_pal
+	jmp $C80F		// resort to old code
+org $00C819
+	lda.b #$d3		// vertical centering of text, was C8
+org $00C7A0
+	lda.b #9		// was FF before
+org $00C7B4
+	jsr Legend		// hook
+	jmp $C7C6		// resort to old code
+org $00C858
+	jsl Fld_legend_pal_w
+	nop
+	nop
 
 // replace font for dialog with reduced set
 org $8468

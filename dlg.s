@@ -16,6 +16,7 @@ define vwf_jmp_x	$792		// jumptable index
 define dlg_buffer	$704000		// where expanded dialog is stored
 define vwf_canvas	$7ee600		// canvas for proportional rendering
 define w_spc		4			// width of a space (it's not in the width table)
+define w_spc8		3			// width of a space for 8x8 font
 	
 //////////////////////////////
 // CODE FOR NMI				//
@@ -78,12 +79,106 @@ Fld_dlg_trans_canvas:
 	jsr Fld_DMA_trans
 	plp
 	rtl
+	
+Fld_legend_pal:
+	rep #$20
+-
+	lda.w #$4000	// blue
+	sta $CDD,x		// color 1
+	sta $CDF,x		// color 2
+	sta $CE1,x		// color 3
+	txa
+	clc
+	adc.w #8		// next palette
+	tax
+	cmp.w #64
+	bne -
+	sep #$20
+	rtl
+
+Fld_legend_pal_w:
+	sta $CE1,x
+	// halve yellow into gray
+	lsr
+	and.w #%0000000111101111
+	ora.w #%0100000000000000
+	sta $CDF,x		// store attenuated color for shade
+	lda.w #0		// old code
+	rtl
+	
+// A.8 page
+Fld_legend_dma:
+	php
+	cmp.b #0
+	bne .page1
++
+	rep #$20						// A.16
+	// tiles
+	lda.w #({vwf_canvas} & 0xffff)	// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #({vwf_canvas} >> 16)		// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2100					// destination
+	sta {vwf_dma_dst}
+	lda.w #(24*4*16)				// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	// tilemap
+	lda.w #(prol_tmap_tbl0 & 0xffff)// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #(prol_tmap_tbl0 >> 16)	// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2C00					// destination
+	sta {vwf_dma_dst}
+	lda.w #(32*2*8)					// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	bra .end
+.page1:
+	rep #$20						// A.16
+	// tiles
+	lda.w #({vwf_canvas} & 0xffff)	// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #({vwf_canvas} >> 16)		// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2400					// destination
+	sta {vwf_dma_dst}
+	lda.w #(24*4*16)				// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	// tilemap
+	lda.w #(prol_tmap_tbl1 & 0xffff)// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #(prol_tmap_tbl1 >> 16)	// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2D00					// destination
+	sta {vwf_dma_dst}
+	lda.w #(32*2*8)					// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+.end:
+	plp
+	rtl
 
 Fld_prolog_dma:
 
 //////////////////////////////
 // STRING HANDLING			//
 //////////////////////////////
+Fld_dlg8_page:
+	stz {dlg_seek}
+	stz {dlg_seek}+1
+	jsr Fld_expand_dialog		// copy dialog to buffer
+Fld_dlg8_pages:
+	jsr Fld_vwf_clear_canvas
+	jsr Fld_parse_dialog8		// do the actual rendering
+	jsr Fld_vwf_flip_canvas
+	//jsr Fld_wait_NMI			// wait next nmi
+	// enable canvas transfer
+	//lda.b #1
+	//sta $ed
+	rtl
+
 Fld_dlg_page0:
 	stz {dlg_seek}
 	stz {dlg_seek}+1
@@ -92,17 +187,20 @@ Fld_dlg_pages:
 	jsr Fld_vwf_clear_canvas
 	jsr Fld_parse_dialog		// do the actual rendering
 	jsr Fld_vwf_flip_canvas
-	// wait next nmi
+	jsr Fld_wait_NMI			// wait next nmi
+	// enable canvas transfer
+	lda.b #1
+	sta $ed
+	rtl
+	
+Fld_wait_NMI:
 	lda.b #1
 	sta $7d
 -
 	lda $7d
 	bne -
 	inc $7d
-	// enable canvas transfer
-	lda.b #1
-	sta $ed
-	rtl
+	rts
 
 Fld_ptr_bank1_0:
 	php
@@ -236,8 +334,46 @@ Fld_parse_dialog:
 	plp
 	rts
 	
-.write:
-.read:
+Fld_parse_dialog8:
+	php
+	sep #$20			// A.8
+	ldx {dlg_seek}		// load any previous seek
+	stz {vwf_draw_x}
+	stz {vwf_draw_x}+1
+	stz {vwf_draw_y}
+	stz {vwf_draw_y}+1
+-
+	lda {dlg_buffer},x
+	inx
+	cmp.b #0			// end
+	bne +
+	// treat end
+	lda.b #1			// send signal that this is the last window
+	sta $DE
+	bra .end
++
+	cmp.b #1			// line break
+	bne +
+	// treat line break
+	jsr Fld_vwf8_carry_line
+	// check if we're above 4 lines of text
+	lda {vwf_draw_y}
+	cmp.b #(8*4)
+	bcc -				// below 4 lines, keep going
+	bra .end
++
+	cmp.b #$a			// center
+	bne +
+	jsr Fld_center8
+	bra -
++
+	jsr Fld_vwf8_draw_char
+	bra -
+.end:
+	stx {dlg_seek}		// store current seek
+	plp
+	rts
+
 
 //org $00B45B
 // expands dialog to a buffer
@@ -272,7 +408,8 @@ define .buffer		$774
 .line:		// 01
 .auto:		// 06
 .page:		// 09
-.char:		// 0a-ff
+.center:	// 0a
+.char:		// 0b-ff
 	jsr .write
 	jmp .loop
 .align:		// 02
@@ -357,7 +494,7 @@ define .buffer		$774
 .jmp_tbl:
 dw .end,  .line,  .align, .music
 dw .name, .pause, .auto,  .item
-dw .var,  .page
+dw .var,  .page,  .center
 
 .read:
 	lda [{dlg_read_ptr}]
@@ -488,7 +625,7 @@ Fld_vwf_draw_char:
 	plp
 	rts
 .jtbl:
-	dw .lsr0, .lsr1, .lsr2, .lsr3, .lsr4, .lsr5, .lsr6, .lsr7	
+	dw .lsr0, .lsr1, .lsr2, .lsr3, .lsr4, .lsr5, .lsr6, .lsr7
 
 // calculates seek on canvas
 .calc_seek:
@@ -511,6 +648,118 @@ Fld_vwf_draw_char:
 	asl
 	asl
 	asl
+	adc {vwf_seek}
+	sta {vwf_seek}
+	plp
+	pla
+	rts
+	
+// parameters:
+// A.8 character to print
+Fld_vwf8_draw_char:
+	php
+	phx
+	phy
+	pha
+	cmp.b #$40					// check if it's a space
+	bne +
+	jmp .end					// skip all rendering for spaces
++
+	// calculate seek on font
+	rep #$20					// A.16
+	and.w #$00ff
+	sec
+	sbc.w #$0f					// align with font order
+	asl							// char * 16
+	asl
+	asl
+	asl
+	sta {vwf_temp_1}
+	jsr .calc_seek				// calculate where to write
+	lda {vwf_draw_x}			// calculate jump table index
+	and.w #$7					// x % 8 * 2
+	asl
+	sta {vwf_jmp_x}
+	lda.w #8*2					// process 8 scanlines (16 planes)
+	sta {vwf_line}
+	lda {vwf_temp_1}			// reload font seek
+	tax
+.line:
+	lda font_name,x			// load font plane
+	inx							// plane++
+	and #$00ff
+	beq .skip					// skip empty lines
+	xba
+	txy							// preserve font seek
+	ldx {vwf_jmp_x}
+	jmp (.jtbl,x)
+.lsr7:
+	lsr
+.lsr6:
+	lsr
+.lsr5:
+	lsr
+.lsr4:
+	lsr
+.lsr3:
+	lsr
+.lsr2:
+	lsr
+.lsr1:
+	lsr
+.lsr0:
+	ldx {vwf_seek}				// load where to write in buffer
+	sep #$20					// A.8
+	xba							// shifted glyph
+	beq +						// skip if empty
+	sta {vwf_temp_0}
+	lda {vwf_canvas},x			// load previous plane data
+	ora {vwf_temp_0}			// combine
+	sta {vwf_canvas},x			// store combined plane
++
+	xba							// overflow glyph
+	beq +						// skip if empty
+	sta ({vwf_canvas}+16),x		// write to next tile plane
++
+	tyx
+.skip:
+	rep #$20					// A.16
+	inc {vwf_seek}
+	dec {vwf_line}
+	bne .line
+.end:
+	sep #$20
+	pla
+	jsr Fld_vwf8_get_char_w		// x += width
+	clc
+	adc {vwf_draw_x}
+	sta {vwf_draw_x}
+	ply
+	plx
+	plp
+	rts
+.jtbl:
+	dw .lsr0, .lsr1, .lsr2, .lsr3, .lsr4, .lsr5, .lsr6, .lsr7
+	
+.calc_seek:
+	pha
+	php
+	rep #$20
+	//
+	lda {vwf_draw_x}		// (x & 0xfff8) * 2 + y * 24 * 2
+	and.w #$fff8
+	asl
+	sta {vwf_seek}
+	lda {vwf_draw_y}
+	sta {vwf_temp_0}		// * 3
+	asl
+	clc
+	adc {vwf_temp_0}
+	asl						// * 8
+	asl
+	asl
+	asl
+	clc
 	adc {vwf_seek}
 	sta {vwf_seek}
 	plp
@@ -540,6 +789,29 @@ Fld_vwf_get_char_w:
 	tax
 	lda font16_wtbl,x
 +
+.return:
+	plx
+	rts
+	
+// returns width of a character
+// parameters:
+// A.8 character to retrieve
+// returns
+// A.8 width of character
+Fld_vwf8_get_char_w:
+	phx
+	cmp.b #$40		// space
+	bne .not_space
+	lda.b #{w_spc8}	// space width
+	bra .return
+.not_space:
+	sec
+	sbc.b #$0f		// use 0x0f-0xff range
+	xba
+	lda.b #0
+	xba
+	tax
+	lda font_namew,x
 .return:
 	plx
 	rts
@@ -579,7 +851,17 @@ Fld_vwf_carry_line:
 	stz {vwf_draw_x}	// x = 0
 	stz {vwf_draw_x}+1
 	lda {vwf_draw_y}	// y += 14
+	clc
 	adc.b #14
+	sta {vwf_draw_y}
+	rts
+	
+Fld_vwf8_carry_line:
+	stz {vwf_draw_x}	// x = 0
+	stz {vwf_draw_x}+1
+	lda {vwf_draw_y}	// y += 8
+	clc
+	adc.b #8
 	sta {vwf_draw_y}
 	rts
 	
@@ -621,6 +903,42 @@ Fld_format_dlg:
 	sta {vwf_draw_x}	// x+=read
 	bra -
 .end:
+	rts
+	
+// A.8 location id
+Fld_parse_loc:
+-
+	//lda 
+	beq -
+
+// X.16 current string seek
+Fld_center8:
+	phx		// preserve seek
+	php
+	sep #$20
+	stz {vwf_draw_x2}
+	stz {vwf_draw_x2}+1
+-
+	lda {dlg_buffer},x		// load character
+	cmp.b #0				// check end
+	beq +
+	cmp.b #1				// check line
+	beq +
+	inx
+	jsr Fld_vwf8_get_char_w 
+	clc
+	adc {vwf_draw_x2}		// w += vwf8[c]
+	sta {vwf_draw_x2}
+	bra -
++
+	rep #$20
+	lda.w #(24*8)			// line width
+	sec
+	sbc {vwf_draw_x2}		// (24*8 - width) / 2
+	lsr
+	sta {vwf_draw_x}
+	plp
+	plx						// reload previous seek
 	rts
 
 // parameters
@@ -736,7 +1054,7 @@ db	8,8,8,8,8,8,8,8,8,8,8,8,8,8,8,8
 //	rurerowan XAXI" XEXOXZXAXUXO, .
 db	8,8,8,8,8,8,8,4,8,8,8,8,8,8,3,2
 //	- _ ! ? % / : ' A I U E O KAKIKU
-db	5,6,2,6,7,5,2,2,8,8,8,8,8,8,8,8
+db	6,6,2,6,7,5,2,2,8,8,8,8,8,8,8,8
 
 // tilemap used for regular dialog
 dlg_tmap_tbl:
@@ -758,11 +1076,19 @@ dw $2021,$2023,$2025,$2027,$2029,$202B,$202D,$202F,$2031,$2033,$2035,$2037
 // tilemap used for scrolling dialog (i.e. prologue)
 prol_tmap_tbl0:
 dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
-dw $2020,$2021,$2022,$2023,$2024,$2025,$2026,$2027,$2028,$2029,$202A,$202B,$202C,$202D,$202E,$202F,$2030,$2031,$2032,$2033,$2034,$2035,$2036,$2037
-dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
-dw $2038,$2039,$203A,$203B,$203C,$203D,$203E,$203F,$2040,$2041,$2042,$2043,$2044,$2045,$2046,$2047,$2048,$2049,$204A,$204B,$204C,$204D,$204E,$204F
-dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
-dw $2040,$2041,$2042,$2043,$2044,$2045,$2046,$2047,$2048,$2049,$204A,$204B,$204C,$204D,$204E,$204F,$2050,$2051,$2052,$2053,$2054,$2055,$2056,$2057
-dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
-dw $2058,$2059,$205A,$205B,$205C,$205D,$205E,$205F,$2050,$2051,$2052,$2053,$2054,$2055,$2056,$2057,$2058,$2059,$205A,$205B,$205C,$205D,$205E,$205F
+dw $2009,$2009,$2009,$2009,$2020,$2021,$2022,$2023,$2024,$2025,$2026,$2027,$2028,$2029,$202A,$202B,$202C,$202D,$202E,$202F,$2030,$2031,$2032,$2033,$2034,$2035,$2036,$2037,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2038,$2039,$203A,$203B,$203C,$203D,$203E,$203F,$2040,$2041,$2042,$2043,$2044,$2045,$2046,$2047,$2048,$2049,$204A,$204B,$204C,$204D,$204E,$204F,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2050,$2051,$2052,$2053,$2054,$2055,$2056,$2057,$2058,$2059,$205A,$205B,$205C,$205D,$205E,$205F,$2060,$2061,$2062,$2063,$2064,$2065,$2066,$2067,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2068,$2069,$206A,$206B,$206C,$206D,$206E,$206F,$2070,$2071,$2072,$2073,$2074,$2075,$2076,$2077,$2078,$2079,$207A,$207B,$207C,$207D,$207E,$207F,$2009,$2009,$2009,$2009
 prol_tmap_tbl1:
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2080,$2081,$2082,$2083,$2084,$2085,$2086,$2087,$2088,$2089,$208A,$208B,$208C,$208D,$208E,$208F,$2090,$2091,$2092,$2093,$2094,$2095,$2096,$2097,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2098,$2099,$209A,$209B,$209C,$209D,$209E,$209F,$20A0,$20A1,$20A2,$20A3,$20A4,$20A5,$20A6,$20A7,$20A8,$20A9,$20AA,$20AB,$20AC,$20AD,$20AE,$20AF,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$20B0,$20B1,$20B2,$20B3,$20B4,$20B5,$20B6,$20B7,$20B8,$20B9,$20BA,$20BB,$20BC,$20BD,$20BE,$20BF,$20C0,$20C1,$20C2,$20C3,$20C4,$20C5,$20C6,$20C7,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
+dw $2009,$2009,$2009,$2009,$20C8,$20C9,$20CA,$20CB,$20CC,$20CD,$20CE,$20CF,$20D0,$20D1,$20D2,$20D3,$20D4,$20D5,$20D6,$20D7,$20D8,$20D9,$20DA,$20DB,$20DC,$20DD,$20DE,$20DF,$2009,$2009,$2009,$2009

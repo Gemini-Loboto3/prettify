@@ -1,14 +1,14 @@
 ﻿<512 text entries>
 <Text entry 1>
-Inventory full<End>
+Inventory full.<End>
 <End of Block>
 
 <Text entry 2>
-Found <Item><End>
+Obtained <Item>.<End>
 <End of Block>
 
 <Text entry 3>
-Found <Value> Gil<End>
+Obtained <Value> Gil.<End>
 <End of Block>
 
 <Text entry 4>
@@ -16,15 +16,15 @@ Monsters!<End>
 <End of Block>
 
 <Text entry 5>
-Empty<End>
+It's empty.<End>
 <End of Block>
 
 <Text entry 6>
-Locked<End>
+It's locked.<End>
 <End of Block>
 
 <Text entry 7>
-Unlocked the door<End>
+Unlocked the door.<End>
 <End of Block>
 
 <Text entry 8>
@@ -36,11 +36,11 @@ All set!<End>
 <End of Block>
 
 <Text entry 10>
-HP restored and status effects removed<End>
+HP restored and status effects removed.<End>
 <End of Block>
 
 <Text entry 11>
-HP and MP restored<End>
+HP and MP restored.<End>
 <End of Block>
 
 <Text entry 12>
@@ -74,7 +74,8 @@ Enter Fat Chocobo!<End>
 
 <Text entry 19>
 <Tella>: <Anna>!<New>
-<Anna>: Father, <Gilbart> is... the prince of Damcyan. Forgive me, Father, for running away... but I love <Gilbart>. Still, I knew I couldn't find happiness...without your consent. I was going to come home, but...<New>
+<Anna>: Father, <Gilbart> is... the prince of Damcyan. Forgive me, Father, for running away... but I love <Gilbart>.<New>
+Still, I knew I couldn't find happiness... without your consent. I was going to come home, but...<New>
 <Gilbart>: Baron's Red Wings, led by <Golbeza>, blitzed us.<New>
 <Cecil>: I've never heard of <Golbeza>. Who is he?<New>
 <Gilbart>: I don't know. His powers were beyond words.<New>
@@ -380,7 +381,7 @@ High Monk <Yang> joined the party <Music 41><Delay 40><End>
 
 <Text entry 79>
 <Cecil>: This is the Baron Key! Of course! They must've given it to you when they gave you command of those guards. With this key, I believe we'll be able to find <Cid>.<New>
-Received BaronKey<Music 41><Delay 40><End>
+Received Baron Key<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 80>
@@ -1873,14 +1874,14 @@ Giott: <Golbeza> is persistent. Trying to open the Sealed Cave. A matter of time
 <End of Block>
 
 <Text entry 363>
-<Align 4>One born of a dragon,
-<Align 2>bearing darkness and light,
-<Align 3>shall rise to the heavens
-<Align 4>over the still land.
-<Align 2>Bathing the moon in eternal
-<Align 2>light, he brings a promise
-<Align 2>to Mother Earth with bounty
-<Align 7>and grace.<End>
+<Center>One born of a dragon,
+<Center>bearing darkness and light,
+<Center>shall rise to the heavens
+<Center>over the still land.
+<Center>Bathing the moon in eternal
+<Center>light, he brings a promise
+<Center>to Mother Earth with bounty
+<Center>and grace.<End>
 <End of Block>
 
 <Text entry 364>

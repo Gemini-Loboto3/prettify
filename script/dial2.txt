@@ -1,6 +1,6 @@
 ﻿<1092 text entries>
 <Text entry 1, pointer>
-You wish to go to the Mist Valley? You must head to the cavern northwest of Baron.<End>
+You wish to go to Mist Valley? You must head to the cavern northwest of Baron.<End>
 <End of Block>
 
 <Text entry 2>
@@ -24,7 +24,7 @@ You're no longer a dark knight? Good for you.<End>
 <End of Block>
 
 <Text entry 7>
-Beware of the mist!<End>
+I sense that something bad will happen if the mist is attacked! Beware of the mist!<End>
 <End of Block>
 
 <Text entry 8>
@@ -36,7 +36,7 @@ What will become of Baron now? The king left no heir.<End>
 <End of Block>
 
 <Text entry 10>
-That's cool-lookin' armor. Hey, aren't you... DARK KNIGHT! HEEELP!<End>
+I can't stop thinking about dark knights! They're cool... and by cool, I mean totally sweet.<End>
 <End of Block>
 
 <Text entry 11>
@@ -48,7 +48,8 @@ So are you gonna go beat up <Golbeza> now?<End>
 <End of Block>
 
 <Text entry 13>
-That building over yonder...on the west side? Oh yeah... It leads to an old waterway that goes all the way to the castle. But I reckon it's always locked.<End>
+That building over yonder on the west side leads to an old waterway that goes all the way to the castle.<New>
+But I reckon it's always locked.<End>
 <End of Block>
 
 <Text entry 14>
@@ -56,7 +57,8 @@ Who's gonna rule Baron now?<End>
 <End of Block>
 
 <Text entry 15>
-No, I didn't say anything about the king! Really! Wait, I'll show you something neat.<End>
+No, I didn't spread any bad rumors about the king! Really!<New>
+I'll show you something neat in return if you keep your mouth shut.<End>
 <End of Block>
 
 <Text entry 16>
@@ -2230,7 +2232,9 @@ The trail is blocked by ice.<End>
 <End of Block>
 
 <Text entry 542>
-Monk: You have my grati- tude. <Yang> is my name. I am the high monk of Fabul. I came here to train with my men. Now they are all dead--killed by a swarm of beasts. And they were Fabul's finest.<New>
+Monk: You have my gratitude.<New>
+<Yang> is my name. I am the high monk of Fabul. I came here to train with my men.<New>
+Now they are all dead--killed by a swarm of beasts. And they were Fabul's finest.<New>
 <Cecil>: My name is <Cecil>. We bring urgent news to Fabul.<New>
 <Rosa>: A villain named <Golbeza> abuses Baron's authority to seize the world's Crystals.<End>
 <End of Block>
@@ -2444,7 +2448,9 @@ T<End>
 <End of Block>
 
 <Text entry 590, pointer>
-The Devil's Road leads to Mysidia, but it has remained closed since the Mysidians sealed their end. Baron once actively traded with Mysidia via this path. The stairs lead to the training room.<End>
+The Devil's Road leads to Mysidia, but it has remained closed since the Mysidians sealed their end.<New>
+Baron once actively traded with Mysidia via this path. It's no longer in use.<New>
+The stairs lead to the training room.<End>
 <End of Block>
 
 <Text entry 591>
