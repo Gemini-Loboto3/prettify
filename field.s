@@ -78,6 +78,17 @@ org $00C858
 	jsl Fld_legend_pal_w
 	nop
 	nop
+	
+// replace transfer of tilemap for location name
+org $00B955
+	jsl Fld_loc_trans
+	rts
+// replace location name parser
+org $00B8EE
+	jsl Fld_parse_loc
+	lda.b #1		// enable transfer
+	sta $e9
+	rts
 
 // replace font for dialog with reduced set
 org $8468

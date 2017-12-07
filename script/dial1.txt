@@ -1,30 +1,37 @@
 ﻿<512 text entries>
 <Text entry 1>
-Inventory full.<End>
+
+<Center>Inventory full.<End>
 <End of Block>
 
 <Text entry 2>
-Obtained <Item>.<End>
+
+<Center>Obtained <Item>.<End>
 <End of Block>
 
 <Text entry 3>
-Obtained <Value> Gil.<End>
+
+<Center>Obtained <Value> Gil.<End>
 <End of Block>
 
 <Text entry 4>
-Monsters!<End>
+
+<Center>Monsters!<End>
 <End of Block>
 
 <Text entry 5>
-It's empty.<End>
+
+<Center>It's empty.<End>
 <End of Block>
 
 <Text entry 6>
-It's locked.<End>
+
+<Center>It's locked.<End>
 <End of Block>
 
 <Text entry 7>
-Unlocked the door.<End>
+
+<Center>Unlocked the door.<End>
 <End of Block>
 
 <Text entry 8>
@@ -84,27 +91,32 @@ Still, I knew I couldn't find happiness... without your consent. I was going to 
 <End of Block>
 
 <Text entry 20>
-AAAH!<End>
+Ow-Ow-Ow!<End>
 <End of Block>
 
 <Text entry 21>
-Nothing happened<End>
+
+<Center>Nothing happened.<End>
 <End of Block>
 
 <Text entry 22>
-MP restored<End>
+
+<Center>MP restored.<End>
 <End of Block>
 
 <Text entry 23>
-Found <Item><End>
+
+<Center>Found <Item>.<End>
 <End of Block>
 
 <Text entry 24>
-Found <Value> Gil<End>
+
+<Center>Found <Value> Gil.<End>
 <End of Block>
 
 <Text entry 25>
-Sealed by an invisible force.<End>
+
+<Center>Sealed by an invisible force.<End>
 <End of Block>
 
 <Text entry 26>

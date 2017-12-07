@@ -801,7 +801,7 @@ King: You have come of age. The world's fate lies in your hands, and I shall fig
 <End of Block>
 
 <Text entry 163>
-<Rosa>: Exit!<End>
+<Rosa>: Teleport!<End>
 <End of Block>
 
 <Text entry 164>

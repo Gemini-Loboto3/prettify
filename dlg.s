@@ -50,6 +50,32 @@ Fld_DMA_trans:
 	plp
 	rts
 	
+Fld_loc_trans:
+	php
+	rep #$20						// A.16
+	// tilemap
+	lda.w #(loc_tmap_tbl & 0xffff)	// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #(loc_tmap_tbl >> 16)		// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2840					// destination
+	sta {vwf_dma_dst}
+	lda.w #(32*4*2)					// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	// tiles
+	lda.w #({vwf_canvas} & 0xffff)	// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #({vwf_canvas} >> 16)		// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2100					// destination
+	sta {vwf_dma_dst}
+	lda.w #(24*7*16)				// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	plp
+	rtl
+	
 Fld_dlg_trans_tmap:
 	php
 	rep #$20						// A.16
@@ -327,6 +353,29 @@ Fld_parse_dialog:
 	jsl $48004
 	bra -
 +
+	cmp.b #5			// delay
+	bne +
+	stz $619
+	asl
+	rol $619
+	asl
+	rol $619
+	asl
+	rol $619
+	sta $618
+	phx
+	ldx $618
+	stx $8f4
+	ldx.w #0
+	stx $8f6
+	plx
+	bra -
++
+	cmp.b #$a			// centering
+	bne +
+	jsr Fld_center16
+	bra -
++
 	jsr Fld_vwf_draw_char
 	bra -
 .end:
@@ -512,15 +561,15 @@ dw .var,  .page,  .center
 .increase:
 	pha
 	rep #$20
-	lda {dlg_read_ptr}
+	lda {dlg_read_ptr}+0x700
 	inc
-	sta {dlg_read_ptr}
-	bit #$8000
+	sta {dlg_read_ptr}+0x700
+	and.w #$8000
 	bne +
-	lda.w #$8000			// reset to bank start
-	sta {dlg_read_ptr}
+	lda.w #$8000				// reset to bank start
+	sta {dlg_read_ptr}+0x700
 	sep #$20
-	inc {dlg_read_ptr}+2	// next bank
+	inc {dlg_read_ptr}+0x702	// next bank
 +
 	sep #$20
 	pla
@@ -903,12 +952,6 @@ Fld_format_dlg:
 	bra -
 .end:
 	rts
-	
-// A.8 location id
-Fld_parse_loc:
--
-	//lda 
-	beq -
 
 // X.16 current string seek
 Fld_center8:
@@ -925,6 +968,35 @@ Fld_center8:
 	beq +
 	inx
 	jsr Fld_vwf8_get_char_w 
+	clc
+	adc {vwf_draw_x2}		// w += vwf8[c]
+	sta {vwf_draw_x2}
+	bra -
++
+	rep #$20
+	lda.w #(24*8)			// line width
+	sec
+	sbc {vwf_draw_x2}		// (24*8 - width) / 2
+	lsr
+	sta {vwf_draw_x}
+	plp
+	plx						// reload previous seek
+	rts
+
+Fld_center16:
+	phx		// preserve seek
+	php
+	sep #$20
+	stz {vwf_draw_x2}
+	stz {vwf_draw_x2}+1
+-
+	lda {dlg_buffer},x		// load character
+	cmp.b #0				// check end
+	beq +
+	cmp.b #1				// check line
+	beq +
+	inx
+	jsr Fld_vwf_get_char_w 
 	clc
 	adc {vwf_draw_x2}		// w += vwf8[c]
 	sta {vwf_draw_x2}
@@ -1031,6 +1103,74 @@ Fld_format_number_ex:
 	ply
 	plx
 	rts
+	
+//////////////////////////////
+// LOCATION NAME CODE		//
+//////////////////////////////
+Fld_dlg_trans_tmap:
+	php
+	rep #$20						// A.16
+	lda.w #(dlg_tmap_tbl & 0xffff)	// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #(dlg_tmap_tbl >> 16)		// source bank
+	sta {vwf_dma_srch}
+	lda.w #$2C00					// destination
+	sta {vwf_dma_dst}
+	lda.w #(32*9*2)					// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	plp
+	rtl
+	
+// A.8 location id
+Fld_parse_loc:
+	php
+	rep #$20			// A.16
+	// setup 24 bit pointer for parser
+	and.w #$00ff
+	asl
+	tax
+	lda loc_data,x				// load local pointer
+	//sta {vwf_temp_0}			// ptr[a] + loc_data
+	clc
+	adc #(loc_data & 0xffff)
+	sta {dlg_read_ptr}+0x700
+	sep #$20					// A.8
+	lda.b #(loc_data >> 16)
+	sta {dlg_read_ptr}+0x702
+	// init write buffer seek
+	stz {dlg_seek}
+	stz {dlg_seek}+1
+	// expand string to buffer
+	jsr Fld_expand_dialog
+	// initialize parse / render vars
+	jsr Fld_vwf_clear_canvas
+	ldx.w #0
+	lda.b #4
+	sta {vwf_draw_y}
+	jsr Fld_center16
+	lda {vwf_draw_x}
+	sec
+	sbc.b #(16*8/4)				// align to location box width
+	sta {vwf_draw_x}
+-
+	lda {dlg_buffer},x
+	beq +						// end of string
+	inx
+	pha
+	jsr Fld_vwf_draw_char		// draw on canvas
+	pla
+	jsr Fld_vwf_get_char_w		// add width to draw_x
+	clc
+	adc {vwf_draw_x}
+	bra -
++	
+	jsr Fld_vwf_flip_canvas
+	plp
+	rtl
+	
+loc_data:
+	incbin "loc.bin"
 
 //////////////////////////////
 // DATA BLOCK				//
@@ -1069,8 +1209,11 @@ dw $2000,$2000,$2004,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
 
 // tilemap used for rendering location names
 loc_tmap_tbl:
-dw $2020,$2022,$2024,$2026,$2028,$202A,$202C,$202E,$2030,$2032,$2034,$2036
-dw $2021,$2023,$2025,$2027,$2029,$202B,$202D,$202F,$2031,$2033,$2035,$2037
+// 0     1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    20    30    31
+dw $2000,$2000,$2000,$2000,$2000,$2000,$2000,$2001,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2002,$2003,$2000,$2000,$2000,$2000,$2000,$2000,$2000
+dw $2000,$2000,$2000,$2000,$2000,$2000,$2000,$2004,$2020,$2027,$202E,$2035,$203C,$2043,$204A,$2051,$2058,$205F,$2066,$206D,$2074,$207B,$2082,$2089,$2005,$2000,$2000,$2000,$2000,$2000,$2000,$2000
+dw $2000,$2000,$2000,$2000,$2000,$2000,$2000,$2004,$2021,$2028,$202F,$2036,$203D,$2044,$204B,$2052,$2059,$2060,$2067,$206E,$2075,$207C,$2083,$208A,$2005,$2000,$2000,$2000,$2000,$2000,$2000,$2000
+dw $2000,$2000,$2000,$2000,$2000,$2000,$2000,$2006,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2007,$2008,$2000,$2000,$2000,$2000,$2000,$2000,$2000
 
 // tilemap used for scrolling dialog (i.e. prologue)
 prol_tmap_tbl0:
