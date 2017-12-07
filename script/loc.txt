@@ -34,10 +34,10 @@ Training Room<End>
 Castle Baron<End>
 White Magic Laboratory<End>
 Black Magic Laboratory<End>
-Stanza di <Cecil><End>
+<Cecil>'s Room<End>
 Baron<End>
 Underground Waterway<End>
-Aquect, Entrata Nord<End>
+Aquect, North Entrance<End>
 Mist Cave<End>
 Mist<End>
 <Rydia>'s House<End>
