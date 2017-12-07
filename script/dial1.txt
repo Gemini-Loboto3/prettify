@@ -2434,39 +2434,39 @@ Ahahahahaha...<End>
 
 
 
-<Align 3>And so, the dark knight
-<Align 2><Cecil> was stripped of his
-<Align 2>command as captain of the
-<Align 4>Red Wings. He and the
-<Align 3>dragon knight <Cain> head
-<Align 2>toward the dark valley for
-<Align 5>the village Mist.
+<Center>And so, the dark knight
+<Center><Cecil> was stripped of his
+<Center>command as captain of the
+<Center>Red Wings. He and the
+<Center>dragon knight <Cain> head
+<Center>toward the dark valley for
+<Center>the village Mist.
 
 
 
-<Align 2>The advent of the airship
-<Align 3>marked the realization
-<Align 3>of Baron's dreams, but
-<Align 5>also the birth of
-<Align 6>its militarism.
+<Center>The advent of the airship
+<Center>marked the realization
+<Center>of Baron's dreams, but
+<Center>also the birth of
+<Center>its militarism.
 
 
 
-<Align 3>With its Royal Air Force
-<Align 3>"Red Wings," Baron soon
-<Align 3>reigned supreme. Now, as
-<Align 2>monsters multiply and stir
-<Align 2>unrest, Baron only exploits
-<Align 3>its power to collect the
-<Align 4>world's Crystals. Why?
+<Center>With its Royal Air Force
+<Center>"Red Wings," Baron soon
+<Center>reigned supreme. Now, as
+<Center>monsters multiply and stir
+<Center>unrest, Baron only exploits
+<Center>its power to collect the
+<Center>world's Crystals. Why?
 
 
 
 
 
 
-<Align 3>The Crystals shed their
-<Align 5>light silently...
+<Center>The Crystals shed their
+<Center>light silently...
 
 
 

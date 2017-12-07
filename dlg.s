@@ -186,8 +186,6 @@ Fld_legend_dma:
 	plp
 	rtl
 
-Fld_prolog_dma:
-
 //////////////////////////////
 // STRING HANDLING			//
 //////////////////////////////
@@ -218,15 +216,6 @@ Fld_dlg_pages:
 	lda.b #1
 	sta $ed
 	rtl
-	
-Fld_wait_NMI:
-	lda.b #1
-	sta $7d
--
-	lda $7d
-	bne -
-	inc $7d
-	rts
 
 Fld_ptr_bank1_0:
 	php
@@ -1058,8 +1047,161 @@ Fld_width_next:
 	rts
 	
 //////////////////////////////
+// SCROLLING PROLOGUE		//
+//////////////////////////////
+Fld_prolog_page0:
+	stz {dlg_seek}
+	stz {dlg_seek}+1
+	jsr Fld_expand_dialog		// copy dialog to buffer
+Fld_prolog_pages:
+	jsr Fld_vwf_clear_canvas
+	jsr Fld_parse_dialog8		// do the actual rendering
+	jsr Fld_vwf_flip_canvas
+	jsr Fld_wait_NMI			// wait next nmi
+	// enable canvas transfer
+	lda.b #2
+	sta $ed
+	rts
+
+Fld_prolog_dma:
+	php
+	rep #$20
+	lda $ba						// page to transfer
+	and.w #3					// cap max pages to 4
+	asl
+	asl
+	asl
+	tax
+	// tilemap
+	phx
+	lda .dma_tbl+2,x				// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #(prol_tmap_tbl0 >> 16)	// source bank
+	sta {vwf_dma_srch}
+	lda .dma_tbl,x					// destination
+	sta {vwf_dma_dst}
+	lda.w #(32*2*8)					// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	// tiles
+	plx
+	lda.w #({vwf_canvas} & 0xffff)	// source pointer
+	sta {vwf_dma_srcl}
+	lda.w #({vwf_canvas} >> 16)		// source bank
+	sta {vwf_dma_srch}
+	lda .dma_tbl+4,x				// destination
+	sta {vwf_dma_dst}
+	lda.w #(24*4*16)				// size
+	sta {vwf_dma_size}
+	jsr Fld_DMA_trans
+	plp
+	rtl
+
+// tilemap	source			tiles	padding
+.dma_tbl:
+dw $2C00,	prol_tmap_tbl0,	$2100,	0
+dw $2D00,	prol_tmap_tbl1,	$2400,	0
+dw $2E00,	prol_tmap_tbl0,	$2100,	0
+dw $2F00,	prol_tmap_tbl1,	$2400,	0
+
+j_Fld_prolog:
+-
+	lda $cc
+	bne -
+	lda.b #1
+	sta $ea
+-
+	jsr Fld_wait_NMI
+	lda $ea
+	cmp.b #2
+	bne -
+	ldx.w #0
+	stx $8f4
+	stz $de
+	lda.b #236		// initial v-scrolling of bg3
+	sta $bb
+	stz $ba			// initial h-scrolling of bg3
+	jsr	Fld_prolog_page0	// process first page
+	lda.b #1
+	sta $df
+	sta $eb
+	// wait for window to open
+.wait:
+	jsr Fld_wait_NMI
+-
+	lda $7f
+	cmp.b #2
+	bne -
+	inc $df
+	lda $df
+	cmp.b #8
+	bne .wait
+.page:
+	ldx $8f4
+	beq +
+	ldx.w #0
+	stx $8f4
+	jmp .next
++
+	lda $de
+	cmp.b #2
+	beq .leave
+	lda $cb
+	bne .next
+	jsr Fld_wait0
+	jsr Fld_wait1
+.next:
+	lda $de
+	bne .leave
+	jsr Fld_prolog_pages	// process following pages
+	lda.b #16
+	sta $07
+.scroll:
+	jsr Fld_wait_NMI
+	lda $7a
+	and.b #7
+	bne .noscroll
+	inc $bb			// scroll vertically
+	lda $7a
+	and.b #$1f
+	bne .noscroll
+	dec $07
+.noscroll:
+	lda $07
+	bne .scroll
+	jmp .page
+.leave:
+	rtl
+	
+//////////////////////////////
 // HELPERS					//
 //////////////////////////////
+Fld_wait_NMI:
+	lda.b #1
+	sta $7d
+-
+	lda $7d
+	bne -
+	inc $7d
+	rts
+	
+Fld_wait0:
+-
+	lda $2
+	bne -
+	lda $3
+	bne -
+	rts
+
+Fld_wait1:
+-
+	lda $2
+	bne +
+	lda $3
+	beq -
++
+	rts
+
 Fld_format_number_ex:
 	phx
 	phy
@@ -1197,6 +1339,7 @@ db	6,6,2,6,7,5,2,2,8,8,8,8,8,8,8,8
 
 // tilemap used for regular dialog
 dlg_tmap_tbl:
+// 0     1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    20    30    31
 dw $2000,$2000,$2004,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2005,$2000,$2000
 dw $2000,$2000,$2004,$2009,$2020,$2027,$202E,$2035,$203C,$2043,$204A,$2051,$2058,$205F,$2066,$206D,$2074,$207B,$2082,$2089,$2090,$2097,$209E,$20A5,$20AC,$20B3,$20BA,$20C1,$2009,$2005,$2000,$2000
 dw $2000,$2000,$2004,$2009,$2021,$2028,$202F,$2036,$203D,$2044,$204B,$2052,$2059,$2060,$2067,$206E,$2075,$207C,$2083,$208A,$2091,$2098,$209F,$20A6,$20AD,$20B4,$20BB,$20C2,$2009,$2005,$2000,$2000
@@ -1217,6 +1360,7 @@ dw $2000,$2000,$2000,$2000,$2000,$2000,$2000,$2006,$2007,$2007,$2007,$2007,$2007
 
 // tilemap used for scrolling dialog (i.e. prologue)
 prol_tmap_tbl0:
+// 0     1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    20    30    31
 dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
 dw $2009,$2009,$2009,$2009,$2020,$2021,$2022,$2023,$2024,$2025,$2026,$2027,$2028,$2029,$202A,$202B,$202C,$202D,$202E,$202F,$2030,$2031,$2032,$2033,$2034,$2035,$2036,$2037,$2009,$2009,$2009,$2009
 dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
@@ -1226,6 +1370,7 @@ dw $2009,$2009,$2009,$2009,$2050,$2051,$2052,$2053,$2054,$2055,$2056,$2057,$2058
 dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
 dw $2009,$2009,$2009,$2009,$2068,$2069,$206A,$206B,$206C,$206D,$206E,$206F,$2070,$2071,$2072,$2073,$2074,$2075,$2076,$2077,$2078,$2079,$207A,$207B,$207C,$207D,$207E,$207F,$2009,$2009,$2009,$2009
 prol_tmap_tbl1:
+// 0     1     2     3     4     5     6     7     8     9     10    11    12    13    14    15    16    17    18    19    20    21    22    23    24    25    26    27    28    20    30    31
 dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009
 dw $2009,$2009,$2009,$2009,$2080,$2081,$2082,$2083,$2084,$2085,$2086,$2087,$2088,$2089,$208A,$208B,$208C,$208D,$208E,$208F,$2090,$2091,$2092,$2093,$2094,$2095,$2096,$2097,$2009,$2009,$2009,$2009
 dw $2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009,$2009

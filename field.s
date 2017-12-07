@@ -4,9 +4,15 @@ org $00B7AC
 	rts
 
 org $00B814
+	cmp.b #2
+	bne +
+	jsl Fld_prolog_dma
+	bra .prolog
++
 	jsl Fld_dlg_trans_canvas
-	inc $ba
+.prolog:
 	stz $ed
+	inc $ba
 	rts
 
 // replace calls to generate dialog
@@ -56,8 +62,18 @@ Legend:
 	lda.b #1
 	jsl Fld_legend_dma
 	rts
+
+Fld_prolog:
+	jsl j_Fld_prolog
+	rts
 warnpc $00B670
 
+// replace code for prologue
+org $00D4CB
+	jsr Fld_prolog
+org $8FF00
+	dw $66B2,$66B2,$5E70	// add shading color and fix side of screen strips
+	
 // replace how Mysidian legend works
 org $00C78E
 	nop				// kill font replacement

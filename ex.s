@@ -882,10 +882,10 @@ font_namew:
 	db 8,8,6,8,8,8,7,8,8,7,8,8,8,8,7,8
 	// ninunenohahihuhehomamimumemoyayu
 	db 8,8,8,8,8,8,8,8,8,7,8,8,8,8,8,8
-	// yorarirurerowan XAXI[ XEXOXDXAXU
+	// yorarirurerowan XAXI" XEXOXDXAXU
 	db 8,7,6,8,8,8,8,8,6,6,4,6,6,6,6,6
-	// XO, . - @ ! ? % / : ] A I U E O
-	db 6,3,2,6,5,2,5,5,4,2,4,8,8,8,8,8
+	// XO, . - @ ! ? % / : ' A I U E O
+	db 6,3,2,6,5,2,5,5,4,2,2,8,8,8,8,8
 	// KAKIKUKEKOSASISUSESOTATITUTETONA
 	db 7,8,8,8,7,8,8,7,8,8,8,8,7,8,6,8
 	// NINUNENOHAHIHUHEHOMAMIMUMEMOYAYU
