@@ -4,8 +4,8 @@
 65C-D	bg1 v-scroll
 65E-F	bg2 h-scroll
 660-1	bg2 v-scroll
-66A-B	mode7 center pos x
-66C-D	mode7 center pos y
+66A-B	player position x
+66C-D	player position y
 66E
 66F
 670
@@ -36,7 +36,7 @@
 6DD	dialog bank
 6E9	1 = transfer location window and text from buffer
 6EA	1 = transfer dialog from buffer
-6ED	pages of dialog (0=none)
+6ED	1 = transfer dialog tilemap
 6DE	1 end, 2 autoclose
 772	string seek
 774-8F3	string buffer

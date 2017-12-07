@@ -72,7 +72,7 @@ warnpc $00B670
 org $00D4CB
 	jsr Fld_prolog
 org $8FF00
-	dw $66B2,$66B2,$5E70	// add shading color and fix side of screen strips
+	dw $66B2,$66B2,$6318	// add shading color and fix side of screen strips
 	
 // replace how Mysidian legend works
 org $00C78E

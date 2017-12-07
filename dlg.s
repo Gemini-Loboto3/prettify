@@ -79,14 +79,14 @@ Fld_loc_trans:
 Fld_dlg_trans_tmap:
 	php
 	rep #$20						// A.16
-	lda.w #(dlg_tmap_tbl & 0xffff)	// source pointer
-	sta {vwf_dma_srcl}
-	lda.w #(dlg_tmap_tbl >> 16)		// source bank
-	sta {vwf_dma_srch}
-	lda.w #$2C00					// destination
-	sta {vwf_dma_dst}
-	lda.w #(32*9*2)					// size
-	sta {vwf_dma_size}
+	ldx #(dlg_tmap_tbl & 0xffff)	// source pointer
+	stx {vwf_dma_srcl}
+	ldx #(dlg_tmap_tbl >> 16)		// source bank
+	stx {vwf_dma_srch}
+	ldx #$2C00					// destination
+	stx {vwf_dma_dst}
+	ldx #(32*9*2)					// size
+	stx {vwf_dma_size}
 	jsr Fld_DMA_trans
 	plp
 	rtl
@@ -94,14 +94,14 @@ Fld_dlg_trans_tmap:
 Fld_dlg_trans_canvas:
 	php
 	rep #$20						// A.16
-	lda.w #({vwf_canvas} & 0xffff)	// source pointer
-	sta {vwf_dma_srcl}
-	lda.w #({vwf_canvas} >> 16)		// source bank
-	sta {vwf_dma_srch}
-	lda.w #$2100					// destination
-	sta {vwf_dma_dst}
-	lda.w #(24*7*16)				// size
-	sta {vwf_dma_size}
+	ldx #({vwf_canvas} & 0xffff)	// source pointer
+	stx {vwf_dma_srcl}
+	ldx #({vwf_canvas} >> 16)		// source bank
+	stx {vwf_dma_srch}
+	ldx #$2100					// destination
+	stx {vwf_dma_dst}
+	ldx #(24*7*16)				// size
+	stx {vwf_dma_size}
 	jsr Fld_DMA_trans
 	plp
 	rtl
