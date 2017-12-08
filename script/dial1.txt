@@ -43,11 +43,13 @@ All set!<End>
 <End of Block>
 
 <Text entry 10>
-HP restored and status effects removed.<End>
+
+<Center>HP restored and status effects removed.<End>
 <End of Block>
 
 <Text entry 11>
-HP and MP restored.<End>
+
+<Center>HP and MP restored.<End>
 <End of Block>
 
 <Text entry 12>
@@ -144,35 +146,32 @@ We were too negligent.<End>
 <End of Block>
 
 <Text entry 32>
-Crew: Captain, we will arrive at Baron
-shortly.<New>
+Crewman: Captain, we will arrive at Baron shortly.<New>
 <Cecil>: ...Alright.<End>
 <End of Block>
 
 <Text entry 33>
-Crew: The captain seems kinda down.<New>
-Crew: After what we did, who wouldn't be?
-I mean orders are orders, but killing
-innocent people to get the Crystals...?<End>
+Crewman: The captain seems kinda down.<New>
+Crewman: After what we did, who wouldn't be? I mean orders are orders, but killing innocent people to get the Crystals...?<End>
 <End of Block>
 
 <Text entry 34>
-Crew: But, Captain!<New>
-Crew: Surely you don't condone what we've done, Captain?<New>
+Crewman: But, Captain!<New>
+Crewman: Surely you don't condone what we've done, Captain?<New>
 <Cecil>: All of you, listen well. The raid on Mysidia was imperative.<New>
 His Majesty and his council concluded that the Mysidians, who know much about the Crystals, posed a serious threat to our kingdom.<New>
 For Baron to prosper, we need the Crystals. As soldiers of the Royal Air Force, we must achieve this by any means necessary.<New>
-Crew: Captain!<End>
+Crewman: Captain!<End>
 <End of Block>
 
 <Text entry 35>
-Crew: Monsters incoming!<End>
+Crewman: Monsters incoming!<End>
 <End of Block>
 
 <Text entry 36>
-Crew: Ugh!<New>
+Crewman: Ugh!<New>
 <Cecil>: Are you alright!?<New>
-Crew: More incoming!<New>
+Crewman: More incoming!<New>
 <Cecil>: Dammit!<End>
 <End of Block>
 
@@ -181,7 +180,7 @@ This is my realm... The Zemus Zone. Perish in the darkness...<End>
 <End of Block>
 
 <Text entry 38>
-Crew: Captain, we are now over Baron.<New>
+Crewman: Captain, we are now over Baron.<New>
 <Cecil>: Prepare for landing.<End>
 <End of Block>
 
@@ -833,7 +832,7 @@ Cap'n: <Cecil>, I reckon. I heard you beat the hell out of those Baron lovelies.
 
 <Text entry 163>
 Cap'n: Anchors aweigh!<New>
-Crew: Aye-aye, Cap'n!<End>
+Crewman: Aye-aye, Cap'n!<End>
 <End of Block>
 
 <Text entry 164>
@@ -2107,8 +2106,8 @@ Received Sand Pearl<Music 41><Delay 40><End>
 <End of Block>
 
 <Text entry 396>
-Crew: Yes, sir.<New>
-Crew: So many monsters these days... Where the heck are they coming from?<New>
+Crewman: Yes, sir.<New>
+Crewman: So many monsters these days... Where the heck are they coming from?<New>
 <Cecil>: What is happening to this world...?<End>
 <End of Block>
 
@@ -2318,7 +2317,7 @@ My son...<New>
 <End of Block>
 
 <Text entry 442>
-Crew: It isn't right. The Red Wings are supposed to protect people. We should never--<End>
+Crewman: It isn't right. The Red Wings are supposed to protect people. We should never--<End>
 <End of Block>
 
 <Text entry 443>

@@ -2053,8 +2053,7 @@ I pray that the king might rest in peace.<End>
 <End of Block>
 
 <Text entry 497>
-I'm currently studying<New>
-basic white magic: Cure1, Cure2, and Cure3, three levels of cure spells.<End>
+I'm currently studying basic white magic: Cure, Cura, and Curada, three levels of cure spells.<End>
 <End of Block>
 
 <Text entry 498>
