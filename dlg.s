@@ -6,7 +6,6 @@ define vwf_seek		$77E		// where to write on canvas
 define vwf_temp_0	$780		// write here whatever temp value
 define vwf_temp_1	$782		// same as above
 define vwf_line		$784		// number of scanlines to render
-define vwf_tile		$786		//
 define vwf_draw_x2	$788		// copy x value
 define vwf_dma_srcl	$78A
 define vwf_dma_srch	$78C
