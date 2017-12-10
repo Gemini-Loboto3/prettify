@@ -443,7 +443,7 @@ Elder: Uh, where is <Palom>?<New>
 <End of Block>
 
 <Text entry 82>
-<Porom>: Yep, that's when I cast Ice, and bam!<Delay 32><End>
+<Porom>: Yep, that's when I cast Blizzard, and bam!<Delay 32><End>
 <End of Block>
 
 <Text entry 83>

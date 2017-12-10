@@ -295,14 +295,14 @@ St_DMA_reg_set_magic:
 	
 	rep #$20		// a.16
 	lda {list_cnt}	// list counter
-	and #$00ff
+	and.w #$00ff
 	asl				// position on current list entry
 	asl
 	asl
 	tax				// move to index mode
 
 	lda $43			// item * 128
-	and #$00ff		// just in case
+	and.w #$00ff	// just in case
 	asl
 	asl
 	asl
@@ -311,9 +311,9 @@ St_DMA_reg_set_magic:
 	asl
 	asl
 	clc
-	adc #(item_bin & 0xffff)
+	adc.w #(item_bin & 0xffff)
 	sta {list_srcl},x	// base
-	lda #(item_bin >> 16)	
+	lda.w #(item_bin >> 16)	
 	sta {list_srch},x	// bank
 	
 	lda $45			// tile index * 8

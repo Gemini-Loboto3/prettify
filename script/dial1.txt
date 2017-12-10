@@ -892,7 +892,7 @@ Cap'n: Change course!<End>
 <End of Block>
 
 <Text entry 178>
-<Palom>: Ice!<End>
+<Palom>: Blizzard!<End>
 <End of Block>
 
 <Text entry 179>

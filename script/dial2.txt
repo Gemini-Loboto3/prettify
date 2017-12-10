@@ -2025,7 +2025,7 @@ How could you not see through that phony?<End>
 <End of Block>
 
 <Text entry 490>
-Basic spells like Fire and Ice aren't powerful enough against many monsters. I seem to remember hearing about more potent spells, but...<End>
+Basic spells like Fire and Blizzard aren't powerful enough against many monsters. I seem to remember hearing about more potent spells, but...<End>
 <End of Block>
 
 <Text entry 491>
