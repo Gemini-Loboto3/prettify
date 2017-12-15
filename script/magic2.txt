@@ -1,0 +1,105 @@
+﻿<104 text entries>
+Mage Arrows<End>
+Heal<End>
+BS-Null<End>
+Poisona<End>
+Dancing Dagger<End>
+Goblin Punch<End>
+Self-Destruct<End>
+Petrifying Beak<End>
+Mind Blast<End>
+Chocobo Kick<End>
+Diamond Dust<End>
+Judgment Bolt<End>
+Hellfire<End>
+Gaia's Wrath<End>
+Radiant Breath<End>
+Whispering Wind<End>
+Zantetsuken<End>
+Tsunami<End>
+Asura's Boon<End>
+Asura's Boon<End>
+Asura's Boon<End>
+Megaflare<End>
+Twin Meteor<End>
+Monster 015<End>
+Monster 016<End>
+Gaze<End>
+Blaster<End>
+Slap<End>
+Wing Scales<End>
+Glare<End>
+Entice<End>
+Tongue<End>
+Curse<End>
+Stone Touch<End>
+Doom<End>
+Beak<End>
+Stone Gaze<End>
+Mind Blast<End>
+Embrace<End>
+Bad Breath<End>
+Hex<End>
+Constrict<End>
+Whirl<End>
+Dimensional Twist<End>
+Freezing Mist<End>
+Massive Explosion<End>
+Cursed Elegy<End>
+Binding Cold<End>
+Sleeping Gas<End>
+Poison Gas<End>
+Laser Barrage<End>
+Vanish<End>
+Black Fang<End>
+Black Hole<End>
+Samba de Flan<End>
+Ninth Dimension <End>
+Maelstrom<End>
+Electromagnetism<End>
+Chain Reaction<End>
+Hatch<End>
+Heal<End>
+Leech<End>
+Restore<End>
+Big Bang<End>
+Bloodfeast<End>
+Bile<End>
+Pollen<End>
+Crush<End>
+Alarm<End>
+Summon<End>
+Dummy<End>
+Vanish<End>
+Target<End>
+Atomic Blast<End>
+Retreat<End>
+Release<End>
+Beam<End>
+Object 199<End>
+Blaze<End>
+Frost Blast<End>
+Thunderbolt<End>
+Lightning<End>
+Dark Breath<End>
+Deluge<End>
+Icestorm<End>
+Tsunami<End>
+Whirlwind<End>
+Laser<End>
+Self-Destruct<End>
+Earthquake<End>
+Flamethrower<End>
+Thermal Rays<End>
+Inferno<End>
+Zantetsuken<End>
+Megaflare<End>
+Needles<End>
+Pincers<End>
+Monster 000<End>
+Monster 000<End>
+Regenerate<End>
+Reraise<End>
+Monster 000<End>
+Monster 000<End>
+Monster 000<End>

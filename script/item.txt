@@ -1,0 +1,257 @@
+﻿<256 text entries>
+<End>
+<$29>Flame Claws<End>
+<$29>Ice Claws<End>
+<$29>Lightning Claws<End>
+<$29>Faerie Claws<End>
+<$29>Hell Claws<End>
+<$29>Cat Claws<End>
+<$2A>Rod<End>
+<$2A>Ice Rod<End>
+<$2A>Flame Rod<End>
+<$2A>Thunder Rod<End>
+<$2A>Polymorph Rod<End>
+<$2A>Faerie Rod<End>
+<$2A>Stardust Rod<End>
+<$2A>Lilith Rod<End>
+<$2B>Staff<End>
+<$2B>Healing Staff<End>
+<$2B>Mythril Staff<End>
+<$2B>Power Staff<End>
+<$2B>Aura Staff<End>
+<$2B>Sage's Staff<End>
+<$2B>Rune Staff<End>
+<$2C>Dark Sword<End>
+<$2C>Shadow Blade<End>
+<$2C>Deathbringer<End>
+<$2E>Mythgraven Blade<End>
+<$2E>Lustrous Sword<End>
+<$2E>Excalibur<End>
+<$2D>Flame Sword<End>
+<$2D>Icebrand<End>
+<$2D>Defender<End>
+<$2D>Blood Sword<End>
+<$2D>Ancient Sword<End>
+<$2D>Sleep Blade<End>
+<$2D>Stoneblade<End>
+<$2F>Spear<End>
+<$2F>Wind Spear<End>
+<$2F>Flame Lance<End>
+<$2F>Ice Lance<End>
+<$2F>Wyvern Lance<End>
+<$2F>Holy Lance<End>
+<$2F>Blood Lance<End>
+<$2F>Gungnir<End>
+<$31>Kunai<End>
+<$31>Ashura<End>
+<$31>Kotetsu<End>
+<$31>Kiku-ichimonji<End>
+<$31>Murasame<End>
+<$31>Masamune<End>
+<$30>Assassin's Dagger<End>
+<$30>Mage Masher<End>
+<$3A>Thorn Whip<End>
+<$3A>Chain Whip<End>
+<$3A>Blitz Whip<End>
+<$3A>Flame Whip<End>
+<$3A>Dragon Whisker<End>
+<$34>Crescent Axe<End>
+<$34>Dwarven Axe<End>
+<$34>Ogrekiller<End>
+<$30>Mythril Knife<End>
+<$30>Dancing Dagger<End>
+<$2D>Mythril Sword<End>
+<$30>Knife<End>
+<$2E>Ragnarok<End>
+<$32>Shuriken<End>
+<$32>Fūma Shuriken<End>
+<$33>Boomerang<End>
+<$33>Moonring Blade<End>
+<$36>Dream Harp<End>
+<$36>Lamia Harp<End>
+ Reserved<End>
+<$34>Poison Axe<End>
+<$34>Rune Axe<End>
+<$35>Mythril Hammer<End>
+<$35>Gaia Hammer<End>
+<$35>Wooden Hammer<End>
+<$2D>Avenger<End>
+<$37>Bow<End>
+<$37>Crossbow<End>
+<$37>Great Bow<End>
+<$37>Killer Bow<End>
+<$37>Elfin Bow<End>
+<$37>Yoichi Bow<End>
+<$37>Artemis Bow<End>
+<$38>Iron Arrows<End>
+<$38>Holy Arrows<End>
+<$38>Fire Arrows<End>
+<$38>Ice Arrows<End>
+<$38>Lightning Arrows<End>
+<$38>Blinding Arrows<End>
+<$38>Poison Arrows<End>
+<$38>Silencing Arrows<End>
+<$38>Angel Arrows<End>
+<$38>Yoichi Arrows<End>
+<$38>Medusa Arrows<End>
+<$38>Artemis Arrows<End>
+ Reserved<End>
+<$3B>Iron Shield<End>
+<$3B>Dark Shield<End>
+<$3B>Demon Shield<End>
+<$3B>Lustrous Shield<End>
+<$3B>Mythril Shield<End>
+<$3B>Flame Shield<End>
+<$3B>Ice Shield<End>
+<$3B>Diamond Shield<End>
+<$3B>Aegis Shield<End>
+<$3B>Genji Shield<End>
+<$3B>Dragon Shield<End>
+<$3B>Crystal Shield<End>
+<$3C>Iron Helm<End>
+<$3C>Dark Helm<End>
+<$3C>Hades Helm<End>
+<$3C>Demon Helm<End>
+<$3C>Lustrous Helm<End>
+<$3C>Mythril Helm<End>
+<$3C>Diamond Helm<End>
+<$3C>Genji Helm<End>
+<$3C>Dragon Helm<End>
+<$3C>Crystal Helm<End>
+<$3C>Leather Cap<End>
+<$3C>Feathered Cap<End>
+<$3C>Wizard's Hat<End>
+<$3C>Sage's Miter<End>
+<$3C>Gold Hairpin<End>
+<$3C>Ribbon<End>
+<$3C>Headband<End>
+<$3C>Green Beret<End>
+<$3C>Black Cowl<End>
+<$3C>Glass Mask<End>
+<$3D>Iron Armor<End>
+<$3D>Dark Armor<End>
+<$3D>Hades Armor<End>
+<$3D>Demon Armor<End>
+<$3D>Knight's Armor<End>
+<$3D>Mythril Armor<End>
+<$3D>Flame Mail<End>
+<$3D>Ice Armor<End>
+<$3D>Diamond Armor<End>
+<$3D>Genji Armor<End>
+<$3D>Dragon Mail<End>
+<$3D>Crystal Mail<End>
+<$3D>Clothing<End>
+<$3D>Leather Clothing<End>
+<$3D>Gaia Gear<End>
+<$3D>Sage's Surplice<End>
+<$3D>Black Robe<End>
+<$3D>Luminous Robe<End>
+<$3D>White Robe<End>
+<$3D>Power Sash<End>
+<$3D>Minerva Bustier<End>
+<$3D>Prison Garb<End>
+<$3D>Bard's Tunic<End>
+<$3D>Kenpo Gi<End>
+<$3D>Black Belt Gi<End>
+<$3D>Adamant Armor<End>
+<$3D>Black Garb<End>
+<$3E>Iron Gloves<End>
+<$3E>Dark Gloves<End>
+<$3E>Hades Gloves<End>
+<$3E>Demon Gloves<End>
+<$3E>Gauntlets<End>
+<$3E>Mythril Gloves<End>
+<$3E>Diamond Gloves<End>
+<$3E>Giant's Gloves<End>
+<$3E>Genji Gloves<End>
+<$3E>Dragon Gloves<End>
+<$3E>Crystal Gloves<End>
+<$3E>Iron Armlet<End>
+<$3E>Ruby Ring<End>
+<$3E>Silver Armlet<End>
+<$3E>Power Armlet<End>
+<$3E>Rune Armlet<End>
+<$3E>Crystal Ring<End>
+<$3E>Diamond Armlet<End>
+<$3E>Protect Ring<End>
+<$3E>Cursed Ring<End>
+<$15>Bomb Fragment<End>
+<$15>Bomb Crank<End>
+<$15>Antarctic Wind<End>
+<$15>Arctic Wind<End>
+<$15>Zeus's Wrath<End>
+<$15>Heavenly Wrath<End>
+<$15>Stardust<End>
+<$15>Lilith's Kiss<End>
+<$15>Vampire Fang<End>
+<$15>Bacchus's Wine<End>
+<$15>Hermes Sandals<End>
+<$15>Bronze Hourglass<End>
+<$15>Silver Hourglass<End>
+<$15>Gold Hourglass<End>
+<$15>Spider Silk<End>
+<$15>Decoy<End>
+<$15>Red Fang<End>
+<$15>White Fang<End>
+<$15>Blue Fang<End>
+<$15>Light Curtain<End>
+<$15>Bomb Core<End>
+<$15>Lunar Curtain<End>
+<$15>Silent Bell<End>
+<$15>Gaia Drum<End>
+<$15>Crystal<End>
+<$15>Coeurl Whisker<End>
+<$15>Summon Book<End>
+<$15>Bestiary<End>
+<$15>Alarm Clock<End>
+<$15>Unicorn Horn<End>
+<$15>Potion<End>
+<$15>Hi-Potion<End>
+<$15>X-Potion<End>
+<$15>Ether<End>
+<$15>Dry Ether<End>
+<$15>Elixir<End>
+<$15>Phoenix Down<End>
+<$15>Gold Needle<End>
+<$15>Maiden's Kiss<End>
+<$15>Miraculous Mallet<End>
+<$15>Diet Ration<End>
+<$15>Echo Herbs<End>
+<$15>Eye Drops<End>
+<$15>Antidote<End>
+<$15>Cross<End>
+<$15>Remedy<End>
+<$15>Siren<End>
+<$15>Golden Apple<End>
+<$15>Silver Apple<End>
+<$15>Soma Drop<End>
+<$15>Tent<End>
+<$15>Cottage<End>
+<$15>Lustful Rally-Ho<End>
+<$15>Emergency Exit<End>
+<$15>Gnomish Bread<End>
+<$41>Goblin<End>
+<$41>Bomb<End>
+<$41>Cockatrice<End>
+<$41>Mindflayer<End>
+<$15>Gysahl Greens<End>
+<$15>Member's Writ<End>
+<$15>Gysahl Whistle<End>
+<$15>Carnelian Signet<End>
+<$15>Baron Key<End>
+<$15>Sand Pearl<End>
+<$15>Earth Crystal<End>
+<$15>Magma Stone<End>
+<$15>Luca's Necklace<End>
+<$15>Whisperweed<End>
+<$15>Dark Crystal<End>
+<$15>Mouse Tail<End>
+<$15>Adamantite<End>
+<$15>Frying Pan<End>
+<$15>Pink Tail<End>
+<$15>Rugeiyu's Key<End>
+<$15>Dark Matter<End>
+<$15>Scenario 0015<End>
+<$15>Scenario 0016<End>
+ - Sort -<End>
+ Trash Can<End>

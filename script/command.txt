@@ -1,0 +1,31 @@
+﻿<30 text entries>
+Attack<End>
+Items<End>
+White Magic<End>
+Black Magic<End>
+Summon<End>
+Darkness<End>
+Jump<End>
+Recall<End>
+Bardsong<End>
+Escape<End>
+Salve<End>
+Pray<End>
+Aim<End>
+Focus<End>
+Kick<End>
+Brace<End>
+Twincast<End>
+Bluff<End>
+Cry<End>
+Cover<End>
+Analyze<End>
+Airship<End>
+Throw<End>
+Steal<End>
+Ninjutsu<End>
+Bless<End>
+Swap Rows<End>
+Defend<End>
+Return<End>
+Cease Cover<End>

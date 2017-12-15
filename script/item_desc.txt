@@ -1,0 +1,257 @@
+﻿<256 text entries>
+<End>
+Claw immersed in the power of fire.<End>
+Claw immersed in the power of ice.<End>
+Claw immersed in the power of lightning.<End>
+Claw that sometimes confuses enemy.<End>
+Claw that sometimes poisons enemy.<End>
+Claw that sometimes sleeps the enemy.<End>
+Magical rod.<End>
+Rod infused with the power of ice.<End>
+Rod infused with the power of fire.<End>
+Rod infused with the power of lightning.<End>
+Rod infused with beastly rage.<End>
+Rod infused with fairy magic.<End>
+Rod infused with the power of the stars.<End>
+Rod infused with Lilith's magic.<End>
+Staff infused with the power to detoxify.<End>
+Staff infused with the power to heal.<End>
+Staff infused with the power to cure.<End>
+Staff that sometimes drives enemies berserk.<End>
+Staff infused with the power to render magic ineffective.<End>
+Staff infused with the power to revive.<End>
+Staff infused with the power to silence.<End>
+Common dark sword.<End>
+Dark sword with sharpened blade.<End>
+Dark sword that sometimes instantly finishes an enemy.<End>
+Holy sword with the legend of Mysidia inscribed.<End>
+Holy sword shining with divine light.<End>
+Legendary holy sword of the hero.<End>
+Sword immersed in the power of fire.<End>
+Sword immersed in the power of ice.<End>
+Sword infused with defensive power.<End>
+Sword that steals target's HP.<End>
+Sword that sometimes curses enemy.<End>
+Sword that sometimes puts enemy to sleep.<End>
+Sword that sometimes petrifies enemy.<End>
+Common spear.<End>
+Spear with a cutting blade.<End>
+Spear immersed in the power of fire.<End>
+Spear immersed in the power of ice.<End>
+Spear effective against dragons.<End>
+Spear engulfed in holy power.<End>
+Spear that steals target's HP.<End>
+Legendary spear said to have been a favorite of the gods.<End>
+Small katana used by ninjas.<End>
+Katana named after the avatar of war.<End>
+Shorter katana with emphasis on ease of use.<End>
+Katana with a chrysanthemum mark engraved on its sheath.<End>
+Known as the best katana.<End>
+Known as the strongest katana.<End>
+Dagger that sometimes finishes enemy in one blow.<End>
+Knife that sometimes silences enemy.<End>
+Common whip.<End>
+Iron chain whip.<End>
+Whip immersed in the power of lightning.<End>
+Whip immersed in the power of fire.<End>
+Whip effective against dragons.<End>
+Common axe.<End>
+Axe that is a favorite of dwarves.<End>
+Giant axe effective against giants.<End>
+Knife of mythril, effective against ghouls.<End>
+Dagger infused with the soul of a dancer.<End>
+Sword of mythril, effective against ghouls.<End>
+Kitchen knife that can cut anything.<End>
+Sealed holy sword feared by monsters.<End>
+Weapon designed for ninjas to throw.<End>
+Weapon designed for ninjas to throw.<End>
+Wooden throwing weapon.<End>
+Metal throwing weapon.<End>
+Harp that weaves a sleep-inducing melody.<End>
+Harp that weaves a tempting melody.<End>
+none<End>
+Giant axe that sometimes poisons enemy.<End>
+Giant axe effective against mages.<End>
+Hammer of mythril, effective against ghouls.<End>
+Hammer infused with the power of earth.<End>
+Wooden hammer.<End>
+Large sword cursed with berserk power.<End>
+Common bow.<End>
+Bow used for hunting.<End>
+Bow used for battle.<End>
+Bow with increased capability for critical hits.<End>
+Wooden bow made by the elves.<End>
+Bow once used by a famous marksman.<End>
+Bow named after the goddess of the moon.<End>
+Arrow of iron.<End>
+Arrow engulfed in holy power.<End>
+Arrow immersed in the power of fire.<End>
+Arrow immersed in the power of ice.<End>
+Arrow immersed in the power of lightning.<End>
+Arrow that sometimes envelops an enemy in darkness.<End>
+Arrow that sometimes poisons an enemy.<End>
+Arrow that sometimes silences an enemy.<End>
+Arrow that sometimes confuses an enemy.<End>
+Arrow said to have been used by a marksman from afar.<End>
+Arrow that sometimes petrifies an enemy.<End>
+Arrow named after the goddess of the moon.<End>
+none<End>
+Shield of iron.<End>
+Shield possessing a powerful dark force.<End>
+Shield said to have been once owned by a demon.<End>
+Shield resistant against undead attacks.<End>
+Shield of mythril, resistant against ghoul attacks.<End>
+Shield immersed in the power of fire, resistant against cold.<End>
+Shield immersed in the power of ice, resistant against fire.<End>
+Shield resistant against lightning.<End>
+Shield that prevents petrification.<End>
+Shield used in a faraway land.<End>
+Shield resistant against fire, ice, and lightning.<End>
+Shield resistant against undead attacks.<End>
+Helmet of iron.<End>
+Helmet possessing a powerful dark force.<End>
+Helmet said to have been once owned by a demon.<End>
+Helmet said to be possessed by a demon's spirit.<End>
+Helmet resistant against undead attacks.<End>
+Helmet of mythril, resistant against ghoul attacks.<End>
+Helmet resistant against lightning.<End>
+Helmet used in a faraway land.<End>
+Helmet resistant against fire, ice, and lightning.<End>
+Helmet resistant against fire, ice, and lightning.<End>
+Leather cap.<End>
+Light cap made from silk thread.<End>
+Cap made from special thread.<End>
+Cap made from sacred threads.<End>
+Hairpin resistant against lightning.<End>
+Ribbon that prevents various status ailments.<End>
+Bandana that prevents Confusion.<End>
+Cap full of magic power.<End>
+Hood that prevents Sleep.<End>
+Mask of glass.<End>
+Armor of iron.<End>
+Armor possessing a powerful dark force.<End>
+Armor said to have been once owned by a demon.<End>
+Armor said to be possessed by a demon's spirit.<End>
+Armor resistant against undead attacks.<End>
+Armor of mythril, resistant against ghoul attacks.<End>
+Armor immersed in the power of fire, resistant against ice.<End>
+Armor immersed in the power of ice, resistant against fire.<End>
+Armor resistant against lightning.<End>
+Armor used in a faraway land.<End>
+Armor resistant against fire, ice, and lightning.<End>
+Armor that prevents various status ailments.<End>
+Common clothes.<End>
+Clothes of leather.<End>
+Clothes that prevent gradual petrification.<End>
+Robe made from sacred threads.<End>
+Robe made for those who use black magic.<End>
+Robe resistant against lightning.<End>
+Robe made for those who use white magic.<End>
+Sash made from special threads.<End>
+Clothes of the goddess of the heavens.<End>
+Clothes that prevent Sleep.<End>
+Clothes that prevent Silence.<End>
+Clothes favored among martial artists.<End>
+Light and comfortable clothes from a faraway land.<End>
+Armor of adamantite.<End>
+Entirely black outfit brought from a faraway land.<End>
+Gloves of iron.<End>
+Gloves possessing a powerful dark force.<End>
+Gloves said to have been once owned by a demon.<End>
+Gloves said to be possessed by a demon's spirit.<End>
+Gloves resistant against undead attacks.<End>
+Gloves of mythril, resistant against ghoul attacks.<End>
+Gloves resistant against lightning.<End>
+Gloves that prevent Mini.<End>
+Gloves used in a faraway land.<End>
+Gloves resistant against fire, ice, and lightning.<End>
+Gloves resistant against undead attacks.<End>
+Ring of iron.<End>
+Ring that prevents Pig.<End>
+Armlet resistant against ghoul attacks.<End>
+Wristband that increases a martial artist's power.<End>
+Armlet that prevents Silence.<End>
+Ring that prevents Confusion, Sleep, and Paralysis.<End>
+Armlet resistant against lightning.<End>
+Ring resistant against fire, ice, and lightning.<End>
+Ring that increases armor attributes.<End>
+Same effect as Fire.<End>
+Same effect as Fira.<End>
+Stone with same effect as Blizzard.<End>
+Stone with same effect as Blizzara.<End>
+Statue with same effect as Thunder.<End>
+Statue with same effect as Thundara.<End>
+Sand with same effect as Comet.<End>
+Statue with same effect as Aspir.<End>
+Fang with same effect as Drain.<End>
+Drink with same effect as Berserk.<End>
+Shoes with same effect as Haste.<End>
+Timepiece with same effect as Stop. Short lifespan.<End>
+Timepiece with same effect as Stop.<End>
+Timepiece with same effect as Stop. Long lifespan.<End>
+Thread with same effect as Slow.<End>
+Doll with same effect as Blink.<End>
+Fire-breathing dragon's fang.<End>
+Ice-breathing dragon's fang.<End>
+Thunder-breathing dragon's fang.<End>
+Curtain with same effect as Reflect.<End>
+Inflicts damage in exchange for user's life.<End>
+Curtain that functions as a barrier with Reflect effect.<End>
+Bell with same effect as Silence.<End>
+Drum with same effect as Earthquake.<End>
+Crystal emitting holy light.<End>
+Whisker with same effect as Death.<End>
+Book that summons a monster. You won't know which until you try it!<End>
+Compendium with same effect as Library.<End>
+Timepiece that releases all allies from Sleep.<End>
+Releases all allies from Sleep, Paralysis, Confusion, and Berserk.<End>
+Recovers HP.<End>
+Recovers HP.<End>
+Recovers HP.<End>
+Recovers MP.<End>
+Recovers MP.<End>
+Fully recovers HP and MP.<End>
+Removes KO status.<End>
+Removes Petrification status.<End>
+Removes Toad status.<End>
+Removes Mini status.<End>
+Removes Pig status.<End>
+Removes Silence status.<End>
+Removes Darkness status.<End>
+Removes Poison status.<End>
+Removes Curse status.<End>
+Relieves all status ailments other than KO.<End>
+Alarm that calls monsters.<End>
+Maximum HP increases by 100.<End>
+Maximum HP increases by 50.<End>
+Maximum MP increases by 10.<End>
+Recover all members' HP and MP. Can be used outdoors.<End>
+Recover all members' HP and MP. Can be used outdoors.<End>
+Only for experienced "players".<End>
+Escape instantly from a dungeon.<End>
+Bread with same effect as Sitology.<End>
+Teaches Goblin.<End>
+Teaches Bomb.<End>
+Teaches Cockatrice.<End>
+Teaches Mind Flayer.<End>
+Loved by fat chocobos. Try using it where it smells of chocobo.<End>
+Proof of membership at King's Pub.<End>
+Whistle for calling Fat Chocobo.<End>
+Ring received from the King of Baron.<End>
+Key for opening doors in Baron.<End>
+Medicine effective against high fevers.<End>
+Crystal that brings blessings upon the Earth.<End>
+Stone with the power of magma locked within.<End>
+Necklace worn by Luca.<End>
+Mysterious harp that carries sound far away.<End>
+Crystal of the Underworld.<End>
+Rat's tail that proves courage.<End>
+Particularly hard precious metal.<End>
+Frying pan full of love.<End>
+Pink-colored tail.<End>
+Key that Dr. Rugeiyu had.<End>
+No, this doesn't reduce damage done by Zeromus' Big Burn.<End>
+None.<End>
+None.<End>
+Arranges items.<End>
+Deletes items from the inventory.<End>

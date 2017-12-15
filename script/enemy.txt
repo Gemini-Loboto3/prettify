@@ -1,0 +1,225 @@
+﻿<224 text entries>
+Goblin<End>
+Basilisk<End>
+Dive Eagle<End>
+Float-Eyeball<End>
+Insectus<End>
+Face Bat<End>
+Treant<End>
+Sword Rat<End>
+Tiny Mage<End>
+Desert Sahuagin<End>
+Eyewing Moth<End>
+Hundlegs<End>
+Sand Worm<End>
+Gigantoad<End>
+Fangshell<End>
+Zombie<End>
+Killer Fish<End>
+Blood Flower<End>
+Organitoad<End>
+Red Marshmallow<End>
+Yellow Jelly<End>
+Sahuagin<End>
+Leshy<End>
+Chrysalis<End>
+Goblin Captain<End>
+Black Lizard<End>
+Adamantoise<End>
+Domovoi<End>
+Purple Bavarois<End>
+Baron Soldier<End>
+General<End>
+Gatlinghog<End>
+Li'l Murderer<End>
+Mortblossom<End>
+Spirit<End>
+Skeleton<End>
+Cockatrice<End>
+Gargoyle<End>
+Fledgling Rukh<End>
+Belphegor<End>
+Zu<End>
+Amoeba<End>
+Alligator<End>
+Splasher<End>
+Baron Marine<End>
+Captain<End>
+Soul<End>
+Bloodbones<End>
+Ghoul<End>
+Skuldier<End>
+Revenant<End>
+Draculady<End>
+Elapatra<End>
+Skull Dragon<End>
+Electrofish<End>
+Gigas Gator<End>
+Hydra<End>
+Flood Worm<End>
+Baron Guardsman<End>
+Lamia<End>
+Needlehog<End>
+Twin Snake<End>
+Storm Anima<End>
+Mindflayer<End>
+Naga<End>
+Ogre<End>
+Cait Sith<End>
+Black Knight<End>
+Centaur Knight<End>
+Miss Vampire<End>
+Marionetteer<End>
+Marionette<End>
+Gloomwing<End>
+Devil's Castanet<End>
+Marid<End>
+Sataknight<End>
+Armored Mammal<End>
+Soldieress<End>
+Ghost Knight<End>
+Nagaraja<End>
+Medusa<End>
+Zombiesaurus<End>
+Magma Tortoise<End>
+Imp<End>
+Evil Dreamer<End>
+Bomb<End>
+Painy Bomb<End>
+Chimera<End>
+Hell Turtle<End>
+Iron Dress<End>
+Flame Dog<End>
+Gorgon<End>
+Stone Golem<End>
+Lilith<End>
+Lamia Matriarch<End>
+Toady Toad<End>
+Mors<End>
+Rudra<End>
+Sorcerer<End>
+Berserk Ogre<End>
+Froud Puppet<End>
+Blood Bat<End>
+Archne<End>
+Flame Knight<End>
+Clockwork Cannon<End>
+Remedy Bomb<End>
+Dark Grenade<End>
+Plague<End>
+Optic Blaster<End>
+Coeurl<End>
+Clockwork Dragon<End>
+Alraune<End>
+Gremlin<End>
+Tunneler<End>
+Abyss Worm<End>
+Blood Eye<End>
+Misleader<End>
+Ice Lizard<End>
+Hellflapper<End>
+Vampire Bat<End>
+Frostbeast<End>
+Summoner<End>
+Sorceress<End>
+Assault Door<End>
+Toady Witch<End>
+Mammon<End>
+Chimera Brain<End>
+Lunar Virus<End>
+Zemus's Breath<End>
+White Mousse<End>
+Black Flan<End>
+Zemus's Mind<End>
+Mithril Golem<End>
+Green Dragon<End>
+Flan Princess<End>
+Security Eye<End>
+Clockwork Soldier<End>
+Armor Construct<End>
+Lunar Goddess<End>
+Malboro<End>
+Silver Dragon<End>
+Yellow Dragon<End>
+Satana Jr.<End>
+Eukaryote<End>
+Face<End>
+Armored Soldier<End>
+Armored Fiend<End>
+Steel Golem<End>
+Ahriman<End>
+Lunasaurus<End>
+Searcher<End>
+Dark Mage<End>
+Dark Bahamut<End>
+Prokaryote<End>
+Tidaliathan<End>
+Blue Dragon<End>
+Gold Dragon<End>
+Thunder Dragon<End>
+White Dragon<End>
+Red Dragon<End>
+Behemoth<End>
+Mist Dragon<End>
+Octomammoth<End>
+Antlion<End>
+Mother Bomb<End>
+Scarmiglione<End>
+Scarmiglione<End>
+Baigan<End>
+Right Arm<End>
+Left Arm<End>
+Cagnazzo<End>
+Dark Elf<End>
+Dark Elf<End>
+Dogu<End>
+Magu<End>
+Ragu<End>
+Golbeza<End>
+Barbariccia<End>
+Calca<End>
+Calcabrina<End>
+Golbeza<End>
+Black Dragon<End>
+Doctor<End>
+Barnabas<End>
+Dr. Rugeiyu<End>
+King of Eblana<End>
+Queen of Eblana<End>
+Rubicante<End>
+Odin<End>
+Leviathan<End>
+Bahamut<End>
+Demon Wall<End>
+Asura<End>
+Heavenly Tetrarch<End>
+Heavenly Tetrarch<End>
+Dark Dragon<End>
+Sahuagin<End>
+Control Node<End>
+Defense Node<End>
+Zemus<End>
+Zeromus<End>
+Zeromus<End>
+Dragoon<End>
+Bard<End>
+Monk<End>
+Dark Knight<End>
+Girl<End>
+Titan<End>
+Float-Eyeball<End>
+Zu<End>
+Brina<End>
+Skulnant<End>
+Mega Combination<End>
+Attack Node<End>
+Zeromus EX<End>
+Katsuhisa Higuchi<End>
+Zeromus<End>
+Hiroyuki Itō<End>
+Akihiko Matsui<End>
+Kazuhiko Aoki<End>
+Hiromi Nakada<End>
+Kiyoshi Yoshii<End>
+Tetsuya Takahashi<End>
+Mystery Egg<End>
