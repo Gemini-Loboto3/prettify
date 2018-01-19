@@ -44,7 +44,7 @@ Battle VRAM
 0x3000/1800 spell and weapon graphics
 0x4000/2000 enemy graphics (128 tiles each)
 0x8000/4000 battle background graphics
-0xA000/5000 font (move to 7000, gain 256 tiles)
-0xB000/5800 tilemap bg2 (move to 5000)
-0xC000/6000 tilemap bg1 (move to 5800)
-0xE000/7000 tilemap bg3 (move to 6800)
+0xA000/5000 font, 0x1000
+0xB000/5800 tilemap bg2, 0x1000
+0xC000/6000 tilemap bg1, 0x2000
+0xE000/7000 tilemap bg3, 0x2000

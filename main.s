@@ -33,10 +33,12 @@ org $18CD2
 incsrc ex.s
 incsrc dlg.s
 incsrc mode7.s
+incsrc battle.s
 
 incsrc item.s
 incsrc st.s
 incsrc field.s
+incsrc btl.s
 
 org $3fffff
 	db 0
