@@ -78,7 +78,7 @@ Elder: The inscription on this sword matches a passage from Mysidian legend.<New
 <Text entry 17>
 <Cain>: ...<New>
 <Rosa>: <Golbeza> was being manipulated, too! It's not <Cain>'s fault!<New>
-<Cain>: <Golbeza>...too?<End>
+<Cain>: <Golbeza>... too?<End>
 <End of Block>
 
 <Text entry 18>
@@ -133,7 +133,7 @@ You are all DEAD!<New>
 
 <Text entry 27>
 <Edge>: You alright?<New>
-<Cecil>: I have been cursing...and fighting my own brother...?<New>
+<Cecil>: I have been cursing... and fighting my own brother...?<New>
 <Golbeza>: ...<New>
 <Cecil>: Then again, Zemus could have chosen me instead...<New>
 <Golbeza>: No. Zemus chose me because of the evil in my soul, however small it was. Zemus...<End>
@@ -159,7 +159,7 @@ You are all DEAD!<New>
 <Text entry 32>
 <Edge>: Aren't you gonna go with him?<New>
 <Rosa>: <Golbeza>... He's willing to die.<New>
-<Cecil>: ... ...He's my brother.<New>
+<Cecil>: ...He's my brother.<New>
 <Rydia>: <Cecil>.<New>
 <Cecil>: ...<End>
 <End of Block>
@@ -231,7 +231,7 @@ You are all DEAD!<New>
 <Cecil>: ...<New>
 <Edge>: Aw, what about me? Where's my love?<New>
 <Cain>: Come on, <Cecil>.<New>
-<Cecil>: ...Okay. <Rosa>...no matter what, I will protect you.<End>
+<Cecil>: ...Okay. <Rosa>... no matter what, I will protect you.<End>
 <End of Block>
 
 <Text entry 46>
@@ -279,7 +279,7 @@ I am the incarnation of Zemus's enmity...<End>
 <End of Block>
 
 <Text entry 55>
-I will not...perish... so long as evil...dwells in the hearts...of mankind. G...gh... GRRRAAGH!<End>
+I will not... perish... so long as evil... dwells in the hearts... of mankind. G... gh... GRRRAAGH!<End>
 <End of Block>
 
 <Text entry 56>
@@ -293,10 +293,10 @@ I will not...perish... so long as evil...dwells in the hearts...of mankind. G...
 
 <Text entry 58>
 Elder: Knight of Baron... What do you want this time?<New>
-<Cecil>: My name is <Cecil>. ...I can't begin to ask you to forgive me for what I've done.<New>
+<Cecil>: My name is <Cecil>... I can't begin to ask you to forgive me for what I've done.<New>
 Elder: Apologies will not bring the dead back to life.<New>
 <Cecil>: ...<New>
-Elder: So...you have mourned and suffered as we have... You are not the mindless killer you once were. What brings you here?<New>
+Elder: So... you have mourned and suffered as we have... You are not the mindless killer you once were. What brings you here?<New>
 <Cecil>: A sorcerer named <Golbeza> now commands Baron's forces, and took my friend captive.<New>
 While en route to Baron to rescue her, my companions and I were attacked by Leviathan.<New>
 I was shipwrecked here, and I don't know what's become of the others.<New>
@@ -351,7 +351,7 @@ Apprentices: Aye, aye!<End>
 <Text entry 64>
 <Cecil>: !! I'm... Then that voice at Mt. Ordeals was--<New>
 <Fusuya>: The spirit of your father, no doubt. You resemble Kluya.<New>
-<Cecil>: That light...was my father...<New>
+<Cecil>: That light... was my father...<New>
 <Fusuya>: Kluya gave you his power to fight Zemus. We must stop him for the sake of our two races. Now let us depart for the Tower of Babil.<New>
 <Edge>: The tower's shielded.<End>
 <End of Block>
@@ -427,7 +427,7 @@ Wait!<End>
 <End of Block>
 
 <Text entry 79>
-<Cecil>: ... Goodbye.<New>
+<Cecil>: ...Goodbye.<New>
 ...Brother.<End>
 <End of Block>
 
@@ -642,7 +642,7 @@ she puts on some makeup. The maids are waitin' for ya.<Delay 32><New>
 
 <Text entry 126>
 <Cecil>: I did hear him... <Delay 16><New>
-He said... <Delay 16><New>
+He said...<Delay 16><New>
 Goodbye...<Delay 16><End>
 <End of Block>
 

@@ -266,7 +266,7 @@ Have you heard of the Twin Harp? With it, I heard you can transmit your voice re
 <End of Block>
 
 <Text entry 67>
-... Go away! Can't you see I'm sunbathing!<End>
+...Go away! Can't you see I'm sunbathing!<End>
 <End of Block>
 
 <Text entry 68>
@@ -381,7 +381,7 @@ T<End>
 <End of Block>
 
 <Text entry 95, pointer>
-<Cid>: Zzz...I did it! Zzz...new...Zzz... engine...Zzz...<End>
+<Cid>: Zzz... I did it! Zzz... new... Zzz... engine... Zzz...<End>
 <End of Block>
 
 <Text entry 96>
@@ -415,7 +415,7 @@ How's my father doing? I'll bet he's playing around with his airships again.<End
 <End of Block>
 
 <Text entry 103>
-Zzzz...Zzzz...<End>
+Zzzz... Zzzz...<End>
 <End of Block>
 
 <Text entry 104, pointer>
@@ -430,7 +430,7 @@ Zzzz...Zzzz...<End>
 <Rosa>'s Mother: <Rosa>! Oh, thank heavens!<New>
 <Rosa>: I'm sorry, Mother.<New>
 <Rosa>'s Mother: I never should've let you become a white mage...<New>
-<Rosa>: I have no regrets at having become a white mage and fighting alongside a brave knight... ...as you did with Father.<New>
+<Rosa>: I have no regrets at having become a white mage and fighting alongside a brave knight... as you did with Father.<New>
 <Rosa>'s Mother: ... <Cecil>, please take care of her.<End>
 <End of Block>
 
@@ -608,7 +608,7 @@ D<End>
 <End of Block>
 
 <Text entry 150>
-The elder said we should forgive and forget your terrible acts...but I cannot.<End>
+The elder said we should forgive and forget your terrible acts... but I cannot.<End>
 <End of Block>
 
 <Text entry 151>
@@ -988,7 +988,7 @@ This tower is off-limits.<End>
 <End of Block>
 
 <Text entry 243>
-<Cid>: I told you before, and I'll tell you again. If you EVER make her cry, I'm gonna-- I...I'm not gonna let you ride my airships.<New>
+<Cid>: I told you before, and I'll tell you again. If you EVER make her cry, I'm gonna-- I... I'm not gonna let you ride my airships.<New>
 So, how are my babies doin'? I'll bet you and your grunts crashed them again, huh? What's the matter with you, boy?<New>
 <Cecil>: Well...<New>
 <Cid>: WHAT!? The king demoted you to an errand boy!? What about my Red Wings!? They'll be a mess without you! What's come over the king?<New>
@@ -1022,7 +1022,7 @@ My skills have reached a new level. Maybe I'm ready to fill the boss's shoes now
 <End of Block>
 
 <Text entry 250, pointer>
-Prince...<Gilbart>... Is he...safe?<End>
+Prince... <Gilbart>... Is he... safe?<End>
 <End of Block>
 
 <Text entry 251, pointer>
@@ -1098,11 +1098,12 @@ I heard you brought back the Crystal from Mysidia.<End>
 <End of Block>
 
 <Text entry 269>
-Zzz...!? I'm on duty! Leave me alone!<End>
+Zzz...!?<New>
+I'm on duty! Leave me alone!<End>
 <End of Block>
 
 <Text entry 270>
-What tragedy... <End>
+What tragedy...<End>
 <End of Block>
 
 <Text entry 271>
@@ -1205,7 +1206,8 @@ You swine!!<End>
 <End of Block>
 
 <Text entry 294>
-<Cid>: Lockin' me up in that stink hole! I'm gonna knock your teeth in! ...Eh?<End>
+<Cid>: Lockin' me up in that stink hole! I'm gonna knock your teeth in!<New>
+...Eh?<End>
 <End of Block>
 
 <Text entry 295>
@@ -1438,7 +1440,7 @@ T<End>
 <End of Block>
 
 <Text entry 350, pointer>
-They took...the Crystal...<End>
+They took... the Crystal...<End>
 <End of Block>
 
 <Text entry 351, pointer>
@@ -1495,7 +1497,7 @@ I had planned to head across Mt. Hobs to Fabul, but the trail was blocked by thi
 <End of Block>
 
 <Text entry 363>
-<Rydia>: You're a grown-up! Grown-ups don't cry! I lost my mom...but I'm not gonna cry anymore.<New>
+<Rydia>: You're a grown-up! Grown-ups don't cry! I lost my mom... but I'm not gonna cry anymore.<New>
 <Cecil>: <Rydia>...<End>
 <End of Block>
 
@@ -1515,11 +1517,11 @@ King of Damcyan, my name is <Cecil>, and I need your help.<New>
 <End of Block>
 
 <Text entry 366>
-<Gilbart>: <Rosa>...she is very dear to you, yes? Like <Anna> was to me...<End>
+<Gilbart>: <Rosa>... she is very dear to you, yes? Like <Anna> was to me...<End>
 <End of Block>
 
 <Text entry 367, pointer>
-Ugh...my eyes. Who goes there? Don't let them... get the treas...<End>
+Ugh... my eyes. Who goes there? Don't let them... get the treas...<End>
 <End of Block>
 
 <Text entry 368, pointer>
@@ -2215,7 +2217,7 @@ The trail is blocked by ice.<End>
 <Text entry 534>
 <Rydia>: ...No.<New>
 <Rosa>: ?<New>
-<Rydia>: I...I hate fire.<New>
+<Rydia>: I... I hate fire.<New>
 <Cecil>: That's right... Her village was destroyed by fire when...<End>
 <End of Block>
 
@@ -2225,7 +2227,9 @@ The trail is blocked by ice.<End>
 <Rosa>: If we can't get through here to Fabul, more people will be in danger. Please, <Rydia>.<New>
 <Gilbart>: <Rydia>, you've helped me. You've helped <Cecil> and <Rosa>. You have the power to help many more people.<New>
 <Cecil>: ...<New>
-<Rydia>: ... ... ...<End>
+<Rydia>: ...<New>
+...<New>
+...<End>
 <End of Block>
 
 <Text entry 536>
@@ -2286,7 +2290,7 @@ Monk: Kiai!<End>
 <Yang>: I am grateful; however, this does not concern you.<New>
 <Cecil>: But it does.<New>
 <Gilbart>: I am the prince of Damcyan.<New>
-<Cecil>: <Rosa> and I are citizens of Baron, and this girl is one of many victims of our kingdom's recent attacks...which I have personally led.<New>
+<Cecil>: <Rosa> and I are citizens of Baron, and this girl is one of many victims of our kingdom's recent attacks... which I have personally led.<New>
 <Rydia>: ...<End>
 <End of Block>
 
@@ -2945,7 +2949,7 @@ T<End>
 <End of Block>
 
 <Text entry 701>
-<Cecil>: <Cid>, set a course northwest...to Troia.<End>
+<Cecil>: <Cid>, set a course northwest... to Troia.<End>
 <End of Block>
 
 <Text entry 702, pointer>
@@ -3069,7 +3073,7 @@ Tough luck. You can't use most of the weapons here unless you are a paladin.<End
 <End of Block>
 
 <Text entry 732>
-I told you, you can't use the weapons here until you become...a paladin? How...?<End>
+I told you, you can't use the weapons here until you become... a paladin? How...?<End>
 <End of Block>
 
 <Text entry 733, pointer>
@@ -3531,7 +3535,7 @@ That kook's rowdy. But he's nice.<End>
 <End of Block>
 
 <Text entry 844>
-Zzzz...Zzzz...<End>
+Zzzz... Zzzz...<End>
 <End of Block>
 
 <Text entry 845>
@@ -4423,7 +4427,7 @@ You wish to change your name? Why are you asking me?<End>
 <End of Block>
 
 <Text entry 1061>
-Hummm...Hum...<End>
+Hummm... Hum...<End>
 <End of Block>
 
 <Text entry 1062>
